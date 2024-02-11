@@ -5,7 +5,8 @@
 - [I] Écouter *La liste Schindler*
 - [ ] Faire les lectures
 [[Communication]]:
-- [ ] Choisir sujet pour billet d'humeur
+- [ ] Écrire billet d'humeur
+	- [ ] Rechercher des références par rapport au thème
 [[Calcul 3]]:
 - [/] Devoir 1
 	- [ ] *Cleaner le nom des variables*

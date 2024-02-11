@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Collégial/4e session/Physique/Électricité et magnétisme.md",
+                "file": "Connaissance autre/Formule d'Euler.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Collégial/4e session/Physique/Électricité et magnétisme.md",
+                "file": "Connaissance autre/Formule d'Euler.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Collégial/4e session/Physique/Électricité et magnétisme.md",
+                "file": "Connaissance autre/Formule d'Euler.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Collégial/4e session/Physique/Électricité et magnétisme.md"
+                "file": "Connaissance autre/Formule d'Euler.md"
               }
             }
           }
@@ -149,7 +149,11 @@
   },
   "active": "f2e696be2a52a13d",
   "lastOpenFiles": [
+    "Connaissance autre/Connaissance pour le plaisir.md",
+    "Connaissance autre/Analyse vectorielle.md",
+    "Connaissance autre/Formule d'Euler.md",
     "z_À faire.md",
+    "Collégial/4e session/Physique/Électricité et magnétisme.md",
     "Connaissance autre/divergence.md",
     "Checkbox example.md",
     "Collégial/4e session/Physique/Le potentiel électrique.md",
@@ -168,7 +172,6 @@
     "Collégial/4e session/Physique/Courant alternatif.md",
     "Connaissance autre/gradient.md",
     "Connaissance autre/rotationnel.md",
-    "Connaissance autre/Analyse vectorielle.md",
     "Collégial/4e session/Math/Dérivées.md",
     "Collégial/4e session/Math/Filtres.md",
     "Collégial/4e session/Math/Calcul 3.md",
@@ -180,13 +183,11 @@
     "Collégial/4e session/Philosophie/Éthique et politique.md",
     "Collégial/4e session/Philosophie/Pasted image 20240202200131.png",
     "Collégial/4e session/Philosophie/Cours 3 Environnement.md",
-    "Connaissance autre/Connaissance pour le plaisir.md",
     "Connaissance autre",
     "Collégial",
     "Collégial/1ere session/1ere session.md",
     "Collégial/1ere session/Physique/Mécanique.md",
     "Collégial/4e session/Physique/Le théorème de Gauss.md",
-    "Collégial/4e session/Physique/Électricité et magnétisme.md",
     "Collégial/4e session/4e session.md",
     "Collégial/1ere session/Physique",
     "Collégial/4e session/Physique/ac_circuits/ac_circuits.pdf",
