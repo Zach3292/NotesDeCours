@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "z_À faire.md",
+                "file": "Collégial/4e session/Physique/Électricité et magnétisme.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "z_À faire.md",
+                "file": "Collégial/4e session/Physique/Électricité et magnétisme.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "z_À faire.md",
+                "file": "Collégial/4e session/Physique/Électricité et magnétisme.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "z_À faire.md"
+                "file": "Collégial/4e session/Physique/Électricité et magnétisme.md"
               }
             }
           }
@@ -149,9 +149,11 @@
   },
   "active": "f2e696be2a52a13d",
   "lastOpenFiles": [
+    "z_À faire.md",
+    "Connaissance autre/divergence.md",
+    "Checkbox example.md",
     "Collégial/4e session/Physique/Le potentiel électrique.md",
     "Collégial/4e session/Physique/La charge électrique.md",
-    "z_À faire.md",
     "Collégial/4e session/Physique/crossover/Pasted image 20240210101526.png",
     "Collégial/4e session/Physique/crossover",
     "Collégial/4e session/Physique/crossover/Pasted image 20240210103959.png",
@@ -164,7 +166,6 @@
     "Pasted image 20240210102353.png",
     "Collégial/4e session/Physique/Crossover.md",
     "Collégial/4e session/Physique/Courant alternatif.md",
-    "Connaissance autre/divergence.md",
     "Connaissance autre/gradient.md",
     "Connaissance autre/rotationnel.md",
     "Connaissance autre/Analyse vectorielle.md",
@@ -172,7 +173,6 @@
     "Collégial/4e session/Math/Filtres.md",
     "Collégial/4e session/Math/Calcul 3.md",
     "Collégial/4e session/Français/Texte expressif.md",
-    "Checkbox example.md",
     "Collégial/4e session/Français/Communication.md",
     "Collégial/4e session/Français/Les fonctions du discours.md",
     "Collégial/4e session/Philosophie/Cours 4 Utilitarisme.md",
