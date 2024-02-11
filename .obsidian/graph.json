@@ -1,0 +1,51 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": true,
+  "colorGroups": [
+    {
+      "query": "tag:#session  ",
+      "color": {
+        "a": 1,
+        "rgb": 37375
+      }
+    },
+    {
+      "query": "tag:#matière  ",
+      "color": {
+        "a": 1,
+        "rgb": 53567
+      }
+    },
+    {
+      "query": "tag:#école  ",
+      "color": {
+        "a": 1,
+        "rgb": 13107455
+      }
+    },
+    {
+      "query": "tag:#todo  ",
+      "color": {
+        "a": 1,
+        "rgb": 16711680
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": false,
+  "textFadeMultiplier": -0.9,
+  "nodeSizeMultiplier": 2.58768310546875,
+  "lineSizeMultiplier": 3.17147216796875,
+  "collapse-forces": false,
+  "centerStrength": 0.499267578125,
+  "repelStrength": 11.0530598958333,
+  "linkStrength": 1,
+  "linkDistance": 250,
+  "scale": 0.40322699446414273,
+  "close": true
+}

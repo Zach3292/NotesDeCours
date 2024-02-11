@@ -1,0 +1,430 @@
+\documentclass[titlepage,oneside,a4paper,11pt]{book} % version électronique
+%\documentclass[titlepage,twoside,letterpaper,openright,12pt]{book} % version imprimée
+
+%-----------------PDFLATEX----------------------
+% Pour pdflatex, décommenter les lignes qui suivent
+%\usepackage[latin1]{inputenc} % encodage des caractères. choix: utf8, latin1, applemac
+%\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc} % encodage des caractères. choix: utf8, latin1, applemac
+%\usepackage[T1]{fontenc}
+
+
+% choix du style de police (tout commenter pour les polices TeX habituelles [computer modern])
+\usepackage[table,xcdraw]{xcolor}
+\usepackage{mathpazo} % utilise Palatino pour les mathématiques (mettre en premier)
+\usepackage{tgpagella} % utilis
+\usepackage{amsfonts}		% ajoute des polices mathématique
+\usepackage{amsmath}        % ajoute des environnements mathématiques
+\usepackage{float}
+\usepackage{fancyhdr}
+\pagestyle{plain}
+\usepackage{bm}				% ajoute des caractères grecs en gras
+\usepackage{wrapfig}
+\usepackage{mathrsfs}		% ajoute une meilleure police calligraphique pour certains symboles
+\usepackage{setspace} 		% gère l'interligne
+\usepackage[french]{babel}  % comment this line if the thesis is in English
+%\usepackage[babel=true,kerning=french,protrusion=true,expansion=auto,spacing,tracking]{microtype}
+\usepackage{graphicx}		% gère l'insertion des figures
+\usepackage{subfig}			% permet d'ajouter des sous-figures
+\usepackage{geometry}		% gère les dimensions du document (mise en page)
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+    pdftitle={Overleaf Example},
+    pdfpagemode=FullScreen,
+    }
+% \geometry{
+ %a4paper,
+ %total={170mm,257mm},
+ %left=20mm,
+ %top=20mm,
+ %}
+%\usepackage[x11names,svgnames]{xcolor}
+\usepackage{fancybox}		% définit des macros pour des boîtes, des cadres, etc.
+\usepackage{url}            % permet de typographier des url
+\usepackage{comment}
+\setlength{\parindent}{0pt}
+
+
+%\input {macros.tex}
+
+\begin{document}
+
+{Notions Fondamentales de Mécanique}
+\hfill
+{CQP 102} \\ 
+{Chargé de Cours: Samuel Houle}
+\hfill
+{Automne 2021}\\
+\begin{center}
+\textbf{Mécanique de Rotation}
+\end{center}
+
+\begin{wrapfigure}{r}{0.4\textwidth}
+  \begin{center}
+    \includegraphics[width=0.4\textwidth]{angulaire_1.pdf}
+  \end{center}
+  \caption{Un disque compact tourne autour d'un axe fixe centré sur le point $O$ et perpendiculaire au plan de la figure (l'axe sort de votre écran). a) Pour définir une \emph{position angulaire}, une ligne de référence doit être choisie. Une particule $P$ est située à une distance $r$ à partir de l'axe de rotation $O$. b) Comme le disque tourne, le point $P$ se déplace sur un arc de cercle de longueur $s$ en suivant une trajectoire circulaire de rayon $r$.}
+\end{wrapfigure}
+
+Nous avons, jusqu'à maintenant, étudié le mouvement d'objets pouvant être modélisés comme des particules, des objets \emph{ponctuels} possédant une position, une vitesse de même qu'une accélération.\\
+
+
+Un type de phénomène physique pour lequel il est impossible de procéder de la sorte est la rotation d'un objet possédant une certaine étendue spatiale en rotation autour d'un axe. Dans ce cas, il faut décomposer cet objet en une collection de plus petits objet possédant chacun une vitesse et une accélération qui leur est propre.\\
+
+
+
+Nous verrons au cours des prochaines pages que la mécanique de rotation est conceptuellement très près de la dynamique d'un mouvement uniformément accéléré. Nous tenterons d'établir un parallèle entre les deux aussi souvent que possible afin de construire une compréhension de la rotation sur des bases déjà solides.\\
+
+{\large \textbf{Variables Angulaires}}\\
+
+La principale différence entre le cas d'un mouvement rectiligne et un mouvement de rotation est que la meilleure façon de décrire les propriétés d'un objet en rotation n'est pas d'utiliser la notion de distance, mais plutôt la notion d'angle.\\
+
+Pour un objet en rotation autour d'un axe $O$, nous définissons comme $P$ la position d'une particule (une infime portion de l'objet) à une distance \textbf{fixe} $r$ de l'origine. Il est, ici, très approprié de représenter la position du point $P$ à partir des coordonées polaires ($r,\theta$) où $r$ est la distance entre le l'origine (l'axe $O$) et le point $P$ et $\theta$ est l'angle par rapport à une ligne de référence. Nous choisirons ici l'axe des $x$ positifs comme ligne de référence. $\theta$ est défini comme croisant dans le sens \emph{anti-horaire} et est donné en radians. Dans le cas de la rotation d'un objet \textbf{rigide}, seul {}$\theta$ change, la distance $r$ reste toujours constante.\\
+
+Lorsque la particule se déplace le long du cercle à partir de notre ligne de référence ($\theta = 0$), elle parcourt un arc de cercle de longueur $s$. La longueur de cet arc est relié à $r$ et $\theta$ de telle manière à ce que
+\begin{equation}
+s=r\theta
+\end{equation}
+\begin{equation}
+\theta=\frac{s}{r}
+\label{eq:theta}
+\end{equation}
+\begin{wrapfigure}{r}{0.4\textwidth}
+  \begin{center}
+    \includegraphics[width=0.4\textwidth]{angulaire_2.pdf}
+  \end{center}
+  \caption{Une particule sur un objet rigide bouge du point A au point B le long d'un arc de cercle. Sur une durée $\Delta t = t_f-t_i$, le vecteur radial reliant le centre du cercle à la particule change d'un angle $\Delta \theta = \theta_f-\theta_i$}
+\end{wrapfigure}
+Remarquez les unités de $\theta$ dans l'équation (\ref{eq:theta}). Comme $\theta$ n'est que le ratio entre deux nombres (la longueur d'un arc de cercle et le rayon du même cercle), il est un nombre pur, sans unités.  Toutefois, pour spécifier que nous parlons bien d'un angle, nous définissons une unité artificielle, le \textbf{radian} (rad) lorsqu'il est question de $\theta$. \textbf{Un radian est l'angle sous-tendu par un arc de cercle de longueur égale au rayon de l'arc}. Comme la circonférence d'un cercle est donnée par $2\pi r$, il s'en suit logiquement, à partir de (\ref{eq:theta}) qu'un tour complet autour du cercle définisse 2$\pi$ rad.\\
+
+Ainsi, 1 rad = 360°/2$\pi \equiv 57.3$°. Pour convertir un angle donné en degrés à un angle donné en radians, il suffit d'utiliser le fait que $\pi$ rad = 180°. Ainsi,
+\begin{equation*}
+\theta (\mathrm{rad}) = \frac{\pi}{180}\theta(\mathrm{rad})
+\end{equation*}
+Lorsqu'il est question des équations du mouvement pour des mouvements de rotation, il vous \emph{faut} exprimer les différentes valeurs d'angles en radians.\\
+
+
+
+Dans le cas d'un objet rigide, comme à la Figure 1, toutes les particules composant l'objet bouge du même angle $\theta$, \textbf{il nous est alors possible de considérer l'angle $\theta$ comme étant celui de l'objet en entier et non de seulement une particule.} Ceci nous permet de définir la \emph{position angulaire} d'un objet rigide en rotation. La \textbf{position angulaire} est l'angle $\theta$ entre notre choix de référence (plus souvent qu'autrement, l'axe des $x$) et la position actuelle de l'objet.\\
+
+Cette définition est très réminescente de la façon dont nous avions défini la position d'un objet lors d'un mouvement de translation. Dans ce cas, nous avions défini la position comme étant la distance $x$ entre l'objet et l'origine, $x=0$.\\
+
+À la Figure 2, nous une particule sur notre objet rigide bouge du point A au point B dans un intervalle de temps $\Delta t$. La ligne de référence utilisée plus tôt balaie donc un angle $\Delta \theta = \theta_f-\theta_i$. Cette quantité, le déplacement angulaire, est défini comme
+\begin{equation*}
+\Delta \theta = \theta_f-\theta_i
+\end{equation*}
+Le taux auquel ce déplacement se produit peut varier en fonction du taux de rotation de l'objet. Sans surprise, nous nommerons ce taux de variation du déplacement angulaire la \textbf{vitesse angulaire moyenne} $\bar{\omega}$. Cette quantité correspond au ratio du déplacement angulaire d'un objet rigide divisé par l'intervalle de temps $\Delta t$ durant lequel ce déplacement se produit.
+\begin{equation}
+\bar{\omega} \equiv \frac{\theta_f-\theta_i}{t_f-t_i}=\frac{\Delta \theta}{\Delta t}
+\end{equation}
+
+Pour dresser un parallèle supplémentaire avec la dynamique d'un mouvement rectiligne, il est possible de définir la vitesse angulaire instantanée, $\omega$, comme 
+\begin{equation}
+\omega \equiv \lim _{\Delta t \rightarrow 0} \frac{\Delta \theta}{\Delta t}=\frac{d \theta}{d t}
+\label{eq:speed}
+\end{equation}
+La vitesse angulaire possède des unités de radians par seconde (rad/s) qui peuvent être écrits en s$^{-1}$ puisque les radians sont une quantité adimensionnelle. Nous choisirons $\omega$ comme étant positif lorsque $\theta$ augmente, ce qui correspond à une rotation anti-horaire.\\
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.4\textwidth]{angular_speed.pdf}
+\caption{Un objet rigide en rotation autour d'un axe fixe passant par le point $O$. Le point $P$ possède une vitesse tangentielle $\vec{v}$ qui est toujours tangente à sa trajectoire circulaire.}
+\end{figure}
+
+Si la vitesse angulaire de l'objet passe de $\omega_i$ à $\omega_f$ dans un intervalle de temps $\Delta t$, l'objet ressent une accélération angulaire. L'\textbf{accélération angulaire moyenne} $\bar{\alpha}$ d'un corps rigide est défini comme
+\begin{equation}
+\bar{\alpha} \equiv \frac{\omega_{f}-\omega_{i}}{t_{f}-t_{i}}=\frac{\Delta \omega}{\Delta t}
+\end{equation}
+et de la même façon, il est possible de définir son \textbf{accélération angulaire instantanée} $\alpha$ comme
+\begin{equation}
+\alpha \equiv \lim _{\Delta t \rightarrow 0} \frac{\Delta \omega}{\Delta t}=\frac{d \omega}{d t}
+\label{eq:acc}
+\end{equation}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.4\textwidth]{angular_acc.pdf}
+\caption{Le point $P$ est accéléré autant tangentiellement ($a_t$) que de façon centripète ($a_r$). L'accélération totale est donc de $\vec{a}=\vec{a}_t+\vec{a}_r$.}
+\end{figure}
+L'accélération angulaire possède des unités des radians par seconde carrée (rad/s$^2$). $\alpha$ est positif lorsque la rotation d'un objet rigide en sens anti-horaire accélère et négative lorsque celle-ci diminue.\\
+
+Lorsqu'un objet rigide tourne sur un axe \emph{fixe}, \textbf{chacune des particules composant l'objet tournent d'un même angle $\Delta \theta$ durant un intervalle donné et, par conséquent, possèdent la même vitesse et la même accélération angulaire}.\\
+
+La position angulaire ($\theta$), la vitesse angulaire ($\omega$), l'accélération angulaire ($\alpha$) sont tous les analogues respectifs d'un mouvement rectiligne ($x$), la vitesse ($v$) et l'accélération($a$). Une différence entre ces deux ensemble de variables est l'unité de longueur qui apparait au numérateur des variables linéaires ($x$,$v$,$a$).\\
+\newpage
+{\large \textbf{Cinématique de rotation}}\\
+
+Lors de notre étude d'un mouvement linéaire, nous avons trouvé que le type de mouvement le plus simple est celui possédant une accélération constante. Cela est aussi vrai pour un mouvement de rotation. Nous développerons maintenant l'équivalent des équations vues pour un mouvement rectiligne mais dans une optique de rotation.\\
+
+Réécrirons l'équation (\ref{eq:acc}) comme $d\omega = \alpha dt$ et poserons $t_i=0$ et $t_f=t$. En intégrant cette équation, nous obtenons
+\begin{equation}
+\omega_{f}=\omega_{i}+\alpha t \quad(\text { pour un } \alpha \text { constant})
+\label{eq:speed_t}
+\end{equation}
+avec $\omega_i$ la vitesse angulaire initiale de l'objet au temps $t=0$. L'équation (\ref{eq:speed_t}) nous permet de trouver la vitesse angulaire $\omega_f$ de l'objet à un temps $t$ ultérieur. En remplaçant l'équation (\ref{eq:speed_t}) dans l'équation (\ref{eq:speed}) et en intégrant de nouveau, nous trouvons
+\begin{equation}
+\theta_{f}=\theta_{i}+\omega_{i} t+\frac{1}{2} \alpha t^{2} \\ \quad(\text { pour un } \alpha \text { constant})
+\label{eq:pos_t}
+\end{equation}
+avec $\theta_i$ la position angulaire de l'objet à $t=0$. L'équation (\ref{eq:pos_t}) nous permet de trouver la position angulaire $\theta_f$ d'un objet à un temps $t$ ultérieure.\\
+
+En procédant de façon tout à fait analogue au cas du mouvement rectiligne, il est possible de montrer que
+\begin{equation}
+\omega_{f}^{2}=\omega_{i}^{2}+2 \alpha\left(\theta_{f}-\theta_{i}\right) \quad(\text { pour un } \alpha \text { constant})
+\end{equation}
+Cette dernière équation nous permet de trouver la vitesse angulaire d'un objet $\omega_f$ pour n'importe quelle position angulaire $\theta_f$. Finalement, nous avons
+\begin{equation}
+\theta_{f}=\theta_{i}+\frac{1}{2}\left(\omega_{i}+\omega_{f}\right) t \quad(\text { pour un } \alpha \text { constant})
+\end{equation}
+Ces expressions pour la cinématique de rotation avec accélération constante possèdent la même forme mathématique que ceux obtenues pour un mouvement rectiligne. Malgré leur similarités, il ne faut pas oublier que lorsqu'il est question d'analyser un mouvement de rotation, il est nécessaire de spécifier un axe de rotation. De plus, comme l'objet ne cesse de retourner à sa position originale, un pendant de la position angulaire $\theta_f$ est le nombre de rotations effectuées par l'objet. Ce concept n'a pas d'équivalent lorsqu'il est question d'un mouvement rectiligne.\\
+
+\begin{table}[]
+\centering
+\begin{tabular}{ll}
+\multicolumn{2}{c}{\cellcolor[HTML]{C0C0C0}{\color[HTML]{3166FF} }\textbf{Comparaison des mouvements de rotation et rectiligne}} \\
+ \textbf{Cinématique de Rotation} & \textbf{Cinématique Rectiligne}  \\ \hline
+ $\omega_f=\omega_i+\alpha t $&  $ v_{f}=v_{i}+a t  $ \\
+ $\theta_{f}=\theta_{i}+\omega_{i} t+\frac{1}{2} \alpha t^{2}$ &$x_{f}=x_{i}+v_{i} t+\frac{1}{2} a t^{2}$ \\
+ $\omega_{f}^{2}=\omega_{i}^{2}+2 \alpha\left(\theta_{f}-\theta_{i}\right) $&   $ v_{f}^{2}=v_{i}^{2}+2 a\left(x_{f}-x_{i}\right)$\\
+ $\theta_{f}=\theta_{i}+\frac{1}{2}\left(\omega_{i}+\omega_{f}\right) t $& $ x_{f}=x_{i}+\frac{1}{2}\left(v_{i}+v_{f}\right) t$\\
+                               
+\end{tabular}
+\end{table}
+Il est maintenant temps d'élaborer davantage sur les liens étroits unissant les mouvements angulaire et rectiligne. Rappelons nous encore une fois que pour un objet rigide, \textbf{chaque particule de l'objet tourne sur un cercle dont le centre est l'axe de rotation}. À la Figure 3, le point $P$ bouge sur un cercle, sa vitesse linéaire est toujours tangente à sa trajectoire circulaire, et est donc appelée \emph{vitesse tangentielle.} La grandeur de la vitesse tangentielle au point $P$ est donnée par $v=ds/dt$, avec $s$ la distance parcourue le long du cercle. Ainsi, puisque $s=r\theta$, nous avons
+\begin{equation}
+v = \frac{ds}{dt} = r\frac{d\theta}{dt} = r\omega
+\label{eq:tangential_speed}
+\end{equation}
+La vitesse tangentielle d'un point sur un objet rigide est égale à la distance perpendiculaire reliant ce point au centre du cercle et multipliée par la vitesse angulaire. Ainsi, même si tous les points d'un objet rigides ont la même vitesse angulaire, leurs vitesses tangentielles sont différentes puisque la distance $r$ les séparant du centre varie. L'équation (\ref{eq:tangential_speed}) nous dit que la vitesse tangentielle d'un point augmente lorsque ce point s'éloigne de l'axe de rotation de l'objet.\\
+
+Il est possible de montrer que cela est aussi vrai pour l'accélération tangentielle $a_t$ d'un même point $P$.
+\begin{equation}
+a_t = \frac{dv}{dt} = r\frac{d\omega}{dt} = r\alpha
+\end{equation}
+La composante tangentielle de l'accélération d'un point $P$ sur un objet rigide en rotation est égale à la distance séparant ce point de l'axe de rotation multiplié par l'accélération angulaire $\alpha$ de l'objet. \\
+
+En associant la notion d'accélération centripète avec laquelle nous sommes déjà familiers, nous pouvons écrire
+\begin{equation}
+a_r = \frac{v^2}{r}=r\omega^2
+\end{equation}
+L'accélération totale est alors $\vec{a}=\vec{a}_t+\vec{a}_r$. La gandeur totale de l'accélération est donc donnée par
+\begin{equation}
+a=\sqrt{a_{t}^{2}+a_{r}^{2}}=\sqrt{r^{2} \alpha^{2}+r^{2} \omega^{4}}=r \sqrt{\alpha^{2}+\omega^{4}}
+\end{equation}
+\newpage
+{\large \textbf{Énergie Cinétique de Rotation}}\\
+
+Nous avons déjà associé l'énergie cinétique comme étant le type d'énergie associée à son mouvement dans l'espace. Un objet en rotation autour d'un axe fixe reste stationnaire dans l'espace, il ne possède donc pas d'énergie cinétique de translation. Toutefois, chacune des particules composant l'objet, elles, bougent de façon circulaire dans l'espace. Il y a donc bien une énergie cinétique associée à un mouvement de rotation.\\
+
+Considérons un ensemble de particules que nous imaginerons en rotation avec une vitesse angulaire $\omega$ autour d'un axe $z$ fixe. Chaque particule composant l'objet possède une énergie cinétique associée à sa masse et sa vitesse tangentielle. Supposons la masse de la \emph{ième} particule comme étant $m_i$ et sa vitesse tangentielle comme étant $v_i$, son énergie cinétique est alors donnée par 
+\begin{equation*}
+K_i = \frac{1}{2}m_iv_i^2
+\end{equation*}
+Rappellons nous maintenant que chaque particule de l'objet possède la même vitesse angulaire $\omega$ et que la vitesse tangentielle de la \emph{ième} particule située à une distance $r_i$ du centre de l'objet est donnée par $v_i=r_i\omega$. Ainsi, l'énergie cinétique totale de rotation de l'objet, $K_R$ est la somme de l'énergie cinétique de chacune des particules individuelles le composant.
+\begin{equation*}
+K_{R}=\sum_{i} K_{i}=\sum_{i} \frac{1}{2} m_{i} v_{i}^{2}=\frac{1}{2} \sum_{i} m_{i} r_{i}^{2} \omega^{2}
+\end{equation*}
+qu'il est possible de réécrire
+\begin{equation}
+K_{R}=\frac{1}{2}\left(\sum_{i} m_{i} r_{i}^{2}\right) \omega^{2}
+\end{equation}
+Nous avons mis en facteur le temps $\omega^2$ puisqu'il est identique pour chacune des particules de l'objet. À partir de ceci, nous pouvons définir une nouvelle quantité, le \emph{moment d'inertie de l'objet, noté $I$}.
+\begin{equation}
+I \equiv \sum_{i} m_{i} r_{i}{ }^{2}
+\label{eq:inertia}
+\end{equation}
+De par sa définition, $I$ possède des unités de masse fois des mètres au carré (kg$\cdot$m$^2$). En utilisant cette notation, nous pouvons réécrire l'énergie cinétique de rotation de l'objet comme
+\begin{equation}
+K_R = \frac{1}{2}I\omega^2
+\end{equation}
+Cette forme de l'énergie cinétique de rotation est particulièrement utile lorsque nous sommes en mesure de calculer $I$. Il est important de reconnaître le lien entre l'énergie cinétique associé à un mouvement rectiligne ($mv^2/2$) et à un mouvement de rotation ($I\omega^2/2$). Les quantités $I$ et $\omega$ sont analogues aux quantités $m$ et $v$ lorsque vient le temps de comparer des mouvements rectilignes à des mouvements de rotation. Le moment d'inertie $I$ n'est rien d'autre qu'un moyen de quantifier la résistance d'un objet à s'engager dans un mouvement de rotation, tout comme la masse quantifie la tendance d'un objet à vouloir rester au repos.\\
+\newpage
+{\large \textbf{Calculs de Moments d'Inertie}}\\
+
+Le calcul du moment d'inertie de divers objets se fait en le divisant en une infinité de plus petits éléments, chacun de masse $\Delta m_i$. Nous utilisons la définition $I=\sum_{i} r_{i}^{2} \Delta m_{i}$ et nous en prenons la limite lorsque $\Delta m_{i} \rightarrow 0$. Dans cette limite, la somme précédente se transforme en une intégrale sur le volume d'un objet
+\begin{equation}
+I=\lim _{\Delta m_{i} \rightarrow 0} \sum_{i} r_{i}^{2} \Delta m_{i}=\int \rho r^{2} dV
+\end{equation}
+Cette notation fait intervenir la densité $\rho=m/V$, avec $m$ la masse totale de l'objet et $V$ son volume. L'élément d'intégration $\rho dV$ correspond donc à une intégrale sur la masse $dm$. Si l'objet d'intérêt est homogène, alors $\rho$ est constant et l'intégrale peut être évaluée à partir de considérations purement géométriques. Dans le cas contraire, il faut tenir compte de la dépendance spatiale de $\rho$.\\
+
+La densité $\rho$ représente la masse par unité de volume. Il existe d'autres manières de représenter la densité, celles-ci varient en fonction de la forme de l'objet. Nous pouvons définir la \textbf{densité surfacique} $\sigma = m/A$ et la \textbf{densité linéique} $\lambda = M/L$. Ces deux quantités représentent la masse par unité de surface et la masse par unité de longeur.\\
+
+Bien que nous venions d'énoncer la définition exacte du moment d'inertie, celui-ci est souvent extrêmement ardu à calculer, et requiert des notions de calcul intégral souvent complexes. La Figure 5 montre quelques exemples.\\
+
+
+
+Terminons en ajoutant que lorsqu'un axe de rotation ne correspond pas à l'axe contenant le centre de masse de l'objet, le moment d'inertie associé à cet axe, $I$, est donné par
+\begin{equation}
+I = I_{CM}+MD^2
+\end{equation}
+où $I_{CM}$ est le moment d'inertie par rapport à l'axe de rotation contenant le centre de masse, $M$ est la masse de l'objet et $D$ est la distance par rapport à l'axe contenant le centre de masse. Vous pouvez en vérifier la validité avec les moments d'inertie de la tige représentés à la Figure 5.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{moments.pdf}
+\caption{Moments d'inertie pour divers objets. $I_{CM}$ dénote le moment d'inertie d'un objet lorsque l'axe de rotation passe au travers de son centre de masse. $I$ est le moment d'inertie selon un axe quelconque.}
+\end{figure}
+\newpage
+{\large \textbf{Le Moment de Force}}\\
+
+\begin{wrapfigure}{r}{0.4\textwidth}
+  \begin{center}
+    \includegraphics[width=0.4\textwidth]{torque_1.pdf}
+  \end{center}
+  \caption{La force $\vec{F}$ a davantage tendance à faire tourner l'objet autour de l'axe $O$ lorsque $F$ augmente et que le bras de levier $d$ augmente. La composante $F\sin\varphi$ est responsable de la rotation de la clef.}
+\end{wrapfigure}
+
+Lorsqu'une force est exercée sur un objet rigide pouvant pivoter sur un axe fixe, la tendance de l'objet à pivoter autour de cet axe est mesurée par un vecteur nommé $\vec{\tau}$, le moment de force (aussi appelé couple). Le moment de force est un vecteur, mais nous poursuivrons notre analyse en considérant uniquement sa magnitude.\\
+
+Pour un objet capable de pivoter sur un axe, la grandeur du moment de force associé à une force $\vec{F}$ s'appliquant sur cet objet est défini comme
+\begin{equation}
+\tau \equiv rF\sin\varphi = Fd
+\end{equation}
+où $r$ est la distance entre l'axe de rotation et l'endroit où la force $\vec{F}$ est appliquée et $d$ est la distance entre le pivot de l'objet et la direction de la force. La longueur $d$ est souvent appelée le \emph{levier}, ou encore le \emph{bras de levier} de $\vec{F}$.\\
+
+Sur la Figure 6, la seule composante de $\vec{F}$ qui a tendance à faire tourner la clef est $F\sin\varphi$, la composante perpendiculaire à la ligne reliant l'axe $O$ et le point où la force est appliquée. La composante horizontale $F\cos\varphi$ n'engendre aucun mouvement de rotation autour de $O$. À partir de notre définition du moment de force, il est évident que la tendance de l'objet à se mettre à tourner autour de l'axe $O$ augmente avec la norme de $F$ et la norme de $d$. De plus, l'équivalence $r\sin\varphi = d$ nous dit que nous voulons appliquer la force de la manière la plus perpendiculaire possible par rapport au mouvement de rotation au point d'application de la force. Si l'angle $\varphi$ est trop faible, l'objet n'aura pas tendance à tourner.\\
+
+Si plusieurs forces sont appliquées simultanément sur un objet rigide, chacune produit son propre moment de force par rapport à un axe $O$. Nous utiliserons la convention voulant que le moment de force soit positif si la force qui en est à l'origine cause un mouvement anti-horaire autour de l'axe $O$.\\
+
+De façon générale, le moment de force total est donné par
+\begin{equation}
+\tau = \sum_i \tau_i = \sum_i F_id_i
+\end{equation}
+Il est important de voir que \textbf{le moment de force ne doit pas être confondu avec une force}. Une force engendre un mouvement rectiligne, tel que décrit par les lois de Newton. Une force peut aussi engendrer un mouvement de rotation, toutefois, son efficacité à le faire dépend tout autant de la force que de la manière dont elle est appliquée. Cette combinaison, entre une force, sa distance d'application par rapport à un axe de rotation et le sens de son application est appelé le \emph{moment de force}.\\
+\begin{wrapfigure}{r}{0.4\textwidth}
+  \begin{center}
+    \includegraphics[width=0.4\textwidth]{torque_2.pdf}
+  \end{center}
+  \caption{Une masse $m$ en rotation est soumise à une force tangentielle $\vec{F}_t$. Une force $\vec{F}_r$ est aussi présente, comme pour n'importe quel mouvement circulaire.}
+\end{wrapfigure}
+Comme le montre sa définition, ses unités ne sont pas données en Newton mais plutôt en Newton$\cdot$ mètres. Ne tombez pas dans le piège qui consiste à confondre le moment de force $\tau$ et le travail $W$. Les deux possèdent les mêmes unités mais sont des concepts bien différents.\\
+
+Il est possible de dresser un parallèle entre l'effet d'une force sur l'accélération d'un objet et l'effet d'un moment de force sur l'accélération angulaire. Considérons un objet de masse $m$ en rotation sur un cercle de rayons $r$ sous l'influence d'une force tangentielle $\vec{F}_t$ et d'une force radiale $\vec{F}_r$, tel qu'illustré à la Figure 7. Dans ce cas, la force tangentielle produit une accélération tangentielle $\vec{a}_t$ donnée par
+\begin{equation*}
+F_t = ma_t
+\end{equation*}
+De plus, la grandeur du moment de force par rapport à un axe situé au centre du cercle dû à $\vec{F}_t$ est donnée par
+\begin{equation*}
+\tau = F_tr\sin\varphi = F_tr=(ma_t)r
+\end{equation*}
+Comme l'accélération est tangentielle, elle est reliée à l'accélération angulaire par $a_t=r\alpha$ et le moment de force peut alors s'écrire
+\begin{equation*}
+\tau =(mr\alpha)r = (mr^2)\alpha
+\end{equation*}
+Nous savons déjà que le terme entre parenthèses dans la dernière équation correspond au moment d'inertie d'un objet. Ainsi,
+\begin{equation}
+\tau = I\alpha
+\end{equation}
+\textbf{Le moment de force agissant sur un objet est proportionnel à son accélération angulaire, et le coefficient de proportionnalité est donné par le moment d'inertie}. Cette équation est l'équivalent rotationnel de la deuxième loi de Newton, $F=ma$.\\
+\newpage
+{\large \textbf{Considérations Énergitiques d'un Mouvement de Rotation}}\\
+
+Jusqu'à présent, notre analyse des mouvements de rotation était alignée avec une approche basée sur l'étude des forces en présence. Nous tenterons maintenant de montrer comment une analyse d'un point de vue plus énergitique peut nous aider.
+
+Nous accepterons sans démontrer\footnote{
+\begin{align*}
+dW = \vec{F}\cdot d\vec{s}\\
+dW = F\sin \varphi r d\theta\\
+dW = \tau d\theta\\
+\frac{dW}{dt} = \tau \frac{d\theta}{dt} = \tau \omega\\
+P = \tau \omega
+\end{align*}
+} que, dans le cas d'un mouvement de rotation, la puissance fournie à un objet est donnée par
+\begin{equation}
+P = \tau \omega
+\end{equation}
+Cette expression est l'analogue du cas rectiligne pour lequel la puissance est donnée par $P = Fv$. De plus, en utilisant notre définition nouvellement acquise reliant le moment de force total à l'accélération angulaire, $\sum \tau = I\alpha$, nous pouvons montrer\footnote{
+\begin{align*}  
+\sum \tau=I \alpha=I \frac{d \omega}{d t}=I \frac{d \omega}{d \theta} \frac{d \theta}{d t}=I \frac{d \omega}{d \theta} \omega
+\end{align*}
+En utilisant le fait que $\sum \tau d\theta = dW$, nous trouvons
+\begin{align*}
+\sum \tau d \theta&=d W=I \omega d \omega\\
+\sum W=\int_{\omega_{i}}^{\omega_{f}} I \omega d \omega&=\frac{1}{2} I \omega_{f}^{2}-\frac{1}{2} I \omega_{i}^{2}
+\end{align*}
+} que
+\begin{equation}
+\sum W=\frac{1}{2} I \omega_{f}^{2}-\frac{1}{2} I \omega_{i}^{2} = \Delta K_R
+\end{equation}
+\textbf{Le travail total fait par des forces externes menant à une rotation d'un objet rigide sur un axe fixe est égal au changement d'énergie cinétique de rotation du système.} Ceci est le pendant du théorème de l'énergie cinétique dans le cas de phénomènes de rotation.
+
+
+\begin{table}[]
+\centering
+\begin{tabular}{ll}
+\multicolumn{2}{c}{\cellcolor[HTML]{C0C0C0}{\color[HTML]{3166FF} }\textbf{Équations utiles pour des mouvements de rotation et rectiligne}} \\
+ \textbf{Rotation autour d'un axe fixe} & \textbf{Mouvement Rectiligne}  \\ \hline
+ Vitesse angulaire $\omega=d \theta / d t$& Vitesse $v=d x / d t$\\
+Accélération angulaire $\alpha=d \omega / d t$&Accélération $a=d v / d t$\\
+Moment de Force $\Sigma \tau=I \alpha$&  Force $\Sigma F=m a$\\
+Moment de Force $\Sigma \tau=I \alpha$&  Force $\Sigma F=m a$\\
+$\left\{\begin{array}{l}
+\omega_{f}=\omega_{i}+\alpha_{t} \\
+\theta_{f}=\theta_{i}+\omega_{i} t+\frac{1}{2} \alpha t^{2} \\
+\omega_{f}^{2}=\omega_{i}^{2}+2 \alpha\left(\theta_{f}-\theta_{i}\right)
+\end{array}\right.$&  $\left\{\begin{array}{l}
+v_{f}=v_{i}+a t \\
+x_{f}=x_{i}+v_{i} t+\frac{1}{2} a t^{2} \\
+v_{f}^{2}=v_{i}^{2}+2 a\left(x_{f}-x_{i}\right)
+\end{array}\right.$\\
+Travail $W=\frac{1}{2} I \omega_{f}^{2}-\frac{1}{2} I \omega_{i}^{2}$&  Travail $W=\vec{F}\cdot \Delta\vec{x}$\\
+Énergie Cinétique de Rotation $K_{R}=\frac{1}{2} I \omega^{2} \quad$& Énergie Cinétique $K=\frac{1}{2} m v^{2}$\\
+Puissance $P=\tau \omega$& Puissance $P=F_{v}$\\
+Moment de Force $\tau=\sum F_id_i$& Force $\Sigma F=d p / d t = ma$\\
+Moment Cinétique  $L=I \omega$ & Quantité de Mouvement $p=m v$\\
+\end{tabular}
+\end{table}
+\clearpage
+\newpage
+{\large \textbf{Contrainte de Roulement}}\\
+
+
+
+Considérons un objet rond (tel un cylindre ou une sphère) de rayon R qui roule \emph{sans glisser} sur une surface lisse. Alors que l'objet roule et que son déplacement angulaire est de $\theta$, la distance parcourue par le centre de masse de cet objet est de $s=R\theta$. Ainsi, la vitesse rectiligne du centre de masse, $v_{CM}$ pour un mouvement de rotation pur est donnée par
+\begin{equation}
+v_{CM}=\frac{d s}{d t}=R \frac{d \theta}{d t}=R \omega
+\end{equation}
+où $\omega$ est la vitesse angulaire de l'objet circulaire.  Cette équation \emph{doit} être respectée dès qu'un objet circulaire roule sans glisser. C'est la \textbf{contrainte du roulement}.\\
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{cycloide.pdf}
+\caption{Une source lumineuse au centre d'un cylindre en roulement (vert) et une autre située sur son pourtour (rouge) illustrent les différents trajets pour chacun de ces deux points. Le centre de déplace en ligne droite alors que le point en périphérie sur un mouvement plus complexe, appelé une cycloïde.}
+\end{figure}
+
+De la même manière, l'accélération du centre de masse d'un objet dans un mouvement de roulement est donné par
+\begin{equation}
+a_{CM}=\frac{d v_{\mathrm{CM}}}{d t}=R \frac{d \omega}{d t}=R \alpha
+\end{equation}
+où $\alpha$ est l'accélération angulaire de l'objet.\\
+
+Il vaut la peine de mentionner que la vitesse rectiligne du centre de masse et la vitesse de différents points sur l'objet en roulement ne sont pas toutes les mêmes, comme l'indique la Figure 10.\\
+
+Il s'en suit que l'énergie cinétique totale d'un objet qui respecte la contrainte de roulement est donnée par
+\begin{align}
+K_{\mathrm{roulement}}&=\frac{1}{2} I_{\mathrm{CM}} \omega^{2}+\frac{1}{2} M v_{CM}^{2} \nonumber \\
+K_{\mathrm{roulement}}&= \frac{1}{2} I_{CM} \omega^{2}+\frac{1}{2} M R^{2} \omega^{2}
+\end{align}
+Le terme $\frac{1}{2}I_{CM}\omega^2$ représente l'énergie cinétique contenue dans la rotation du cylindre autour d'un axe passant par son centre de masse tandis que le terme $\frac{1}{2} M v_{CM}^{2}$ représente l'énergie cinétique que posséderait le cylindre s'il ne faisait que suivre un moment de translation dans l'espace sans rouler. \textbf{L'énergie cinétique d'un objet en roulement est la somme de son énergie cinétique de rotation autour d'un axe passant par son centre de masse et de l'énergie cinétique d'un mouvement de translation rectiligne.}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=.35\textwidth]{roulement_1.pdf}
+\caption{Pour un mouvement de roulement, lorsque l'objet circulaire tourne d'un angle $\theta$, son centre de masse se déplace d'une distance $s=R\theta$.}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=.35\textwidth]{roulement_2.pdf}
+\caption{Tous les points sur un objet en roulement ne possèdent pas la même vitesse. Toutefois, ils se déplacent tous dans une direction perpendiculaire à un axe les reliant au point de contact instantané avec le sol, le point $P$. En d'autres mots, ils sont tous en rotation autour du point de contact avec le sol, $P$. Le centre de masse se déplace avec une vitesse $v_{cm}$ tandis que le point au sommet de l'objet et opposé à $P$, le point $P'$, se déplace, lui, à une vitesse $2_{cm}$.}
+\end{figure}
+
+
+\end{document}
+
+
+
