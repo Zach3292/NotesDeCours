@@ -3,23 +3,20 @@
 - [I] Écouter *First Reformed*
 - [I] Écouter *Mère de 7 milliards*
 - [I] Écouter *La liste Schindler*
-- [ ] Faire les lectures
+- [x] Faire les lectures
 [[Communication]]:
 - [ ] Écrire billet d'humeur
 	- [ ] Rechercher des références par rapport au thème
 [[Calcul 3]]:
 - [/] Devoir 1
-	- [ ] *Cleaner le nom des variables*
+	- [ ] *Remettre le devoir*
 [[Statistiques et probabilités]]:
-- [ ] Devoir 3
+- [/] Devoir 3
 [[Arts]]:
-- [ ] Journal de bord 
-	- [ ] Danse
-	- [ ] Dessin
 - [ ] Photo inspirante
 [[Électricité et magnétisme]]:
 - [/] Devoir 1 
-	- [?] *3a: les signes*
+	- [ ] Remettre le devoir
 - [ ] **Valider avec Sam la liste de pièces de speaker**
 Autres:
 - [ ] Retranscrire les notes des autres matières soit:
