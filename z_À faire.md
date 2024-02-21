@@ -4,21 +4,22 @@
 - [I] Écouter *Mère de 7 milliards*
 - [I] Écouter *La liste Schindler*
 - [x] Faire les lectures
+- [ ] Plan de mi-session
 [[Communication]]:
 - [ ] Écrire billet d'humeur
-	- [ ] Rechercher des références par rapport au thème
+	- [ ] Trouver chute et titre
+	- [ ] Faire mise-en-page
+
 [[Calcul 3]]:
-- [/] Devoir 1
-	- [ ] *Remettre le devoir*
+
 [[Statistiques et probabilités]]:
 - [/] Devoir 3
 [[Arts]]:
 - [ ] Photo inspirante
 [[Électricité et magnétisme]]:
-- [/] Devoir 1 
-	- [ ] Remettre le devoir
 - [ ] **Valider avec Sam la liste de pièces de speaker**
 Autres:
+- [ ] **Écrire à Élise pour tutorat mec**
 - [ ] Retranscrire les notes des autres matières soit:
 	- [ ] [[Mécanique]]
 	- [ ] [[Calcul différentiel]]
