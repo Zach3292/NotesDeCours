@@ -6,9 +6,6 @@
 - [x] Faire les lectures
 - [ ] Plan de mi-session
 [[Communication]]:
-- [ ] Écrire billet d'humeur
-	- [ ] Trouver chute et titre
-	- [ ] Faire mise-en-page
 
 [[Calcul 3]]:
 

@@ -21,9 +21,36 @@ Il y a quatre types de dénombrement:
 		k: nombre de personne dans le sous-groupe
 4. Combinaisons:
 	Sous-groupe donc l'ordre n'est pas important$$ C^n_k = \frac{n!}{k!(n-k)!}$$
+Dans R: 
+```r
+arrangement<-function(n)(factorial(n))
+permutation<-function(n,r)(factorial(n)/factorial(n-r))
+combinaison<-function(n,r)(factorial(n)/(factorial(n-r)*factorial(r)))
+```
+
 ### Théorème de Bays
 Il s'agit en quelque sorte d'un calcul à l'envers
 P(A|B) est égale à la probabilité qu'on est A si on a B$$ P(A|B) = \frac{P(B|A)*P(A)}{\sum_{i=1}^{k} P(B|A_i)*P(A_i)}$$
 *Exemple, Yves et Jean font des mitaines selon différentes proportions, chacun font des rouges et des bleues selon différentes proportions. Si on choisi une mitaine bleue, quelles sont les probabilités qu'elle est été faite par Yves. Ici le créateur est représenté par A et la couleur est représentée B*
 
+```r
+require(LaplacesDemon)
+ProbA <- c(0.4, 0.3, 0.3) 
+ProbBSiA <- c(0.02, 0.05, 0.01) 
+BayesTheorem(ProbA, ProbBSiA)
+```
+ *Exemple: À l’aide des données Gapminder, calculez la probabilité qu’une personne en 1997 ayant une espérance de vie de plus de 70 ans viennent de l’Afrique. Si on pige un individu de plus de 70 ans, de quel continent est-il le plus probable qu’il vienne ?*
+```r
+donnee97<-gapminder %>% 
+  filter(year==1997)
+life_par_continent<- donnee97 %>% 
+  group_by(continent) %>%
+  summarize(vieux = sum(lifeExp>70))
+life_par_continent2<- donnee97 %>% 
+  group_by(continent) %>%
+  summarize(total = sum(lifeExp>1)) 
+probBsiA<-life_par_continent$vieux/life_par_continent2$total
 
+require(LaplacesDemon)
+BayesTheorem(probA, probBsiA) 
+```
