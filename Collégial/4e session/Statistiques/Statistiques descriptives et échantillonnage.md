@@ -37,7 +37,7 @@ data <- data.frame(
 )
 ggplot(data, aes(x = nbDiabete, y = probDiabete)) +
   geom_bar(stat="identity",color="black", fill="dodgerblue")  + 
-  labs(x="Nombre de personnes de 70 ans et plus à risque de diabète", y="Probabilité",title="Probabilité en fonction du nombre de personnes de 70 ans et plus à risque de diabète")
+  labs(x="label x", y="label y",title="title")
 
 ```
 ### Nombres

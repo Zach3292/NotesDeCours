@@ -21,7 +21,7 @@ En quoi ? Généralement préférable à l'ignorance
 	Pouvoir simplificateur de l'ignorance (Œdipe)
 	Mise en garde (Rousseau)
 	*"Avec de grands pouvoirs viennent grandes responsabilités" Oncle Ben*
-	Puissance d'Agir supérieur
+	Puissance d'agir supérieur
 Pouvoir de transformer (Prométhée)
 	Ce qui nous entoure (Environnementalisme)
 	Nous-mêmes (Bioéthique)

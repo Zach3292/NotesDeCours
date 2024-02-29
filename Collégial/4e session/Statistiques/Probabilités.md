@@ -15,7 +15,9 @@ Il y a quatre types de dénombrement:
 	Le nombre de possibilité est égale au produit des embranchements dans le diagrammes en arbres
 2. Arrangement:
 	Calcul factoriel selon le nombres de possibilités pour avoir tous les arrangements différents *page 82*
-3. Permutations:
+	Si répétition: *comme un anagramme*
+	$$\frac{n!}{n_1!n_2!...n_k!}$$
+1. Permutations:
 	Sous-groupe donc l'ordre est important. Exemple: pigé les positions au jeu du trou de cul$$ P^n_k = \frac{n!}{(n-k)!}$$
 		n: nombre de personne total
 		k: nombre de personne dans le sous-groupe

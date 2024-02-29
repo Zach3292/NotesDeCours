@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Collégial/4e session/Statistiques/Variables et lois discrètes.md",
+                "file": "Collégial/4e session/Philosophie/Éthique et politique.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Collégial/4e session/Statistiques/Variables et lois discrètes.md",
+                "file": "Collégial/4e session/Philosophie/Éthique et politique.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Collégial/4e session/Statistiques/Variables et lois discrètes.md",
+                "file": "Collégial/4e session/Philosophie/Éthique et politique.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Collégial/4e session/Statistiques/Variables et lois discrètes.md"
+                "file": "Collégial/4e session/Philosophie/Éthique et politique.md"
               }
             }
           }
@@ -149,12 +149,24 @@
   },
   "active": "f2e696be2a52a13d",
   "lastOpenFiles": [
-    "Collégial/4e session/Statistiques/Statistiques descriptives et échantillonnage.md",
+    "Collégial/4e session/Philosophie/Brouillon mi-session.md",
+    "Collégial/4e session/Philosophie/Plan de mi-session.md",
+    "Collégial/4e session/Philosophie/Cours 3 Environnement.md",
+    "Collégial/4e session/Philosophie/Cours 2 Kant.md",
+    "Collégial/3e session/Philosophie/Cours 6 Schopenhauer.md",
+    "Collégial/3e session/Philosophie/Cours 4 Hobbes et Rousseau.md",
+    "Collégial/3e session/Philosophie/Cours 3 Hume.md",
+    "Collégial/3e session/Philosophie/Cours 7 Nietzche.md",
+    "Collégial/4e session/Philosophie/Cours 4 Utilitarisme.md",
+    "Collégial/4e session/Philosophie/Cours 5 Éthique sentimentaliste.md",
+    "Connaissance autre/gradient.md",
     "Collégial/4e session/Statistiques/Variables et lois discrètes.md",
-    "Collégial/4e session/4e session.md",
-    "Collégial/4e session/Statistiques/Loi normale et variables continues.md",
     "Collégial/4e session/Statistiques/Probabilités.md",
+    "Collégial/4e session/Statistiques/Statistiques descriptives et échantillonnage.md",
+    "Collégial/4e session/Statistiques/Loi normale et variables continues.md",
     "Collégial/4e session/Statistiques/Statistiques et probabilités.md",
+    "Collégial/4e session/Philosophie/Pasted image 20240202200131.png",
+    "Collégial/4e session/4e session.md",
     "Collégial/4e session/Physique/Les condensateurs.md",
     "Collégial/4e session/Physique/Le potentiel électrique.md",
     "Collégial/4e session/Physique/Le théorème de Gauss.md",
@@ -164,17 +176,6 @@
     "Collégial/4e session/Français/La vulgarisation.md",
     "Collégial/4e session/Français/Communication.md",
     "z_À faire.md",
-    "Checkbox example.md",
-    "Collégial/4e session/Philosophie/Plan de mi-session.md",
-    "Collégial/4e session/Philosophie/Cours 3 Environnement.md",
-    "Collégial/4e session/Philosophie/Cours 5 Éthique sentimentaliste.md",
-    "Collégial/4e session/Philosophie/Éthique et politique.md",
-    "Collégial/4e session/Philosophie/Cours 2 Kant.md",
-    "Collégial/4e session/Philosophie/Cours 4 Utilitarisme.md",
-    "Collégial/4e session/Philosophie/Cours 1 Éthique.md",
-    "Collégial/4e session/Français/Texte expressif.md",
-    "Connaissance autre/Formule d'Euler.md",
-    "Collégial/Collégial.md",
     "Collégial/4e session/Physique/capacitor/Pasted image 20240215155314.png",
     "Collégial/4e session/Physique/capacitor",
     "Collégial/4e session/Physique/capacitor/Pasted image 20240215155443.png",
@@ -188,7 +189,6 @@
     "Collégial/4e session/Physique/crossover/Pasted image 20240210102843.png",
     "Collégial/4e session/Physique/crossover/Pasted image 20240210102823.png",
     "Collégial/4e session/Physique/crossover/Pasted image 20240210102754.png",
-    "Collégial/4e session/Physique/crossover/Pasted image 20240210102541.png",
     "Connaissance autre",
     "Collégial",
     "Collégial/1ere session/Physique",

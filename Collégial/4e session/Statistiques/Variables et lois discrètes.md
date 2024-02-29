@@ -95,7 +95,7 @@ Nombre d'échec pour avoir une probabilité donné d'avoir au moins un succès d
 nbEchecAvantnbSucces<-function(probDefect, wantedPercent){
   i<-0
   while (TRUE) {
-    if ((1-dbinom(0, i, 1-probDefect)) > wantedPercent){
+    if ((1-pbinom(0, i, 1-probDefect)) > wantedPercent){
       break
     }
     i<-i+1
