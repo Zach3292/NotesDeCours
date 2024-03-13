@@ -1,3 +1,9 @@
+---
+id: La vulgarisation
+aliases: []
+tags: []
+---
+
 Action de mettre à la portée du plus grand nombre
 
 Difficulté: **simplifier et clarifier** sans sacrifier la vérité tout en demeurent intéressant
@@ -31,7 +37,6 @@ Il faut choisir l'information essentielle seulement, ne pas trop en rajouter
 Éviter les informations superflues
 Il faut voir notre capacité à résumer et à synthétiser.
 
-
 Vocabulaire précis, phrases bien construites, fonction métalinguistique
 
 Il faut:
@@ -41,3 +46,10 @@ Il faut:
 * Utiliser formule/proverbe/énoncé
 * Utiliser des figures de style
 	* Métaphore
+
+On peut faire des parallèles pour aider les gens à comprendre notre sujet
+
+Talent d'orateur
+* Voix claire, assurée et au bon rythme
+* Bonne présence, transmet sa passion sur le sujet
+* Réussit à susciter l'intérêt et la curiosité

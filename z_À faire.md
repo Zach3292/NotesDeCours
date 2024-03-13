@@ -1,22 +1,25 @@
-#todo
+---
+id: z_À faire
+aliases: []
+tags:
+  - todo
+---
+
+
 [[Éthique et politique]]:
-- [I] Écouter *First Reformed*
-- [I] Écouter *Mère de 7 milliards*
-- [I] Écouter *La liste Schindler*
-- [x] Faire les lectures
-- [ ] Plan de mi-session
+- [ ] Faire les lectures
+- [ ] Écrire argument pour présentation
 [[Communication]]:
-
+- [ ] Commencer la recherche sur la fission nucléaire
 [[Calcul 3]]:
-
+- [/] Devoir 2
 [[Statistiques et probabilités]]:
-- [/] Devoir 3
 [[Arts]]:
-- [ ] Photo inspirante
 [[Électricité et magnétisme]]:
 - [ ] **Valider avec Sam la liste de pièces de speaker**
+- [ ] Labo 3 résistivité
+- [ ] Retranscrire les notes du [[Le courant électrique|Chapitre 6]] 
 Autres:
-- [ ] **Écrire à Élise pour tutorat mec**
 - [ ] Retranscrire les notes des autres matières soit:
 	- [ ] [[Mécanique]]
 	- [ ] [[Calcul différentiel]]
