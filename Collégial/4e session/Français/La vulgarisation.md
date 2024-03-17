@@ -49,7 +49,23 @@ Il faut:
 
 On peut faire des parallèles pour aider les gens à comprendre notre sujet
 
-Talent d'orateur
+Talent d'orateur:
 * Voix claire, assurée et au bon rythme
 * Bonne présence, transmet sa passion sur le sujet
 * Réussit à susciter l'intérêt et la curiosité
+
+Capacité de vulgarisation:
+* Concepts et idées exprimés dans un **langage accessible**
+* Capacité à illustrer le propos au moyen d'exemples, d'analogies et d'humour
+* Diapositive de qualité, informations bien choisies et pertinentes qui soutiennent le propos
+* Quantifié les quantités à l'aide de comparaisons
+
+Structure de l'exposé
+* Enchainement des idées logiques, bonnes transitions
+* Facilité de compréhension
+* Sujet et recherche intéressants et exposés clairement
+
+
+
+
+

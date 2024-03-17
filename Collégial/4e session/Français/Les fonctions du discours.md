@@ -1,3 +1,9 @@
+---
+id: Les fonctions du discours
+aliases: []
+tags: []
+---
+
 L'intention de communication:
 	il faut utiliser le moyen d'expression le plus adéquats pour traduire cette intention
 	Tout discours part d'une intention
@@ -82,8 +88,8 @@ Les six fonctions du discours
 			Porte une attention particulière à la forme du message
 			Concentrer sur le contenant plus que le contenu
 			Rend le message captivant et attire l'attention sur lui-même
-		Fonction métalinguistique -> code
-			Définit le code
+		[[La fonction métalinguistique]]|Fonction métalinguistique]] -> code
+			Définit lecode
 			Clarifier le sens de quelque chose
 			Assurer la compréhension du message
 			Exemple d'ouvrage usant cette fonction:
