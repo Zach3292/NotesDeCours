@@ -5,10 +5,9 @@ tags:
   - todo
 ---
 
-
 [[Éthique et politique]]:
 - [ ] Faire les lectures
-- [ ] Écrire argument pour présentation
+- [/] Écrire argument pour présentation
 
 [[Communication]]:
 - [ ] Commencer la recherche sur la fission nucléaire
@@ -26,7 +25,6 @@ tags:
 
 [[Électricité et magnétisme]]:
 - [ ] **Valider avec Sam la liste de pièces de speaker**
-- [ ] Labo 3 résistivité
 - [ ] Retranscrire les notes du [[Le courant électrique|chapitre 6]] 
 
 Autres:
