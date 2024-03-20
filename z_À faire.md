@@ -26,6 +26,8 @@ tags:
 [[Électricité et magnétisme]]:
 - [ ] **Valider avec Sam la liste de pièces de speaker**
 - [ ] Retranscrire les notes du [[Le courant électrique|chapitre 6]] 
+- [ ] Retranscrire les notes du chapitre 7 
+- [ ] Faire les exercices du [[Le courant électrique|chapitre 6]] et du chapitre 7 
 
 Autres:
 - [ ] Retranscrire les notes des autres matières soit:

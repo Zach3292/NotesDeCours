@@ -1,3 +1,9 @@
+---
+id: Cours 6 Consommation
+aliases: []
+tags: []
+---
+
 La bourgeoisie -> les aristocrates mais sans le fond
 Les aristocrates méprisaient les bourgeois
 La bourgeoisie admirait les aristocrates
