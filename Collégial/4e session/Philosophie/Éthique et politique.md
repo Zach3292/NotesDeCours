@@ -14,3 +14,5 @@ tags:
 [[Brouillon mi-session]]
 [[Cours 6 Consommation]]
 [[Cours 7 Consommation partie 2]]
+[[Cours 8 Média et trans]]
+[[Cours 9 Les idéologies sociopolitiques]]

@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "461f26d8e5c2d65f",
+        "id": "fce87ca71a990549",
         "type": "tabs",
         "children": [
           {
-            "id": "f2e696be2a52a13d",
+            "id": "22358ca493dd3f22",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Collégial/4e session/Philosophie/Cours 7 Consommation partie 2.md",
-                "mode": "source",
+                "file": "Collégial/4e session/Français/Marketing.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "814f207a577a3dbc",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Collégial/4e session/Philosophie/Cours 7 Consommation partie 2.md",
+                "file": "Collégial/4e session/Français/Marketing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Collégial/4e session/Philosophie/Cours 7 Consommation partie 2.md",
+                "file": "Collégial/4e session/Français/Marketing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Collégial/4e session/Philosophie/Cours 7 Consommation partie 2.md"
+                "file": "Collégial/4e session/Français/Marketing.md"
               }
             }
           }
@@ -147,16 +148,29 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "f2e696be2a52a13d",
+  "active": "22358ca493dd3f22",
   "lastOpenFiles": [
+    "Collégial/4e session/Philosophie/Cours 9 Les idéologies sociopolitiques.md",
+    "Collégial/4e session/Français/Marketing.md",
+    "Collégial/4e session/Philosophie/Cours 9 Politique.md",
+    "Collégial/4e session/Philosophie/Cours 9 Politique.md~",
+    "Collégial/4e session/Philosophie/Cours 9 Politique",
+    "Collégial/4e session/Français/Marketing.md~",
+    "Collégial/4e session/Philosophie/Cours 8 Média et trans.md",
+    "Collégial/4e session/Statistiques/Loi normale et variables continues.md",
+    "Collégial/4e session/Philosophie/Cours 8 Média.md",
+    "Collégial/4e session/Philosophie/Cours 8 Média",
+    "Collégial/4e session/Statistiques/L'estimation.md",
+    "Collégial/4e session/Physique/Le courant électrique.md",
+    "Collégial/4e session/Philosophie/Cours 7 Consommation partie 2.md",
+    "Collégial/4e session/Philosophie/Cours 4 Utilitarisme.md",
+    "z_À faire.md",
+    "Checkbox example.md",
     "Collégial/4e session/Physique/Le théorème de Gauss.md",
     "Collégial/4e session/Physique/Électricité et magnétisme.md",
-    "z_À faire.md",
     "Collégial/4e session/Philosophie/Cours 2 Kant.md",
-    "Collégial/4e session/Philosophie/Cours 4 Utilitarisme.md",
     "Collégial/4e session/Philosophie/Cours 3 Environnement.md",
     "Collégial/4e session/Statistiques/Statistiques et probabilités.md",
-    "Collégial/4e session/Statistiques/L'estimation.md",
     "Collégial/4e session/Statistiques/Statistiques descriptives et échantillonnage.md",
     "Collégial/4e session/Statistiques/Probabilités.md",
     "Collégial/4e session/Physique/Crossover.md",
@@ -167,15 +181,6 @@
     "Collégial/4e session/Philosophie/Pasted image 20240202200131.png",
     "Collégial/4e session/Philosophie/Éthique et politique.md",
     "Collégial/4e session/Philosophie/Cours 5 Éthique sentimentaliste.md",
-    "Collégial/4e session/Statistiques/Loi normale et variables continues.md",
-    "Collégial/4e session/Philosophie/Brouillon mi-session.md",
-    "Collégial/4e session/Philosophie/Plan de mi-session.md",
-    "Collégial/3e session/Philosophie/Cours 6 Schopenhauer.md",
-    "Collégial/3e session/Philosophie/Cours 4 Hobbes et Rousseau.md",
-    "Collégial/3e session/Philosophie/Cours 3 Hume.md",
-    "Collégial/3e session/Philosophie/Cours 7 Nietzche.md",
-    "Connaissance autre/gradient.md",
-    "Collégial/4e session/Statistiques/Variables et lois discrètes.md",
     "Collégial/4e session/Physique/capacitor/Pasted image 20240215155314.png",
     "Collégial/4e session/Physique/capacitor",
     "Collégial/4e session/Physique/capacitor/Pasted image 20240215155443.png",
@@ -191,10 +196,6 @@
     "Collégial/4e session/Physique/crossover/Pasted image 20240210102754.png",
     "Connaissance autre",
     "Collégial",
-    "Collégial/1ere session/Physique",
-    "Collégial/4e session/Physique/ac_circuits/ac_circuits.pdf",
-    "Collégial/4e session/Physique/ac_circuits/v_output.pdf",
-    "Collégial/4e session/Physique/ac_circuits/inductance.pdf",
-    "Collégial/4e session/Physique/ac_circuits/v_i_R_phaseur.pdf"
+    "Collégial/1ere session/Physique"
   ]
 }

@@ -10,3 +10,4 @@ tags:
 [[Schéma de la communication]]
 [[La vulgarisation]]
 [[La fonction métalinguistique]]
+[[Marketing]]
