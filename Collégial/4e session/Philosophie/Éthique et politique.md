@@ -16,3 +16,5 @@ tags:
 [[Cours 7 Consommation partie 2]]
 [[Cours 8 Média et trans]]
 [[Cours 9 Les idéologies sociopolitiques]]
+[[Cours 10 Les idéologies économiques]]
+[[Cours 11 Les idéologies culturelles]]

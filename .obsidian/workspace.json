@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "fce87ca71a990549",
+        "id": "1f7998f5254f6d09",
         "type": "tabs",
         "children": [
           {
-            "id": "22358ca493dd3f22",
+            "id": "77fb2cc532f708c3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Collégial/4e session/Français/Marketing.md",
+                "file": "Collégial/4e session/Calcul 3/Note de cours.md",
                 "mode": "preview",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "814f207a577a3dbc",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Collégial/4e session/Français/Marketing.md",
+                "file": "Collégial/4e session/Calcul 3/Note de cours.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Collégial/4e session/Français/Marketing.md",
+                "file": "Collégial/4e session/Calcul 3/Note de cours.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Collégial/4e session/Français/Marketing.md"
+                "file": "Collégial/4e session/Calcul 3/Note de cours.md"
               }
             }
           }
@@ -148,39 +147,43 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "22358ca493dd3f22",
+  "active": "77fb2cc532f708c3",
   "lastOpenFiles": [
+    "Collégial/4e session/Statistiques/L'estimation.md",
+    "Collégial/4e session/Statistiques/Loi normale et variables continues.md",
+    "Collégial/4e session/Statistiques/Régression.md",
+    "Collégial/4e session/Statistiques/Test d'indépendance.md",
+    "Collégial/4e session/Statistiques/Test d'hypothèse.md",
+    "à",
+    "Collégial/4e session/Statistiques/Statistiques et probabilités.md",
+    "Collégial/4e session/Philosophie/Plan fin de session.md",
+    "Collégial/3e session/Philosophie/Cours 3 Hume.md",
     "Collégial/4e session/Philosophie/Cours 9 Les idéologies sociopolitiques.md",
-    "Collégial/4e session/Français/Marketing.md",
-    "Collégial/4e session/Philosophie/Cours 9 Politique.md",
+    "Collégial/4e session/Philosophie/Cours 11 Les idéologies culturelles.md",
+    "z_À faire.md",
+    "Collégial/3e session/Philosophie/Cours 4 Hobbes et Rousseau.md",
+    "Collégial/3e session/Philosophie/Cours 5 Marx.md",
+    "Collégial/3e session/Philosophie/Cours 9 Freud.md",
+    "Collégial/3e session/Philosophie/Cours 8 Sarte.md",
+    "Collégial/3e session/Philosophie/Cours 7 Nietzche.md",
+    "Collégial/3e session/Philosophie/Cours 6 Schopenhauer.md",
+    "Collégial/4e session/Philosophie/Cours 7 Consommation partie 2.md",
+    "Collégial/4e session/Philosophie/Cours 6 Consommation.md",
+    "Collégial/4e session/Philosophie/Cours 5 Éthique sentimentaliste.md",
+    "Collégial/4e session/Philosophie/Brouillon mi-session.md",
+    "Collégial/4e session/Philosophie/Cours 4 Utilitarisme.md",
+    "Collégial/4e session/Philosophie/Cours 2 Kant.md",
+    "Collégial/4e session/Philosophie/Cours 3 Environnement.md",
+    "Collégial/4e session/Philosophie/Cours 1 Éthique.md",
+    "Collégial/4e session/Philosophie/Cours 10 Les idéologies économiques.md",
+    "Collégial/4e session/Français/Persuasion.md~",
+    "Collégial/4e session/Philosophie/Cours 11 Les idéologies culturelles.md~",
+    "Collégial/4e session/Philosophie/Cours 10 Les idéologies économiques",
     "Collégial/4e session/Philosophie/Cours 9 Politique.md~",
     "Collégial/4e session/Philosophie/Cours 9 Politique",
     "Collégial/4e session/Français/Marketing.md~",
-    "Collégial/4e session/Philosophie/Cours 8 Média et trans.md",
-    "Collégial/4e session/Statistiques/Loi normale et variables continues.md",
-    "Collégial/4e session/Philosophie/Cours 8 Média.md",
     "Collégial/4e session/Philosophie/Cours 8 Média",
-    "Collégial/4e session/Statistiques/L'estimation.md",
-    "Collégial/4e session/Physique/Le courant électrique.md",
-    "Collégial/4e session/Philosophie/Cours 7 Consommation partie 2.md",
-    "Collégial/4e session/Philosophie/Cours 4 Utilitarisme.md",
-    "z_À faire.md",
-    "Checkbox example.md",
-    "Collégial/4e session/Physique/Le théorème de Gauss.md",
-    "Collégial/4e session/Physique/Électricité et magnétisme.md",
-    "Collégial/4e session/Philosophie/Cours 2 Kant.md",
-    "Collégial/4e session/Philosophie/Cours 3 Environnement.md",
-    "Collégial/4e session/Statistiques/Statistiques et probabilités.md",
-    "Collégial/4e session/Statistiques/Statistiques descriptives et échantillonnage.md",
-    "Collégial/4e session/Statistiques/Probabilités.md",
-    "Collégial/4e session/Physique/Crossover.md",
-    "Collégial/4e session/Français/Les fonctions du discours.md",
-    "Collégial/4e session/Français/La fonction métalinguistique.md",
-    "Collégial/4e session/Français/La vulgarisation.md",
-    "Collégial/4e session/Philosophie/Cours 6 Consommation.md",
     "Collégial/4e session/Philosophie/Pasted image 20240202200131.png",
-    "Collégial/4e session/Philosophie/Éthique et politique.md",
-    "Collégial/4e session/Philosophie/Cours 5 Éthique sentimentaliste.md",
     "Collégial/4e session/Physique/capacitor/Pasted image 20240215155314.png",
     "Collégial/4e session/Physique/capacitor",
     "Collégial/4e session/Physique/capacitor/Pasted image 20240215155443.png",
@@ -189,13 +192,9 @@
     "rstert.canvas",
     "Matrix.ipynb",
     "Collégial/4e session/Physique/crossover/Pasted image 20240210101526.png",
-    "Collégial/4e session/Physique/crossover",
     "Collégial/4e session/Physique/crossover/Pasted image 20240210103959.png",
     "Collégial/4e session/Physique/crossover/Pasted image 20240210102843.png",
     "Collégial/4e session/Physique/crossover/Pasted image 20240210102823.png",
-    "Collégial/4e session/Physique/crossover/Pasted image 20240210102754.png",
-    "Connaissance autre",
-    "Collégial",
-    "Collégial/1ere session/Physique"
+    "Collégial/4e session/Physique/crossover/Pasted image 20240210102754.png"
   ]
 }

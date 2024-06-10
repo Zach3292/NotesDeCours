@@ -108,18 +108,23 @@ On doit définir plusieurs caractéristiques sur le persona:
 * Un emploi ou une occupation
 * Un situation familiale
 * Une personnalité
-* Des objectifs personneles,des besoins, des motivations
+* Des objectifs personnels, des besoins, des motivations
+* Des objectifs professionnels
+* Des passe-temps, des centres d'intérêts
+* Son rapport à la technologie ou ses habitudes avec les outils technologiques
+* Une petite biographie (courte histoire de vie)
+* Une citation qui le représente et/ou une description qu'il fait de lui-même.
 
 #### L'attention
 
 Deux types d'attentions:
 1. L'attention réflexe: concerne les besoins primaires *(boire, manger, se protéger, se reproduire)*
-2. L'attentio volontaire: associé à la curiosité, aux intérêtes personnels, eu besoin de comprendre
+2. L'attention volontaire: associé à la curiosité, aux intérêts personnels, eu besoin de comprendre
 
 Il faut *une* attention qui domine dans notre affiche
 
 #### Compréhension
-Étape du processus de persuasion concernatn les arguments présentés au public cible afin de l'inciter à modifier un comportement. Ceux-ci doivent être intelligibiles (facilement compris).
+Étape du processus de persuasion concernant les arguments présentés au public cible afin de l'inciter à modifier un comportement. Ceux-ci doivent être intelligibles (facilement compris).
 
 Deux grands types d'arguments:
 1. Rationnel
@@ -127,7 +132,7 @@ Deux grands types d'arguments:
 
 #### La phrase-choc
 Comme un slogan
-Il s'agit d'une phrase assez courte qui apour but d'être retenue facilement. En publicité sociale, le slogan ou la phrase choc peut entre autres:
+Il s'agit d'une phrase assez courte qui a pour but d'être retenue facilement. En publicité sociale, le slogan ou la phrase choc peut entre autres:
 * Évoquer le comportement déviant et ses conséquences
 * Suggérer les bénéfices liés à l'adoption du comportement souhaité
 * Sensibiliser le public cible

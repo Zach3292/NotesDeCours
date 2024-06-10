@@ -4,6 +4,9 @@ aliases: []
 tags: []
 ---
 
+La pire chose, un monopole médiatique
+
+
 # La responsabilité des médias
 
 Les médias s'orientent vers ce qui est plus profitable: le divertissement

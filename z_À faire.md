@@ -6,28 +6,32 @@ tags:
 ---
 
 [[Éthique et politique]]:
-- [ ] Faire les lectures
-- [/] Écrire argument pour présentation
-
-[[Communication]]:
-- [ ] Commencer la recherche sur la fission nucléaire
+- [ ] Faire mon plan
 
 [[Calcul 3]]:
-- [/] Devoir 2
+- [/] Faire les preuves
+	- [ ] Manque 7e
 
 [[Statistiques et probabilités]]:
-- [ ] Devoir 4
-- [ ] Retranscrire les notes du [[L'estimation|chapitre 5]]
+- [ ] Retranscrire les notes du [[L'estimation|chapitre 5]], et tous les autres
+- [ ] Examen pratique?
 
 [[Arts]]:
-- [ ] Montage photo
-- [ ] Journal de bord photo
-
+- [ ] Finir le travail écrit de mon projet
+- [ ] Enregistrer la chanson
+- [ ] Faire la vidéo
 [[Électricité et magnétisme]]:
-- [ ] **Valider avec Sam la liste de pièces de speaker**
 - [ ] Retranscrire les notes du [[Le courant électrique|chapitre 6]] 
 - [ ] Retranscrire les notes du chapitre 7 
-- [ ] Faire les exercices du [[Le courant électrique|chapitre 6]] et du chapitre 7 
+- [ ] Retranscrire les notes du chapitre 8
+- [ ] Retranscrire les notes du chapitre 9
+- [ ] Retranscrire les notes du chapitre 10 
+- [ ] Faire les exercices du chapitres 9 et 10
+- [ ] Faire l'examen pratique
+- [ ] Faire feuille de note
+- [/] Faire devoir 3
+	- [ ] Faire propre
+- [ ] Faire quiz haut-parleur
 
 Autres:
 - [ ] Retranscrire les notes des autres matières soit:

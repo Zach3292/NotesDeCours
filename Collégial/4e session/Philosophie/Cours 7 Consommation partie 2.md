@@ -62,7 +62,7 @@ tags: []
 
 3. Responsabilité étatique
     * Mathieu est tanné
-    * On est parle pas
+    * On en parle pas
 
 
 
