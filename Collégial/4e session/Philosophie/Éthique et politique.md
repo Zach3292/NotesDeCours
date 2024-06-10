@@ -18,3 +18,4 @@ tags:
 [[Cours 9 Les idéologies sociopolitiques]]
 [[Cours 10 Les idéologies économiques]]
 [[Cours 11 Les idéologies culturelles]]
+[[Plan fin de session]]

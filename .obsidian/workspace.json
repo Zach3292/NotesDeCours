@@ -11,12 +11,8 @@
             "id": "77fb2cc532f708c3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Collégial/4e session/Calcul 3/Note de cours.md",
-                "mode": "preview",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Collégial/4e session/Calcul 3/Note de cours.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Collégial/4e session/Calcul 3/Note de cours.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Collégial/4e session/Calcul 3/Note de cours.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -149,7 +141,12 @@
   },
   "active": "77fb2cc532f708c3",
   "lastOpenFiles": [
+    "Collégial/4e session/Philosophie/Éthique et politique.md",
+    "Collégial/4e session/Calcul 3/Note de cours.md",
+    "Collégial/4e session/Calcul 3/Calcul 3.md",
     "Collégial/4e session/Statistiques/L'estimation.md",
+    "Collégial/4e session/4e session.md",
+    "Collégial/Collégial.md",
     "Collégial/4e session/Statistiques/Loi normale et variables continues.md",
     "Collégial/4e session/Statistiques/Régression.md",
     "Collégial/4e session/Statistiques/Test d'indépendance.md",
@@ -171,11 +168,6 @@
     "Collégial/4e session/Philosophie/Cours 6 Consommation.md",
     "Collégial/4e session/Philosophie/Cours 5 Éthique sentimentaliste.md",
     "Collégial/4e session/Philosophie/Brouillon mi-session.md",
-    "Collégial/4e session/Philosophie/Cours 4 Utilitarisme.md",
-    "Collégial/4e session/Philosophie/Cours 2 Kant.md",
-    "Collégial/4e session/Philosophie/Cours 3 Environnement.md",
-    "Collégial/4e session/Philosophie/Cours 1 Éthique.md",
-    "Collégial/4e session/Philosophie/Cours 10 Les idéologies économiques.md",
     "Collégial/4e session/Français/Persuasion.md~",
     "Collégial/4e session/Philosophie/Cours 11 Les idéologies culturelles.md~",
     "Collégial/4e session/Philosophie/Cours 10 Les idéologies économiques",
