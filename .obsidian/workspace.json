@@ -8,11 +8,15 @@
         "type": "tabs",
         "children": [
           {
-            "id": "77fb2cc532f708c3",
+            "id": "725a6f5629073c16",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Université/S1/APP1/Éléments de base d'un circuit.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Université/S1/APP1/Éléments de base d'un circuit.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Université/S1/APP1/Éléments de base d'un circuit.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Université/S1/APP1/Éléments de base d'un circuit.md"
+              }
             }
           }
         ]
@@ -130,8 +138,8 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
+      "switcher:Open quick switcher": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
@@ -139,54 +147,54 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "77fb2cc532f708c3",
+  "active": "725a6f5629073c16",
   "lastOpenFiles": [
-    "Collégial/4e session/Philosophie/Éthique et politique.md",
-    "Collégial/4e session/Calcul 3/Note de cours.md",
-    "Collégial/4e session/Calcul 3/Calcul 3.md",
-    "Collégial/4e session/Statistiques/L'estimation.md",
-    "Collégial/4e session/4e session.md",
-    "Collégial/Collégial.md",
-    "Collégial/4e session/Statistiques/Loi normale et variables continues.md",
-    "Collégial/4e session/Statistiques/Régression.md",
-    "Collégial/4e session/Statistiques/Test d'indépendance.md",
-    "Collégial/4e session/Statistiques/Test d'hypothèse.md",
-    "à",
-    "Collégial/4e session/Statistiques/Statistiques et probabilités.md",
-    "Collégial/4e session/Philosophie/Plan fin de session.md",
-    "Collégial/3e session/Philosophie/Cours 3 Hume.md",
-    "Collégial/4e session/Philosophie/Cours 9 Les idéologies sociopolitiques.md",
-    "Collégial/4e session/Philosophie/Cours 11 Les idéologies culturelles.md",
-    "z_À faire.md",
-    "Collégial/3e session/Philosophie/Cours 4 Hobbes et Rousseau.md",
-    "Collégial/3e session/Philosophie/Cours 5 Marx.md",
-    "Collégial/3e session/Philosophie/Cours 9 Freud.md",
-    "Collégial/3e session/Philosophie/Cours 8 Sarte.md",
-    "Collégial/3e session/Philosophie/Cours 7 Nietzche.md",
-    "Collégial/3e session/Philosophie/Cours 6 Schopenhauer.md",
-    "Collégial/4e session/Philosophie/Cours 7 Consommation partie 2.md",
+    "Université/S1/APP1/Éléments de base d'un circuit.md",
+    "Université/S1/APP1/Pasted image 20240830102256.png",
+    "Université/S1/APP1/Pasted image 20240830102231.png",
+    "Université/S1/APP1/Pasted image 20240830102140.png",
+    "Université/S1/APP1/S1APP1.md",
+    "Untitled.canvas",
+    "Université/S1/APP1/Untitled.md",
     "Collégial/4e session/Philosophie/Cours 6 Consommation.md",
-    "Collégial/4e session/Philosophie/Cours 5 Éthique sentimentaliste.md",
-    "Collégial/4e session/Philosophie/Brouillon mi-session.md",
+    "Collégial/4e session/Philosophie/Éthique et politique.md",
+    "Collégial/3e session/Philosophie/Cours 8 Sarte.md",
+    "Université/Université.md",
+    "Université/S1/S1.md",
+    "Université/S1/Projet/Projet.md",
+    "Collégial/1ere session/1ere session.md",
+    "Collégial/Collégial.md",
+    "Université/S1/Projet",
+    "Université/S1/APP1",
+    "Université/S1",
+    "Documentation/Documentation.md",
+    "Documentation/Calimacil/Calimacil.md",
+    "Collégial/3e session/Philosophie/Cours 1 Intro.md",
+    "Collégial/3e session/Philosophie/L'être humain.md",
+    "Documentation/Fox in a box/Fox in a box.md",
+    "Documentation/Calimacil",
+    "Documentation/Fox in a box",
+    "Documentation",
+    "z_À faire.md",
+    "Checkbox example.md",
+    "Connaissance autre/rotationnel.md",
+    "Connaissance autre/gradient.md",
+    "Connaissance autre/Formule d'Euler.md",
+    "Connaissance autre/divergence.md",
+    "Connaissance autre/Connaissance pour le plaisir.md",
+    "Connaissance autre/Analyse vectorielle.md",
+    "Collégial/4e session/Calcul 3/Note de cours.md",
+    "Université",
+    "à",
     "Collégial/4e session/Français/Persuasion.md~",
     "Collégial/4e session/Philosophie/Cours 11 Les idéologies culturelles.md~",
-    "Collégial/4e session/Philosophie/Cours 10 Les idéologies économiques",
-    "Collégial/4e session/Philosophie/Cours 9 Politique.md~",
-    "Collégial/4e session/Philosophie/Cours 9 Politique",
-    "Collégial/4e session/Français/Marketing.md~",
-    "Collégial/4e session/Philosophie/Cours 8 Média",
     "Collégial/4e session/Philosophie/Pasted image 20240202200131.png",
     "Collégial/4e session/Physique/capacitor/Pasted image 20240215155314.png",
-    "Collégial/4e session/Physique/capacitor",
     "Collégial/4e session/Physique/capacitor/Pasted image 20240215155443.png",
     "Collégial/4e session/Physique/capacitor/Pasted image 20240215155408.png",
     "Collégial/4e session/Physique/capacitor/Pasted image 20240215155341.png",
     "rstert.canvas",
-    "Matrix.ipynb",
     "Collégial/4e session/Physique/crossover/Pasted image 20240210101526.png",
-    "Collégial/4e session/Physique/crossover/Pasted image 20240210103959.png",
-    "Collégial/4e session/Physique/crossover/Pasted image 20240210102843.png",
-    "Collégial/4e session/Physique/crossover/Pasted image 20240210102823.png",
-    "Collégial/4e session/Physique/crossover/Pasted image 20240210102754.png"
+    "Collégial/4e session/Physique/crossover/Pasted image 20240210103959.png"
   ]
 }
