@@ -71,5 +71,47 @@ Dans un *BOM*, la sélection d'un condensateur se caractérise par six élément
 #### Diode silicium
 La diode sert a rectifié le courant, elle le laisse seulement passer dans un sens jusqu'au sa tension maximale.
 
-### Le potentiomètre
+#### Diode électroluminescente
+Aussi appelé *DEL* ou *LED*. Lorsqu'il y a un tension entre les bornes de *LED*, celle-ci émet de la lumière, la baisse de tension observée dépend de la couleur de la *LED*.
+
+#### Diode infrarouge
+Elle fonctionne de la même manière qu'une *LED* mais elle émet de la lumière infrarouge.
+### Les potentiomètres
+
+Un potentiomètre est une résistance à valeur variable. Sa valeur indiquée est la valeur maximale de la résistance. Il est possible de l'utiliser comme un diviseur de tension facilement.
+
+### Les alimentations
+Pour qu'un circuit fonctionne, il a besoin d'une source d'énergie. C'est le rôle de l'alimentation qui agit en tant que source de tension et de courant. Elle peut être flottante ou non, entre d'autres mots, elle peut être connecter à la mise à la terre ou non.
+
+### Les circuits intégrés
+
+Un circuit intégré est un circuit complet miniaturisé dans un boitier qui peut être *through hole* ou *SMT*. Dans un schéma, il utilise la référence U?. Généralement, la patte 1 du boitier est identifié par un rond blanc sur le boitier ou un gravure. Sur un *PCB*, l'emplacement de la patte 1 est représenté par un carré tandis que toutes les autres pattes sont des ronds. La numérotation des pattes se fait en sens inverse des aiguilles d'une montre. 
+
+Pour faciliter le changement d'un circuit intégré brisé sur un *PCB*, il est recommandé de souder un connecteur tampon *socket* au lieu de souder directement le circuit intégré.
+
+### Le 556
+![[Pasted image 20240830151611.png]]
+Un 556 est un générateur d'ondes carrées doubles, il regroupe deux 555 qui sont des générateurs d'ondes carrées. Lorsque la tension du *threshold* dépasse un seuil qui correspond aux deux tiers du *VCC*, la sortie *output* sera à 0V. Lorsque le *threshold* retourne à un tension sous le tier du *VCC*, la sorite *output* retourne à la tension d'alimentation. La sortie *discharge* quant à elle est à 0V quand la sortie *output* est à 0V, sinon elle est flottante.
+
+Le 556 comporte deux modes d'alimentations, le mode astable et monostable.
+
+#### Mode astable
+
+Le mode astable est un mode cyclique ou la sortie n'est jamais stable, d'où le nom astable. Il est souvent utilisé afin de réaliser une horloge. Pour ce faire, on tire profit du temps de charge et de décharge d'un [[|circuit RC]]. 
+![[Pasted image 20240830152126.png]]
+
+##### Mode de fonctionnement:
+Lorsqu'il est mis sous tension, la tension va monter jusqu'à ce que le condensateur atteigne le 2/3 du *VCC* ce qui va fera tomber la sortie *discharge* à 0V. Ainsi, le condensateur va donc se décharger jusqu'à ce que la tension atteigne 1/3 du *VCC*. La sortie *discharge* va donc revenir flottante et le condensateur va recommencer à se charger. La fréquence de ce cycle ainsi que son rapport cyclique dépendent de la valeur des résistances $R_A$ et $R_B$ sur le schéma.
+
+Les ondes créées seront donc carré et les ondes aux bornes du condensateur seront exponentielles.
+
+La fiche technique du 555 indique un mode astable avec un rapport cyclique de 50% (techniquement impossible avec le présent circuit).
+
+#### Le mode monostable
+
+Lorsqu'on utilise le mode monostable, la sortie du 556 demeure stable jusqu'à ce qu'un front descendant arrive à l'entrée *trigger*. À cette instant, le condensateur va se charger jusqu'à ce que la tension atteigne le 2/3 du *VCC*. Ça va donc créer un impulsion dont la durée peut être changée selon les valeurs du condensateurs et de la résistance.
+
+![[Pasted image 20240830153231.png]]
+
+#### Générateur d'ondes carrées basse fréquence
 

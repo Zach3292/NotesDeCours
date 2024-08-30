@@ -17,12 +17,7 @@ tags:
 - [ ] Retranscrire les notes du chapitre 8
 - [ ] Retranscrire les notes du chapitre 9
 - [ ] Retranscrire les notes du chapitre 10 
-- [ ] Faire les exercices du chapitres 9 et 10
-- [ ] Faire l'examen pratique
-- [ ] Faire feuille de note
-- [/] Faire devoir 3
-	- [ ] Faire propre
-- [ ] Faire quiz haut-parleur
+
 
 Autres:
 - [ ] Retranscrire les notes des autres matières soit:
