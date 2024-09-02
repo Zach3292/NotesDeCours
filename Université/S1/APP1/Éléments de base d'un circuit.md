@@ -24,7 +24,7 @@ Il n'est pas possible de fabriquer toutes les valeurs de résistances existantes
 
 Lorsqu'on fait un *BOM* pour des résistances, on doit inclure l'information suivante:
 - La valeur de la résistance *RES 390K OHM* (390 kOhm)
-- La capacité de dissipation de chaleur du boitier *1/10 W* (jusqu'à 10 watts)
+- La capacité de dissipation de chaleur du boitier *1/10 W* (jusqu'à 1/10 watts)
 - La précision de a résistance *5%* (plus ou moins 5%)
 - La taille de la résistance *0805* (80 millièmes de pouce par 50 millièmes de pouce)
 
@@ -90,6 +90,7 @@ Un circuit intégré est un circuit complet miniaturisé dans un boitier qui peu
 Pour faciliter le changement d'un circuit intégré brisé sur un *PCB*, il est recommandé de souder un connecteur tampon *socket* au lieu de souder directement le circuit intégré.
 
 ### Le 556
+
 ![[Pasted image 20240830151611.png]]
 Un 556 est un générateur d'ondes carrées doubles, il regroupe deux 555 qui sont des générateurs d'ondes carrées. Lorsque la tension du *threshold* dépasse un seuil qui correspond aux deux tiers du *VCC*, la sortie *output* sera à 0V. Lorsque le *threshold* retourne à un tension sous le tier du *VCC*, la sorite *output* retourne à la tension d'alimentation. La sortie *discharge* quant à elle est à 0V quand la sortie *output* est à 0V, sinon elle est flottante.
 
@@ -115,3 +116,15 @@ Lorsqu'on utilise le mode monostable, la sortie du 556 demeure stable jusqu'à c
 
 #### Générateur d'ondes carrées basse fréquence
 
+Pour générer des ondes carrés avec un rapport cyclique de 50%, on peut utiliser une modification du mode astable. 
+![[Pasted image 20240901095857.png]]
+
+Pour calculer la fréquence d'oscillation, on doit fixer certaines valeurs puisqu'il y a trop d'inconnu autrement. On fixe souvent la valeur du condensateur en premier puisqu'il y a moins de possibilité facilement accessible que de résistance.
+
+### Les portes logiques
+
+Il existe trois types de porte logique *(et, ou, et exclusif)* qui peuvent être agencé ensemble avec des inverseurs pour créer une logique complexe. 
+
+Ces portes sont très sensible au bruit, il est donc recommander de connecter les entrées inutilisées à la masse et de laisser les sorties flottantes.
+
+![[Pasted image 20240901102314.png]]
