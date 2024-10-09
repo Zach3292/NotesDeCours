@@ -34,6 +34,27 @@
         "a": 1,
         "rgb": 16711680
       }
+    },
+    {
+      "query": "path:Université  ",
+      "color": {
+        "a": 1,
+        "rgb": 5431473
+      }
+    },
+    {
+      "query": "path:Collégial  ",
+      "color": {
+        "a": 1,
+        "rgb": 16418048
+      }
+    },
+    {
+      "query": "path:\"Connaissance autre\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 10879231
+      }
     }
   ],
   "collapse-display": true,
@@ -46,6 +67,6 @@
   "repelStrength": 11.0530598958333,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.5459073119155066,
+  "scale": 0.3764453386527443,
   "close": true
 }

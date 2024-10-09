@@ -95,6 +95,7 @@ $$\Delta V = Ri$$
 
 Il y a des conducteurs ohmiques et des conducteurs non-ohmiques.
 
+La résistivité d'un matériau est donné par la relation: $$R=\rho\frac{l}{s}$$
 ### 6.6 La puissance électrique
 
 La batterie fait un travail électrique: $W =\Delta U_e = q\Delta V$.

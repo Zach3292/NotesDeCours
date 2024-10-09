@@ -88,6 +88,8 @@ Plateau: correspond aux changements de phases. La température stagne car l'éne
 
 ∆Hsublimation = ∆Hfusion + ∆Hvaporisation 
 
+##### Capacité thermique
+
 Élévation de température (constante): illustre la capacité thermique C (calorifique) soit l'énergie à fournir à un gramme d'un composé pour faire augmenter sa température de un degré celsius
 
 

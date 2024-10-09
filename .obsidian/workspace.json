@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "1f7998f5254f6d09",
+        "id": "b7a93a899b32a07c",
         "type": "tabs",
         "children": [
           {
-            "id": "725a6f5629073c16",
+            "id": "b4b2e7d494492dc5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Université/S1/APP1/Lecture proc 1.md",
+                "file": "Université/S1/APP4/Chapitre 1.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Université/S1/APP1/Lecture proc 1.md",
+                "file": "Université/S1/APP4/Chapitre 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Université/S1/APP1/Lecture proc 1.md",
+                "file": "Université/S1/APP4/Chapitre 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Université/S1/APP1/Lecture proc 1.md"
+                "file": "Université/S1/APP4/Chapitre 1.md"
               }
             }
           }
@@ -147,44 +147,48 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "fe60bb941dfece89",
+  "active": "b4b2e7d494492dc5",
   "lastOpenFiles": [
-    "Université/S1/APP1/Éléments de base d'un circuit.md",
-    "Université/S1/APP1/Lecture proc 1.md",
-    "Université/S1/APP1/Évaluation de la puissance.md",
-    "Université/S1/APP1/Images/Pasted image 20240902143222.png",
-    "Université/S1/APP1/Images/Pasted image 20240902143050.png",
-    "Université/S1/APP1/S1APP1.md",
-    "Université/S1/APP1/Les fonctions transcendantes.md",
-    "Université/S1/S1.md",
-    "Université/S1/Projet/Projet.md",
+    "Université/S1/APP4/Chapitre 3.md",
+    "Université/S1/APP4/Chapitre 2.md",
+    "Université/S1/APP4/S1APP4.md",
+    "Université/S1/APP4/Chapitre 1.md",
+    "Université/S1/APP4/Pasted image 20241008172359.png",
+    "Université/S1/APP4/Capture d’écran, le 2024-10-08 à 13.21.12.png",
+    "Université/S1/APP4/Pasted image 20241008132101.png",
+    "Université/S1/APP4/Pasted image 20241008091914.png",
+    "Université/S1/APP4/Pasted image 20241008092643.png",
+    "Université/S1/APP4/Pasted image 20241008095850.png",
+    "Université/S1/APP4/Pasted image 20241008103746.png",
+    "Université/S1/APP4/Pasted image 20241008105432.png",
+    "Université/S1/APP4/Pasted image 20241008111444.png",
+    "Université/S1/APP4/Pasted image 20241008124024.png",
+    "Collégial/1ere session/Chimie/Gaz, liquides et solides.md",
     "Collégial/4e session/Physique/Le courant électrique.md",
-    "Collégial/4e session/Physique/Le potentiel électrique.md",
-    "Collégial/4e session/Physique/Le théorème de Gauss.md",
-    "Collégial/4e session/Physique/Les champs électriques.md",
-    "Collégial/4e session/Physique/Circuit à courant continu.md",
     "Collégial/4e session/Physique/Électricité et magnétisme.md",
     "Collégial/4e session/Physique/Les condensateurs.md",
     "Collégial/4e session/Physique/La charge électrique.md",
+    "Collégial/4e session/Physique/Le potentiel électrique.md",
+    "Collégial/4e session/Physique/Circuit à courant continu.md",
+    "Collégial/4e session/Physique/Les champs électriques.md",
+    "Collégial/4e session/Physique/Le théorème de Gauss.md",
+    "Université/S1/S1.md",
+    "Université/S1/APP3/introsw.pdf",
+    "Université/S1/APP4",
+    "Université/S1/APP3/S1APP3.md",
+    "Université/S1/APP3",
+    "Collégial/4e session/Calcul 3/Note de cours.md",
+    "Collégial/4e session/Calcul 3/Calcul 3.md",
+    "Université/S1/APP1/Évaluation de la puissance.md",
+    "Université/S1/APP1/Les fonctions transcendantes.md",
+    "Université/S1/APP1/Éléments de base d'un circuit.md",
+    "Université/S1/APP1/S1APP1.md",
+    "Université/S1/APP1/Lecture proc 1.md",
+    "Collégial/2e session/Anglais/Anglais.md",
+    "z_À faire.md",
+    "Université/S1/Projet/Projet.md",
     "Collégial/4e session/Physique/Crossover.md",
-    "Collégial/4e session/Physique/Courant alternatif.md",
-    "Université/S1/APP1/Plan de validation de conception et plan de test.md",
-    "Université/S1/APP1/Images/Pasted image 20240901113610.png",
-    "|circuit RC.md",
-    "Université/S1/APP1/Images/Pasted image 20240901111411.png",
     "Université/S1/APP1/Images",
-    "Université/S1/APP1/Images/Pasted image 20240901102314.png",
-    "Université/S1/APP1/Images/Pasted image 20240901095857.png",
-    "Université/S1/APP1/Images/Pasted image 20240830153231.png",
-    "Université/S1/APP1/Images/Pasted image 20240830152126.png",
-    "Université/S1/APP1/Images/Pasted image 20240830151611.png",
-    "Connaissance autre/Analyse vectorielle.md",
-    "Connaissance autre/Connaissance pour le plaisir.md",
-    "Connaissance autre/rotationnel.md",
-    "Connaissance autre/gradient.md",
-    "Connaissance autre/divergence.md",
-    "Connaissance autre/Formule d'Euler.md",
-    "Université/S1/APP1/Images/Pasted image 20240830102256.png",
     "Untitled.canvas",
     "Université/S1/Projet",
     "Université/S1/APP1",
@@ -192,9 +196,6 @@
     "Documentation/Calimacil",
     "Documentation/Fox in a box",
     "Documentation",
-    "Université",
-    "à",
-    "Collégial/4e session/Français/Persuasion.md~",
     "rstert.canvas"
   ]
 }

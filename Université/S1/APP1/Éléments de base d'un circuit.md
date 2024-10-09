@@ -20,7 +20,7 @@ Pour la précision, le code suivant est utilisé:
 Cependant certains sites pratiques tel que [Digikey](https://www.digikey.ca/en/resources/conversion-calculators/conversion-calculator-resistor-color-code) permettent de rapidement calculé ces valeurs.
 
 #### Autres infos
-Il n'est pas possible de fabriquer toutes les valeurs de résistances existantes, c'Est pourquoi un ensemble de 24 valeurs a été créé. Celui-ci s'appelle le E24 et comporte ces valeurs ainsi que toutes leurs multiplicateurs en base 10: 100 – 110 – 120 – 130 – 150 – 160 – 180 – 200 – 220 – 240 – 270 – 300 330 – 360 – 390 – 430 – 470 – 510 – 560 – 620 – 680 – 750 – 820 - 910
+Il n'est pas possible de fabriquer toutes les valeurs de résistances existantes, c'Est pourquoi un ensemble de 24 valeurs a été créé. Celui-ci s'appelle le E24 et comporte ces valeurs ainsi que toutes leurs multiplicateurs en base 10: 100 – 110 – 120 – 130 – 150 – 160 – 180 – 200 – 220 – 240 – 270 – 300 - 330 – 360 – 390 – 430 – 470 – 510 – 560 – 620 – 680 – 750 – 820 - 910
 
 Lorsqu'on fait un *BOM* pour des résistances, on doit inclure l'information suivante:
 - La valeur de la résistance *RES 390K OHM* (390 kOhm)
@@ -98,7 +98,7 @@ Le 556 comporte deux modes d'alimentations, le mode astable et monostable.
 
 #### Mode astable
 
-Le mode astable est un mode cyclique ou la sortie n'est jamais stable, d'où le nom astable. Il est souvent utilisé afin de réaliser une horloge. Pour ce faire, on tire profit du temps de charge et de décharge d'un [[|circuit RC]]. 
+Le mode astable est un mode cyclique ou la sortie n'est jamais stable, d'où le nom astable. Il est souvent utilisé afin de réaliser une horloge. Pour ce faire, on tire profit du temps de charge et de décharge d'un [[Circuit à courant continu#7.7 Circuits RC|circuit RC]].
 ![[Pasted image 20240830152126.png]]
 
 ##### Mode de fonctionnement:
