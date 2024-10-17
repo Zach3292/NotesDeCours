@@ -81,9 +81,9 @@ Une surcharge de stress nous amène à ressentir la fatigue, la démotivation et
 ### Biologie du stress
 
 #### Mauvais stress
-Lorsque le corps détecte une *menace*, les amygdales envoient un signal au cerveau et celui-ci commence la production d'hormones tel que la cortisol qui sont libérés dans le sang. Ces hormones déclenchent les différents [[#Les symptômes du stress négatif|syndromes du stress négatif]]. 
+Lorsque le corps détecte une *menace*, les amygdales envoient un signal au cerveau et celui-ci commence la production d'hormones tel que la cortisol qui sont libérés dans le sang. Ces hormones déclenchent les différents [[#Les symptômes du stress négatif|symptômes du stress négatif]]. 
 #### Le bon stress
-C'est aussi dans l'amygdale que s'élabore le processus de motivation et en contrepartie notre capacité d'apprendre. Il y a une différence cruciale entre le bon stress d'un défi qui nous captive et nous motive et le mauvais stress d'une menace qui nous submerge
+C'est aussi dans l'amygdale que s'élabore le processus de motivation et en contrepartie notre capacité d'apprendre. Il y a une différence cruciale entre le bon stress d'un défi qui nous captive et nous motive et le mauvais stress d'une menace qui nous submerge.
 
 ### La gestion du stress
 #### Acquisition de connaissances
@@ -98,7 +98,7 @@ Il faut gagner des compétences en [[L'analyse et la résolution de problème|r�
 
 Voici des étapes pour définir clairement ses objectifs:
 - Formulez votre objectif en termes positifs pour soutenir la motivation. 
-- Visez un résultat précis, concret et observable. 
+- Visez un résultat précis, concret et observable. (Objectif S.M.A.R.T.)
 - Assurez-vous que votre objectif est sous votre maîtrise et qu’il dépend directement de vous. 
 - Construisez-vous une image mentale de ce que sera l’atteinte de votre objectif. 
 - Assurez-vous que votre objectif tient compte non seulement de vos intérêts mais de ceux des personnes touchées (position gagnant-gagnant). 

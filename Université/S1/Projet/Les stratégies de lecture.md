@@ -4,9 +4,9 @@ Il faut savoir pourquoi on lit:
 - Pour apprendre
 - Pour s'informer
 - Pour analyser
-Savoir pourquoi on lit permet d'utiliser les bonnes stratégies de lecture
+Savoir pourquoi on lit permet d'utiliser les bonnes stratégies de lecture.
 ### Quand lire?
-Il faut choisir un moment propice à la lecture. Ça varie pour chaque individu. Il s'agit d'un moment où nous sommes concentrés et bien éveillés. Il est aussi important de prendre des pauses à un intervalle régulier pour permettre au cerveau de traiter l'information. Ces pauses donnent au corps l'occasion de se reposer, elles maximisent la compréhension et permettent aux nouvelles données de s'intégrer à nos connaissances antérieures.
+Il faut choisir un moment propice à la lecture. Ça varie pour chaque individu. Il s'agit d'un moment où nous sommes concentrés et bien éveillés. Il est aussi important de prendre des pauses à un intervalle régulier pour permettre au cerveau de traiter l'information. Ces pauses donnent au corps l'occasion de se reposer. Elles maximisent la compréhension et permettent aux nouvelles données de s'intégrer à nos connaissances antérieures.
 ### Comment lire?
 Il faut:
 - Délimiter le domaine à couvrir

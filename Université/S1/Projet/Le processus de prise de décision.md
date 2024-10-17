@@ -1,15 +1,15 @@
 ### Les modes de prise de décision
 #### L'unanimité
-Lorsque tout le monde est d'accord sans le besoin de discussion ou d'argumentation. C'est quasiment impossible
+Lorsque tout le monde est d'accord sans le besoin de discussion ou d'argumentation. C'est quasiment impossible.
 #### Le consensus
-Comme l'unanimité, mais suite à une discussion, les gens trouvent un compromis où tout le monde est d'accord. Il s'agit du mode de décision perçu comme idéal mais il n'y a aucun mode parfait. 
+Comme l'unanimité, mais suite à une discussion, les gens trouvent un compromis où tout le monde est d'accord. Il s'agit du mode de décision perçu comme idéal, mais il n'y a aucun mode parfait. 
 #### La majorité
 Le mode de décision le plus populaire. Il existe plusieurs variante:
 - Majorité simple: 50% +1 des votes
 - Majorité: pourcentage de vote nécessaire plus haut que 50%, par exemple 75%
 - Majorité pondérée: en fonction d'une valeur plus ou  moins grande accordée à chaque solution
 #### La minorité
-Il arrive parfois que l'on confie à un petit nombre le soin de décider
+Il arrive parfois que l'on confie à un petit nombre le soin de décider.
 #### Individuelle
 Dans plusieurs situations, même si on fait partie d'une équipe, le choix est fait par une seule personne:
 - Position d'autorité
