@@ -13,11 +13,11 @@ Il faut ensuite bien structurer le projet
 - les facteurs techniques
 - les ressources humaines
 
-Il est conseillé de faire une charte des responsabilité: qui est responsable de quoi dans le projet. Souvent sur forme de tableau, elle présente les activités ou fonctions requises ainsi que les participants impliqués
+Il est conseillé de faire une charte des responsabilités; qui est responsable de quoi dans le projet. Souvent sous forme de tableau, elle présente les activités ou fonctions requises ainsi que les participants impliqués.
 
-Il faut établir un bon échéancier avec plusieurs objectifs intermédiaires réalisables. L'échéancier doit avoir des dates limites ainsi qu'un ordre logique des activités. Il doit montré les dépendances de certaines tâches envers d'autres. Il est important de régulièrement mettre à jour l'échéancier
+Il faut établir un bon échéancier avec plusieurs objectifs intermédiaires réalisables. L'échéancier doit avoir des dates limites ainsi qu'un ordre logique des activités. Il doit montré les dépendances de certaines tâches envers d'autres. Il est important de régulièrement mettre à jour l'échéancier.
 
-Il faut faire une bonne estimation des ressources nécessaires à la réalisation du projet
+Il faut faire une bonne estimation des ressources nécessaires à la réalisation du projet.
 
 ### Les diagrammes de suivi
 #### Le diagramme de Gantt
