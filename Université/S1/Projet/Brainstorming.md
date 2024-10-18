@@ -4,7 +4,7 @@ Une bonne méthode pour sortir plusieurs idées rapidement.
 - Exprimez vos idées sans gênes
 - C'est la quantité d'idées qui compte
 - La combinaisons et les améliorations sont souhaitables
-- Un temps creux n'Est pas un fin en soi, il faut relancer
+- Un temps creux n'est pas un fin en soi, il faut relancer
 
 ### Les étapes à suivre
 1. Définir le sujet
