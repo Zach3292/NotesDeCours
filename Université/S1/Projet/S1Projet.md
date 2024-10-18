@@ -5,7 +5,7 @@
 [[Les stratégies de lecture]]
 [[La gestion de son temps]]
 [[Les schémas]]
-[[Le registre]]
+[[Le registre (Log Book)]]
 [[Le processus de prise de décision]]
 [[L'analyse et la résolution de problème]]
 [[La gestion de projet]]

@@ -1,14 +1,16 @@
 ### Mandat de l'ingénieur
-Ce qui caractérise le lien entre l'ingénieur et son client
-Le mandat de l'ingénieur comporte l'ensemble des services ou des travaux à exécuter pendant la réalisation d'un projet
+Ce qui caractérise le lien entre l'ingénieur et son client.
+Le mandat de l'ingénieur comporte l'ensemble des services ou des travaux à exécuter pendant la réalisation d'un projet.
 
 #### La raison du mandat écrit
-En absence de mandat écrit, l'ingénieur se met à risque
+En absence de mandat écrit, l'ingénieur se met à risque.
 
-Le mandat écrit officialise le contrat de l'ingénieur ainsi que les condition de celui-ci.
+Le mandat écrit officialise le contrat de l'ingénieur ainsi que les conditions de celui-ci.
 
 On y retrouve les informations suivantes:
-- Les coorodnnées du client
+
+- Les coordonnées du client
+
 - La date de l'entente
 - Une description sommaire du mandat
 - Les tâches accomplies
@@ -31,11 +33,11 @@ Pour les ingénieurs dont le travail ne consiste pas à consulter ou à donner d
 
 ### Loi et encadrement de la profession
 #### Le Code des professions
-Une loi qui régit l'ensemble du système professionnel au Québec. Il s'agit d'une loi générale cherchant à **protéger le public en matière de service professionnel**
+Une loi qui régit l'ensemble du système professionnel au Québec. Il s'agit d'une loi générale cherchant à **protéger le public en matière de service professionnel**.
 #### Le gouvernement
 
 ##### Et les ordres professionnels
-- Il applique certain règlement adoptés par des ordres professionnels comme les codes de déontologie
+- Il applique certains règlements adoptés par des ordres professionnels comme les codes de déontologie
 - Il peut modifier les règlements des ordres professionnels
 - Il peut placer sous la direction d'une ou plusieurs personnes tout ordre professionnel dans une situation financière déficitaire
 ##### Et la formation
@@ -53,7 +55,7 @@ La principale fonction de chacun des ordres est d'**assurer la protection du pub
 - Réglementer l'exercice de la profession et veiller au respect des lois
 - Gérer les processus disciplinaires
 - Favoriser le développement de la profession
-- Contrôler l'exercice illégale de la profession et l'usurpation de titre
+- Contrôler l'exercice illégal de la profession et l'usurpation de titre
 - Produire un rapport annuel
 ##### Les critères de formation
 Il y a plusieurs critères pour pouvoir devenir un ordre professionnel:
@@ -81,14 +83,14 @@ Les ingénieurs ont des obligations envers:
 
 ### Exercices en société
 #### Ce qui est interdit
-Un ingénieur ne peut exercer des activités professionnelles au sein d'une société par actions ou d'une société en nom collectif à responsabilité limitée constituée dans le but d'offrir des services de génie, tant que l'Ordre n'a pas adopté de règlement l'y autorisant
+Un ingénieur ne peut exercer des activités professionnelles au sein d'une société par actions (*SPA*) ou d'une société en nom collectif à responsabilité limitée (*SENCRL*) constituée dans le but d'offrir des services de génie, tant que l'Ordre n'a pas adopté de règlement l'y autorisant.
 #### Ce qui est permis
 - Exercer des activités professionnelles au sein d’une société qui est constituée dans un autre but que la prestation de services de génie
 - Exercer au sein d’une société des activités qui ne relèvent pas du génie (par exemple, offrir de la formation); 
 - Exercer dans une entreprise individuelle ou au sein d’un autre type de société ou d’entité, comme une société en nom collectif, une société en commandite, etc.
 
 #### Société de gestion
-Les ingénieurs peuvent confier des tâches d'administration à une *SPA* mais aucun contrât d'activité professionnelle ne peut être signer au nom de cette entreprise
+Les ingénieurs peuvent confier des tâches d'administration à une *SPA*  mais aucun contrat d'activité professionnelle ne peut être signé au nom de cette entreprise.
 
 #### Conséquences en cas de contravention
 Les ingénieurs qui exercent illégalement leurs activités au sein d’une *SPA* ou d’une *SENCRL* sont passibles de sanctions disciplinaires allant de la réprimande à la révocation de leur permis d’exercice.
@@ -96,7 +98,7 @@ Les ingénieurs qui exercent illégalement leurs activités au sein d’une *SPA
 #### Règle particulière
 Une *SPA* ou une *SENCRL* ne peut inclure dans son nom l’un des mots suivants : ingénieur, génie, ingénierie, engineer ou engineering, sauf si ce mot faisait partie de son nom le 16 juillet 1964
 
-La SPA dont le nom contrevient à la loi peut faire l’objet d’une poursuite pénale et est passible d’une amende. Dans le cas d’une SENCRL, les associés de celle-ci peuvent faire l’objet de poursuites disciplinaires s’ils sont membres de l’Ordre des ingénieurs du Québec ou pénales s’ils ne sont pas inscrits au tableau de l’Ordre.
+La *SPA* dont le nom contrevient à la loi peut faire l’objet d’une poursuite pénale et est passible d’une amende. Dans le cas d’une *SENCRL*, les associés de celle-ci peuvent faire l’objet de poursuites disciplinaires s’ils sont membres de l’Ordre des ingénieurs du Québec ou pénales s’ils ne sont pas inscrits au tableau de l’Ordre.
 
 ### Admission à l'exercice de la profession
 Après avoir fait un baccalauréat en ingénierie inscrit selon le [[Les qualités de l'ingénieur#Le BCAPG|BCAPG]], le comité d'admission à l'exercice donne un permis d'ingénieur junior. On est ensuite inscrit au tableau à titre d'ingénieur junior. Suite à une acquisition d'expérience, à du parrainage et à un examen professionnel, le comité donne le permis d'ingénieur.
@@ -112,4 +114,4 @@ Après avoir fait un baccalauréat en ingénierie inscrit selon le [[Les qualit�
 #### Qu'est-ce qui distingue un professionnel d'un non-professionnel
 Pour la plupart des gens, un professionnel est simplement quelqu'un qui fait bien son travail pour lequel il est payé, par contre, il y a une distinction à faire.
 
-Un professionnel est, au sens de la loi, une personne possédant un savoir très spécialisé, d'un niveau de complexité élevé. Ses actes ne peuvent être évalué que par des pairs.
+Un professionnel est, au sens de la loi, une personne possédant un savoir très spécialisé, d'un niveau de complexité élevé. Ses actes ne peuvent être évalués que par des pairs.

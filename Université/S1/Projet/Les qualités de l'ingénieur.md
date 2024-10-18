@@ -1,7 +1,7 @@
 ### Le BCAPG
 Le Bureau canadien d'agrément des programmes de génie (BCAPG) gouverne les programmes accrédités de génie au Canada.
 
-Il met en place une liste de qualité qui doivent être transmise au étudiant dans des problèmes de génie
+Il met en place une liste de qualités qui doivent être transmises aux étudiants dans des programmes de génie.
 
 ### Les 12 qualités
 #### Connaissances en génie
@@ -17,11 +17,11 @@ Capacité de créer et de sélectionner des techniques, des ressources et des ou
 #### Travail individuel et en équipe
 Capacité de fonctionner efficacement en tant que membre ou chef d’équipe, de préférence dans un contexte de travail multidisciplinaire.
 #### Communication
-Habileté à communiquer efficacement des concepts d’ingénierie complexes, au sein de la profession et au public en général, notamment lire, rédiger, parler et écouter, comprendre et rédiger de façon efficace des rapports et de la documentation pour la conception, ainsi qu’énoncer des directives claires et y donner suite.
+Habileté à communiquer efficacement des concepts d’ingénierie complexes au sein de la profession et au public en général; notamment lire, rédiger, parler et écouter, comprendre et rédiger de façon efficace des rapports et de la documentation pour la conception, ainsi qu’énoncer des directives claires et y donner suite.
 #### Professionnalisme
 Compréhension des rôles et des responsabilités de l’ingénieur dans la société, y compris le rôle essentiel de protection du public et l’intérêt public.
 #### Impact du génie sur la société et l'environnement
-Capacité à analyser les aspects sociaux et environnementaux des activités liées au génie, notamment comprendre les interactions du génie avec les aspects économiques et sociaux, la santé, la sécurité, les lois et la culture de la société; les incertitudes liées à la prévision de telles interactions; et les concepts de développement durable et de bonne gérance de l’environnement.
+Capacité à analyser les aspects sociaux et environnementaux des activités liées au génie; notamment comprendre les interactions du génie avec les aspects économiques et sociaux, la santé, la sécurité, les lois et la culture de la société; les incertitudes liées à la prévision de telles interactions; et les concepts de développement durable et de bonne gérance de l’environnement.
 #### Déontologie et équité
 Capacité à appliquer les principes d’éthique, de responsabilité professionnelle et d’équité.
 #### Économie et gestion de projets
