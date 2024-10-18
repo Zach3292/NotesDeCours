@@ -8,7 +8,7 @@ En absence de mandat écrit, l'ingénieur se met à risque
 Le mandat écrit officialise le contrat de l'ingénieur ainsi que les condition de celui-ci.
 
 On y retrouve les informations suivantes:
-- Les coorodnn.es du client
+- Les coorodnnées du client
 - La date de l'entente
 - Une description sommaire du mandat
 - Les tâches accomplies
