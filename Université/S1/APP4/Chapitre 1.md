@@ -113,6 +113,8 @@ L'essai de compression ne permet pas d'atteindre la rupture sur un matériau duc
 
 Ils sont très utiles pour déterminer la contrainte de rupture des matériaux fragiles qui résistent mal à la traction.
 
+Matériau isotrope: même propriété peu importe dans quel axe on évalue.
+
 #### 1.2.3 Essai de flexion
 
 ![[Pasted image 20241008131514.png]]
@@ -144,6 +146,7 @@ La dureté d'un matériau représente sa résistance à la pénétration. Il y a
 *Fragilité*: se dit d'un matériau ne pouvant pas se déformer de manière plastique
 *Ténacité*: résistance à la propagation brutale de fissures
 *Dureté*: résistance à la pénétration
+*Malléabilité*: capacité de se déformer plastiquement en compression
 
 ### Complément
 #### Capacité thermique

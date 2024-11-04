@@ -14,7 +14,7 @@ Par convention, on écrit les sinus comme des cosinus grâce à l'identité $$\s
 L'équation de Shockley relie le voltage au courant pour des petites diodes de signal.
 $$i_D = I_S \left[ \exp{\left(\frac{v_D}{nV_T}\right)}-1\right]$$
 $I_S$ représente le courant de saturation qui est de l'ordre de grandeur de $10^{-14}A$ à $300 K$ et qui double pour chaque augmentation de $5K$.
-n représente e coefficient d'émission et prend des valeurs entre 1 et 2
+n représente le coefficient d'émission et prend des valeurs entre 1 et 2
 $i_D$ est le courant au travers de la diode
 $v_D$ est le voltage au travers de la diode
 $V_T$ représente le voltage thermique qui veut $$V_T=\frac{kT}{q}$$
