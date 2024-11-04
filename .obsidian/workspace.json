@@ -11,12 +11,8 @@
             "id": "235c6e6f11aad635",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Université/S1/APP5/Chapitre 10.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Université/S1/APP5/Chapitre 10.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Université/S1/APP5/Chapitre 10.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Université/S1/APP5/Chapitre 10.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -149,24 +141,29 @@
   },
   "active": "235c6e6f11aad635",
   "lastOpenFiles": [
-    "Pasted image 20241103193647.png",
     "Université/S1/APP5/Chapitre 13.md",
-    "Université/S1/APP5/Chapitre 2.md",
     "Université/S1/APP5/Chapitre 10.md",
-    "Université/S1/APP5/S1APP5.md",
-    "Université/S1/APP5/Pasted image 20241103191821.png",
-    "Université/S1/APP1/Lecture proc 1.md",
     "Université/S1/APP5/Chapitre 9.md",
-    "Université/S1/APP1/Les fonctions transcendantes.md",
-    "Université/S1/APP1/Éléments de base d'un circuit.md",
-    "Université/S1/APP5/Pasted image 20241103185804.png",
-    "Université/S1/APP5/Pasted image 20241103185510.png",
-    "Université/S1/APP5/Pasted image 20241103184621.png",
-    "Université/S1/APP5/Pasted image 20241103155413.png",
-    "Université/S1/APP5/Pasted image 20241103154409.png",
-    "Université/S1/APP5/Pasted image 20241103142045.png",
-    "Université/S1/APP5/Pasted image 20241103141800.png",
+    "Université/S1/APP5/Chapitre 2.md",
     "Collégial/4e session/Physique/Circuit à courant continu.md",
+    "Université/S1/APP5/S1APP5.md",
+    "Université/S1/APP1/Lecture proc 1.md",
+    "Université/S1/APP1/Plan de validation de conception et plan de test.md",
+    "Université/S1/APP1/Les fonctions transcendantes.md",
+    "Université/S1/APP1/Évaluation de la puissance.md",
+    "Université/S1/APP1/Éléments de base d'un circuit.md",
+    "Université/S1/APP5/Images/Pasted image 20241103193647.png",
+    "Université/S1/APP5/Images/Pasted image 20241103142045.png",
+    "Université/S1/APP4/Images/Pasted image 20241008103746.png",
+    "Université/S1/APP5/Images",
+    "Université/S1/APP4/Images",
+    "Université/S1/APP5/Images/Pasted image 20241103191821.png",
+    "Université/S1/APP5/Images/Pasted image 20241103185804.png",
+    "Université/S1/APP5/Images/Pasted image 20241103185510.png",
+    "Université/S1/APP5/Images/Pasted image 20241103184621.png",
+    "Université/S1/APP5/Images/Pasted image 20241103155413.png",
+    "Université/S1/APP5/Images/Pasted image 20241103154409.png",
+    "Université/S1/APP5/Pasted image 20241103141800.png",
     "Université/S1/APP4/S1APP4.md",
     "Université/S1/S1.md",
     "Université/S1/APP4/Chapitre 2.md",
@@ -182,10 +179,6 @@
     "Connaissance autre/divergence.md",
     "Connaissance autre/Formule d'Euler.md",
     "Université/S1/Projet/Brainstorming.md",
-    "Université/S1/Projet/S1Projet.md",
-    "Université/S1/Projet/La métacognition.md",
-    "Université/S1/APP4/Pasted image 20241014152153.png",
-    "Université/S1/Projet/Pasted image 20241014145106.png",
     "Université/S1/APP3/introsw.pdf",
     "Université/S1/APP4",
     "Université/S1/APP3",
@@ -194,8 +187,6 @@
     "Université/S1/Projet",
     "Université/S1/APP1",
     "Université/S1",
-    "Documentation/Calimacil",
-    "Documentation/Fox in a box",
     "rstert.canvas"
   ]
 }

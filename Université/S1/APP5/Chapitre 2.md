@@ -1,5 +1,5 @@
 ### 2.4 Analyse de voltage en un point
-Nécessaire lorsque les loi de Kirchhoff ne peuvent pas être utilisé ni les principes de diviseur de tension et de courant.
+Nécessaire lorsque [[Circuit à courant continu#7.2 Les lois de Kirchoff|les loi de Kirchhoff]] ne peuvent pas être utilisé ni les principes de diviseur de tension et de courant.
 #### Sélection du point de référence
 En théorie, on peut choisir n'importe quelle point comme référence mais choisir un des points de la source de voltage est recommandé puisque cela simplifie les calculs. 
 #### Assignation des voltages de point
@@ -15,7 +15,7 @@ S'il y a plusieurs source de tension dans le circuit, on peut faire des *superpo
 
 #### Résumé de la méthode
 1. Combiner les résistances en parallèle et en série et assigner les points de référence.
-2. Écrire les équations de points et des *superpoints* en commençant par KCL et ensuite KVL si nécessaire.
+2. Écrire les équations de points et des *superpoints* en commençant par [[Circuit à courant continu#Loi des noeuds|KCL]] et ensuite [[Circuit à courant continu#Loi des mailles|KVL]] si nécessaire.
 3. Substituer les variables controlantes des sources dépendantes par leur valeur.
 4. Mettre les équations en forme standard et résoudre le système pour trouver les tensions aux points.
 5. Utilisé les valeurs pour trouver les courants ou tensions d'intérêts.
@@ -52,7 +52,7 @@ Le voltage Thévenin est égal voltage du circuit ouvert du réseau original.
 
 La résistance Thévenin est égale au voltage du circuit ouvert divisé par le courant de court-circuit du réseau original.
 
-S'il n'y a aucune source dépendante, on peut trouver la résistance THévenin en *zéroant* les sources, on remplace les sources de tensions par des court-circuits et les sources de courant par des circuits ouverts. On calcule ensuite la résistance équivalente entre les deux bornes.
+S'il n'y a aucune source dépendante, on peut trouver la résistance Thévenin en *zéroant* les sources, on remplace les sources de tensions par des court-circuits et les sources de courant par des circuits ouverts. On calcule ensuite la résistance équivalente entre les deux bornes.
 
 ##### Thévenin avec source dépendante
 On ne peut pas utiliser le raccourci pour la résistance alors on doit calculer à la main.

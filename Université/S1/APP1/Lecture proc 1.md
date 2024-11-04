@@ -22,8 +22,8 @@ où $k =1.38 \times 10^{-23} J/K$, $T$ est la température en kelvin et $q = 1.6
 
 #### Diode Zener
 Les diodes Zeners sont des diodes qui sont fait pour fonctionner au alentour de leur voltage limite. Elles sont souvent utilisées pour faire des régulateurs de voltage. ![[Pasted image 20240902143050.png]]
-#### Technique de load lines:
+#### Technique de droites de charges:
 ![[Pasted image 20240902143222.png]]
 
-Une bonne vidéo sur les load line: https://youtu.be/TaTGnbxIMdY  
+Une bonne vidéo sur les droites de charges: https://youtu.be/TaTGnbxIMdY  
 Une bonne vidéo sur les diodes en général: https://youtu.be/l2y-w9aS98k
