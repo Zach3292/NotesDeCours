@@ -11,8 +11,12 @@
             "id": "235c6e6f11aad635",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Université/S1/APP5/Chapitre 2.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Université/S1/APP5/Chapitre 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Université/S1/APP5/Chapitre 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Université/S1/APP5/Chapitre 2.md"
+              }
             }
           }
         ]
@@ -141,13 +149,13 @@
   },
   "active": "235c6e6f11aad635",
   "lastOpenFiles": [
-    "Université/S1/APP5/Chapitre 13.md",
     "Université/S1/APP5/Chapitre 10.md",
+    "Université/S1/APP1/Lecture proc 1.md",
     "Université/S1/APP5/Chapitre 9.md",
+    "Université/S1/APP5/Chapitre 13.md",
     "Université/S1/APP5/Chapitre 2.md",
     "Collégial/4e session/Physique/Circuit à courant continu.md",
     "Université/S1/APP5/S1APP5.md",
-    "Université/S1/APP1/Lecture proc 1.md",
     "Université/S1/APP1/Plan de validation de conception et plan de test.md",
     "Université/S1/APP1/Les fonctions transcendantes.md",
     "Université/S1/APP1/Évaluation de la puissance.md",

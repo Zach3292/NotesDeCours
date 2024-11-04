@@ -1,3 +1,5 @@
+### 2.1 Résistance en série et parallèle
+Voir [[Circuit à courant continu#7.4 Associativité des résistances]] pour les formules
 ### 2.4 Analyse de voltage en un point
 Nécessaire lorsque [[Circuit à courant continu#7.2 Les lois de Kirchoff|les loi de Kirchhoff]] ne peuvent pas être utilisé ni les principes de diviseur de tension et de courant.
 #### Sélection du point de référence
@@ -28,7 +30,7 @@ On définit un  courant se promenant dans le sens horaire pour chaque boucle du 
 Quand plusieurs maille de courant circulent au travers d'une même composante, on considère que le courant de la composante vaut la somme algébrique de chaque maille. *Dans l'image ci-dessus, le courant de $R_2$ vaut $i_3-i_1$.* 
 
 #### Écrire les équations
-Pour écrire les équations permettant de résoudre les circuits à courant maillé, on fait simplement KVL en suivant chaque maille, pas besoin d'utiliser KCL. **Cela est valide s'il y a uniquement des résistances et des sources indépendantes.**
+Pour écrire les équations permettant de résoudre les circuits à courant maillé, on fait simplement KVL en suivant chaque maille, pas besoin d'utiliser KCL. **Cela est valide s'il y a uniquement des résistances et des sources indépendantes.** On additionne les résistances de chaque maille et elles sont égales à la source de cette maille.
 
 #### Circuits maillés avec source de courant
 S'il y a une source de courant, on n'évite de faire KVL pour cette maille puisqu'on ne connait pas la tension au travers de la source de courant. 
@@ -44,7 +46,7 @@ On fait simplement remplacer la variable controlante par sa valeur et procède c
 
 ### 2.6 Équivalence Thévenin et Norton
 ![[Pasted image 20241103185510.png]]
-
+Bonne vidéo youtube sur les équivalences: https://youtu.be/-kkvqr1wSwA?si=dGCnqdKgt_sbQnFt
 #### Équivalence Thénevin
 Représente une source indépendante de tension et un résistance en série.
 
