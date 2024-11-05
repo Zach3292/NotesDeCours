@@ -22,3 +22,6 @@ Lors d'un branchement avec un retour positif, le signal de sortie va augmenter j
 ### 13.3 Amplificateur non-inverseur
 ![[Pasted image 20241105095703.png]]
 Le gain d'un ampli non-inverse sera donné par l'équation suivante: $$A = \frac{v_o}{v_{in}} = \frac{v_o}{v_o\cdot \left(\frac{R_1}{R_1+R_2}\right)} = \frac{R_1+R_2}{R_1} = 1+\frac{R_2}{R_1}$$
+### Si une broche n'est pas à zéro volt
+![[Pasted image 20241105153703.png]]
+On doit combiner les équations de l'ampli inverseur et de l'ampli non-inverseur. Pour la broche positive, on prend celle de l'ampli non-inverseur tandis que pour la broche on prend l'équation de l'ampli inverseur: $$ v_o = v_2\left(1+\frac{R_4}{R_3}\right)-v_1\left(\frac{R_4}{R_3}\right)$$
