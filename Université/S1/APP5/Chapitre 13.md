@@ -18,3 +18,7 @@ Si on assume un op-amp idéal, le gain est seulement déterminer par les résist
 
 #### Retour positif
 Lors d'un branchement avec un retour positif, le signal de sortie va augmenter jusqu'à la limite que l'ampli-op peut produire. Cependant, si le signal d'entrée était négatif, le circuit ne serait pas un amplificateur puisque la sortie serait coincé à l'extrême négatif du amp-op.
+
+### 13.3 Amplificateur non-inverseur
+![[Pasted image 20241105095703.png]]
+Le gain d'un ampli non-inverse sera donné par l'équation suivante: $$A = \frac{v_o}{v_{in}} = \frac{v_o}{v_o\cdot \left(\frac{R_1}{R_1+R_2}\right)} = \frac{R_1+R_2}{R_1} = 1+\frac{R_2}{R_1}$$

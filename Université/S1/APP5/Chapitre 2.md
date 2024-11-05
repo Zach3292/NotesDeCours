@@ -33,7 +33,7 @@ Quand plusieurs maille de courant circulent au travers d'une même composante, o
 Pour écrire les équations permettant de résoudre les circuits à courant maillé, on fait simplement KVL en suivant chaque maille, pas besoin d'utiliser KCL. **Cela est valide s'il y a uniquement des résistances et des sources indépendantes.** On additionne les résistances de chaque maille et elles sont égales à la source de cette maille.
 
 #### Circuits maillés avec source de courant
-S'il y a une source de courant, on n'évite de faire KVL pour cette maille puisqu'on ne connait pas la tension au travers de la source de courant. 
+S'il y a une source de courant, on n'évite de faire KVL pour cette maille puisqu'on ne connait pas la tension au travers de la source de courant. **Ce n'est pas zéro!**
 
 ##### Source dans une seule maille
 Si la source de courant est dans une seul maille, on peut simplement remplacer la valeur de courant inconnu de la maille par le courant de la source. 
@@ -42,22 +42,25 @@ Si la source de courant est dans une seul maille, on peut simplement remplacer l
 Si la source est dans plusieurs mailles, on défini une *supermaille* autour des mailles contenant la source et on l'évalue comme une maille standard.
 
 #### Circuit maillé avec source dépendante
-On fait simplement remplacer la variable controlante par sa valeur et procède comme habituellement.à
+On fait simplement remplacer la variable controlante par sa valeur et procède comme habituellement.
 
 ### 2.6 Équivalence Thévenin et Norton
 ![[Pasted image 20241103185510.png]]
 Bonne vidéo youtube sur les équivalences: https://youtu.be/-kkvqr1wSwA?si=dGCnqdKgt_sbQnFt
+Autre bonne vidéo avec une autre méthode lorsqu'il y a des sources dépendantes: (Anglais incompréhensible) https://youtu.be/i_VtXMLFmOs?si=0tRxZrv95n3PmHnq
 #### Équivalence Thénevin
 Représente une source indépendante de tension et un résistance en série.
 
-Le voltage Thévenin est égal voltage du circuit ouvert du réseau original.
+Le voltage Thévenin est égal au voltage du circuit ouvert du réseau original.
 
 La résistance Thévenin est égale au voltage du circuit ouvert divisé par le courant de court-circuit du réseau original.
 
 S'il n'y a aucune source dépendante, on peut trouver la résistance Thévenin en *zéroant* les sources, on remplace les sources de tensions par des court-circuits et les sources de courant par des circuits ouverts. On calcule ensuite la résistance équivalente entre les deux bornes.
 
 ##### Thévenin avec source dépendante
-On ne peut pas utiliser le raccourci pour la résistance alors on doit calculer à la main.
+On ne peut pas utiliser le raccourci pour la résistance alors on doit calculer à la main
+
+*Pour trouver la résistance, on peut ajouter une source de tension de $1V$ entre les points A et B et calculer le courant entre ces points pour calculer la résistance avec la loi d'Ohm ou ajouter une source de courant indépendante de $1A$  et calculer la tension entre ses points pour calculer la résistance avec la loi d'Ohm.*
 
 #### Équivalence Norton
 Consiste à une source de courant en parallèle avec une résistance.
