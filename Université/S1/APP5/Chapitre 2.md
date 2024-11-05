@@ -53,7 +53,7 @@ Représente une source indépendante de tension et un résistance en série.
 
 Le voltage Thévenin est égal au voltage du circuit ouvert du réseau original.
 
-La résistance Thévenin est égale au voltage du circuit ouvert divisé par le courant de court-circuit du réseau original.
+La résistance Thévenin est égale au voltage du circuit ouvert divisé par le courant de court-circuit du réseau original. $$R_{th}=\frac{V_{co}}{I_{cc}}$$
 
 S'il n'y a aucune source dépendante, on peut trouver la résistance Thévenin en *zéroant* les sources, on remplace les sources de tensions par des court-circuits et les sources de courant par des circuits ouverts. On calcule ensuite la résistance équivalente entre les deux bornes.
 
