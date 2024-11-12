@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Collégial/3e session/Algèbre linéaire/Vecteurs du plan.md",
+                "file": "Collégial/3e session/Algèbre linéaire/Algèbre linéaire.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Collégial/3e session/Algèbre linéaire/Vecteurs du plan.md",
+                "file": "Collégial/3e session/Algèbre linéaire/Algèbre linéaire.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Collégial/3e session/Algèbre linéaire/Vecteurs du plan.md",
+                "file": "Collégial/3e session/Algèbre linéaire/Algèbre linéaire.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Collégial/3e session/Algèbre linéaire/Vecteurs du plan.md"
+                "file": "Collégial/3e session/Algèbre linéaire/Algèbre linéaire.md"
               }
             }
           }
@@ -149,18 +149,19 @@
   },
   "active": "235c6e6f11aad635",
   "lastOpenFiles": [
-    "Collégial/3e session/Algèbre linéaire/Résolution de systèmes d'équations linéaires.md",
+    "Université/S1/APP1/Lecture procédural 1.md",
+    "Collégial/3e session/Algèbre linéaire/Vecteurs du plan.md",
     "Université/S1/APP5/Chapitre 2.md",
+    "Université/S1/APP1/Lecture proc 1.md",
+    "Collégial/3e session/Algèbre linéaire/Résolution de systèmes d'équations linéaires.md",
     "Université/S1/APP5/Chapitre 13.md",
     "Université/S1/APP4/Chapitre 2.md",
     "Université/S1/APP4/Chapitre 1.md",
     "Université/S1/APP4/S1APP4.md",
     "Université/S1/S1.md",
-    "Collégial/3e session/Algèbre linéaire/Vecteurs du plan.md",
     "Collégial/3e session/Algèbre linéaire/Algèbre linéaire.md",
     "z_À faire.md",
     "Collégial/4e session/Physique/Électricité et magnétisme.md",
-    "Université/S1/APP1/Lecture procédural 1.md",
     "Collégial/3e session/Algèbre linéaire/Déterminant et matrice inverse.md",
     "Collégial/3e session/Algèbre linéaire/Opérations sur les matrices.md",
     "Collégial/3e session/Algèbre linéaire/Pasted image 20241111200008.png",
@@ -177,7 +178,6 @@
     "Université/S1/APP1/Éléments de base d'un circuit.md",
     "Université/S1/APP5/Images/Pasted image 20241105153703.png",
     "Université/S1/APP5/S1APP5.md",
-    "Université/S1/APP5/Chapitre 10.md",
     "Université/S1/APP5/Images/Pasted image 20241105095703.png",
     "Université/S1/APP5/Images/Pasted image 20241103193647.png",
     "Université/S1/APP5/Images/Pasted image 20241103142045.png",
