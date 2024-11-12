@@ -4,10 +4,6 @@ aliases: []
 tags:
   - todo
 ---
-[[Statistiques et probabilités]]:
-- [ ] Retranscrire les notes du [[L'estimation|chapitre 5]], et tous les autres
-
-
 [[Électricité et magnétisme]]:
 - [ ] Retranscrire les notes du chapitre 8
 - [ ] Retranscrire les notes du chapitre 9

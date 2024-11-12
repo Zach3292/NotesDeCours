@@ -25,3 +25,4 @@ Le gain d'un ampli non-inverse sera donné par l'équation suivante: $$A = \frac
 ### Si une broche n'est pas à zéro volt
 ![[Pasted image 20241105153703.png]]
 On doit combiner les équations de l'ampli inverseur et de l'ampli non-inverseur. Pour la broche positive, on prend celle de l'ampli non-inverseur tandis que pour la broche on prend l'équation de l'ampli inverseur: $$ v_o = v_2\left(1+\frac{R_4}{R_3}\right)-v_1\left(\frac{R_4}{R_3}\right)$$
+*Prouver par superposition des inputs sur l'output*

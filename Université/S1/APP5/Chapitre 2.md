@@ -1,31 +1,31 @@
 ### 2.1 Résistance en série et parallèle
 Voir [[Circuit à courant continu#7.4 Associativité des résistances]] pour les formules
-### 2.4 Analyse de voltage en un point
+### 2.4 Analyse de voltage avec la méthode des noeuds
 Nécessaire lorsque [[Circuit à courant continu#7.2 Les lois de Kirchoff|les loi de Kirchhoff]] ne peuvent pas être utilisé ni les principes de diviseur de tension et de courant.
 #### Sélection du point de référence
-En théorie, on peut choisir n'importe quelle point comme référence mais choisir un des points de la source de voltage est recommandé puisque cela simplifie les calculs. 
+En théorie, on peut choisir n'importe quelle noeud comme référence mais choisir un des noeuds de la source de voltage est recommandé puisque cela simplifie les calculs. 
 #### Assignation des voltages de point
-Pour chaque point qu'on veut évaluer, il faut lui assigné un voltage $v_x$ qui représente la différence de tension entre ce point et la référence. 
+Pour chaque noued qu'on veut évaluer, il faut lui assigné un voltage $v_x$ qui représente la différence de tension entre ce noeud et la référence. 
 
 #### Équation
-Ensuite, on calcule le voltage de chaque composante en fonction de nos points choisis plus tôt. Quand on a trouver toute les équations, on les écrit de la manière standard. On place les termes incluant les voltages de points à gauche de l'équation et les autres termes à droites. 
+Ensuite, on calcule le voltage de chaque composante en fonction de nos noeuds choisis plus tôt. Quand on a trouver toute les équations, on les écrit de la manière standard. On place les termes incluant les voltages de noeuds à gauche de l'équation et les autres termes à droites. 
 #### Résoudre
-On place ensuite les équation dans une matrice et on fait une résolution de système d'équation linéaire ([[gauss-jordan]]). 
+On place ensuite les équation dans une matrice et on fait une résolution de système d'équation linéaire ([[Résolution de systèmes d'équations linéaires#Méthode de Gauss Jordan|Gauss-Jordan]] ou [[Résolution de systèmes d'équations linéaires#Règle de Cramer|Cramer]]). 
 
 ##### Avec source de tension indépendante
-S'il y a plusieurs source de tension dans le circuit, on peut faire des *superpoints* autour des sources de tension et des points associés. On peut calculer le courant sortant de ce *superpoints* et il sera toujours égal à zéro selon les lois de Kirchhoff. 
+S'il y a plusieurs source de tension dans le circuit, on peut faire des *supernoeuds* autour des sources de tension et des points associés. On peut calculer le courant sortant de ce *supernoeuds* et il sera toujours égal à zéro selon les lois de Kirchhoff. 
 
 #### Résumé de la méthode
-1. Combiner les résistances en parallèle et en série et assigner les points de référence.
-2. Écrire les équations de points et des *superpoints* en commençant par [[Circuit à courant continu#Loi des noeuds|KCL]] et ensuite [[Circuit à courant continu#Loi des mailles|KVL]] si nécessaire.
+1. Combiner les résistances en parallèle et en série et assigner les noeuds de référence.
+2. Écrire les équations de noeuds et des *supernoeuds* en commençant par [[Circuit à courant continu#Loi des noeuds|KCL]] et ensuite [[Circuit à courant continu#Loi des mailles|KVL]] si nécessaire.
 3. Substituer les variables controlantes des sources dépendantes par leur valeur.
 4. Mettre les équations en forme standard et résoudre le système pour trouver les tensions aux points.
 5. Utilisé les valeurs pour trouver les courants ou tensions d'intérêts.
 
-### 2.5 Analyse de courants maillés
+### 2.5 Analyse de courants maillés avec la méthode des boucles
 Utile pour les circuits dit *plan*, qui peuvent être mis à plat sans qu'aucune des composantes ne doivent se croiser.
 
-On définit un  courant se promenant dans le sens horaire pour chaque boucle du circuit.
+On définit un courant se promenant dans le sens horaire pour chaque boucle du circuit.
 ![[Pasted image 20241103142045.png]]
 Quand plusieurs maille de courant circulent au travers d'une même composante, on considère que le courant de la composante vaut la somme algébrique de chaque maille. *Dans l'image ci-dessus, le courant de $R_2$ vaut $i_3-i_1$.* 
 
