@@ -109,7 +109,7 @@ Il est possible d'échelonner une matrice avec python en sélectionnant tous les
 
 
 ```python
-mat = np.array([[2, 1, 2],[3, 4, 1],[3, 3, 3]]).astype(float)
+mat = np.array([2, 1, 2](2,%201,%202)).astype(float)
 print("Avant échelonnage\n", mat)
 
 mat[0,:] = mat[0,:] / mat[0,0]
@@ -3154,8 +3154,8 @@ def gradient_image(img):
     G = np.zeros((img.shape[0], img.shape[1], 2))
     
     # Méthode avec Sobel filters
-    kernel_x = np.array([[-1, 0, 1], [-2, 0, 2], [-1, 0, 1]])
-    kernel_y = np.array([[1, 2, 1], [0, 0, 0], [-1, -2, -1]])
+    kernel_x = np.array([-1, 0, 1](-1,%200,%201))
+    kernel_y = np.array([1, 2, 1](1,%202,%201))
     G[:,:,0] = fftconvolve(img, kernel_x, mode='same')
     G[:,:,1] = fftconvolve(img, kernel_y, mode='same')
 

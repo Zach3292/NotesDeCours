@@ -1,5 +1,5 @@
 Il faut apprendre à prioriser nos choses à faire pour être sûr de ne pas manquer de temps.
-![[Pasted image 20241013113304.png]]
+![Pasted image 20241013113304](Pasted%20image%2020241013113304.png)
 
 Voici 15 conseils pour bien gérer son temps:
 - Fixez-vous des objectifs clairs. 

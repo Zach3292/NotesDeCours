@@ -21,7 +21,7 @@ s'applique également. La difficulté apparait lorsqu'il faut calculer $V_{RMS}$
 
 Pour calculer le $RMS$, on utilise la formule suivante: $$RMS = \sqrt{\frac{1}{T}\int_{0}^{T}{[S(t)]^2\ dt}}$$
 Dans certains cas, il est possible d'utiliser des raccourcis tel qu'indiqué par le tableau ci-dessous:
-![[Pasted image 20240901111411.png]]
+![Pasted image 20240901111411](Pasted%20image%2020240901111411.png)
 
 #### Composante complexe
 La seule manière de l'obtenir est de regarder si elle est fournie dans la fiche technique par le manufacturier. Sinon, elle peut être omise lorsqu'on ne travaille pas avec des composantes à hautes fréquences.
@@ -32,4 +32,4 @@ Il faut simplement additionner la puissance individuel de chaque composante du c
 ### Mesure pratique de la puissance consommée
 Il faut s'assurer que l'impédance des sondes ou de l'oscilloscope ne viennent pas modifié le circuit en ajoutant une résistance.
 
-Il est possible d'ajouter une petite résistance *(1 à 30 Ohms)* en série avec le circuit et d'évaluer la tension au travers de cette résistance. On peut ensuite calculer le courant la traversant à l'aide de la [[Le courant électrique#6.5 La loi d'Ohm|loi d'Ohm]].
+Il est possible d'ajouter une petite résistance *(1 à 30 Ohms)* en série avec le circuit et d'évaluer la tension au travers de cette résistance. On peut ensuite calculer le courant la traversant à l'aide de la [](Le%20courant%20électrique.md#6.5%20La%20loi%20d'Ohm|loi%20d'Ohm).

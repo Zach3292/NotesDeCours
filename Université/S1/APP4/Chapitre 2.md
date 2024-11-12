@@ -39,7 +39,7 @@ Il y a 6 groupes:
 4. Zinc (Revêtement résistant à la corrosion)
 5. Titane (Excellent rapport performance/masse volumique, utilisé pour remplacer des os humains, hanche, colonne, etc)
 6. Métaux réfractaires (Haute température)
-	![[Pasted image 20241008172359.png]]
+	![Pasted image 20241008172359](Pasted%20image%2020241008172359.png)
 
 |  Avantages  | Inconvénients |
 |:------------| :--------------|
@@ -53,7 +53,7 @@ Il y a 3 groupes de plastique:
 	1. Deviennent malléable à une certaine température et re-durcissent après
 	2. La majorité des plastiques qui nous entoure (Acrylique, Polycarbonate, Nylon, PVC, Polypropylène, Polyéthylène)
 2. Thermodurcissables (réaction chimique entre des monomères et un catalyseur)
-	1. Réaction de [[|polymérisation]] irréversible qui donne un produit fini solide généralement rigide. 
+	1. Réaction de [polymérisation](polymérisation) irréversible qui donne un produit fini solide généralement rigide. 
 	2. Non recyclable
 	3. Il ne peut plus jamais être fondu, moulé ou modifié après avoir été durci la première fois
 3. Élastomère (polymère de haute masse moléculaire avec un comportement très élastique

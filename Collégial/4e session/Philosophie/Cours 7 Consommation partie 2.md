@@ -4,7 +4,7 @@ aliases: []
 tags: []
 ---
 
-# Suite de la [[Cours 6 Consommation|Consommation]] 
+# Suite de la [Consommation](Cours%206%20Consommation.md) 
 
 ### Le problème économique de la production et de la consommation
 

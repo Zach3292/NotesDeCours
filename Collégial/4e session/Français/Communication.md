@@ -5,10 +5,10 @@ tags:
   - matière
 ---
 
-[[Les fonctions du discours]]
-[[Texte expressif]]
-[[Schéma de la communication]]
-[[La vulgarisation]]
-[[La fonction métalinguistique]]
-[[Marketing]]
-[[Persuasion]]
+[Les fonctions du discours](Les%20fonctions%20du%20discours.md)
+[Texte expressif](Texte%20expressif.md)
+[Schéma de la communication](Schéma%20de%20la%20communication.md)
+[La vulgarisation](La%20vulgarisation.md)
+[La fonction métalinguistique](La%20fonction%20métalinguistique.md)
+[Marketing](Marketing.md)
+[Persuasion](Persuasion.md)
