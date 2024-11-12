@@ -20,4 +20,5 @@ Autres:
 	- [ ] [[Chimie des solutions]]
 	- [ ] [[Chimie organique]]
 	- [ ] [[Évolution et diversité du vivant]]
+	- [ ] [[Philosophie et rationnalité]]
 

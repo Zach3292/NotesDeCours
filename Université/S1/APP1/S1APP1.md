@@ -4,5 +4,5 @@
 [[Évaluation de la puissance]]
 [[Les fonctions transcendantes]]
 [[Plan de validation de conception et plan de test]]
-[[Lecture proc 1]]
+[[Lecture procédural 1]]
 

@@ -14,3 +14,6 @@ Chapitre 4: [[Le potentiel électrique]]
 Chapitre 5: [[Les condensateurs]]
 Chapitre 6: [[Le courant électrique]]
 Chapitre 7 : [[Circuit à courant continu]]
+Chapitre 8:
+Chapitre 9:
+Chapitre 10:
