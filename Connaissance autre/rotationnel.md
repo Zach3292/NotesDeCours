@@ -1,6 +1,6 @@
 ### Résumé
-Le résumé du rotationnel est expliqué ici: [[Analyse vectorielle#Rotationnel]] 
-Si on défini le [[gradient]] comme suit:
+Le résumé du rotationnel est expliqué ici: [](Analyse%20vectorielle.md#Rotationnel) 
+Si on défini le [gradient](gradient.md) comme suit:
 $$\nabla = \left[ \begin{align} & \frac{\partial }{\partial x} \\ & \frac{\partial }{\partial y}\\& \frac{\partial }{\partial z}  \end{align} \right]$$Et que nous avons une fonction vectorielle $f$:
 $$\vec{f} = \left[ \begin{align} & f_1(x,y,z) \\ & f_2(x,y,z) \\ 
 & f_3(x,y,z)  \end{align} \right]$$

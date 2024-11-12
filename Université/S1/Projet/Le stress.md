@@ -23,7 +23,7 @@ Le stress (négatif) est souvent associé à un excès mais une insuffisance est
 * Quand notre charge de travail est dessous de nos capacités et que la vie semble vide et ennuyante
 
 Cela crée alors un vide malsain, porteur de symptômes de stress désagréables
-![[Pasted image 20241013111320.png]]
+![Pasted image 20241013111320](Pasted%20image%2020241013111320.png)
 
 Un niveau insuffisant de stress crée de l'ennui. Certaine personnes recherchent volontairement un niveau de stress bas. Elles souffrent de *sécuritose*, soit un besoin maladif de sécurité.
 
@@ -81,7 +81,7 @@ Une surcharge de stress nous amène à ressentir la fatigue, la démotivation et
 ### Biologie du stress
 
 #### Mauvais stress
-Lorsque le corps détecte une *menace*, les amygdales envoient un signal au cerveau et celui-ci commence la production d'hormones tel que la cortisol qui sont libérés dans le sang. Ces hormones déclenchent les différents [[#Les symptômes du stress négatif|symptômes du stress négatif]]. 
+Lorsque le corps détecte une *menace*, les amygdales envoient un signal au cerveau et celui-ci commence la production d'hormones tel que la cortisol qui sont libérés dans le sang. Ces hormones déclenchent les différents [symptômes du stress négatif](#Les%20symptômes%20du%20stress%20négatif). 
 #### Le bon stress
 C'est aussi dans l'amygdale que s'élabore le processus de motivation et en contrepartie notre capacité d'apprendre. Il y a une différence cruciale entre le bon stress d'un défi qui nous captive et nous motive et le mauvais stress d'une menace qui nous submerge.
 
@@ -94,7 +94,7 @@ Il faut identifier:
 - La biologie du stress
 -  Les conséquences potentielles de ce stress
 #### Acquisition de compétences
-Il faut gagner des compétences en [[L'analyse et la résolution de problème|résolution de problème]] et en [[La gestion de son temps|gestion du temps]]. Il faut prioriser ses actions: ![[Pasted image 20241013113304.png]]
+Il faut gagner des compétences en [résolution de problème](L'analyse%20et%20la%20résolution%20de%20problème.md) et en [gestion du temps](La%20gestion%20de%20son%20temps.md). Il faut prioriser ses actions: ![Pasted image 20241013113304](Pasted%20image%2020241013113304.png)
 
 Voici des étapes pour définir clairement ses objectifs:
 - Formulez votre objectif en termes positifs pour soutenir la motivation. 

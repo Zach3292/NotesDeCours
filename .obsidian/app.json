@@ -2,5 +2,5 @@
   "showLineNumber": false,
   "alwaysUpdateLinks": true,
   "vimMode": true,
-  "useMarkdownLinks": false
+  "useMarkdownLinks": true
 }

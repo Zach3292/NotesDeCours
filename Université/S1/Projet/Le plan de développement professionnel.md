@@ -3,4 +3,4 @@ Faire un plan pour assurer un apprentissage en continu. Ça permet de structurer
 Il augmente grandement les chances d'atteindre ses objectifs puisqu'il définit plusieurs sous-objectifs facilement atteignables. De plus, il permet de mesurer facilement son progrès grâce à ces objectifs secondaires.
 
 Les étapes idéales:
-![[Pasted image 20241013150836.png]]
+![Pasted image 20241013150836](Pasted%20image%2020241013150836.png)

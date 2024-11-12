@@ -1,10 +1,10 @@
 #matière
-[[Cours 1 Intro]]
-[[Cours 2 Descartes]]
-[[Cours 3 Hume]]
-[[Cours 4 Hobbes et Rousseau]]
-[[Cours 5 Marx]]
-[[Cours 6 Schopenhauer]]
-[[Cours 7 Nietzche]]
-[[Cours 8 Sarte]]
-[[Cours 9 Freud]]
+[Cours 1 Intro](Cours%201%20Intro.md)
+[Cours 2 Descartes](Cours%202%20Descartes.md)
+[Cours 3 Hume](Cours%203%20Hume.md)
+[Cours 4 Hobbes et Rousseau](Cours%204%20Hobbes%20et%20Rousseau.md)
+[Cours 5 Marx](Cours%205%20Marx.md)
+[Cours 6 Schopenhauer](Cours%206%20Schopenhauer.md)
+[Cours 7 Nietzche](Cours%207%20Nietzche.md)
+[Cours 8 Sarte](Cours%208%20Sarte.md)
+[Cours 9 Freud](Cours%209%20Freud.md)
