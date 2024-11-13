@@ -6,4 +6,5 @@
 [[Vecteurs du plan|Chapitre 5: Vecteurs du plan]]
 [[Droites du plan|Chapitre 6: Droites du plan]]
 [[Vecteur de R3 et Rn|Chapitre 8: Vecteur de R3 et Rn]]
+[[Droite et plan de l'espace|Chapitre 9: Droite et plan de l'espace]]
 

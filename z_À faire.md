@@ -15,7 +15,6 @@ Autres:
 	- [ ] [[Mécanique]]
 	- [ ] [[Calcul différentiel]]
 	- [ ] [[Calcul Intégral]]
-	- [ ] [[Algèbre linéaire]]
 	- [ ] [[Ondes et physique moderne]]
 	- [ ] [[Chimie des solutions]]
 	- [ ] [[Chimie organique]]
