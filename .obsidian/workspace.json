@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "b5b67eb19bd0ead7",
+        "id": "63a64f98f255f354",
         "type": "tabs",
         "children": [
           {
-            "id": "235c6e6f11aad635",
+            "id": "bad96c3fc107f31b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Université/S1/APP5/S1APP5.md",
+                "file": "Université/S1/APP5/Intro aux transistors.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Université/S1/APP5/S1APP5.md",
+                "file": "Université/S1/APP5/Intro aux transistors.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Université/S1/APP5/S1APP5.md",
+                "file": "Université/S1/APP5/Intro aux transistors.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Université/S1/APP5/S1APP5.md"
+                "file": "Université/S1/APP5/Intro aux transistors.md"
               }
             }
           }
@@ -147,10 +147,18 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "235c6e6f11aad635",
+  "active": "bad96c3fc107f31b",
   "lastOpenFiles": [
+    "Pasted image 20241114131122.png",
+    "Pasted image 20241114131108.png",
+    "Université/S1/APP5/Chapitre 10.md",
+    "Université/S1/APP5/Chapitre 13.md",
+    "Université/S1/APP5/Intro aux transistors.md",
     "Université/S1/APP5/Chapitre 2.md",
+    "Université/S1/APP5/Chapitre 9.md",
     "Université/S1/APP5/S1APP5.md",
+    "Untitled.canvas",
+    "Collégial/1ere session/Français/Analyse de texte.md",
     "Collégial/3e session/Français/Le courant du terroir.md",
     "z_À faire.md",
     "Collégial/3e session/Algèbre linéaire/Droite et plan de l'espace.md",
@@ -160,7 +168,6 @@
     "Collégial/3e session/Algèbre linéaire/Vecteurs du plan.md",
     "Collégial/4e session/Physique/Circuit à courant continu.md",
     "Collégial/3e session/Algèbre linéaire/Résolution de systèmes d'équations linéaires.md",
-    "Université/S1/APP5/Chapitre 13.md",
     "Université/S1/APP4/Chapitre 2.md",
     "Université/S1/APP4/Chapitre 1.md",
     "Université/S1/APP4/S1APP4.md",
@@ -172,11 +179,6 @@
     "Collégial/3e session/Algèbre linéaire/Pasted image 20241111200008.png",
     "Collégial/3e session/Algèbre linéaire/Langage matriciel.md",
     "Collégial/3e session/Algèbre linéaire",
-    "Collégial/3e session/3e session.md",
-    "Collégial/4e session/Statistiques/Variables et lois discrètes.md",
-    "Collégial/4e session/Statistiques/Test d'indépendance.md",
-    "Collégial/4e session/Statistiques/Test d'hypothèse.md",
-    "Collégial/4e session/Statistiques/Statistiques et probabilités.md",
     "Université/S1/APP5/Images/Pasted image 20241105153703.png",
     "Université/S1/APP5/Images/Pasted image 20241105095703.png",
     "Université/S1/APP5/Images/Pasted image 20241103193647.png",
@@ -187,13 +189,11 @@
     "Université/S1/APP5/Images/Pasted image 20241103191821.png",
     "Université/S1/APP5/Images/Pasted image 20241103185804.png",
     "Université/S1/APP5/Images/Pasted image 20241103185510.png",
-    "Université/S1/APP5/Images/Pasted image 20241103184621.png",
     "Université/S1/APP5",
     "Université/S1/APP3/introsw.pdf",
     "Université/S1/APP4",
     "Université/S1/APP3",
     "Université/S1/APP1/Images",
-    "Untitled.canvas",
     "Université/S1/Projet",
     "Université/S1/APP1",
     "rstert.canvas"

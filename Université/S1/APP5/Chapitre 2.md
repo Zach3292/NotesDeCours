@@ -5,7 +5,7 @@ Nécessaire lorsque [[Circuit à courant continu#7.2 Les lois de Kirchoff|les lo
 #### Sélection du point de référence
 En théorie, on peut choisir n'importe quelle noeud comme référence mais choisir un des noeuds de la source de voltage est recommandé puisque cela simplifie les calculs. 
 #### Assignation des voltages de point
-Pour chaque noued qu'on veut évaluer, il faut lui assigné un voltage $v_x$ qui représente la différence de tension entre ce noeud et la référence. 
+Pour chaque noeud qu'on veut évaluer, il faut lui assigné un voltage $v_x$ qui représente la différence de tension entre ce noeud et la référence. 
 
 #### Équation
 Ensuite, on calcule le voltage de chaque composante en fonction de nos noeuds choisis plus tôt. Quand on a trouver toute les équations, on les écrit de la manière standard. On place les termes incluant les voltages de noeuds à gauche de l'équation et les autres termes à droites. 
