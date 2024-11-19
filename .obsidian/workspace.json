@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Université/S1/APP5/Intro aux transistors.md",
+                "file": "Université/S1/APP6/Analyse de circuit transitoire.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Université/S1/APP5/Intro aux transistors.md",
+                "file": "Université/S1/APP6/Analyse de circuit transitoire.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Université/S1/APP5/Intro aux transistors.md",
+                "file": "Université/S1/APP6/Analyse de circuit transitoire.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Université/S1/APP5/Intro aux transistors.md"
+                "file": "Université/S1/APP6/Analyse de circuit transitoire.md"
               }
             }
           }
@@ -149,53 +149,52 @@
   },
   "active": "bad96c3fc107f31b",
   "lastOpenFiles": [
-    "Pasted image 20241114131122.png",
-    "Pasted image 20241114131108.png",
-    "Université/S1/APP5/Chapitre 10.md",
+    "Université/S1/APP6/Analyse de circuit transitoire.md",
+    "Université/S1/APP6/Équations différentielles linéaires du premier et second ordre.md",
+    "Collégial/4e session/Physique/Courant alternatif.md",
+    "Pasted image 20241119123221.png",
+    "Université/S1/APP6/Nombre complexe.md",
+    "Collégial/4e session/Calcul 3/Note de cours.md",
+    "Université/S1/APP6/Inducteur et condensateur.md",
+    "Université/S1/APP6/Images/Pasted image 20241119104221.png",
+    "Collégial/4e session/Physique/Circuit à courant continu.md",
+    "Université/S1/APP6/S1APP6.md",
+    "Université/S1/APP6/Images/Pasted image 20241118133011.png",
+    "Université/S1/APP6/Images/Pasted image 20241118132727.png",
+    "Université/S1/APP6/Images/Pasted image 20241118130828.png",
+    "Collégial/4e session/Physique/Les condensateurs.md",
+    "Collégial/4e session/Physique/Le courant électrique.md",
+    "Université/S1/APP4/Chapitre 1.md",
+    "Université/S1/APP1/Lecture procédural 1.md",
+    "Université/S1/APP1/Évaluation de la puissance.md",
+    "Université/S1/APP1/Éléments de base d'un circuit.md",
+    "Université/S1/APP6/Images/Pasted image 20241118103707.png",
+    "Université/S1/APP6/Images",
+    "Université/S1/APP6/Images/Pasted image 20241118095859.png",
+    "Université/S1/APP5/Images/Pasted image 20241114131122.png",
+    "Université/S1/APP5/Images/Pasted image 20241114131108.png",
+    "Université/S1/S1.md",
+    "Université/S1/APP6",
     "Université/S1/APP5/Chapitre 13.md",
+    "Collégial/4e session/Physique/Le théorème de Gauss.md",
+    "Collégial/4e session/Physique/Électricité et magnétisme.md",
     "Université/S1/APP5/Intro aux transistors.md",
+    "Collégial/3e session/Algèbre linéaire/Résolution de systèmes d'équations linéaires.md",
+    "Collégial/3e session/Algèbre linéaire/Déterminant et matrice inverse.md",
     "Université/S1/APP5/Chapitre 2.md",
+    "Université/S1/APP5/Chapitre 10.md",
     "Université/S1/APP5/Chapitre 9.md",
     "Université/S1/APP5/S1APP5.md",
     "Untitled.canvas",
-    "Collégial/1ere session/Français/Analyse de texte.md",
-    "Collégial/3e session/Français/Le courant du terroir.md",
-    "z_À faire.md",
-    "Collégial/3e session/Algèbre linéaire/Droite et plan de l'espace.md",
-    "Collégial/3e session/Algèbre linéaire/Droites du plan.md",
-    "Collégial/3e session/Algèbre linéaire/Algèbre linéaire.md",
-    "Collégial/3e session/Algèbre linéaire/Vecteur de R3 et Rn.md",
-    "Collégial/3e session/Algèbre linéaire/Vecteurs du plan.md",
-    "Collégial/4e session/Physique/Circuit à courant continu.md",
-    "Collégial/3e session/Algèbre linéaire/Résolution de systèmes d'équations linéaires.md",
-    "Université/S1/APP4/Chapitre 2.md",
-    "Université/S1/APP4/Chapitre 1.md",
-    "Université/S1/APP4/S1APP4.md",
-    "Université/S1/S1.md",
-    "Collégial/4e session/Physique/Électricité et magnétisme.md",
-    "Université/S1/APP1/Lecture procédural 1.md",
-    "Collégial/3e session/Algèbre linéaire/Déterminant et matrice inverse.md",
-    "Collégial/3e session/Algèbre linéaire/Opérations sur les matrices.md",
     "Collégial/3e session/Algèbre linéaire/Pasted image 20241111200008.png",
-    "Collégial/3e session/Algèbre linéaire/Langage matriciel.md",
     "Collégial/3e session/Algèbre linéaire",
-    "Université/S1/APP5/Images/Pasted image 20241105153703.png",
-    "Université/S1/APP5/Images/Pasted image 20241105095703.png",
-    "Université/S1/APP5/Images/Pasted image 20241103193647.png",
-    "Université/S1/APP5/Images/Pasted image 20241103142045.png",
-    "Université/S1/APP4/Images/Pasted image 20241008103746.png",
     "Université/S1/APP5/Images",
     "Université/S1/APP4/Images",
-    "Université/S1/APP5/Images/Pasted image 20241103191821.png",
-    "Université/S1/APP5/Images/Pasted image 20241103185804.png",
-    "Université/S1/APP5/Images/Pasted image 20241103185510.png",
     "Université/S1/APP5",
     "Université/S1/APP3/introsw.pdf",
     "Université/S1/APP4",
     "Université/S1/APP3",
     "Université/S1/APP1/Images",
-    "Université/S1/Projet",
-    "Université/S1/APP1",
     "rstert.canvas"
   ]
 }
