@@ -134,7 +134,7 @@ Tout comme le premier ordre, il y a deux méthodes pour trouver une solution par
 ##### Méthode des coefficients indéterminés
 Même démarche qu'[[Équations différentielles linéaires du premier et second ordre#Méthodes de résolution pour les équations à coefficients constants de premier ordre#Recherche d'une solution particulière#Méthode des coefficients indéterminés|ici]].
 ##### Méthode de variation des paramètres
-On fait varier les deux constantes arbitraires de $y_c(t)$. Si $y_c(t) = A_1h_1(t)+A_2h_2(t)$ alors $y_p(t) =A_1(t)h_1(t)+A_2(t)h_2(t)$. SI on a que $$a\frac{d^2y_p}{dt^2}+b\frac{dy_p}{dt}+y_p=f(t)$$
+On fait varier les deux constantes arbitraires de $y_c(t)$. Si $y_c(t) = A_1h_1(t)+A_2h_2(t)$ alors $y_p(t) =A_1(t)h_1(t)+A_2(t)h_2(t)$. Si on a que $$a\frac{d^2y_p}{dt^2}+b\frac{dy_p}{dt}+y_p=f(t)$$
 On substitut $y_p$ dans l'équation et on résout pour trouver $A_1$ et $A_2$. Il est utile de se servir des propriétés de la solution complémentaire pour s'aider à résoudre l'équation. Cette méthode donne souvent des intégrales comme résultat. 
 
 En faisant le calcul, il est possible d'obtenir une formule générale pour $y_p$ si elle respecte la forme vu plus haut: $$y_p(t)=\left[ -\int{\frac{h_2f(t)}{a(h_1h^{'}_2-h^{'}_1h_2)}dt} \right]h_1(t)+\left[ -\int{\frac{h_1f(t)}{a(h_1h^{'}_2-h^{'}_1h_2)}dt} \right]h_2(t)$$
