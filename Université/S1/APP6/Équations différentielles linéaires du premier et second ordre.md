@@ -107,10 +107,10 @@ où $a\neq0$ et $b$ et $c$ sont des contantes données avec $f(t)$ un fonction q
 Si l'équation provient de la mise en équation d'un circuit RLC, alors $a$, $b$ et $c$ sont positifs et on peut poser que $\alpha=\frac{b}{2a}$, que $\omega^2_o=\frac{c}{a}$ et que $g(t)=\frac{f(t)}{a}$ pour mettre l'équation sous la même forme que le Hambley: $$\frac{d^2y}{dt^2}+2\alpha\frac{dy}{dt}+\omega^2_0y=g(t)$$
 Comme vu plus haut: $$y(t)=y_c(t) + y_p(t)$$ et les mêmes conditions s'appliquent
 #### Recherche de solution complémentaire
-Il faut résoudre l'équation suivante $$a\frac{d^2y_c}{dt^2}+b\frac{dy_c}{dt}+y_c=0$$
+Il faut résoudre l'équation suivante $$a\frac{d^2y_c}{dt^2}+b\frac{dy_c}{dt}+cy_c=0$$
 Comme vu précédemment, la seule fonction $y_c(t)$ qui peut résoudre cette équation est de la forme suivante: $$y_c(t) = Ae^{\lambda t}$$
 Par substitution, on obtient
-$$\begin{align} a\frac{d^2Ae^{\lambda t}}{dt^2}+b\frac{dAe^{\lambda t}}{dt}+Ae^{\lambda t}& =f(t) \\
+$$\begin{align} a\frac{d^2Ae^{\lambda t}}{dt^2}+b\frac{dAe^{\lambda t}}{dt}+cAe^{\lambda t}& =f(t) \\
 a\lambda^2Ae^{\lambda t}+b\lambda Ae^{\lambda t} +cAe^{\lambda t}& =0 \\
 \left(a\lambda^2+b\lambda+c\right)Ae^{\lambda t} & = 0 \\
 \mathrm{Donc} \\

@@ -13,7 +13,7 @@ En faisant la mise en équation, on va obtenir une équation différentielle de 
 #### Amortissement critique
 Lorsque le discriminant vaut zéro ou $\zeta = 1$, il y a un amortissement critique [[amortissement critique]]. Il s'agit de l'amortissement minimale pour ne pas créer d'oscillation dans le circuit.
 #### Amortissement sous-critique
-Lorsque le discriminant est plus petit que 0 ou $\zeta<1$, il y a un amortissement sous-critique [[amortissement sous-critique]]. Dans ce mode, le circuit va résonner selon sa fréquence de [[résonance naturelle]]. 
+Lorsque le discriminant est plus petit que 0 ou $\zeta<1$, il y a un amortissement sous-critique [[amortissement sous-critique]]. Dans ce mode, le circuit va résonner selon sa fréquence de [[résonance naturelle]] ou sa [[résonance amortie]]. 
 #### Amortissement sur-critique
 Lorsque le discriminant est plus grand que 0 ou $\zeta>1$, il y a un amortissement sur-critique [[amortissement sur-critique]]. Dans ce mode, il n'y a pas d'oscillation
 
