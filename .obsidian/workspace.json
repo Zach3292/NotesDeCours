@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Université/S1/APP6/Analyse de circuit transitoire.md",
+                "file": "Université/S1/Projet/La métacognition.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Analyse de circuit transitoire"
+              "title": "La métacognition"
             }
           }
         ]
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Université/S1/APP6/Équations différentielles linéaires du premier et second ordre.md",
+                "file": "Université/S1/Projet/La métacognition.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Équations différentielles linéaires du premier et second ordre"
+              "title": "Backlinks for La métacognition"
             }
           },
           {
@@ -112,12 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Université/S1/APP6/Équations différentielles linéaires du premier et second ordre.md",
+                "file": "Université/S1/Projet/La métacognition.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Équations différentielles linéaires du premier et second ordre"
+              "title": "Outgoing links from La métacognition"
             }
           },
           {
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Université/S1/APP6/Équations différentielles linéaires du premier et second ordre.md"
+                "file": "Université/S1/Projet/La métacognition.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Équations différentielles linéaires du premier et second ordre"
+              "title": "Outline of La métacognition"
             }
           }
         ]
@@ -165,8 +165,10 @@
   },
   "active": "bad96c3fc107f31b",
   "lastOpenFiles": [
-    "Université/S1/APP6/Équations différentielles linéaires du premier et second ordre.md",
+    "Université/S1/Projet/S1Projet.md",
+    "Université/S1/Projet/La métacognition.md",
     "Université/S1/APP6/Analyse de circuit transitoire.md",
+    "Université/S1/APP6/Équations différentielles linéaires du premier et second ordre.md",
     "Université/S1/APP6/Inducteur et condensateur.md",
     "Université/S1/APP6/Nombre complexe.md",
     "Collégial/4e session/Physique/Circuit à courant continu.md",
@@ -200,8 +202,6 @@
     "Collégial/3e session/Algèbre linéaire/Résolution de systèmes d'équations linéaires.md",
     "Collégial/3e session/Algèbre linéaire/Déterminant et matrice inverse.md",
     "Université/S1/APP5/Chapitre 2.md",
-    "Université/S1/APP5/Chapitre 10.md",
-    "Université/S1/APP5/Chapitre 9.md",
     "Untitled.canvas",
     "Collégial/3e session/Algèbre linéaire/Pasted image 20241111200008.png",
     "Collégial/3e session/Algèbre linéaire",
