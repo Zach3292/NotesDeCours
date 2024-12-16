@@ -11,7 +11,7 @@ Qu'est-ce que l'éthique?
 		_"Il y a deux grands choix traumatiques susceptibles de névrose que sont le choix d'une carrière et le choix d'un partenaire de vie", Yung_
 		C'est en faisant n'importe quoi qu'on devient n'importe qui
 		**L'arbre de la vie:**
-![[Pasted image 20240202200131.png]]
+![Pasted image 20240202200131](Pasted%20image%2020240202200131.png)
 			À chaque instant nous sommes faces à une **infinités** de possibilités
 			**Arbitraire** d'un choix =  **poids des possibles**
 			Justification = donner un sens

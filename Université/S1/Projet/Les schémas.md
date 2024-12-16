@@ -5,7 +5,7 @@
 - Plus pratique à consulter que des notes de cours
 ### Types de schéma
 #### Schéma de concepts
-Illustre des concepts et les liens qui les unis selon une vue hiérarchique: ![[Pasted image 20241013120020.png]]
+Illustre des concepts et les liens qui les unis selon une vue hiérarchique: ![Pasted image 20241013120020](Pasted%20image%2020241013120020.png)
 Étapes de réalisation:
 1. Formuler le problème sous forme d'une question
 2. Identifier les concepts clés
@@ -14,8 +14,8 @@ Illustre des concepts et les liens qui les unis selon une vue hiérarchique: ![[
 5. Retravailler plusieurs fois le schéma
 6. Rechercher la possibilité de lien entre des concepts de sections différentes du schéma
 #### Les schémas heuristiques
-Plus l'idée est importante, plus elle sera grande sur le concept pour que le cerveau s'en rappelle bien. Le point central est plus grand et plus on s'éloigne plus les concepts et idées deviennent petits. ![[Pasted image 20241013120435.png]]
+Plus l'idée est importante, plus elle sera grande sur le concept pour que le cerveau s'en rappelle bien. Le point central est plus grand et plus on s'éloigne plus les concepts et idées deviennent petits. ![Pasted image 20241013120435](Pasted%20image%2020241013120435.png)
 
 #### Les schémas de procédure (diagrammes d'activités)
 Illustre l'enchainement des idées et la logique derrière un processus.
-![[Pasted image 20241013120549.png]]
+![Pasted image 20241013120549](Pasted%20image%2020241013120549.png)

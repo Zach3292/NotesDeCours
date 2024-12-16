@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "cb1f2525baa3ade7",
+        "id": "099c41d27cf10857",
         "type": "tabs",
         "children": [
           {
-            "id": "2802d716a93b3709",
+            "id": "88ab0db258566f81",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "z_À faire.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "z_À faire"
+              "title": "New tab"
             }
           }
         ]
@@ -93,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "z_À faire.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +98,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for z_À faire"
+              "title": "Backlinks"
             }
           },
           {
@@ -112,12 +107,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "z_À faire.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from z_À faire"
+              "title": "Outgoing links"
             }
           },
           {
@@ -138,15 +132,23 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "z_À faire.md"
-              },
+              "state": {},
               "icon": "lucide-list",
-              "title": "Outline of z_À faire"
+              "title": "Outline"
+            }
+          },
+          {
+            "id": "6c7e94f9b92e3610",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -164,8 +166,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2802d716a93b3709",
+  "active": "88ab0db258566f81",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "z_À faire.md",
     "Université/Université.md",
     "Collégial/Collégial.md",
     "Collégial/4e session/4e session.md",
@@ -190,8 +194,6 @@
     "Collégial/4e session/Physique/Les champs électriques.md",
     "Collégial/4e session/Physique/La charge électrique.md",
     "Collégial/4e session/Physique/Crossover.md",
-    "Collégial/4e session/Physique/Courant alternatif.md",
-    "Collégial/4e session/Philosophie/Éthique et politique.md",
     "Université/S1/APP3/introsw.pdf",
     "Université/S1/Projet/Images/Pasted image 20241013113304.png",
     "Université/S1/Projet/Images/Pasted image 20241013111320.png",

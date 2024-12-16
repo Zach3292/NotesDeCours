@@ -101,7 +101,7 @@ Une *SPA* ou une *SENCRL* ne peut inclure dans son nom l’un des mots suivants 
 La *SPA* dont le nom contrevient à la loi peut faire l’objet d’une poursuite pénale et est passible d’une amende. Dans le cas d’une *SENCRL*, les associés de celle-ci peuvent faire l’objet de poursuites disciplinaires s’ils sont membres de l’Ordre des ingénieurs du Québec ou pénales s’ils ne sont pas inscrits au tableau de l’Ordre.
 
 ### Admission à l'exercice de la profession
-Après avoir fait un baccalauréat en ingénierie inscrit selon le [[Les qualités de l'ingénieur#Le BCAPG|BCAPG]], le comité d'admission à l'exercice donne un permis d'ingénieur junior. On est ensuite inscrit au tableau à titre d'ingénieur junior. Suite à une acquisition d'expérience, à du parrainage et à un examen professionnel, le comité donne le permis d'ingénieur.
+Après avoir fait un baccalauréat en ingénierie inscrit selon le [BCAPG](Les%20qualités%20de%20l'ingénieur.md#Le%20BCAPG), le comité d'admission à l'exercice donne un permis d'ingénieur junior. On est ensuite inscrit au tableau à titre d'ingénieur junior. Suite à une acquisition d'expérience, à du parrainage et à un examen professionnel, le comité donne le permis d'ingénieur.
 
 ### Que signifie être un professionnel
 

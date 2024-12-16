@@ -5,4 +5,4 @@ $$ \begin{align}
 y & = x\ln{x} \\\\
 \frac{y}{x} & = \ln{x}
 \end{align}$$
-![[Pasted image 20240901113610.png]]
+![Pasted image 20240901113610](Pasted%20image%2020240901113610.png)

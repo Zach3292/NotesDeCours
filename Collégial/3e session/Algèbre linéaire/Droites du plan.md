@@ -36,4 +36,4 @@ $$\vec{OR} = \vec{OQ}+\frac{\left(\vec{QP}\cdot\vec{n}\right)}{\left(\vec{n}\cdo
 #### Distance entre deux droites parallèles
 $$\left|\frac{c_2-c_1}{\sqrt{a^2+b^2}}\right|=\left|\frac{aq_1+bq_2-c_1}{\sqrt{a^2+b^2}}\right|$$En forme cartésienne
 #### Angle entre deux droites concourantes
-Calculer l'angle entre les vecteurs normales ou les vecteurs directeurs avec [[Vecteurs du plan#Angle entre deux vecteurs|cette technique]], valeur entre 0 et $\pi/2$.
+Calculer l'angle entre les vecteurs normales ou les vecteurs directeurs avec [cette technique](Vecteurs%20du%20plan.md#Angle%20entre%20deux%20vecteurs), valeur entre 0 et $\pi/2$.
