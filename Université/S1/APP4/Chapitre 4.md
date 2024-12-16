@@ -4,7 +4,7 @@ On peut choisir un matériau pour plusieurs raisons:
 - La volonté d'améliorer le produit
 - La nécessité de satisfaire à certaines exigences
 Exemple de l'augmentation de l'utilisation du plastique en raison de son faible coûts et de ses nombreuses propriétés, il remplaça de nombreux matériaux.
-![[Pasted image 20241014152153.png]]
+![Pasted image 20241014152153](Pasted%20image%2020241014152153.png)
 
 #### Évaluation des besoins
 Avant de choisir un matériau, il faut bien faire une évaluation de ses besoins.

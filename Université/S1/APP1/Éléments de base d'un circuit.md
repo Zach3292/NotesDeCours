@@ -11,11 +11,11 @@ Les résistances les plus communes comportent quatre bandes de couleur. Chaque b
 4. Précision
 
 Pour les chiffres significatifs, le code suivant est utilisé:
-![[Pasted image 20240830102140.png]]
+![Pasted image 20240830102140](Pasted%20image%2020240830102140.png)
 Pour le multiplicateur, le code suivant est utilisé:
-![[Pasted image 20240830102231.png]]
+![Pasted image 20240830102231](Pasted%20image%2020240830102231.png)
 Pour la précision, le code suivant est utilisé:
-![[Pasted image 20240830102256.png]]
+![Pasted image 20240830102256](Pasted%20image%2020240830102256.png)
 
 Cependant certains sites pratiques tel que [Digikey](https://www.digikey.ca/en/resources/conversion-calculators/conversion-calculator-resistor-color-code) permettent de rapidement calculé ces valeurs.
 
@@ -91,15 +91,15 @@ Pour faciliter le changement d'un circuit intégré brisé sur un *PCB*, il est 
 
 ### Le 556
 
-![[Pasted image 20240830151611.png]]
+![Pasted image 20240830151611](Pasted%20image%2020240830151611.png)
 Un 556 est un générateur d'ondes carrées doubles, il regroupe deux 555 qui sont des générateurs d'ondes carrées. Lorsque la tension du *threshold* dépasse un seuil qui correspond aux deux tiers du *VCC*, la sortie *output* sera à 0V. Lorsque le *threshold* retourne à un tension sous le tier du *VCC*, la sorite *output* retourne à la tension d'alimentation. La sortie *discharge* quant à elle est à 0V quand la sortie *output* est à 0V, sinon elle est flottante.
 
 Le 556 comporte deux modes d'alimentations, le mode astable et monostable.
 
 #### Mode astable
 
-Le mode astable est un mode cyclique ou la sortie n'est jamais stable, d'où le nom astable. Il est souvent utilisé afin de réaliser une horloge. Pour ce faire, on tire profit du temps de charge et de décharge d'un [[Circuit à courant continu#7.7 Circuits RC|circuit RC]].
-![[Pasted image 20240830152126.png]]
+Le mode astable est un mode cyclique ou la sortie n'est jamais stable, d'où le nom astable. Il est souvent utilisé afin de réaliser une horloge. Pour ce faire, on tire profit du temps de charge et de décharge d'un [circuit RC](Circuit%20à%20courant%20continu.md#7.7%20Circuits%20RC|circuit%20RC).
+![Pasted image 20240830152126](Pasted%20image%2020240830152126.png)
 
 ##### Mode de fonctionnement:
 Lorsqu'il est mis sous tension, la tension va monter jusqu'à ce que le condensateur atteigne le 2/3 du *VCC* ce qui va fera tomber la sortie *discharge* à 0V. Ainsi, le condensateur va donc se décharger jusqu'à ce que la tension atteigne 1/3 du *VCC*. La sortie *discharge* va donc revenir flottante et le condensateur va recommencer à se charger. La fréquence de ce cycle ainsi que son rapport cyclique dépendent de la valeur des résistances $R_A$ et $R_B$ sur le schéma.
@@ -112,12 +112,12 @@ La fiche technique du 555 indique un mode astable avec un rapport cyclique de 50
 
 Lorsqu'on utilise le mode monostable, la sortie du 556 demeure stable jusqu'à ce qu'un front descendant arrive à l'entrée *trigger*. À cette instant, le condensateur va se charger jusqu'à ce que la tension atteigne le 2/3 du *VCC*. Ça va donc créer un impulsion dont la durée peut être changée selon les valeurs du condensateurs et de la résistance.
 
-![[Pasted image 20240830153231.png]]
+![Pasted image 20240830153231](Pasted%20image%2020240830153231.png)
 
 #### Générateur d'ondes carrées basse fréquence
 
 Pour générer des ondes carrés avec un rapport cyclique de 50%, on peut utiliser une modification du mode astable. 
-![[Pasted image 20240901095857.png]]
+![Pasted image 20240901095857](Pasted%20image%2020240901095857.png)
 
 Pour calculer la fréquence d'oscillation, on doit fixer certaines valeurs puisqu'il y a trop d'inconnu autrement. On fixe souvent la valeur du condensateur en premier puisqu'il y a moins de possibilité facilement accessible que de résistance.
 
@@ -127,4 +127,4 @@ Il existe trois types de porte logique *(et, ou, et exclusif)* qui peuvent être
 
 Ces portes sont très sensible au bruit, il est donc recommander de connecter les entrées inutilisées à la masse et de laisser les sorties flottantes.
 
-![[Pasted image 20240901102314.png]]
+![Pasted image 20240901102314](Pasted%20image%2020240901102314.png)

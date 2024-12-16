@@ -8,11 +8,11 @@ Les déformations peuvent être élastique: la pièce revient à elle même lors
 
 Une traction simple est quand des forces colinéaires de signes opposés sont appliquées sur un objet et que la ligne d'action passe par l'axe de l'objet.
 
-![[Pasted image 20241008091914.png|300]]
+![300](Pasted%20image%2020241008091914.png)
 Si le corps est coupé par un plan perpendiculaire à l'axe de traction, il est possible de le maintenir en équilibre en exerçant un série de force $dF$ dont la somme est égale à $F$ sur la surface de coupe $S$. On dit alors que le plan est soumis à une *contrainte* de tension $\sigma$ définie par: $$\sigma = \frac{dF}{dS}$$
 d'où: $$F=\int{\sigma dS}$$
 
-![[Pasted image 20241008092643.png|300]]
+![300](Pasted%20image%2020241008092643.png)
 
 Dans le cas d'une traction simple, la contrainte est la même sur toute la surface alors: $$\sigma = \frac{F}{S}$$
 Lorsqu'un objet subit une traction simple sur l'axe $z$, le corps s'allonge et subit un *déformation* $\varepsilon$ et le rapport d'allongement est de: $$\varepsilon_x = \frac{du}{u}$$
@@ -31,7 +31,7 @@ Le module d'Young $E$ est une propriété fondamentale des matériaux, sa grande
 Si on applique un couple $C$ aux extrémités d'un cylindre, celui-ci est en torsion. Comme des forces parallèles agissent sur des faces et la contrainte qui est résulte est une *scission*: $$\tau_{zy} = \frac{dT_{zy}}{uv}$$
 *Les contraintes de tensions $\sigma$ agissent perpendiculairement à une surface alors que les contraintes de scission $\tau$ agissent parallèlement à une surface.*
 
-![[Pasted image 20241008095850.png]]
+![Pasted image 20241008095850](Pasted%20image%2020241008095850.png)
 
 Lorsque l'élément se déforme, le point $B$ se déplace en $B'$ d'une valeur $dv$. On appelle ça un *cisaillement* $\gamma$: $$\gamma_{zy} = \frac{dv}{w}$$
 À une contrainte de tension $\sigma$ correspond un allongement $\varepsilon$ et à une contrainte de torsion $\tau$ correspond un cisaillement $\gamma$.
@@ -56,17 +56,17 @@ Il existe trois comportements à une traction:
 2. Un comportement **ductile**: une déformation plastique permanente accompagnée généralement d'un durcissement du matériau suit la déformation élastique
 3. un comportement **élastique non-linéaire**: la déformation élastique n'est pas proportionnelle à la charge qui la provoque
 
-![[Pasted image 20241008103746.png]]
+![Pasted image 20241008103746](Pasted%20image%2020241008103746.png)
 
 Pour étudier les courbes de traction, on évalue la contrainte nominale et la déformation nominale: $$\sigma_{nom} = \frac{F}{S_0}$$
 $$\varepsilon = \frac{\Delta l}{l_0}$$
 *Les contraintes s'expriment en pascals, ou plus généralement en mégapascal. Les déformations sont des grandeurs sans dimensions souvent exprimées en pourcentage*
 
-![[Pasted image 20241008105432.png|400]]
+![400](Pasted%20image%2020241008105432.png)
 
 *Courbe pour un matériaux ductile*
 1. Déformation élastique linéaire
-	1. Suit la [[#Loi de Hooke|loi de Hooke]]
+	1. Suit la [loi de Hooke](#Loi%20de%20Hooke)
 2. Déformation plastique homogène
 	1. Le *taux de consolidation* $d\sigma/d\varepsilon$ dans le domaine plastique est noté $\eta$ diminue plus la contrainte augmente et devient éventuellement nul à la valeur maximale de la contrainte nominale.
 3. Déformation plastique non-homogène
@@ -81,8 +81,8 @@ On peut obtenir plusieurs valeurs importantes des caractéristiques mécaniques 
 	* Comme la $R_e$ est difficile à évaluer en pratique, on définit $R_{e0.2}$ qui correspond à la contrainte où il y a un déformation plastique (permanente) de $0.2\%$. 
 	* La valeur de $R_{e0.2}$ est défini par l'intersection de la courbe et d'une droite parallèle à la pente élastique passant par $0.2\%$.
 	* Si le passage d'élastique à plastique est discontinu, alors $R_e = R_{e0.2}$.
-	![[Pasted image 20241008111444.png|300]]
-	![[Pasted image 20241008124024.png|300]]
+	![300](Pasted%20image%2020241008111444.png)
+	![300](Pasted%20image%2020241008124024.png)
 * La *résistance à la traction* $R_m$
 	* La contrainte maximale atteinte durant l'essai de traction
 	* Les matériaux fragiles n'ont pas de domaine plastique, $R_M = R_e$
@@ -117,7 +117,7 @@ Matériau isotrope: même propriété peu importe dans quel axe on évalue.
 
 #### 1.2.3 Essai de flexion
 
-![[Pasted image 20241008131514.png]]
+![Pasted image 20241008131514](Pasted%20image%2020241008131514.png)
 ##### Essai à trois points
 Pour un essai de flexion à trois points, la contrainte maximale est donnée par l'équation suivante: $$|\sigma_{max}| = \frac{3}{2}\left(\frac{FL}{bh^2}\right)$$
 où 
@@ -135,7 +135,7 @@ Tout comme l'essai de compression, l'essai de flexion ne permet pas nécessairem
 #### 1.2.4 Essai de dureté
 
 La dureté d'un matériau représente sa résistance à la pénétration. Il y a plusieurs tests de dureté différents: 
-![[Capture d’écran, le 2024-10-08 à 13.21.12.png|]]
+![Capture d’écran, le 2024-10-08 à 13.21.12](Capture%20d’écran,%20le%202024-10-08%20à%2013.21.12.png)
 
 ### 4.3 Ténacité
 #### 4.3.1 Définition
@@ -157,7 +157,7 @@ Plus $C$ est grand, plus le matériau est difficile à réchauffer
 Caractérise le transfert de chaleur à travers un matériau. Représenté par: $$J= -k\frac{dT}{dx}$$
 Où $J$ est le flux de chaleur, ($W/m^2$) et que $dT/dx$ ($C\degree/m$) représente le gradient de température selon la direction x du flux. 
 
-Voir [[Gaz, liquides et solides#Capacité thermique]]
+Voir [Gaz, liquides et solides](Gaz,%20liquides%20et%20solides.md)
 #### Conduction électrique
 
-Voir [[Le courant électrique#6.5 La loi d'Ohm]] pour la résistivité et la conductivité électrique.s
+Voir [Le courant électrique](Le%20courant%20électrique.md) pour la résistivité et la conductivité électrique.
