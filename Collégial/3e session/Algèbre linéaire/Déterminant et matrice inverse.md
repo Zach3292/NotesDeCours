@@ -5,7 +5,7 @@ $A$ est singulière si $\mathrm{det}A = 0$ et régulière sinon.
 Seules les matrices régulières possèdent un inverse
 ### Calcul du déterminant
 #### Règle de Sarrus
-![[Pasted image 20241111200008.png]]
+![Pasted image 20241111200008](Pasted%20image%2020241111200008.png)
 #### Méthode classique
 **Mineur**: déterminant d'une matrice si on enlève la i-ème ligne et la j-ème colonne noté $M_{ij}$
 **Cofacteur d'une matrice**: noté $A_{ij} = {\left(-1 \right)}^{(i+j)}M_{ij}$ 

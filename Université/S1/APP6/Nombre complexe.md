@@ -1,11 +1,11 @@
 ### Notions de basse sur les nombres complexes
-Voir [[Note de cours#Chapitre 4 Les nombres complexes|cette note]] pour les opérations de base sur les nombres complexes. En génie, on note les nombres complexes avec la lettre $j$ et le conjugué comme suit: $z^*$.
+Voir [cette note](Note%20de%20cours.md#Chapitre%204%20Les%20nombres%20complexes) pour les opérations de base sur les nombres complexes. En génie, on note les nombres complexes avec la lettre $j$ et le conjugué comme suit: $z^*$.
 ### Notation polaire des nombres complexes
-Voir [[Note de cours#Notation polaire des nombres complexes|cette note]] pour les bases de la notation polaire des nombres complexes.
+Voir [cette note](Note%20de%20cours.md#Notation%20polaire%20des%20nombres%20complexes) pour les bases de la notation polaire des nombres complexes.
 #### Puissance et racine de nombre complexe en notation polaire
-Voir [[Note de cours#Formule de Moivre|cette section]] et [[Note de cours#Racine n-ième|cette section]] pour savoir comment faire la puissance et la racine de nombre complexe en forme polaire.
+Voir [cette section](Note%20de%20cours.md#Formule%20de%20Moivre) et [cette section](Note%20de%20cours.md#Racine%20n-ième) pour savoir comment faire la puissance et la racine de nombre complexe en forme polaire.
 ### Notation exponentielle des nombres complexes
-Voir [[Note de cours#Formule d'Euler|cette section]] pour la base de la notation exponentielle et [[Note de cours#Opérations avec la notation d'Euler|cette section]] pour les opérations en forme exponentielle.
+Voir [cette section](Note%20de%20cours.md#Formule%20d'Euler) pour la base de la notation exponentielle et [cette section](Note%20de%20cours.md#Opérations%20avec%20la%20notation%20d'Euler) pour les opérations en forme exponentielle.
 
 ### Notions nouvelles
 #### Inégalité du triangle 

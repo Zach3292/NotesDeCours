@@ -53,13 +53,13 @@ $$C_{res} = C_1 + C_2 + C_3$$
 #### Les deux ensembles
 Soit le circuit suivant:
 
-![[Pasted image 20240215155314.png]]
+![Pasted image 20240215155314](Pasted%20image%2020240215155314.png)
 $C_3$ et $C_4$ sont en série alors:
 $$C_{34} = \left(\frac{1}{C_3}+\frac{1}{C_4}\right)^{-1}$$
-![[Pasted image 20240215155341.png]]
+![Pasted image 20240215155341](Pasted%20image%2020240215155341.png)
 $C_2$ et $C_{34}$ sont en parallèle alors:
 $$C_{234} = C_2 + C_{34}$$
-![[Pasted image 20240215155408.png]]
+![Pasted image 20240215155408](Pasted%20image%2020240215155408.png)
 $C_1$ et $C_{234}$ sont en série alors:
 $$C_{1234}=\left(\frac{1}{C_1}+\frac{1}{C_{234}}\right)^{-1}$$
-![[Pasted image 20240215155443.png]]
+![Pasted image 20240215155443](Pasted%20image%2020240215155443.png)

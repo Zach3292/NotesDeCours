@@ -1,13 +1,13 @@
 ### 7.1 Symbole
-![[Pasted image 20240902153623.png]]
+![Pasted image 20240902153623](Pasted%20image%2020240902153623.png)
 
-### 7.2 Les lois de Kirchoff
+### 7.2 Les lois de Kirchhoff
 #### Loi des noeuds
 La loi des noeuds dit que le courant entrant dans un noeud doit être le même que le courant sortant
-![[Pasted image 20240902153755.png]]
+![Pasted image 20240902153755](Pasted%20image%2020240902153755.png)
 #### Loi des mailles
 La somme des tensions dans une maille doit être de zéro
-![[Pasted image 20240902153840.png]]
+![Pasted image 20240902153840](Pasted%20image%2020240902153840.png)
 
 ### 7.4 Associativité des résistances
 On additionne les résistances en série et on additionne l'inverse des résistances en parallèles

@@ -21,11 +21,11 @@ Il faut faire une bonne estimation des ressources nécessaires à la réalisatio
 
 ### Les diagrammes de suivi
 #### Le diagramme de Gantt
-![[Pasted image 20241014145047.png]]
+![Pasted image 20241014145047](Pasted%20image%2020241014145047.png)
 #### La burndown chart
-![[Pasted image 20241014145019.png]]
+![Pasted image 20241014145019](Pasted%20image%2020241014145019.png)
 #### La méthode de la valeur acquise
-![[Pasted image 20241014145106.png]]
+![Pasted image 20241014145106](Pasted%20image%2020241014145106.png)
 ##### CBTP : coût budgété du travail prévu; valeur planifiée (VP)
 *BCWS: Budgeted Cost of Work Scheduled* 
 La courbe VP représente le budget prévisionnel du projet (représentation en coûts cumulés en fonction du temps). 

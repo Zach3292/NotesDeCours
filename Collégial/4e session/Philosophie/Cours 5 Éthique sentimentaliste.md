@@ -29,23 +29,23 @@ Distinction habituelle
 ### L'impuissance de la raison
 Rationalité suppose l'identité
 * Illusion de l'**unité du Moi***
-[[Cours 5 Éthique sentimentaliste#Citations#1|Citation 1]]
+[1](Cours%205%20Éthique%20sentimentaliste.md#1)
 
 **Premièrement**: Raison = domaine de la connaissance
 * Vrai et Faux (non Bien et Mal)
 
 **Deuxièmement:** Incapable de PRODUIRE une action
 * Agir suppose une **motivation**
-[[Cours 5 Éthique sentimentaliste#Citations#2|Citation 2]]
+[2](Cours%205%20Éthique%20sentimentaliste.md#2)
 * Rôle secondaire: celui de GUIDER l'action
 
 *Si nous résistons à nos passions, c'est plus par leur faiblesse que par notre force*, (La Rochefoucauld, *Maximes*)
 
 L'impossibilité de l'*action désintéressée*
-[[Cours 5 Éthique sentimentaliste#Citations#3|Citation 3]]
+[3](Cours%205%20Éthique%20sentimentaliste.md#3)
 
 Nous sommes conditionnés à être des psychopathes.
-Hume va au contraire de [[Cours 2 Kant#La bonté de la volonté|Kant]], toute action est intéressée et c'est correct comme ça
+Hume va au contraire de [Kant](Cours%202%20Kant.md#La%20bonté%20de%20la%20volonté), toute action est intéressée et c'est correct comme ça
 Aimé *l'humain*: la compassion universelle ne fait pas de sens, ça l'amène deux choix:
 1. S'en foutre de tout le monde
 2. Pleurer tout le temps
