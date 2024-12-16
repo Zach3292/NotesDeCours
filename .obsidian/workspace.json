@@ -11,10 +11,13 @@
             "id": "88ab0db258566f81",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "diff-view",
+              "state": {
+                "file": ".obsidian/workspace.json",
+                "staged": false
+              },
+              "icon": "git-pull-request",
+              "title": "Diff View (workspace.json)"
             }
           }
         ]
@@ -168,8 +171,9 @@
   },
   "active": "88ab0db258566f81",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
+    "Université/S1/APP1/Éléments de base d'un circuit.md",
     "z_À faire.md",
+    "conflict-files-obsidian-git.md",
     "Université/Université.md",
     "Collégial/Collégial.md",
     "Collégial/4e session/4e session.md",
@@ -193,7 +197,6 @@
     "Collégial/4e session/Physique/Le théorème de Gauss.md",
     "Collégial/4e session/Physique/Les champs électriques.md",
     "Collégial/4e session/Physique/La charge électrique.md",
-    "Collégial/4e session/Physique/Crossover.md",
     "Université/S1/APP3/introsw.pdf",
     "Université/S1/Projet/Images/Pasted image 20241013113304.png",
     "Université/S1/Projet/Images/Pasted image 20241013111320.png",
