@@ -1,10 +1,10 @@
 #matière 
-[[Langage matriciel|Chapitre 1: Langage matriciel]]
-[[Opérations sur les matrices|Chapitre 2: Opérations sur les matrices]]
-[[Déterminant et matrice inverse|Chapitre 3: Déterminant et matrice inverse]]
-[[Résolution de systèmes d'équations linéaires|Chapitre 4: Résolution de systèmes d'équations linéaires]]
-[[Vecteurs du plan|Chapitre 5: Vecteurs du plan]]
-[[Droites du plan|Chapitre 6: Droites du plan]]
-[[Vecteur de R3 et Rn|Chapitre 8: Vecteur de R3 et Rn]]
-[[Droite et plan de l'espace|Chapitre 9: Droite et plan de l'espace]]
+[Chapitre 1: Langage matriciel](Langage%20matriciel.md)
+[Chapitre 2: Opérations sur les matrices](Opérations%20sur%20les%20matrices.md)
+[Chapitre 3: Déterminant et matrice inverse](Déterminant%20et%20matrice%20inverse.md)
+[Chapitre 4: Résolution de systèmes d'équations linéaires](Résolution%20de%20systèmes%20d'équations%20linéaires.md)
+[Chapitre 5: Vecteurs du plan](Vecteurs%20du%20plan.md)
+[Chapitre 6: Droites du plan](Droites%20du%20plan.md)
+[Chapitre 8: Vecteur de R3 et Rn](Vecteur%20de%20R3%20et%20Rn.md)
+[Chapitre 9: Droite et plan de l'espace](Droite%20et%20plan%20de%20l'espace.md)
 

@@ -1,5 +1,5 @@
 ### Forme d'équation
-Très similaire au [[Droites du plan|chapitre 6]].
+Très similaire au [chapitre 6](Droites%20du%20plan.md).
 #### Équations vectorielles
 $\vec{d}$: Vecteur directeur de la droite
 $p$: Point connu de la droite

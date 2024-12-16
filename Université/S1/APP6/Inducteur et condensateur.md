@@ -2,26 +2,26 @@
 Un conducteur est composé en séparant deux plaques conductrices par un diélectrique. Lorsque du courant passe au travers d'un condensateur, des charges s'accumulent sur les deux plaques du condensateur. La charge positive sur une plaque est de même norme que la charge négative sur l'autre plaque ce qui rend la charge net du condensateur nulle. 
 
 #### Voltage en terme de charge
-La charge emmagasinée est souvent considérée en terme de potentiel selon la relation présenté [](Les%20condensateurs.md#5.1%20La%20capacité%20d'un%20condensateur|ici) entre le potentiel, la charge et la capacité d'un condensateur.
+La charge emmagasinée est souvent considérée en terme de potentiel selon la relation présenté [ici](Les%20condensateurs.md#5.1%20La%20capacité%20d'un%20condensateur) entre le potentiel, la charge et la capacité d'un condensateur.
 
 #### Courant en terme de voltage
-Le courant est la dérivée des charges tel que vu [](Le%20courant%20électrique.md#6.1%20Introduction|ici). En remplaçant la charge net par le relation entre le voltage et la capacité on obtient l'équation suivante: $$i=C\frac{dV}{dt}$$
+Le courant est la dérivée des charges tel que vu [ici](Le%20courant%20électrique.md#6.1%20Introduction). En remplaçant la charge net par le relation entre le voltage et la capacité on obtient l'équation suivante: $$i=C\frac{dV}{dt}$$
 Grâce à cette relation, il est possible de déterminer que lorsque le condensateur est complètement chargé dans un circuit de charge ou complètement déchargé dans un circuit de décharge, le courant passant au travers de ses bornes est nul.
 #### Voltage en terme de courant
 Comme le courant est la variation de charge, on peut l'intégrer pour obtenir la charge en fonction du courant: $$q(t)=\int^{t_1}_{t_0}{i(t)dt} + q(0)$$
 Le voltage est proportionnel à la charge donc nous avons que: $$V(t)=\frac{1}{C}\int^{t_1}_{t_0}{i(t)dt} + \frac{q(0)}{C}=q(t)=\frac{1}{C}\int^{t_1}_{t_0}{i(t)dt} + V(0)$$
 #### Énergie emmagasinée dans un condensateur
-L'énergie dans un condensateur est donnée par plusieurs équations [](Les%20condensateurs.md#5.3%20L'énergie%20emmagasinée%20dans%20un%20condensateur|ici).
+L'énergie dans un condensateur est donnée par plusieurs équations [ici](Les%20condensateurs.md#5.3%20L'énergie%20emmagasinée%20dans%20un%20condensateur).
 
 ### 3.2 Condensateur en parallèle et série
 Les condensateurs ont un comportement inverse aux résistances. 
 #### En parallèle
-Il se combine en parallèle selon l'équation [](Les%20condensateurs#5.4%20Association%20des%20condensateurs#5.4%20Association%20des%20condensateurs#En%20parallèle|suivante).
+Il se combine en parallèle selon l'équation [suivante](Les%20condensateurs#5.4%20Association%20des%20condensateurs#En%20parallèle).
 #### En série
-Il se combine en série selon l'équation [](Les%20condensateurs#5.4%20Association%20des%20condensateurs#5.4%20Association%20des%20condensateurs#En%20série|suivante).
+Il se combine en série selon l'équation [suivante](Les%20condensateurs#5.4%20Association%20des%20condensateurs#En%20série).
 ### 3.3 Caractéristiques physiques d'un condensateur
 #### Capacité
-La capacité d'un condensateur peut être calculé avec les équations [](Les%20condensateurs.md#5.2%20Types%20de%20condensateur|suivantes).
+La capacité d'un condensateur peut être calculé avec les équations [suivantes](Les%20condensateurs.md#5.2%20Types%20de%20condensateur).
 #### Condensateurs pratiques
 Pour obtenir une capacité utile, un condensateur devrait avoir des plaques beaucoup trop grandes pour l'électronique moderne. On y arrive souvent en alternant les plaques et en les enroulants l'un autour de l'autre. *Les condensateurs réels ont un voltage maximales puisque dans un champ électrique trop fort, les diélectriques deviennent des conducteurs.*
 #### Condensateurs électrolytiques
@@ -33,7 +33,7 @@ En plus de la capacité $C$, une certaine résistance $R_s$ existe à cause de l
 
 ### 3.4 Les inducteurs
 #### Principe de base
-Un inducteur est composé de fil enroulé souvent autour d'un coeur magnétique. Selon la [](Courant%20alternatif.md#Inductance%20et%20circuits%20à%20courant%20alternatif|la%20loi%20de%20Faraday), la variation de courant dans un inducteur produit un champ magnétique qui induit une différence de potentiel au borne de l'inducteur. Pour un inducteur idéal, cette différence est proportionnelle à la variation de courant par la constante de proportionnalité $L$ aussi appelée l'inductance d'un inducteur. L'inductance à comme unité des Henrys $H$ qui sont égaux à des volts seconde par ampère $V\cdot s/A$.
+Un inducteur est composé de fil enroulé souvent autour d'un coeur magnétique. Selon la [loi de Faraday](Courant%20alternatif.md#Inductance%20et%20circuits%20à%20courant%20alternatif), la variation de courant dans un inducteur produit un champ magnétique qui induit une différence de potentiel au borne de l'inducteur. Pour un inducteur idéal, cette différence est proportionnelle à la variation de courant par la constante de proportionnalité $L$ aussi appelée l'inductance d'un inducteur. L'inductance à comme unité des Henrys $H$ qui sont égaux à des volts seconde par ampère $V\cdot s/A$.
 #### Courant en terme de voltage
 En réarrangent la loi de Faraday, on obtient $$di=\frac{1}{L} V(t)dt$$
 En intégrant de chaque côté de l'équation on obtient $$\int^{i(t)}_{i_0}{di}=\frac{1}{L}\int^{t}_{t_0}{V(t)dt}$$

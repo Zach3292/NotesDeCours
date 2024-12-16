@@ -88,7 +88,7 @@ Les six fonctions du discours
 			Porte une attention particulière à la forme du message
 			Concentrer sur le contenant plus que le contenu
 			Rend le message captivant et attire l'attention sur lui-même
-		[[La fonction métalinguistique]]|Fonction métalinguistique]] -> code
+		[La fonction métalinguistique](La%20fonction%20métalinguistique.md) -> code
 			Définit lecode
 			Clarifier le sens de quelque chose
 			Assurer la compréhension du message

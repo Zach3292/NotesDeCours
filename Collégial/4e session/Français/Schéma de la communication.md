@@ -1,5 +1,5 @@
 ### Émetteur
-Il a trois intentions principales chacune lier à [[Les fonctions du discours]]:
+Il a trois intentions principales chacune lier à [Les fonctions du discours](Les%20fonctions%20du%20discours.md):
 1. Informer
 2. Exprimer
 3. Inciter

@@ -49,7 +49,7 @@ Pour savoir si deux vecteurs sont un système générateur, on doit faire: $$a\v
 ### Changement de base
 
 Pour faire un changement de base, on utilise la matrice de passage $P$. Soit $\vec{a}$ un vecteurs de la base $B$ qu'on veut représenté dans la base $B'$ formé de l'ensemble $\left\{\vec{u}, \vec{v}\right\}$. La matrice de passage $P$ de la base $B$ à la base $B'$ comporte les vecteurs $\vec{u}$ et $\vec{v}$ exprimés dans la base $B$ en colonne. $$P=\begin{bmatrix} u_1 & v_1 \\ u_2 & v_2 \end{bmatrix}$$
-On résout $[P|\vec{a}]$ avec [[Résolution de systèmes d'équations linéaires#Méthode de Gauss Jordan|Gauss-Jordan]] pour obtenir $\begin{bmatrix} a_1 & a_2 \end{bmatrix}_{\left\{\vec{u}, \vec{v}\right\}}$ soit le vecteur $\vec{a}$ exprimé dans la base $B'$.
+On résout $[P|\vec{a}]$ avec [Gauss-Jordan](Résolution%20de%20systèmes%20d'équations%20linéaires.md#Méthode%20de%20Gauss%20Jordan) pour obtenir $\begin{bmatrix} a_1 & a_2 \end{bmatrix}_{\left\{\vec{u}, \vec{v}\right\}}$ soit le vecteur $\vec{a}$ exprimé dans la base $B'$.
 
 #### Produit scalaire algébrique
 $$\vec{u}\cdot\vec{v}=\sum^n_{k=1}{u_kv_k}$$

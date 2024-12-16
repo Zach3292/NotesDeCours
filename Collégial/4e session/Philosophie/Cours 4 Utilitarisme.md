@@ -31,8 +31,8 @@ Particularités de concepts "d'utilité"
 	Possibilité du sacrifice du bonheur **actuel** pour un grand bonheur **éventuel**
 #### La théorie de Bentham
 ##### Fondement théoriques
-Présupposition d'un **penchant naturel au bonheur**: [[#Citations#1]]
-Définition du **principe d'utilité**: [[#Citations#2]]
+Présupposition d'un **penchant naturel au bonheur**: [1](Cours%204%20Utilitarisme.md#1)
+Définition du **principe d'utilité**: [2](Cours%204%20Utilitarisme.md#2)
 Évaluation des actions: des critères pour hiérarchiser les plaisirs
 	**Durée, intensité,  proximité, étendue, fécondité *(possibilité d'engendrer d'autre plaisir)*, pureté**
 	Aucun critère vaut mieux qu'un autre, on veut en cocher le plus possible

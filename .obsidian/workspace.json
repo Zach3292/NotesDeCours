@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Université/S1/APP5/Chapitre 9.md",
+                "file": "Collégial/Collégial.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Chapitre 9"
+              "title": "Collégial"
             }
           }
         ]
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Université/S1/APP5/Chapitre 9.md",
+                "file": "Collégial/Collégial.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Chapitre 9"
+              "title": "Backlinks for Collégial"
             }
           },
           {
@@ -112,12 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Université/S1/APP5/Chapitre 9.md",
+                "file": "Collégial/Collégial.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Chapitre 9"
+              "title": "Outgoing links from Collégial"
             }
           },
           {
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Université/S1/APP5/Chapitre 9.md"
+                "file": "Collégial/Collégial.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Chapitre 9"
+              "title": "Outline of Collégial"
             }
           }
         ],
@@ -166,32 +166,32 @@
   },
   "active": "2802d716a93b3709",
   "lastOpenFiles": [
-    "Université/S1/APP5/Chapitre 2.md",
+    "Collégial/4e session/4e session.md",
+    "Collégial/4e session/Statistiques/Statistiques et probabilités.md",
+    "Collégial/4e session/Statistiques/Test d'indépendance.md",
+    "Collégial/4e session/Statistiques/Régression.md",
+    "Collégial/4e session/Statistiques/Test d'hypothèse.md",
+    "Collégial/4e session/Statistiques/L'estimation.md",
+    "Collégial/4e session/Statistiques/Loi normale et variables continues.md",
+    "Collégial/4e session/Statistiques/Variables et lois discrètes.md",
+    "Collégial/4e session/Statistiques/Probabilités.md",
+    "Collégial/4e session/Statistiques/Statistiques descriptives et échantillonnage.md",
+    "Collégial/4e session/Calcul 3/Calcul 3.md",
+    "Collégial/4e session/Calcul 3/Note de cours.md",
+    "Collégial/4e session/Physique/Électricité et magnétisme.md",
     "Collégial/4e session/Physique/Circuit à courant continu.md",
-    "Collégial/3e session/Algèbre linéaire/Résolution de systèmes d'équations linéaires.md",
-    "Université/S1/APP4/S1APP4.md",
-    "Université/S1/APP4/Chapitre 4.md",
-    "Université/S1/APP4/Chapitre 3.md",
-    "Université/S1/APP4/Chapitre 2.md",
-    "Université/S1/APP4/Chapitre 1.md",
     "Collégial/4e session/Physique/Le courant électrique.md",
-    "Collégial/1ere session/Chimie/Gaz, liquides et solides.md",
-    "Université/S1/APP1/S1APP1.md",
-    "Université/S1/APP1/Plan de validation de conception et plan de test.md",
-    "Université/S1/APP1/Les fonctions transcendantes.md",
-    "Université/S1/APP1/Lecture procédural 1.md",
-    "Université/S1/APP1/Évaluation de la puissance.md",
-    "Université/S1/APP1/Éléments de base d'un circuit.md",
-    "Université/S1/APP6/Analyse de circuit transitoire.md",
-    "Université/S1/APP6/Équations différentielles linéaires du premier et second ordre.md",
-    "Université/S1/APP6/S1APP6.md",
-    "Université/S1/APP6/Inducteur et condensateur.md",
-    "Université/S1/APP6/Nombre complexe.md",
-    "Université/S1/APP5/S1APP5.md",
-    "Université/S1/APP5/Intro aux transistors.md",
-    "Université/S1/APP5/Chapitre 13.md",
-    "Université/S1/APP5/Chapitre 10.md",
-    "Université/S1/APP5/Chapitre 9.md",
+    "Collégial/4e session/Physique/Les condensateurs.md",
+    "Collégial/4e session/Physique/Le potentiel électrique.md",
+    "Connaissance autre/gradient.md",
+    "Collégial/4e session/Physique/Le théorème de Gauss.md",
+    "Collégial/4e session/Physique/Les champs électriques.md",
+    "Collégial/4e session/Physique/La charge électrique.md",
+    "Collégial/4e session/Physique/Crossover.md",
+    "Collégial/4e session/Physique/Courant alternatif.md",
+    "Collégial/4e session/Philosophie/Éthique et politique.md",
+    "Collégial/4e session/Philosophie/Plan fin de session.md",
+    "Collégial/4e session/Philosophie/Cours 11 Les idéologies culturelles.md",
     "Université/S1/APP3/introsw.pdf",
     "Université/S1/Projet/Images/Pasted image 20241013113304.png",
     "Université/S1/Projet/Images/Pasted image 20241013111320.png",
