@@ -32,4 +32,4 @@ Il faut simplement additionner la puissance individuel de chaque composante du c
 ### Mesure pratique de la puissance consommée
 Il faut s'assurer que l'impédance des sondes ou de l'oscilloscope ne viennent pas modifié le circuit en ajoutant une résistance.
 
-Il est possible d'ajouter une petite résistance *(1 à 30 Ohms)* en série avec le circuit et d'évaluer la tension au travers de cette résistance. On peut ensuite calculer le courant la traversant à l'aide de la [loi d'Ohm](Le%20courant%20électrique.md).
+Il est possible d'ajouter une petite résistance *(1 à 30 Ohms)* en série avec le circuit et d'évaluer la tension au travers de cette résistance. On peut ensuite calculer le courant la traversant à l'aide de la [loi d'Ohm](Le%20courant%20électrique.md#6.5%20La%20loi%20d'Ohm).

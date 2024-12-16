@@ -52,7 +52,7 @@ $$\frac{dy_c}{dt} = \frac{-1}{\tau}y_c$$
 3. On substitue l'équation trouver dans l'équation originale et on résout
 ##### Approche analytique
 On résout pour $y_c$ en faisant isolant tous les termes contenant $y_c$ et en calculant l'intégral.
-[[calcul intégral]]
+[calcul intégral](calcul%20intégral)
 
 #### Recherche d'une solution particulière
 Il existe deux méthodes
@@ -91,13 +91,13 @@ Pour un solution générale d'une équation de premier ordre, il y a une constan
 
 ### Application aux circuits électriques du premier ordre
 #### Circuit RC
-Comme vu [[Circuit à courant continu#7.7 Circuits RC|ici]]. Les équations sont obtenus avec la résolution d'équations différentielles de premier ordre.
-![[Pasted image 20241118095859.png]]
+Comme vu [](Circuit%20à%20courant%20continu.md#7.7%20Circuits%20RC|ici). Les équations sont obtenus avec la résolution d'équations différentielles de premier ordre.
+![Pasted image 20241118095859](Pasted%20image%2020241118095859.png)
 La mise en équation du circuit donne $$RC\frac{dV_C(t)}{dt} + V_C(t) = V_s(t)$$
 Il s'agit de la même forme d'équation que vue plus haut où $\tau=RC$, $y_c(t) = V_C(t)$ et $f(t)=V_s(t)$.
 
 #### Circuit RL
-![[Pasted image 20241119104221.png|300]]
+![300](Pasted%20image%2020241119104221.png)
 La mise en équation du circuit donne $$\frac{L}{R}\frac{di(t)}{dt}+i(t)=\frac{1}{R}V_s(t)$$
 Il s'agit de la même forme d'équation que vue plus haut où $\tau=\frac{L}{R}$, $y_c(t) = i(t)$ et $f(t)=V_s(t)$.
 ### Méthodes de résolution des équations différentielles linéaires à coefficients constants du second ordre
@@ -126,13 +126,13 @@ Si le discriminant est négatif, il faut faire appelle aux nombres complexes pou
 $$y_c(t)=B_1e^{\frac{-b+j\sqrt{-\Delta}}{2a}}+B_2e^{\frac{-b-j\sqrt{-\Delta}}{2a}}$$
 pour simplifier l'équation, on utilise $\alpha = \frac{b}{2a}$ et $\beta=\frac{\sqrt{-\Delta}}{2a}$ alors on obtient
 $$y_c(t)=B_1e^{-\alpha+j\beta}+B_2e^{-\alpha-j\beta}$$
-En séparant les termes de l'exposant et en appliquant la [[Note de cours#Formule d'Euler|formule d'Euler]] on obtient ceci: $$y_c(t)=(B_1+B_2)\cdot e^{-\alpha t}\cos{\beta t} + j(B_1-B_2)\cdot e^{-\alpha t}\sin{\beta t}$$
+En séparant les termes de l'exposant et en appliquant la [](Note%20de%20cours.md#Formule%20d'Euler|formule%20d'Euler) on obtient ceci: $$y_c(t)=(B_1+B_2)\cdot e^{-\alpha t}\cos{\beta t} + j(B_1-B_2)\cdot e^{-\alpha t}\sin{\beta t}$$
 Comme $y_c(t)$ est une fonction réelle, $B_1$ et $B_2$ doivent être des nombres complexes conjugués pour qu'on puisse dire que $$A_1=B_1+B_2 \ \mathrm{et} \ A_2 = j(B_1-B_2)$$
 $A_1$ et $A_2$ sont alors des nombres réels et on peut écrire la solution complémentaire sous sa forme finale: $$y_c(t)=A_1e^{-\alpha t}\cos{\beta t} + A_2e^{-\alpha t}\sin{\beta t}$$
 #### Recherche d'une solution particulière
 Tout comme le premier ordre, il y a deux méthodes pour trouver une solution particulière
 ##### Méthode des coefficients indéterminés
-Même démarche qu'[[Équations différentielles linéaires du premier et second ordre#Méthodes de résolution pour les équations à coefficients constants de premier ordre#Recherche d'une solution particulière#Méthode des coefficients indéterminés|ici]].
+Même démarche qu'[](Équations%20différentielles%20linéaires%20du%20premier%20et%20second%20ordre#Méthodes%20de%20résolution%20pour%20les%20équations%20à%20coefficients%20constants%20de%20premier%20ordre#Recherche%20d'une%20solution%20particulière#Méthodes%20de%20résolution%20pour%20les%20équations%20à%20coefficients%20constants%20de%20premier%20ordre#Recherche%20d'une%20solution%20particulière#Méthode%20des%20coefficients%20indéterminés|ici).
 ##### Méthode de variation des paramètres
 On fait varier les deux constantes arbitraires de $y_c(t)$. Si $y_c(t) = A_1h_1(t)+A_2h_2(t)$ alors $y_p(t) =A_1(t)h_1(t)+A_2(t)h_2(t)$. Si on a que $$a\frac{d^2y_p}{dt^2}+b\frac{dy_p}{dt}+y_p=f(t)$$
 On substitut $y_p$ dans l'équation et on résout pour trouver $A_1$ et $A_2$. Il est utile de se servir des propriétés de la solution complémentaire pour s'aider à résoudre l'équation. Cette méthode donne souvent des intégrales comme résultat. 
@@ -141,7 +141,7 @@ En faisant le calcul, il est possible d'obtenir une formule générale pour $y_p
 ### Conditions initiales et valeurs des constantes arbitraires
 Comme pour le premier ordre, il faut connaitre les valeurs de $y(0)$ et de $y'(0)$.
 ### Application aux circuits électriques de second ordre
-![[Pasted image 20241119123221.png|300]]
+![300](Pasted%20image%2020241119123221.png)
 #### Tension aux bornes du condensateur
 La mise en équation du circuit donne pour la tension aux bornes du condensateur$$LC\frac{d^2V_c(t)}{dt^2}+RC\frac{dV_c(t)}{dt}+V_c(t)=V_s(t)$$
 En posant $\alpha=\frac{R}{2L}$, $\omega^2_0=\frac{1}{LC}$ et $f(t)=\frac{V_s(t)}{LC}$ on obtient une équation de la forme voulu $$\frac{d^2y}{dt^2}+2\alpha\frac{dy}{dt}+\omega^2_0y=f(t)$$

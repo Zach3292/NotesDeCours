@@ -1,7 +1,7 @@
 ### 7.1 Symbole
 ![[Pasted image 20240902153623.png]]
 
-### 7.2 Les lois de Kirchoff
+### 7.2 Les lois de Kirchhoff
 #### Loi des noeuds
 La loi des noeuds dit que le courant entrant dans un noeud doit être le même que le courant sortant
 ![[Pasted image 20240902153755.png]]

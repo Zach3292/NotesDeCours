@@ -98,7 +98,7 @@ Le 556 comporte deux modes d'alimentations, le mode astable et monostable.
 
 #### Mode astable
 
-Le mode astable est un mode cyclique ou la sortie n'est jamais stable, d'où le nom astable. Il est souvent utilisé afin de réaliser une horloge. Pour ce faire, on tire profit du temps de charge et de décharge d'un [circuit RC](Circuit%20à%20courant%20continu.md#7.7%20Circuits%20RC|circuit%20RC).
+Le mode astable est un mode cyclique ou la sortie n'est jamais stable, d'où le nom astable. Il est souvent utilisé afin de réaliser une horloge. Pour ce faire, on tire profit du temps de charge et de décharge d'un [circuit RC](Circuit%20à%20courant%20continu.md#7.7%20Circuits%20RC).
 ![Pasted image 20240830152126](Pasted%20image%2020240830152126.png)
 
 ##### Mode de fonctionnement:

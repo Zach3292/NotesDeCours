@@ -1,7 +1,7 @@
 ### 2.1 Résistance en série et parallèle
-Voir [[Circuit à courant continu#7.4 Associativité des résistances]] pour les formules
+Voir [l'associativité des résistances](Circuit%20à%20courant%20continu.md) pour les formules
 ### 2.4 Analyse de voltage avec la méthode des noeuds
-Nécessaire lorsque [[Circuit à courant continu#7.2 Les lois de Kirchoff|les loi de Kirchhoff]] ne peuvent pas être utilisé ni les principes de diviseur de tension et de courant.
+Nécessaire lorsque [les lois de Kirchhoff](Circuit%20à%20courant%20continu.md) ne peuvent pas être utilisé ni les principes de diviseur de tension et de courant.
 #### Sélection du point de référence
 En théorie, on peut choisir n'importe quelle noeud comme référence mais choisir un des noeuds de la source de voltage est recommandé puisque cela simplifie les calculs. 
 #### Assignation des voltages de point
@@ -10,14 +10,14 @@ Pour chaque noeud qu'on veut évaluer, il faut lui assigné un voltage $v_x$ qui
 #### Équation
 Ensuite, on calcule le voltage de chaque composante en fonction de nos noeuds choisis plus tôt. Quand on a trouver toute les équations, on les écrit de la manière standard. On place les termes incluant les voltages de noeuds à gauche de l'équation et les autres termes à droites. 
 #### Résoudre
-On place ensuite les équation dans une matrice et on fait une résolution de système d'équation linéaire ([[Résolution de systèmes d'équations linéaires#Méthode de Gauss Jordan|Gauss-Jordan]] ou [[Résolution de systèmes d'équations linéaires#Règle de Cramer|Cramer]]). 
+On place ensuite les équation dans une matrice et on fait une résolution de système d'équation linéaire ([gauss-jordan](Résolution%20de%20systèmes%20d'équations%20linéaires.md#Méthode%20de%20Gauss%20Jordan) ou [cramer](Résolution%20de%20systèmes%20d'équations%20linéaires.md#Règle%20de%20Cramer)). 
 
 ##### Avec source de tension indépendante
 S'il y a plusieurs source de tension dans le circuit, on peut faire des *supernoeuds* autour des sources de tension et des points associés. On peut calculer le courant sortant de ce *supernoeuds* et il sera toujours égal à zéro selon les lois de Kirchhoff. 
 
 #### Résumé de la méthode
 1. Combiner les résistances en parallèle et en série et assigner les noeuds de référence.
-2. Écrire les équations de noeuds et des *supernoeuds* en commençant par [[Circuit à courant continu#Loi des noeuds|KCL]] et ensuite [[Circuit à courant continu#Loi des mailles|KVL]] si nécessaire.
+2. Écrire les équations de noeuds et des *supernoeuds* en commençant par [la loi des noeuds](Circuit%20à%20courant%20continu.md#Loi%20des%20noeuds) et ensuite [la loi des boucles](Circuit%20à%20courant%20continu.md#Loi%20des%20mailles) si nécessaire.
 3. Substituer les variables controlantes des sources dépendantes par leur valeur.
 4. Mettre les équations en forme standard et résoudre le système pour trouver les tensions aux points.
 5. Utilisé les valeurs pour trouver les courants ou tensions d'intérêts.
@@ -26,7 +26,7 @@ S'il y a plusieurs source de tension dans le circuit, on peut faire des *superno
 Utile pour les circuits dit *plan*, qui peuvent être mis à plat sans qu'aucune des composantes ne doivent se croiser.
 
 On définit un courant se promenant dans le sens horaire pour chaque boucle du circuit.
-![[Pasted image 20241103142045.png]]
+![Pasted image 20241103142045](Pasted%20image%2020241103142045.png)
 Quand plusieurs maille de courant circulent au travers d'une même composante, on considère que le courant de la composante vaut la somme algébrique de chaque maille. *Dans l'image ci-dessus, le courant de $R_2$ vaut $i_3-i_1$.* 
 
 #### Écrire les équations
@@ -45,7 +45,7 @@ Si la source est dans plusieurs mailles, on défini une *supermaille* autour des
 On fait simplement remplacer la variable controlante par sa valeur et procède comme habituellement.
 
 ### 2.6 Équivalence Thévenin et Norton
-![[Pasted image 20241103185510.png]]
+![Pasted image 20241103185510](Pasted%20image%2020241103185510.png)
 Bonne vidéo youtube sur les équivalences: https://youtu.be/-kkvqr1wSwA?si=dGCnqdKgt_sbQnFt
 Autre bonne vidéo avec une autre méthode lorsqu'il y a des sources dépendantes: (Anglais incompréhensible) https://youtu.be/i_VtXMLFmOs?si=0tRxZrv95n3PmHnq
 #### Équivalence Thénevin
@@ -86,5 +86,5 @@ Utiliser le principe de superposition permet de simplifier les calculs de compos
 
 ### 2.8 Pont Wheatstone
 Le pont wheatstone utile pour trouver la valeur d'une résistance inconnue. 
-![[Pasted image 20241103154409.png]]
+![Pasted image 20241103154409](Pasted%20image%2020241103154409.png)
 Le courant au détecteur est nul lorsqu'il est balancé.

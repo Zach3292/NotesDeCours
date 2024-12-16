@@ -157,7 +157,7 @@ Plus $C$ est grand, plus le matériau est difficile à réchauffer
 Caractérise le transfert de chaleur à travers un matériau. Représenté par: $$J= -k\frac{dT}{dx}$$
 Où $J$ est le flux de chaleur, ($W/m^2$) et que $dT/dx$ ($C\degree/m$) représente le gradient de température selon la direction x du flux. 
 
-Voir [Gaz, liquides et solides](Gaz,%20liquides%20et%20solides.md)
+Voir [Gaz, liquides et solides](Gaz,%20liquides%20et%20solides.md#Capacit%C3%A9%20thermique)
 #### Conduction électrique
 
-Voir [Le courant électrique](Le%20courant%20électrique.md) pour la résistivité et la conductivité électrique.
+Voir [Le courant électrique](Le%20courant%20électrique.md#6.3%20R%C3%A9sistivit%C3%A9%20et%20temp%C3%A9rature) pour la résistivité et la conductivité électrique.
