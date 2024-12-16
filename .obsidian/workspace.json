@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "63a64f98f255f354",
+        "id": "cb1f2525baa3ade7",
         "type": "tabs",
         "children": [
           {
-            "id": "bad96c3fc107f31b",
+            "id": "2802d716a93b3709",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -145,12 +145,12 @@
               "title": "Outline of z_À faire"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -160,51 +160,52 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-importer:Open Importer": false
+      "obsidian-importer:Open Importer": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bad96c3fc107f31b",
+  "active": "2802d716a93b3709",
   "lastOpenFiles": [
-    "Université/S1/APP1/Plan de validation de conception et plan de test.md",
-    "Université/S1/APP1/Les fonctions transcendantes.md",
-    "Université/S1/APP1/Lecture procédural 1.md",
-    "Université/S1/APP1/Évaluation de la puissance.md",
-    "Université/S1/APP1/Éléments de base d'un circuit.md",
-    "Université/S1/APP3/S1APP3.md",
+    "Université/Université.md",
+    "Collégial/Collégial.md",
+    "Collégial/4e session/4e session.md",
+    "Collégial/4e session/Statistiques/Statistiques et probabilités.md",
+    "Collégial/4e session/Statistiques/Test d'indépendance.md",
+    "Collégial/4e session/Statistiques/Régression.md",
+    "Collégial/4e session/Statistiques/Test d'hypothèse.md",
+    "Collégial/4e session/Statistiques/L'estimation.md",
+    "Collégial/4e session/Statistiques/Loi normale et variables continues.md",
+    "Collégial/4e session/Statistiques/Variables et lois discrètes.md",
+    "Collégial/4e session/Statistiques/Probabilités.md",
+    "Collégial/4e session/Statistiques/Statistiques descriptives et échantillonnage.md",
+    "Collégial/4e session/Calcul 3/Calcul 3.md",
+    "Collégial/4e session/Calcul 3/Note de cours.md",
+    "Collégial/4e session/Physique/Électricité et magnétisme.md",
+    "Collégial/4e session/Physique/Circuit à courant continu.md",
+    "Collégial/4e session/Physique/Le courant électrique.md",
+    "Collégial/4e session/Physique/Les condensateurs.md",
+    "Collégial/4e session/Physique/Le potentiel électrique.md",
+    "Connaissance autre/gradient.md",
+    "Collégial/4e session/Physique/Le théorème de Gauss.md",
+    "Collégial/4e session/Physique/Les champs électriques.md",
+    "Collégial/4e session/Physique/La charge électrique.md",
+    "Collégial/4e session/Physique/Crossover.md",
+    "Collégial/4e session/Physique/Courant alternatif.md",
+    "Collégial/4e session/Philosophie/Éthique et politique.md",
     "Université/S1/APP3/introsw.pdf",
     "Université/S1/Projet/Images/Pasted image 20241013113304.png",
     "Université/S1/Projet/Images/Pasted image 20241013111320.png",
     "Université/S1/Projet/Images",
-    "Université/S1/APP1/S1APP1.md",
-    "Université/S1/Projet/La métacognition.md",
-    "Université/S1/Projet/S1Projet.md",
-    "Université/S1/APP6/Analyse de circuit transitoire.md",
-    "Université/S1/APP6/Équations différentielles linéaires du premier et second ordre.md",
-    "Université/S1/APP6/Inducteur et condensateur.md",
-    "Université/S1/APP6/Nombre complexe.md",
-    "Collégial/4e session/Physique/Circuit à courant continu.md",
-    "Collégial/1ere session/Chimie/Stœchiométrie.md",
-    "Université/Université.md",
     "Université/S1/APP6/Images/Pasted image 20241119123221.png",
-    "Collégial/4e session/Calcul 3/Note de cours.md",
-    "Collégial/4e session/Physique/Les condensateurs.md",
-    "Collégial/4e session/Physique/Le courant électrique.md",
-    "Collégial/4e session/Physique/Courant alternatif.md",
     "Université/S1/APP6/Images/Pasted image 20241119104221.png",
-    "Université/S1/APP6/S1APP6.md",
     "Université/S1/APP6/Images/Pasted image 20241118133011.png",
     "Université/S1/APP6/Images/Pasted image 20241118132727.png",
     "Université/S1/APP6/Images/Pasted image 20241118130828.png",
-    "Université/S1/APP4/Chapitre 1.md",
     "Université/S1/APP6/Images/Pasted image 20241118103707.png",
     "Université/S1/APP6/Images",
     "Université/S1/APP6/Images/Pasted image 20241118095859.png",
     "Université/S1/APP5/Images/Pasted image 20241114131122.png",
-    "Université/S1/S1.md",
     "Université/S1/APP6",
-    "Université/S1/APP5/Chapitre 13.md",
-    "Collégial/4e session/Physique/Le théorème de Gauss.md",
-    "Collégial/4e session/Physique/Électricité et magnétisme.md",
     "Untitled.canvas",
     "Collégial/3e session/Algèbre linéaire",
     "Université/S1/APP5/Images",
