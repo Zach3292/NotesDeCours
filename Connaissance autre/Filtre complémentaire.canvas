@@ -1,0 +1,28 @@
+{
+	"nodes":[
+		{"id":"2ba6e828ffb1acf4","type":"text","text":"Données de l'accéléromètre *ax, ay, az*","x":-418,"y":-258,"width":250,"height":60},
+		{"id":"4cb97089fa96fbbd","type":"text","text":"Données du gyroscope *gx, gy, gz*","x":-418,"y":-60,"width":250,"height":60},
+		{"id":"586fafe0adb7e413","type":"text","text":"Estimation des angles $\\phi$ et $\\theta$ *en assumant l'état au repos*","x":-40,"y":-271,"width":250,"height":87},
+		{"id":"b2eb430e33370c17","type":"text","text":"Estimation des vitesses de rotations des angles d'Euler $\\dot{\\phi}$ et $\\dot{\\theta}$ ","x":-80,"y":-70,"width":250,"height":80},
+		{"id":"9bf5f8720a813311","type":"text","text":"Intégration en fonction du temps pour estimer les angles d'Euler","x":274,"y":-70,"width":250,"height":90},
+		{"id":"49fe237a0e8fcbbf","type":"text","text":"Multiplication par un facteur $\\alpha \\in 0\\leq \\alpha \\leq 1$","x":640,"y":-257,"width":250,"height":60},
+		{"id":"6c54078840d91a3c","type":"text","text":"Multiplication par un facteur $1-\\alpha$","x":641,"y":-56,"width":250,"height":60},
+		{"id":"f56d31d9faa45d36","type":"text","text":"Addition des deux","x":920,"y":-160,"width":250,"height":60},
+		{"id":"1b8f68469f0282f7","type":"text","text":"Estimation des angles d'Euler $\\hat{\\phi}$ et $\\hat{\\theta}$","x":1283,"y":-157,"width":250,"height":60},
+		{"id":"71b25b9778113a3f","type":"text","text":"On ajoute ce résultat dans le calcul de l'intégral","x":580,"y":156,"width":250,"height":60},
+		{"id":"a8076a6839d8bb33","x":330,"y":-258,"width":250,"height":60,"type":"text","text":"Application d'un filtre passe-bas"}
+	],
+	"edges":[
+		{"id":"70003d45ed40cad2","fromNode":"2ba6e828ffb1acf4","fromSide":"right","toNode":"586fafe0adb7e413","toSide":"left"},
+		{"id":"576883d8a939c323","fromNode":"4cb97089fa96fbbd","fromSide":"right","toNode":"b2eb430e33370c17","toSide":"left"},
+		{"id":"5d744d191c6cdd44","fromNode":"b2eb430e33370c17","fromSide":"right","toNode":"9bf5f8720a813311","toSide":"left"},
+		{"id":"86b10b49b1bfec5f","fromNode":"9bf5f8720a813311","fromSide":"right","toNode":"6c54078840d91a3c","toSide":"left"},
+		{"id":"aa73316afe3c5b24","fromNode":"49fe237a0e8fcbbf","fromSide":"right","toNode":"f56d31d9faa45d36","toSide":"top"},
+		{"id":"a673772e2e5c3d2e","fromNode":"6c54078840d91a3c","fromSide":"right","toNode":"f56d31d9faa45d36","toSide":"bottom"},
+		{"id":"168c926b1e3f1baf","fromNode":"f56d31d9faa45d36","fromSide":"right","toNode":"1b8f68469f0282f7","toSide":"left"},
+		{"id":"c3654c33fb16383e","fromNode":"1b8f68469f0282f7","fromSide":"bottom","toNode":"71b25b9778113a3f","toSide":"right"},
+		{"id":"dff149c3d1da3aae","fromNode":"71b25b9778113a3f","fromSide":"left","toNode":"9bf5f8720a813311","toSide":"bottom"},
+		{"id":"5743f2166a584df6","fromNode":"a8076a6839d8bb33","fromSide":"right","toNode":"49fe237a0e8fcbbf","toSide":"left"},
+		{"id":"247e510913a541c6","fromNode":"586fafe0adb7e413","fromSide":"right","toNode":"a8076a6839d8bb33","toSide":"left"}
+	]
+}

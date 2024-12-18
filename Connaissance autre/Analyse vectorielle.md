@@ -9,25 +9,25 @@ Un autre exemple est une plaque qui est chauffé en un point avec une torche. La
 \end{align}$$
 ### Résumés des différents opérateurs
 #### Gradient
-Le [gradient](gradient.md) est un vecteur de dérivées partielles soit un taux de variation selon une certaine position d'où l'équation précédente:$$\begin{align}\frac{\partial T}{\partial t} & = \alpha^2 \ \nabla^2 \ T \\ 
+Le [Gradient](Gradient.md) est un vecteur de dérivées partielles soit un taux de variation selon une certaine position d'où l'équation précédente:$$\begin{align}\frac{\partial T}{\partial t} & = \alpha^2 \ \nabla^2 \ T \\ 
 & = \alpha^2\left(\frac{\partial^2 T}{\partial x^2}+\frac{\partial^2T}{\partial y^2}\right)
-\end{align}$$Celui permet de transformer un champ scalaire en champ vectoriel. Le vecteur du [gradient](gradient.md) pointe vers la plus grande variation et sa norme est la variation en elle même, soit la dérivée partielle. Voici un exemple de notation si une fonction $f(x,y,z)$ dans $\mathbb{R}^3$ est différentiable alors:$$\nabla f = \left[ \begin{align} & \frac{\partial f}{\partial x} \\ & \frac{\partial f}{\partial y} \\
+\end{align}$$Celui permet de transformer un champ scalaire en champ vectoriel. Le vecteur du [Gradient](Gradient.md) pointe vers la plus grande variation et sa norme est la variation en elle même, soit la dérivée partielle. Voici un exemple de notation si une fonction $f(x,y,z)$ dans $\mathbb{R}^3$ est différentiable alors:$$\nabla f = \left[ \begin{align} & \frac{\partial f}{\partial x} \\ & \frac{\partial f}{\partial y} \\
 & \frac{\partial f}{\partial z} \\ \end{align} \right]$$
 Ou plus généralement $\nabla = \vec{i} \frac{\partial}{\partial x} + \vec{j} \frac{\partial}{\partial y} + \vec{k} \frac{\partial}{\partial z}$ 
 #### Divergence:
-La [divergence](divergence.md) est le produit scalaire du [gradient](gradient.md), elle prend un vecteur et retourne un scalaire. Selon cette logique, si $\vec{f}$ est un vecteur de $\mathbb{R}^3$ dans un champ de vecteur, alors:$$\nabla\cdot\vec{f}=\left[ \begin{align} & \frac{\partial}{\partial x} \\ & \frac{\partial}{\partial y} \\
+La [Divergence](Divergence.md) est le produit scalaire du [Gradient](Gradient.md), elle prend un vecteur et retourne un scalaire. Selon cette logique, si $\vec{f}$ est un vecteur de $\mathbb{R}^3$ dans un champ de vecteur, alors:$$\nabla\cdot\vec{f}=\left[ \begin{align} & \frac{\partial}{\partial x} \\ & \frac{\partial}{\partial y} \\
 & \frac{\partial}{\partial z} \\ \end{align} \right] \cdot \left[ \begin{split} & f_1 \\ & f_2 \\
 & f_3 \\ \end{split} \right] = \frac{\partial f_1}{\partial x} + \frac{\partial f_2}{\partial y} + \frac{\partial f_3}{\partial z}$$ 
-Elle exprime la tendance qu'un champ de vecteur diverge autour d'un certain point un peu comme un soleil ou inversement converge comme un trou. Une charge ponctuelle est un exemple de [divergence](divergence.md) dans le champ de vecteurs du champ électrique. Elle est positive si les champs diverge vers l'extérieur et négative s'il converge vers l'intérieur, comme une charge ponctuelle.
+Elle exprime la tendance qu'un champ de vecteur diverge autour d'un certain point un peu comme un soleil ou inversement converge comme un trou. Une charge ponctuelle est un exemple de [Divergence](Divergence.md) dans le champ de vecteurs du champ électrique. Elle est positive si les champs diverge vers l'extérieur et négative s'il converge vers l'intérieur, comme une charge ponctuelle.
 
 
 #### Rotationnel:
-Le [rotationnel](rotationnel.md), "curl" en anglais, est le produit vectoriel du [gradient](gradient.md). Il transforme un vecteur en champ vectoriel. Si on a le même vecteur $\vec{f}$ alors:$$\nabla\times\vec{f}=\left[ \begin{align} & \frac{\partial}{\partial x} \\ & \frac{\partial}{\partial y} \\
+Le [Rotationnel](Rotationnel.md), "curl" en anglais, est le produit vectoriel du [Gradient](Gradient.md). Il transforme un vecteur en champ vectoriel. Si on a le même vecteur $\vec{f}$ alors:$$\nabla\times\vec{f}=\left[ \begin{align} & \frac{\partial}{\partial x} \\ & \frac{\partial}{\partial y} \\
 & \frac{\partial}{\partial z} \\ \end{align} \right] \times \left[ \begin{split} & f_1 \\ & f_2 \\
 & f_3 \\ \end{split} \right] = \begin{vmatrix} \vec{i} & \vec{j} & \vec{k} \\ 
 \frac{\partial}{\partial x} & \frac{\partial}{\partial y} & \frac{\partial}{\partial z} \\
 f_1 & f_2 & f_3 \end{vmatrix}$$
 
-Il exprime la tendance qu'on des vecteurs dans un champ à tourner autour d'un point, un [rotationnel](rotationnel.md) positive implique une rotation anti-horaire tandis que négatif une rotation horaire, un [rotationnel](rotationnel.md) nul indique une absence de rotation dans le champ de vecteur.
+Il exprime la tendance qu'on des vecteurs dans un champ à tourner autour d'un point, un [Rotationnel](Rotationnel.md) positive implique une rotation anti-horaire tandis que négatif une rotation horaire, un [Rotationnel](Rotationnel.md) nul indique une absence de rotation dans le champ de vecteur.
 
  
