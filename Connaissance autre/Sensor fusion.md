@@ -40,4 +40,21 @@ r
 $$
 On intègre en fonction du temps pour obtenir des angles d'Euler et on multiplie par 1 moins le facteur de l'accélération. 
 
-Ensuite, on additionne les deux estimations et on retourne la valeur estimée dans l'intégral en sommation pour continuer l'estimation du prochain instant. La méthode peut être résumé à la formule suivante: $$\hat{\phi}_{n+1}=\hat{\phi}_{ax, n}\cdot\alpha + (1-\alpha)\c
+Ensuite, on additionne les deux estimations et on retourne la valeur estimée dans l'intégral en sommation pour continuer l'estimation du prochain instant. La méthode peut être résumé à la formule suivante: $$\hat{\phi}_{n}=\hat{\phi}_{acc, n}\cdot\alpha + (1-\alpha)\cdot \left[\hat{\phi}_{n-1}+dt\cdot\dot{\phi}_{gyr, n}\right]$$
+Où: 
+- $\hat{\phi}_{n}$: l'estimer du prochain angle recherché
+- $\hat{\phi}_{acc, n}$: l'estimer de l'angle présent selon l'accéléromètre
+- $\dot{\phi}_{gyr, n}$:l'estimer de la vitesse angulaire présent selon le gyroscope
+- $\hat{\phi}_{n-1}$: l'estimer de l'angle précédent
+- $\alpha$: constante dictant le niveau de confiance des données de l'accéléromètre, souvent proche de zéro mais entre 0 et 1 possible
+
+##### Considération pratique
+- Il faut connaitre les angles d'Euler pour calculer les vitesses des angles d'Euler
+- On doit peut être appliquer un filtre passe-bas au résultat final
+- Certaine opération de trigonométrie sont plus dur pour notre contrôleur
+- Il y a des meilleurs manières d'intégrer
+- Il faut bien choisir $\alpha$
+- On pourrait initialiser nos capteurs pour avoir un estimé initial de l'angle
+
+#### Filtre Kalman étendu
+L'autre méthode consiste à utiliser un filtre Kalman non-linéaire ou filtre Kalman étendu tel que décrit [ici](Kalman%20Filter.md). Ce filtre ressemble au filtre complémentaire sauf qu'il choisi $\alpha$ pour nous dans un monde optimal.
