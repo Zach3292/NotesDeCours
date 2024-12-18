@@ -55,4 +55,4 @@ Où:
 - Il faut bien choisir $\alpha$
 - On pourrait initialiser nos capteurs pour avoir un estimé initial de l'angle
 #### Filtre Kalman étendu
-L'autre méthode consiste à utiliser un filtre Kalman non-linéaire ou filtre Kalman étendu tel que décrit [ici](Kalman%20Filter.md). Ce filtre ressemble au filtre complémentaire sauf qu'il choisi $\alpha$ pour nous dans un monde optimal. 
+L'autre méthode consiste à utiliser un filtre Kalman non-linéaire ou filtre Kalman étendu tel que décrit [ici](Kalman%20Filter.md#Filtre%20Kalman%20Étendu). Ce filtre ressemble au filtre complémentaire sauf qu'il choisi $\alpha$ pour nous dans un monde optimal. 
