@@ -36,8 +36,7 @@ Ensuite, on prend les données du gyroscope, on applique un filtre passe-bas et 
 p \\ 
 q \\ 
 r
-\end{bmatrix}
-$$
+\end{bmatrix}$$
 On intègre en fonction du temps pour obtenir des angles d'Euler et on multiplie par 1 moins le facteur de l'accélération. 
 
 Ensuite, on additionne les deux estimations et on retourne la valeur estimée dans l'intégral en sommation pour continuer l'estimation du prochain instant. La méthode peut être résumé à la formule suivante: $$\hat{\phi}_{n}=\hat{\phi}_{acc, n}\cdot\alpha + (1-\alpha)\cdot \left[\hat{\phi}_{n-1}+dt\cdot\dot{\phi}_{gyr, n}\right]$$
@@ -55,6 +54,5 @@ Où:
 - Il y a des meilleurs manières d'intégrer
 - Il faut bien choisir $\alpha$
 - On pourrait initialiser nos capteurs pour avoir un estimé initial de l'angle
-
 #### Filtre Kalman étendu
-L'autre méthode consiste à utiliser un filtre Kalman non-linéaire ou filtre Kalman étendu tel que décrit [ici](Kalman%20Filter.md). Ce filtre ressemble au filtre complémentaire sauf qu'il choisi $\alpha$ pour nous dans un monde optimal.
+L'autre méthode consiste à utiliser un filtre Kalman non-linéaire ou filtre Kalman étendu tel que décrit [ici](Kalman%20Filter.md). Ce filtre ressemble au filtre complémentaire sauf qu'il choisi $\alpha$ pour nous dans un monde optimal. 
