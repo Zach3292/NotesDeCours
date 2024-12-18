@@ -1,5 +1,5 @@
 ### Résumé
-Le résumé du gradient est expliqué [ici](Analyse%20vectorielle.md#Gradient) 
+Le résumé du gradient est expliqué [ici](Analyse%20vectorielle/Analyse%20vectorielle.md#Gradient) 
 Il s'agit d'un vecteur de dérivée partielle
 
 Exemple: si on a un fonction $f(x,y) = x^2 + y^2$ alors:

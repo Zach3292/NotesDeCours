@@ -31,7 +31,7 @@ $$U = \frac{kq_1q_2}{r}$$
 La différence de potentiel à un point si la distribution des charges est continue dans un objet:
 $$V_P = k\int{\frac{dq}{r}}$$
 ### Le champ électrique selon la différence de potentiel
-Le [Gradient](../../../Connaissance%20autre/Gradient.md) de la différence de potentiel est égal à l'opposé de champ électrique:
+Le [Gradient](../../../Connaissance%20autre/Analyse%20vectorielle/Gradient.md) de la différence de potentiel est égal à l'opposé de champ électrique:
 $$\nabla V = -\vec{E}$$
 ### Potentiel des conducteurs en équilibre électrostatique
 Si on relie deux conducteurs ayant chacun un charge $Q$, une densité surfacique $\sigma$ et un potentiel $V$ alors:

@@ -7,13 +7,13 @@ tags: []
 Probabilité: population connue
 Statistiques: population inconnue
 
-On veut passer d'un échantillon à un epopulation à l'aide de l'Estimation
+On veut passer d'un échantillon à une population à l'aide de l'Estimation
 
-Si on a $S$ qui est l'écart type de la population réelle ou estimée et $n$ le nombre d'échantillon. Il est possible de trouver $\sigma$ qui est l'écart type des échanitllons:
+Si on a $S$ qui est l'écart type de la population réelle ou estimée et $n$ le nombre d'échantillon. Il est possible de trouver $\sigma$ qui est l'écart type des échantillons:
 $$\sigma = \frac{S}{\sqrt{n}}$$
 
 ### Théorème central limite
-Si $n>30$ alors peu importe la distribution de la population, la distributions des échantillons sera normale. Les paquets de 30 et plus suivent la distribtuion normale.
+Si $n>30$ alors peu importe la distribution de la population, la distributions des échantillons sera normale. Les paquets de 30 et plus suivent la distribution normale.
 
 ### Intervalles de confiance
 

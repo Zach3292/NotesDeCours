@@ -1,5 +1,5 @@
 ### Résumé
-Le résumé de la divergence est expliqué [ici](Analyse%20vectorielle.md#Divergence) 
+Le résumé de la divergence est expliqué [ici](Analyse%20vectorielle/Analyse%20vectorielle.md#Divergence) 
 Un autre petit résumé plus complet du calcul de la divergence:$$\nabla\cdot\vec{f}=\left[ \begin{align} & \frac{\partial}{\partial x} \\ & \frac{\partial}{\partial y} \\
 & \frac{\partial}{\partial z} \\ \end{align} \right] \cdot \left[ \begin{split} & f_1(x,y,z) \\ & f_2(x,y,z) \\
 & f_3(x,y,z) \\ \end{split} \right] = \frac{\partial f_1(x,y,z)}{\partial x} + \frac{\partial f_2(x,y,z)}{\partial y} + \frac{\partial f_3(x,y,z)}{\partial z}$$
@@ -12,7 +12,7 @@ La divergence peut être utiliser pour faire des équations différentielles et 
 $$\frac{d}{dt}\left[\begin{split}& x\\ & y \end{split}\right]=\vec{f}(x,y) = \left[ \begin{split}& 1 \ \ \ 0 \\ & 0 \ \ \ 1 \end{split}\right] \left[ \begin{split} & x\\ & y \end{split} \right]$$
 Si on intègre cette équation on arrive à la position du fluide au temps $t$: $$\left[\begin{split}& x\\ & y \end{split}\right](t)=\left[ \begin{split}& e^t \ x(0) \\ & e^t \ y(0) \end{split}\right]$$
 ### Le laplacien
-Si on prend la divergence du [Gradient](Gradient.md) soit: $$\nabla\cdot\nabla f = \left[\begin{align} & \frac{\partial}{\partial x} \\ & \frac{\partial}{\partial y} \end{align} \right]\cdot \left[\begin{split} & \frac{\partial f}{\partial x} \\ & \frac{\partial f}{\partial y} \end{split} \right] = \frac{\partial^2 f}{\partial x^2} + \frac{\partial^2 f}{\partial y^2}$$
+Si on prend la divergence du [Gradient](Analyse%20vectorielle/Gradient.md) soit: $$\nabla\cdot\nabla f = \left[\begin{align} & \frac{\partial}{\partial x} \\ & \frac{\partial}{\partial y} \end{align} \right]\cdot \left[\begin{split} & \frac{\partial f}{\partial x} \\ & \frac{\partial f}{\partial y} \end{split} \right] = \frac{\partial^2 f}{\partial x^2} + \frac{\partial^2 f}{\partial y^2}$$
 On obtient la somme des dérivées partielles secondes de $f$. On l'appelle aussi le laplacien de $f$ soit: $$\nabla^2f$$
 ### Exemples
 #### Exemple 1:
