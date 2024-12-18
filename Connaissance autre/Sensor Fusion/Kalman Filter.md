@@ -10,4 +10,9 @@ Encore une fois, la plupart des phénomènes naturels peuvent être représenté
 L'état caché du système est une *variable aléatoire*, celle-ci est décrit par un fonction de densité de probabilité.
 #### Estimation, précision et exactitude
 Une *estimation* essaye d'évalue l'état caché du système. La *précision* est lorsque nos estimés n'ont pas un grande incertitude. L'*exactitude* est lorsque nos estimés sont proches de la valeur réelle. Un système avec une basse exactitude est dit *biaisé*.
+### Filtre $\alpha- \beta - \gamma$
+#### Première équation du filtre Kalman
+Estimation de l'état présent = La valeur prédit + un facteur fois (la mesure - la prédiction de l'état précédent)
+
+Le facteur est représenté par $K_n$ et s'appelle le gain Kalman.
 ### Filtre Kalman étendu
