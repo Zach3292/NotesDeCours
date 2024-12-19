@@ -19,5 +19,10 @@ Le facteur est représenté par $K_n$ et s'appelle le gain Kalman.
 On arrive à cette fonction appelé la fonction de changement d'état:$$\hat{\phi}_{n,n}=\hat{\phi}_{n, n-1} + \alpha\cdot \left[z_n+\hat{\phi}_{n, n-1}\right]$$
 La différence entre la mesure et l'état prédit s'appelle *l'innovation*.
 
-Le processus d'estimation avec ce filtre peut être représenté par 
+Le processus d'estimation avec ce filtre peut être représenté par [ce canvas](Procédé%20d'estimation.canvas).
+#### Deuxième équation du filtre de Kalman
+
+Lorsque le système n'est pas dans un état statique, il faut pouvoir représenter les lois dynamiques qui le régissent. Avec ces équations, il est possible de prédire le prochaine état du système s'il n'y aurait pas de changement à son comportement. Ce système d'équation représente les deuxièmes équations du filtre Kalman et s'appelle *les équations d'extrapolation de l'état* ou *équations de transition* ou encore *équations de prédiction*.
+
+Les équations de transition dépendent du système et change dépendant du problème. Il existe une forme matricielle générale **qui sera vu plus tard**
 ### Filtre Kalman étendu
