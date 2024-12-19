@@ -6,7 +6,7 @@ L'intégrale des fonctions de densité donne la probabilité. Si on les intègre
 $$f(x) = \frac{1}{\sqrt{2\pi}} e^{\frac{-z^2}{2}}$$
 
 #### Forme générale:
-$$f(x) = \frac{1}{\sigma\sqrt{2\pi}} e^{\frac{-(x-\mu)^2}{2\sigma^2}}$$
+$$f(x) = \frac{1}{\sqrt{2\pi\sigma^2}} e^{\frac{-(x-\mu)^2}{2\sigma^2}}$$
 
 Un loi normale est toujours cumulative
 

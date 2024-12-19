@@ -12,7 +12,12 @@ L'état caché du système est une *variable aléatoire*, celle-ci est décrit p
 Une *estimation* essaye d'évalue l'état caché du système. La *précision* est lorsque nos estimés n'ont pas un grande incertitude. L'*exactitude* est lorsque nos estimés sont proches de la valeur réelle. Un système avec une basse exactitude est dit *biaisé*.
 ### Filtre $\alpha- \beta - \gamma$
 #### Première équation du filtre Kalman
-Estimation de l'état présent = La valeur prédit + un facteur fois (la mesure - la prédiction de l'état précédent)
+Estimation de l'état présent = La valeur prédit de l'état + un facteur fois (la mesure - la prédiction de l'état)
 
 Le facteur est représenté par $K_n$ et s'appelle le gain Kalman.
+
+On arrive à cette fonction appelé la fonction de changement d'état:$$\hat{\phi}_{n,n}=\hat{\phi}_{n, n-1} + \alpha\cdot \left[z_n+\hat{\phi}_{n, n-1}\right]$$
+La différence entre la mesure et l'état prédit s'appelle *l'innovation*.
+
+Le processus d'estimation avec ce filtre peut être représenté par 
 ### Filtre Kalman étendu
