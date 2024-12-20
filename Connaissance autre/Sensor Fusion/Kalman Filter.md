@@ -34,5 +34,17 @@ L'erreur sur l'estimation peut être calculé de la manière suivante: $$\Delta\
 Dans un filtre Kalman, il faut connaitre ou assumer toutes les variables initiales.
 
 ### FIltre Kalman multidimensionnelle
-
+#### La matrice d'état
+Elle représente l'état actuelle du système, souvent en coordonnées et en vitesse. Elle est souvent représenté comme suit: $$X = 
+\begin{bmatrix} 
+x \\
+y \\
+z \\
+\dot{x} \\
+\dot{y} \\
+\dot{z} \\
+\end{bmatrix}$$
+#### La prédiction de l'état
+Pour prédire l'état du système $x_k$, le filtre Kalman utilise un équation: $$x_k=Ax_{k-1}+Bu_k+w_k$$
+Où A et B sont des matrices déterminées à partir de la dynamique du système, $u_k$ est ;a matrice variable de contrôle
 ### Filtre Kalman étendu
