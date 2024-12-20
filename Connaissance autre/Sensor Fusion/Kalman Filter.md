@@ -45,6 +45,36 @@ z \\
 \dot{z} \\
 \end{bmatrix}$$
 #### La prédiction de l'état
-Pour prédire l'état du système $x_k$, le filtre Kalman utilise un équation: $$x_k=Ax_{k-1}+Bu_k+w_k$$
-Où A et B sont des matrices déterminées à partir de la dynamique du système, $u_k$ est ;a matrice variable de contrôle
+Pour prédire l'état du système $X_k$, le filtre Kalman utilise un équation: $$X_k=AX_{k-1}+Bu_k+w_k$$
+Où A et B sont des matrices déterminées à partir de la dynamique du système, $u_k$ est la matrice de variable de contrôle et $w_k$ du bruit
+##### Exemple avec un système une dimension
+La matrice d'état est: $$X = 
+\begin{bmatrix} 
+x \\
+\dot{x} \\
+\end{bmatrix}$$
+On assume que l'objet agit selon un [MRUA](MRUA.md): $$x=x_0+\dot{x}t+\frac{1}{2}\ddot{x}t^2$$
+$$\dot{x}=\dot{x_0}+\ddot{x}t$$
+Avec cette équation, une forme standard de la matrice $A$ existe: $$A=
+\begin{bmatrix}
+1 & \Delta t \\
+0 & 1 \\
+\end{bmatrix}$$
+Si on suit le principe de la [multiplication matricielle](../../Collégial/3e%20session/Algèbre%20linéaire/Opérations%20sur%20les%20matrices.md#Multiplication%20de%20matrice), on obtient: $$AX_{k-1}=
+\begin{bmatrix}
+x+\dot{x}\Delta t \\
+\dot{x} \\
+\end{bmatrix}$$
+L'accélération de l'objet n'est pas gérée par A mais par B.
+
+Dans le cas de cette exemple, la matrice de variable de contrôle $u_k=[a]$ soit l'accélération et la forme standard de B est:  $$B=
+\begin{bmatrix}
+\frac{1}{2}\Delta t^2 \\
+\Delta t \\
+\end{bmatrix}$$
+On a donc que $$Bu_k=
+\begin{bmatrix}
+a\frac{1}{2}\Delta t^2 \\
+a\Delta t \\
+\end{bmatrix}$$Si on résout l'équation de prédiction, on a que: $$X_k=\begin{bmatrix}x\\\dot{x}\end{bmatrix}=\begin{bmatrix}x+\dot{x}\Delta t +\frac{1}{2}a\Delta t^2\\\dot{x}+\ddot{x}\Delta t\end{bmatrix}$$
 ### Filtre Kalman étendu
