@@ -3,4 +3,6 @@
 
 [Systèmes numériques](Systèmes%20numériques.md)
 
+[Logique combinatoire](Logique%20combinatoire.md)
+
 

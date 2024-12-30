@@ -12,3 +12,4 @@ Les systèmes numériques peuvent être classé en deux grandes catégories: **l
 **Les mathématiques discrètes** définissent les règles de logique des systèmes numériques.
 
 ### Systèmes séquentiels synchrones et asynchrones
+**Les systèmes synchrones** sont des systèmes où il y a une horloge, la mémoire est mise à jour à chaque signaux d'horloge. **Les systèmes asynchrones** ne disposent pas d'horloge et la mémoire est mise à jour dès qu'il y a de la nouvelle information.
