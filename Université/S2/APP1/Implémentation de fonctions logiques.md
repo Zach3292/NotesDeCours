@@ -8,3 +8,30 @@ Les instructions plus complexes dépendent du langages de programmation, pour le
 
 Dans notre cas, il est préférable de moins utilisé l'instruction *JSR* ou *Jump to Sub-Routine* puisqu'elle rend notre logique plus complexe et plus difficile à corriger.
 #### Temps de cycles d'un automates
+Un automate exécute son programme en boucle en suivant une séquence:
+- La lecture des signaux d'entrée
+- L'exécution du programme
+- La mise à jour des signaux de sortie
+
+Il y a donc un délai entre la mesure des entrées et la mise à jour des sorties. Si un évènement arrive lors de ce délai, l'automate ne pourra pas réagir.
+### Implémentation sur un circuit électronique numérique
+On peut aussi implémenter des fonctions logiques sur des circuits électroniques à l'aide de **porte logique**. En connectant ces portes logiques en cascade, on peut obtenir des programme plus complexe. Il existe quatre portes logiques de base, le tampon, l'inverseur, le ET et le OU. Chaque porte comporte des caractéristiques électriques.
+#### Le délai de propagation
+Il représente la durée entre la mise à jour d'une entrée et la mise à jour de la sortie de la porte
+#### Le fan-in
+Il représente le nombre de signaux d'entrée qu'une porte peut accepter
+#### Le fan-out
+Il représente le nombre maximal de porte pouvant être reliées à la sortie d'une même porte logique du niveau précédent. 
+#### Les niveaux de tension
+##### $V_{IL}$
+La tension d'entrée basse
+##### $V_{IH}$
+La tension d'entrée haute
+##### $V_{OL}$
+La tension de sortie basse
+##### $V_{OH}$
+La tension de sortie haute
+
+Pour assurer une bonne communication entre les portes logiques, il faut que: $$V_{OL} \leq V_{IL}$$
+et $$V_{OH} \geq V_{IH}$$
+Plus les plages de tension sont basse, plus il y aura du bruit dans le signal, c'est pourquoi les industrie opèrent souvent avec un niveau logique de 24V.

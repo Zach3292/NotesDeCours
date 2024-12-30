@@ -9,4 +9,6 @@
 
 [Implémentation de fonctions logiques](Implémentation%20de%20fonctions%20logiques.md)
 
+[Fonctions logiques typiques](Fonctions%20logiques%20typiques.md)
+
 
