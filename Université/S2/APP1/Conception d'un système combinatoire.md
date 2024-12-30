@@ -40,4 +40,9 @@ En algèbre de Boole, on peut obtenir le **dual** d'une équation en remplaçant
 
 Voici une liste des théorèmes de l'algèbre de Boole: ![théorème](Images/théorème.png)
 
-Comme en statistique, on représente un relation *ET* par un produit et une relation *OU* par une somme.
+Comme en [statistique](../../../Collégial/4e%20session/Statistiques/Probabilités.md#Calculs), on représente un relation *ET* par un produit et une relation *OU* par une somme.
+
+### Implémentation de fonctions logiques
+Il est ensuite possible de programmer notre système avec des automates ou des circuits électroniques tel que vu [ici](Implémentation%20de%20fonctions%20logiques.md).
+### Validation du système
+Elle sert à vérifier que notre système donne toujours le bon résultat pour toutes les combinaisons d'entrées possibles.
