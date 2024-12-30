@@ -3,6 +3,8 @@
 
 [Systèmes numériques](Systèmes%20numériques.md)
 
-[Logique combinatoire](Logique%20combinatoire.md)
+[Représentation des nombres](Représentation%20des%20nombres.md)
+
+[Conception d'un système combinatoire](Conception%20d'un%20système%20combinatoire.md)
 
 
