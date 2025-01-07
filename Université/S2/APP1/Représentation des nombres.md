@@ -35,7 +35,7 @@ Il s'agit de deux manière de présenter des chiffres en binaire.
 
 Le code BCD représente les chiffres de 0-9 de la même manière que la notation binaire. Pour les nombres plus élevé, on ajoute 4 bits pour chaque chiffre supplémentaire: ![bcd](Images/bcd.png)
 
-Le code Gray utilise un approche complètement différente, il est utilisé dans plusieurs applications dont les [tables de Karnaugh](Conception%20d'un%20système%20combinatoire.md#La%20mise%20en%20équation%20des%20fonctions%20logiques#Tables%20de%20Karnaugh).
+Le code Gray utilise un approche complètement différente, il est utilisé dans plusieurs applications dont les [tables de Karnaugh](Conception%20d'un%20système%20combinatoire.md#La%20mise%20en%20équation%20des%20fonctions%20logiques#Tables%20de%20Karnaugh). Il s'agit d'une approche où seulement un bit change par nombre.
 
 Le code ASCII quant à lui sert à encoder sur 8 bits l'information sous forme de texte dans un système numérique.
 
