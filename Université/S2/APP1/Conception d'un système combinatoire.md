@@ -10,7 +10,7 @@ Les spécifications fonctionnelles sont données par le client. Elles détermine
 
 ### La mise en équation des fonctions logiques
 La méthode privilégiée pour passer des spécifications aux équations est de rédiger la **table de vérité** qui représente le comportement du système numérique combinatoire avec un ou plusieurs variables booléennes.
-![verite](verite.png)
+![verite](Images/verite.png)
 ![table](Images/table.png)
 
 Avec la table de vérité, on écrit ensuite la **table de Karnaugh**. 
@@ -31,6 +31,15 @@ Si une combinaison est impossible, ou le résultat n'a pas d'importance, on dés
 
 #### Somme de produits et produit de sommes
 La fonction *F* obtenue è l'aide de la table de Karnaugh est maintenant simplifiée et constitue une **somme de produits**. Un fonction logique pourrait aussi être représentée par un **produit de sommes**. 
+
+#### Forme canonique des fonctions logiques
+##### Le terme minimal *minterm*
+Le *minterm* $i$ d'une table de vérité représente un produit des trois variables qui va donner une fonction égale à 1.
+##### Le terme maximal *maxterm*
+Il est l'opposé du *minterm*, il s'agit du terme dont la somme va donner une fonction logique de 0.
+
+![terme](Images/terme.png)
+**La forme de somme canonique** d'une fonction est la somme des *minterm* associé à la fonction logique. **La forme de produit canonique** est le produit des *maxterm* associé à la fonction logique. On peut facilement passer d'une fonction à une autre: ![transfere](Images/transfere.png)
 
 ### Simplification des équations
 Pour les cas simple, la table de Karnaugh permet de simplifier les équations. Cependant, lorsque le nombre de variables augmente, il faut **l'algèbre de Boole**.
