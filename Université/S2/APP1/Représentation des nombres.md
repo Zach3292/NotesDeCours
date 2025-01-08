@@ -26,7 +26,7 @@ Les plages de valeurs de chaque notation varie légèrement, elles sont les suiv
 ### Concept de débordement
 Dans un nombre à 4 bits en complément à 2, il est impossible de représenté +8. Si on ajoute 1 à 0111 (7), on obtient 1000, qui représente -8. Il y a donc un **débordement** dans la valeur binaire.
 
-Il existe une méthode simple pour détecter les débordements: une addition ne déborde jamais si les deux *opérandes* sont de signe différent. Si après après une addition de deux opérandes de signes identiques le **MSB** du résultat est différent du **MSB** des opérandes, il y a débordement.
+Il existe une méthode simple pour détecter les débordements: une addition ne déborde jamais si les deux *opérandes* sont de signe différent. Si après une addition de deux opérandes de signes identiques le **MSB** du résultat est différent du **MSB** des opérandes, il y a débordement.
 
 Un autre manière de voir s'il y a débordement est de regarder si les retenues avant et après le **MSB** sont différentes, il y aura alors un débordement: ![débordement](Images/débordement.png)
 ### Code BCD et code Gray
