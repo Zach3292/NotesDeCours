@@ -20,6 +20,7 @@ Dans une tables de Karnaugh, la section identifiée A est la section où la vari
 La fonction logique est alors la somme de tous les **impliquants premiers**, les regroupements de 1. Ces regroupements suivent deux règles:
 - Un impliquant premier doit réunir un nombre de 1 équivalent à un multiple de 2 (un groupe de trois 1 est impossible)
 - Un impliquant premier doit regrouper le plus grand nombre de 1 logiques tout en respectant la première règle
+*Il ne s'agit pas d'une règle mais les 1 peuvent être dans plus d'un groupe.*
 
 #### Impliquants premiers essentiels
 Parfois, les mêmes 1 logiques peuvent être encerclé de plusieurs façon, il faut alors choisir les impliquants qui limitent le nombre de regroupement et qui forment les plus grands groupes.
