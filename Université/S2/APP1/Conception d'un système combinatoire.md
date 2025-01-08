@@ -10,6 +10,7 @@ Les spécifications fonctionnelles sont données par le client. Elles détermine
 
 ### La mise en équation des fonctions logiques
 La méthode privilégiée pour passer des spécifications aux équations est de rédiger la **table de vérité** qui représente le comportement du système numérique combinatoire avec un ou plusieurs variables booléennes.
+![verite](verite.png)
 ![table](Images/table.png)
 
 Avec la table de vérité, on écrit ensuite la **table de Karnaugh**. 
