@@ -21,7 +21,7 @@ Il représente la durée entre la mise à jour d'une entrée et la mise à jour 
 #### Le fan-in
 Il représente le nombre de signaux d'entrée qu'une porte peut accepter
 #### Le fan-out
-Il représente le nombre maximal de porte pouvant être reliées à la sortie d'une même porte logique du niveau précédent. 
+Il représente le nombre maximal de porte pouvant être reliées à la sortie d'une même porte logique du niveau précédent. Il représente le plus petit entre $\frac{I_{OH}}{I_{IH}}$ et $\frac{I_{OL}}{I_{IL}}$.
 #### Les niveaux de tension
 ##### $V_{IL}$
 La tension d'entrée basse
