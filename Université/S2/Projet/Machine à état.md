@@ -12,3 +12,6 @@ La machine a un nombre fini d'état, on fait une transition entre les différent
 La sortie est défini par l'état courant seulement. L'action se déroule dans l'état courant.
 #### Machine de Mealy
 La sortie est défini par l'état présent et par les signaux numériques. L'action se déroule dans la transition.
+#### Principe d'auto-maintien
+- [!] **FILL AVEC POWERPOINTS**
+
