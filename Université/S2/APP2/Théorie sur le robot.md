@@ -84,4 +84,8 @@ Pour n'importe laquelle de ces articulations :
 - Turn Count 2 correspond au quadrant d’angle entre 540 et 900 degrés;
 - Turn Count -1 correspond au quadrant d’angle entre -180 et -540 degrés;
 - Turn Count -2 correspond au quadrant d’angle entre -540 et -900 degrés
-- 
+
+### DCS
+Le Dual Check Safety (DCS) est une fonctionnalité qui doit être obligatoirement mise en œuvre dans les systèmes robotisés de sorte que les limites physiques de l’environnement robotisé ne soient pas la seule chose qui limite le robot à sortir de sa zone de travail. 
+
+Pour définir le DCS, il faut définir un environnement de travail, soit des frontières à l’intérieur desquelles le robot ne peut aller ou à l’extérieur desquels il ne peut aller. Il faut aussi définir une enveloppe représentant le volume occupé par le robot et ce qu’il transporte. Il faut considérer le volume maximal transporté par le robot.
