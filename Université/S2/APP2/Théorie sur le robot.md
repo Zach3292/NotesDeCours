@@ -75,5 +75,13 @@ La terminaison FINE positionne le robot au point précis. Utile pour les parcour
 Il peut arriver que votre robot soit pris en ‘singularité’.  Il s’agit en fait d’une position pour laquelle le robot a une multitude de solutions.  Pour l’instant, retenez simplement que si votre robot refuse de bouger et indique qu’il est en singularité, vous devrez revenir en mouvement en joint, bouger un peu le robot, puis réessayer le mouvement désiré en retournant en jog selon un repère.  ![singularity](Images/singularity.png)
 
 ### Configuration
-- Un robot peut avoir plusieurs postures différentes afin d’arriver à un même point dans l’espace. Cette posture est appelée « configuration » dans le monde de la robotique. La configuration du robot représente la valeur de ses paramètres afin de définir quelle posture a été choisie pour atteindre un point désiré.
-- Un robot 6 axes peut amener un outil en huit configurations différentes.
+Un robot peut avoir plusieurs postures différentes afin d’arriver à un même point dans l’espace. Cette posture est appelée « configuration » dans le monde de la robotique. La configuration du robot représente la valeur de ses paramètres afin de définir quelle posture a été choisie pour atteindre un point désiré. Un robot 6 axes peut amener un outil en huit configurations différentes. La configuration spécifie le placement du poignet, du coude et de l’épaule du robot.
+#### Turn Counts
+Si des articulations vont à moins que -180 degrés ou plus que +180 degrés, nous avons besoin de spécifier au robot le placement de ces articulations quand il se déplace à une position cartésienne.
+Pour n'importe laquelle de ces articulations :
+- Turn Count 0 correspond au quadrant d’angle entre + et – 180 degrés;
+- Turn Count 1 correspond au quadrant d’angle entre 180 et 540 degrés;
+- Turn Count 2 correspond au quadrant d’angle entre 540 et 900 degrés;
+- Turn Count -1 correspond au quadrant d’angle entre -180 et -540 degrés;
+- Turn Count -2 correspond au quadrant d’angle entre -540 et -900 degrés
+- 
