@@ -8,3 +8,5 @@
 - [!] [Interface humaine-machine](Interface%20humain-machine.md)
 
 - [!] Faire les notes sur le séminaire sur robot collaboratif
+
+- [!] Faire les notes sur le séminaire la programmation robotique
