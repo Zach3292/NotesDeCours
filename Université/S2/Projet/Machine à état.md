@@ -1,6 +1,6 @@
 Signaux: représente de l'information transmise, il peut être [analogique et numérique](../APP1/Systèmes%20numériques.md#Signaux%20analogiques%20et%20numériques).
 
-Système: traite les signaux numériques, il y en a des combinatoires et des séquentiels. Un système [combinatoire](../APP1/Conception%20d'un%20système%20combinatoire.md) utilise seulement l'information actuelle tout s'exécute simultanément. Un système [[séquentiel]] utilise aussi de l'information passé et il suit une suite d'étape.
+Système: traite les signaux numériques, il y en a des combinatoires et des séquentiels. Un système [combinatoire](../APP1/Conception%20d'un%20système%20combinatoire.md) utilise seulement l'information actuelle tout s'exécute simultanément. Un système [séquentiel](../APP3/S2APP3.md) utilise aussi de l'information passé et il suit une suite d'étape.
 
 ### Qualité d'un bon programme
 - Modulaire
