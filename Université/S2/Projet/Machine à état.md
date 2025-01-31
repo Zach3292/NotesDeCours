@@ -14,4 +14,7 @@ La sortie est défini par l'état courant seulement. L'action se déroule dans l
 La sortie est défini par l'état présent et par les signaux numériques. L'action se déroule dans la transition.
 #### Principe d'auto-maintien
 - [!] **FILL AVEC POWERPOINTS**
-
+![automaintien1](Images/automaintien1.png)
+![automaintien2](Images/automaintien2.png)
+On garde en mémoire l'état précédent même lorsque la variable d'excitation n'est plus activée. On a une mémoire. On doit aussi ajouter une variable de désactivation de l'état pour pouvoir en sortir. ![desactivation](Images/desactivation.png)
+On peut donner priorité à la désactivation ou à l'activation.
