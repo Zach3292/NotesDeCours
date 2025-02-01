@@ -4,9 +4,6 @@ aliases: []
 tags:
   - todo
 ---
-[Électricité et magnétisme](Électricité%20et%20magnétisme.md):
-- [ ] Retranscrire les notes du chapitre 10 
-
 
 Autres:
 - [ ] Notes sur le eigen vector et eigen value

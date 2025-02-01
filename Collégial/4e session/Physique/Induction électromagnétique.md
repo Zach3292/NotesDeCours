@@ -24,5 +24,15 @@ $$F_{ext}= \frac{vl^2B^2}{R}$$
 $$\epsilon=NBA\omega\sin{\omega t}$$
 ### 10.7 Champ électrique induit
 Le champ électrique induit suit la loi de Faraday:
-$$\oint{\vec{E}\cdot\vec{ds}}=-\int{\frac{dB}{dt}\cdot\vec{dA}}$$
+$$\oint{\vec{E}\cdot\vec{ds}}=-\int{\frac{\partial B}{\partial t}\cdot\vec{dA}}$$
 ### 10.8 Théorème d'Ampère-Maxwell
+$$\oint{\vec{B}\cdot\vec{ds}}=\mu_0i_{inc}+\mu_0\epsilon_0\int{\frac{\partial\vec{E}}{\partial t}\cdot\vec{dA}}$$
+### 10.9 Équations de Maxwell
+$$\oint{\vec{E}\cdot d\vec{A}} = \frac{Q_{int}}{\epsilon_{0}}$$
+$$\oint{\vec{B}\cdot\vec{dA}}=0$$
+$$\oint{\vec{E}\cdot\vec{ds}}=-\int{\frac{\partial B}{\partial t}\cdot\vec{dA}}$$
+$$\oint{\vec{B}\cdot\vec{ds}}=\mu_0i_{inc}+\mu_0\epsilon_0\int{\frac{\partial\vec{E}}{\partial t}\cdot\vec{dA}}$$
+#### Loi de Lenz
+$$\vec{F}=q\vec{E}+q\vec{v}\times\vec{B}$$
+#### Constante fondamentale:
+$$c=\frac{1}{\sqrt{\epsilon_0\mu_0}}$$
