@@ -25,6 +25,6 @@ Chapitre 7 : [Circuit à courant continu](Circuit%20à%20courant%20continu.md)
 
 Chapitre 8: [Le champ magnétique](Le%20champ%20magnétique.md)
 
-Chapitre 9:
+Chapitre 9: [La force magnétique](La%20force%20magnétique.md)
 
 Chapitre 10:
