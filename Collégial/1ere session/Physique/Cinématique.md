@@ -38,3 +38,14 @@ $$T=\frac{2\pi r}{v}$$
 $$f=\frac{v}{2\pi r}$$
 ### MCNU
 Mouvement cinétique non uniforme
+$$a_c=\frac{v^2}{r}$$
+$$a_\theta=\frac{\Delta v}{\Delta t}$$
+$$\vec{a}=-a_c\vec{u_r}+a_\theta\vec{u_\theta}$$
+$$\vec{a}=\frac{-v^2}{r}\vec{u_r}\pm \frac{\Delta v}{\Delta t}\vec{u_\theta}$$
+$$a=\sqrt{a_c^2+a_\theta^2}$$
+$$\phi=\arctan{\frac{|a_c|}{a_\theta}}$$
+### Mouvement relatif
+$$\vec{v}_{o/a}=\vec{v}_{o/b}+\vec{v}_{b/a}$$
+o=objet en mouvement
+a=référence fixe
+b=référence en mouvement
