@@ -15,5 +15,14 @@ Le même principe s'applique sur la quantité de mouvement s'il n'y a aucune for
 
 ### Collision
 #### Collision élastique
-$$k_i=k_f$$
-$$p_i=p_f$$
+$$K_i=K_f$$
+$$\vec{p}_i=\vec{p}_f$$
+$$\vec{v_{1f}}=\frac{m_1-m_2}{m_1+m_2}\vec{v_{1i}}+\frac{2m_2}{m_1+m_2}\vec{v_{2i}}$$
+$$\vec{v_{2f}}=\frac{m_2-m_1}{m_1+m_2}\vec{v_{2i}}+\frac{2m_i}{m_1+m_2}\vec{v_{1i}}$$
+#### Collision inélastique
+$$K_f \lt K_i$$
+##### Parfaitement inélastique
+Si les deux objets demeurent ensemble suite à la collision
+$$\vec{p}_i=\vec{p}_f$$
+#### Collision explosive
+$$K_f\gt K_i$$

@@ -15,7 +15,6 @@ Autres:
 	- [ ] ![Référence](https://www.youtube.com/watch?v=PFDu9oVAE-g&ab_channel=3Blue1Brown)
 - [ ] Apprendre et noter sur le kalman filter
 - [ ] Retranscrire les notes des autres matières soit:
-	- [ ] [Mécanique](Mécanique.md)
 	- [ ] [Calcul différentiel](Calcul%20différentiel)
 	- [ ] [Calcul Intégral](Calcul%20Intégral)
 	- [ ] [Ondes et physique moderne](Ondes%20et%20physique%20moderne)
