@@ -27,4 +27,5 @@ Chapitre 8: [Le champ magnétique](Le%20champ%20magnétique.md)
 
 Chapitre 9: [La force magnétique](La%20force%20magnétique.md)
 
-Chapitre 10:
+Chapitre 10: [Induction électromagnétique](Induction%20électromagnétique.md)
+

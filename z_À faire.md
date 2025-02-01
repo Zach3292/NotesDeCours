@@ -5,8 +5,6 @@ tags:
   - todo
 ---
 [Électricité et magnétisme](Électricité%20et%20magnétisme.md):
-- [ ] Retranscrire les notes du chapitre 8
-- [ ] Retranscrire les notes du chapitre 9
 - [ ] Retranscrire les notes du chapitre 10 
 
 
