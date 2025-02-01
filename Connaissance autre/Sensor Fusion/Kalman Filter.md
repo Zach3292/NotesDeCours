@@ -53,7 +53,7 @@ La matrice d'état est: $$X =
 x \\
 \dot{x} \\
 \end{bmatrix}$$
-On assume que l'objet agit selon un [MRUA](MRUA.md): $$x=x_0+\dot{x}t+\frac{1}{2}\ddot{x}t^2$$
+On assume que l'objet agit selon un [MRUA](../../Collégial/1ere%20session/Physique/Cinématique.md#MRUA): $$x=x_0+\dot{x}t+\frac{1}{2}\ddot{x}t^2$$
 $$\dot{x}=\dot{x_0}+\ddot{x}t$$
 Avec cette équation, une forme standard de la matrice $A$ existe: $$A=
 \begin{bmatrix}
