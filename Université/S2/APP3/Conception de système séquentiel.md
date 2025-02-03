@@ -4,7 +4,7 @@ Il faut réussir à traduire la demande du client sous forme de variable boolée
 
 Il existe plusieurs manières de représenter l'information:
 ##### Diagrammes d'états
-Un méthode très visuelle. Par convention, il n’y a pas de variables autre que les états eux-mêmes, les entrées et les sorties dans votre diagramme d’état.
+Un méthode très visuelle. Par convention, il n’y a pas de variables autre que les états eux-mêmes, les entrées et les sorties, dans votre diagramme d’état.
 ![diagetat](Images/diagetat.png)
 ##### Tables d'états
 Une représentation très condensée et très simple à consulter. La variable S y représente l’état actuel et S* représente l’état futur une fois la transition effectuée
