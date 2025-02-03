@@ -10,3 +10,5 @@
 - [!] Faire les notes sur le séminaire sur robot collaboratif
 
 - [!] Faire les notes sur le séminaire la programmation robotique
+
+- [!] Faire les notes sur le séminaire de sécurité
