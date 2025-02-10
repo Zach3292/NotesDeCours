@@ -12,3 +12,5 @@
 - [!] Faire les notes sur le séminaire la programmation robotique
 
 - [!] Faire les notes sur le séminaire de sécurité
+
+- [!] Note sur séminaire de vision
