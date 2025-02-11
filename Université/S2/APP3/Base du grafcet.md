@@ -15,3 +15,6 @@ On ne réalise pas tout dans le même grafcet. Il est d'usage de séparé les ta
 Le **grafcet de sécurité** est le plus haut dans la hiérarchie. Dès qu’un arrêt d’urgence est déclenché, et ce peu importe à quel état dans l’exécution du programme, le grafcet de sécurité s’assure de gérer la remise à l’état initial des grafcets inférieurs avant d’autoriser une remise en marche du système si les conditions nécessaires sont présentes.
 
 Le **grafcet de conduite** gère l’initialisation du système et les différents modes et réglages de production. La séquence complète de production est quant à elle implémentée dans le **grafcet de production normale**. Pour ne pas être trop lourd et pour faciliter la modularité du programme, les mécanismes unitaires sont implémentés dans des grafcets séparés et synchronisés avec les états de la production normale le moment venu. Le grafcet de production normale se synchronise à un certain moment avec le grafcet de conduite et celui-ci avec le grafcet de sécurité.
+
+#### Synchronisation entre des grafcets
+![sync](Images/sync.png)
