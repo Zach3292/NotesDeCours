@@ -69,4 +69,4 @@ Théorie ensuite hypothèse et test.
 #### Hypothèse
 Réponse provisoire à une question précise, doit être vérifiable et réfutable. Aucune expérience ne peut prouver une hypothèse
 #### Théorie
-Idée générale qui a une large portée découlant de nombreuses observations. La théorie permet de générer 
+Idée générale qui a une large portée découlant de nombreuses observations. La théorie permet de générer de nouvelles hypothèses
