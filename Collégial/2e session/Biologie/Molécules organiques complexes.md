@@ -122,3 +122,30 @@ Forme globale qui découle des chaines latérales, les radicaux hydrophobes s'is
 La structure d'une protéine est déterminée par la chaine polypeptidique. Le pH, les concentrations en sel et la température affecte la forme et la fonction d'une protéine.
 
 ### Acides nucléiques
+Leur but est de transmettre les caractéristiques d'un organisme à sa descendance.
+
+L'ADN dirige la synthèse d'ARNm qui dirige la synthèse des protéines.
+
+Les nuléotides (monomère) sont composés de base azotée, de monosaccharide (pentose) et de groupement phosphate. Dans l'ADN:
+- Cytosine
+- Thymine
+- Adénine
+- Guanine
+Dans ARN:
+- Cytosine
+- Uracile
+- Adénine
+- Guanine
+
+Base azotée: 
+- CUT: pyrimidines
+	- 1 cycle de carbone 
+- AG: purines
+	- 2 cycles de carbone
+Les chaines de nucléotides ont deux extrémités:
+- Extrémité 3' Hyroxyle
+- Extrémité 5' Phosphate
+
+ARN: un brin d'ADN, laisons hydrogène qui unissent les brins ensembles. Les deux brins sont en direction opposée. La lecture se fait de 5' à 3'
+
+ARNt: ARN de transfert entre l'ADN et l'ARNm (messager)
