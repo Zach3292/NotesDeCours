@@ -65,4 +65,60 @@ Animaux
 #### Phosphoglycérolipides (ou phospholipides)
 Ressemble au triglycéride
 
-COmposé 
+Composé de glycérol et de deux acides gras plus un groupement de phosphate, ce groupement n'est pas hydrophobe mais plutôt hydrophiles
+
+Dans l'eau, ils se rassemblent, ils forment une bicouche avec les têtes vers l'extérieur pour cacher les queues hydrophobes à l'intérieur. Il sont les principales composantes de la membrane cellulaire. Les queues sont face à face et les têtes hydrophiles pointent vers les milieux extra et intracellulaires.
+#### Les stéroïdes
+Faible affinité pour l'eau
+
+Composés de quatre cycles d'hydrocarbures adjacents et de groupement fonctionnels (Chaine d'hydrocarbure)
+
+Comprend le cholestérol et les hormones sexuels.
+
+### Protéines
+Composent plus de 50% de la masse sèche de la plupart des cellules
+
+Interviennent dans presque toutes les activités cellulaires
+
+Chaque type de protéines à une forme 3D différentes
+
+#### Type de protéine:
+##### Enzymatique
+Accélère les réactions
+##### De défense
+Protège contre les bactéries et les virus
+##### D'entreposage
+Stoque les acides aminées
+##### De transport
+Transporte l'oxygène, peuvent être intégré dans les membranes
+##### Hormonale
+Régule et coordonne certaines activités cellulaires
+##### Réceptrice
+Sur la membrane, transmet l'information reçu dans la cellule, réagisse aux stimulis
+##### Contractiles et motrices
+Dans les muscles, permettent le mouvement
+##### Structurale
+Permettent de soutenir des choses dans le corps
+#### Structure de la protéine
+Composé de chaine d'acide aminés (environ 20 types différents).
+
+Les acides aminés ont une structure régulière avec un radical variable qui défini la fonction de cette acides. Selon la chaines d'acide, on obtient des protéines différentes.
+
+Un polypeptide est une structure répétitive d'acides aminés. 
+![acide](Images/acide.png)
+
+Il existe trois niveaux de polypeptide:
+##### Primaire
+Chaine d'acides aminés liés entre eux selon une séquence unique
+##### Secondaire
+Forme répétitive sur un certain segment qui provient des liaisons hydrogènes qui se forme le long de la chaine: Hélice alpha ou Feuillet beta.
+##### Tertiaire
+Forme globale qui découle des chaines latérales, les radicaux hydrophobes s'isolent de l'Eau en allant vers le centre de la protéine.Il y a plusieurs type de liaison qui se créent alors:
+- Hydrogène
+- Force de Van der Waals
+- Ionique
+- Disulfurique
+
+La structure d'une protéine est déterminée par la chaine polypeptidique. Le pH, les concentrations en sel et la température affecte la forme et la fonction d'une protéine.
+
+### Acides nucléiques
