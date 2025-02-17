@@ -12,8 +12,8 @@ On utilise des enzymes:
 - Lipase pour les lipides
 - Protéase pour les protéins
 
-### Synthèse
+#### Synthèse
 Il faut faire de la déshydratation, on crée un lien covalent entre deux monomères et une molécule d'eau.
 
-### Dégradation
+#### Dégradation
 Il faut faire de l'hydrolyse, on utilise un molécule d'eau pour séparer le polymère et créer deux monomères.
