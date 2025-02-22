@@ -47,9 +47,25 @@ $$\vec{r}=l_1\hat{n}_1+l_2\hat{n}_2+l_n\hat{n}_n$$
 ##### Norme
 $$\lVert\vec{r}\rVert^2=\vec{r}\cdot\vec{r}$$
 ##### Projection
-$$d=\vec{r}\cdot\hat{n}=\lVert\vec{r}\rVert\cos{\angle(\vec{r}, \hat{n})}$$
+$$d_n=\vec{r}\cdot\hat{n}=\lVert\vec{r}\rVert\cos{\angle(\vec{r}, \hat{n})}$$
 ##### Angle
 $$\cos{\angle(\hat{n}_1\hat{n}_2)}=\hat{n}_1\cdot\hat{n}_2$$
 #### 3.3.2 Procédure d'utilisation pour le calcul de distance
+1. Construire le vecteur $\vec{r}$ d'intérêt comme une addition de plusieurs vecteurs $\vec{r}_i$.
+2. Substituer les vecteurs positions symboliques $\vec{r}_i$ par des variables de distance $l_i$ et des vecteurs unitaires $\hat{n}_i$.
+3. Calculer les distances désirées $d$ en effectuant un produit scalaire avec les vecteurs unitaires selon les axes désirés.
 
+### 3.4 Bases vectorielles et composantes d'un vecteur position
+#### 3.4.1 Rappel sur les bases vectorielles
+Rappel sur les bases [ici](../../../Collégial/3e%20session/Algèbre%20linéaire/Vecteurs%20du%20plan.md#Principe%20de%20base). Dans ce cours, on utilisera les lettres $a,b,c$ pour identifier les bases ainsi que des indices $1,2,3$ pour spécifier les trois axes.
+
+Il est possible d'exprimer un vecteur dans une base en faisant le produit scalaire avec chacun des vecteurs unitaires de la base:
+$$r_i^a=\vec{r}\cdot\hat{a}_i\rightarrow\underline{r}^a=\begin{bmatrix}\vec{r}\cdot\hat{a}_1\\ \vec{r}\cdot\hat{a}_2\\ \vec{r}\cdot \hat{a}_3\end{bmatrix}$$
+#### 3.4.2 Transfert d'une équation vectorielle vers un équation matricielle
+**Lorsque les vecteurs-colonnes sont tous exprimés dans la même base**, on peut transformer les équations vectorielles avec des vecteurs de position en équations matricielles avec des vecteur-colonnes.
+#### 3.4.3 Calcul de longueur, projections et angles avec les composantes
+$$\lVert\vec{r}\rVert^2=\vec{r}\cdot\vec{r}=\underline{r}^T\underline{r}=r_1^2+r_2^2+r_3^2$$
+$$\lVert\vec{r}\rVert=\sqrt{\underline{r}^T\underline{r}}$$
+$$d=\vec{r}\cdot\hat{n}=\underline{r}^T\underline{n}$$
+$$\cos{\angle(\hat{n}_1\hat{n}_2)}=\hat{n}_1\cdot\hat{n}=\hat{\underline{n}}_1^T\hat{\underline{n}}_2$$
 ### 3.7
