@@ -68,4 +68,7 @@ $$\lVert\vec{r}\rVert^2=\vec{r}\cdot\vec{r}=\underline{r}^T\underline{r}=r_1^2+r
 $$\lVert\vec{r}\rVert=\sqrt{\underline{r}^T\underline{r}}$$
 $$d=\vec{r}\cdot\hat{n}=\underline{r}^T\underline{n}$$
 $$\cos{\angle(\hat{n}_1\hat{n}_2)}=\hat{n}_1\cdot\hat{n}=\hat{\underline{n}}_1^T\hat{\underline{n}}_2$$
+### 3.5 Matrice de rotation
+Une matrice de rotation $^aR^B$ permet de faire un [changement de base](../../../Collégial/3e%20session/Algèbre%20linéaire/Vecteurs%20du%20plan.md#Changement%20de%20base) de la base $b$ à la base $a$.
+$$\underline{r}^a=^aR^B\underline{r}^b$$
 ### 3.7
