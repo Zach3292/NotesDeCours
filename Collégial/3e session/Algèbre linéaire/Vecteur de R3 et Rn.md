@@ -1,7 +1,7 @@
 Système direct: respect la règle de la main de droite
 Système rétrograde: inverse
 
-**Pour la plupart des choses c'est identique aux [Vecteur de R3 et Rn](Vecteur%20de%20R3%20et%20Rn.md) sauf qu'il y a plus de dimensions**
+**Pour la plupart des choses c'est identique aux [vecteurs du plan](Vecteurs%20du%20plan.md) sauf qu'il y a plus de dimensions**
 
 ### Produit vectoriel
 Dans $\mathbb{R}^3$ seulement

@@ -24,7 +24,7 @@ $\vec{v}$: Vecteur
 
 $\hat{v}$: Vecteur unitaire
 
-$\vec{r}_{A/B}$: Vecteur position du point $A$ au point $B$
+$\vec{r}_{A/B}$: Vecteur position du point $A$ par rapport au point $B$
 
 $\underline{c}$: Vecteur colonne
 

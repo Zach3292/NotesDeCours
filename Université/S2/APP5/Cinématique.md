@@ -33,5 +33,23 @@ On utilise une approche précise dans ce chapitre pour modéliser des systèmes:
 3. Traduire la relation vectorielle en relation matricielle (projection dans une base)
 4. Déterminer la solution numérique avec les outils de l'algèbre linéaire
 ### 3.3 Vecteurs géométriques de positions
+Un vecteur position nécessite deux points pour être défini, une origine et une destination. C'est différent des autres vecteurs en physique et mathématiques qui sont utilisés peu importe leur origine. On note les vecteurs positions:
+
+$\vec{r}_{A/B}$: vecteur position du point $A$ par rapport au point $B$ où $A$ est l'origine et $B$ est la destination. 
+#### 3.3.1 Propriétés des vecteurs positions
+C'est vecteur respectent les propriétés vue [ici](../../../Collégial/3e%20session/Algèbre%20linéaire/Vecteurs%20du%20plan.md).
+##### Addition
+$$\vec{r}_{A/B}=\vec{r}_{A/C}+\vec{r}_{C/B}$$
+##### Inversion
+$$\vec{r}_{A/B}=-\vec{r}_{B/A}$$
+##### Vecteurs unitaires
+$$\vec{r}=l_1\hat{n}_1+l_2\hat{n}_2+l_n\hat{n}_n$$
+##### Norme
+$$\lVert\vec{r}\rVert^2=\vec{r}\cdot\vec{r}$$
+##### Projection
+$$d=\vec{r}\cdot\hat{n}=\lVert\vec{r}\rVert\cos{\angle(\vec{r}, \hat{n})}$$
+##### Angle
+$$\cos{\angle(\hat{n}_1\hat{n}_2)}=\hat{n}_1\cdot\hat{n}_2$$
+#### 3.3.2 Procédure d'utilisation pour le calcul de distance
 
 ### 3.7
