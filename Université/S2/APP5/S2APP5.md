@@ -4,3 +4,5 @@
 
 [Chapitre 2: Définitions](Définitions.md)
 
+[Chapitre 3: Cinématique](Cinématique.md)
+
