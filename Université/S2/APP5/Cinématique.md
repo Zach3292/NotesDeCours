@@ -195,7 +195,33 @@ Aucune singularité
 Méthode numérique efficace pour calculer des changements de base et des rotations successives.
 
 ### 3.8 Cinématique directe d'un manipulateur
-Il s'agit du calcul de la fonction de transformation permettant de passer de l'espace joints à l'espace tâche. 
+Il s'agit du calcul de la fonction de transformation permettant de passer de l'espace joints à l'espace tâche. Lorsque le *TCP* est à $T_O$ et dans une base $t$ relative à la base $a$.
 
 $$\underline{r}^a_{T_O/A_O}=f_{Trans}(\underline{q})$$
-$$^aR^t=f_{Orien}(\underl)
+$$^aR^t=f_{Orien}(\underline{q})$$
+$$^AT^T=f_{Pose}(\underline{q})$$
+#### 3.8.1 Chaine cinématique ouverte
+Pour calculer la pose de l'effecteur, il suffit de multiplier en chaine les matrices de transformations homogènes de chaque joint par rapport au précédent:
+$$^AT^T=^AT^B\ ^BT^C\ ...\ ^HT^T$$
+#### 3.8.2 Simplifications pour les chaines à 1 DDL par joint
+Si un robot à 1 DDL par joint et est seulement composé de joint rotatif alors la fonction de transformation à la forme suivante:
+$$^AT^T(q_1,q_2,...,q_n)=^AT^B(q_1)\ ^BT^C(q_2)\ ...\ ^GT^H(q_n) \ ^HT^T$$
+Car $^HT^T$ est une constante qui relie l'effecteur au dernier joint.  De plus:
+$$^aR^T(\theta_1,\theta_2,...,\theta_n)=\ ^aR^b(\theta_1)\ ^bR^c(\theta_2)\  ...\ ^gR^h(\theta_n)\ ^hR^t$$
+#### 3.8.3 Transformations relatives entre les joints à 1 DDL
+##### Joint rotation
+Translation constante
+$$^ET^F=\begin{bmatrix} ^eR^f(q_i) & \underline{r}^a_{F_O/E_O} \\ 0 \ 0\ 0 & 1\end{bmatrix}$$
+##### Joint prismatique
+Rotation constante
+$$^ET^F=\begin{bmatrix} ^eR^f & \underline{r}^a_{F_O/E_O}(q_i) \\ 0 \ 0\ 0 & 1\end{bmatrix}$$
+#### 3.8.4 Procédure de calcul d'une chaîne cinématique directe
+##### 1 Définition des références
+
+##### 2 Calcul des vecteurs positions locaux
+
+##### 3 Calcul des matrices de rotations relatives
+
+##### 4 Calcul des translations et orientations absolues
+
+##### \*4 Alternative de calcul avec les transformations homogènes
