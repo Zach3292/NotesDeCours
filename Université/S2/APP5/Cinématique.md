@@ -71,4 +71,11 @@ $$\cos{\angle(\hat{n}_1\hat{n}_2)}=\hat{n}_1\cdot\hat{n}=\hat{\underline{n}}_1^T
 ### 3.5 Matrice de rotation
 Une matrice de rotation $^aR^B$ permet de faire un [changement de base](../../../Collégial/3e%20session/Algèbre%20linéaire/Vecteurs%20du%20plan.md#Changement%20de%20base) de la base $b$ à la base $a$.
 $$\underline{r}^a=^aR^B\underline{r}^b$$
+#### 3.5.1 Définition
+Une matrice de rotation est définit par le produit scalaire des vecteurs unitaires qui forment les deux bases. Voici la construction de la matrice de rotation: $$^aR^B=\begin{bmatrix}\hat{a}_1\cdot\hat{b}_1&\hat{a}_1\cdot\hat{b}_2&\hat{a}_1\cdot\hat{b}_3 \\ \hat{a}_2\cdot\hat{b}_1&\hat{a}_2\cdot\hat{b}_2&\hat{a}_2\cdot\hat{b}_3\\ \hat{a}_3\cdot\hat{b}_1&\hat{a}_3\cdot\hat{b}_2&\hat{a}_3\cdot\hat{b}_3\end{bmatrix}=\begin{bmatrix}\begin{bmatrix}\underline{b}_1^a\end{bmatrix}&\begin{bmatrix}\underline{b}_2^a\end{bmatrix}&\begin{bmatrix}\underline{b}_3^a\end{bmatrix}\end{bmatrix}$$
+On peut aussi écrire l'équation des composantes comme ceci:
+$$^aR^b_{ij}=\hat{a}_i\cdot\hat{b}_j$$
+Cette équation est simple à se rappeler pour éviter de mélanger l'ordre de rotation $^aR^b$.
+#### 3.5.2 Méthode de calcul des matrices de rotations basé sur les colonnes
+Lorsqu'on regarde l'équation de la matrice de rotation $^aR^b$, on voit que la matrice a pour colonne la projection des trois vecteurs de la base $b$ dans la base $a$. Il faut donc trouver une [combinaison linéaire](../../../Collégial/3e%20session/Algèbre%20linéaire/Vecteurs%20du%20plan.md#Principe%20de%20base) des vecteurs de la base $a$ pour représenter chacun des vecteurs de la base $b$.
 ### 3.7
