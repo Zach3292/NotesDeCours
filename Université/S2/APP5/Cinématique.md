@@ -78,4 +78,35 @@ $$^aR^b_{ij}=\hat{a}_i\cdot\hat{b}_j$$
 Cette équation est simple à se rappeler pour éviter de mélanger l'ordre de rotation $^aR^b$.
 #### 3.5.2 Méthode de calcul des matrices de rotations basé sur les colonnes
 Lorsqu'on regarde l'équation de la matrice de rotation $^aR^b$, on voit que la matrice a pour colonne la projection des trois vecteurs de la base $b$ dans la base $a$. Il faut donc trouver une [combinaison linéaire](../../../Collégial/3e%20session/Algèbre%20linéaire/Vecteurs%20du%20plan.md#Principe%20de%20base) des vecteurs de la base $a$ pour représenter chacun des vecteurs de la base $b$.
+#### 3.5.3 Matrice de rotation élémentaire
+Une matrice de rotation élémentaire représente une rotation autour d'un seul axe de la base. On les note $R_i(\theta)$ où $i$ est l'axe de rotation et $\theta$ l'angle de rotation. Ces matrices sont uniques puisque $\hat{a}_i=\hat{b}_i$. 
+##### Notation simplifié
+$s\theta=\sin{\theta}$
+$c\theta=\cos{\theta}$
+$s_i=\sin{\theta_i}$
+$c_i=\cos{\theta_i}$
+$s_{ijk}=\sin{(\theta_i +\theta_j+\theta_k)}$
+##### Rotation par rapport à l'axe 3
+$$^aR^b_3(\theta)= \begin{bmatrix}c\theta&-s\theta&0\\s\theta&c\theta&0\\0&0&1\end{bmatrix}$$
+##### Rotation par rapport à l'axe 2
+$$^aR^b_2(\theta)= \begin{bmatrix}c\theta&0&s\theta\\0&1&0\\-s\theta&0&c\theta\end{bmatrix}$$
+##### Rotation par rapport à l'axe 1
+$$^aR^b_3(\theta)= \begin{bmatrix}1&0&0\\0&c\theta&-s\theta\\0&s\theta&c\theta\end{bmatrix}$$
+#### 3.5.4 Propriétés des matrices de rotation
+##### Normes des colonnes et rangés
+Elle vaut toujours 1
+##### Matrice identité
+Si $\theta=0$ alors la matrice de rotation sera une matrice identité
+##### Inversion
+$$R(\theta)^{-1}=R(-\theta)$$
+$$R^{-1}=R^T$$
+$$(^bR^a)^{-1}=^aR^b$$
+##### Changement de base successif
+$$^cR^a=^cR^b\ ^bR^a$$
+##### Non commutativité
+Les produits de matrice de rotation ne sont pas commutatifs.
+*Seul exception:* les rotations successives sur une même axe $i$.
+
+### 3.6 Coordonnées dans un repère et transformations homogènes
+Un repère consiste à une base associé à un point d'origine. On note un repère comme suit: $\{A_O, \hat{a}_1, \hat{a}_2, \hat{a}_3\}$. 
 ### 3.7
