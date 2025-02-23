@@ -226,4 +226,24 @@ On calcule les matrices de rotations relatives entre un joint et le suivant
 On calcule les rotations entre le repère de base et chaque joint pour ensuite calculer la translation dans le repère de base de chaque joint
 ##### \*4 Alternative de calcul avec les transformations homogènes
 On applique directement les transformations homogènes entre le repère de base et chaque joint pour obtenir la transformation homogène entre le repère de base et le repère de l'effecteur.
-#### 3.8.5 Les paramètres *Denavit-Hartenb*
+#### 3.8.5 Les paramètres *Denavit-Hartenberg*
+Il s'agit d'une convention pour établir les repères de chaque joint dans un robot manipulateur au lieu de le faire arbitrairement. Elle a comme avantage de décrire la configuration d'un robot avec  un nombres de paramètres et de repères minimum.
+
+On attache l'axe 3 ($z$) de chaque repère parallèle à l'axe de rotation du joint. On attache ensuite l'axe 1 ($x$) du joint pour qu'il soit parallèle à la normale de l'axe 3 du joint précédent. Finalement l'axe 2 ($y$) est déterminé par produit vectoriel. 
+![dhrepere](Images/dhrepere.png)
+##### Les quatre paramètres *DH*
+Avec cette méthode on peut décrire la pose relative entre deux joints adjacents à l'aide de seulement 4 scalaires (deux distances et deux angles). 
+![dhparams](Images/dhparams.png)
+Les paramètres sont les suivants:
+$$d,\theta,r,\alpha$$
+Où 
+$$\begin{align}\vec{r}_{B_O/A_O}&=r\hat{b}_1+d\hat{a}_3\\ ^aR^b& =\ ^aR_3^{a'}(\theta)^{a'}R_1^b(\alpha)\end{align}$$
+$A'$ est un repère d'on l'axe 3 est aligner avec $A$ et l'axe 1 aligné avec $B$. $A_O'$ est donc situé au croisement de $\hat{a}_3$ et $\hat{b}_1$.
+##### Pose relative des repères selon les 4 paramètres
+En utilisant les deux équations vues précédemment, il est possible de démontrés que lorsqu'on respecte la convention *DH*, la matrice de transformations entre deux joints adjacents aura toujours la même forme et dépendra uniquement des paramètres *DH*.
+$$^AT^B(d,\theta,r,\alpha)=\begin{bmatrix}c\theta&-s\theta c\alpha&s\theta s\alpha &rc\theta \\
+s\theta&c\theta c\alpha&-c\theta s\alpha&rs\theta \\
+0&s\alpha&c\alpha&d\\
+0&0&0&1
+\end{bmatrix}$$
+#### 3.8.6 Chaine cinématique fermée
