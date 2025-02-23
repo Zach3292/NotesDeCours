@@ -217,11 +217,13 @@ Rotation constante
 $$^ET^F=\begin{bmatrix} ^eR^f & \underline{r}^a_{F_O/E_O}(q_i) \\ 0 \ 0\ 0 & 1\end{bmatrix}$$
 #### 3.8.4 Procédure de calcul d'une chaîne cinématique directe
 ##### 1 Définition des références
-
+On associe des repères pour chaque joint
 ##### 2 Calcul des vecteurs positions locaux
-
+On calcule les vecteurs de translation d'un joint vers l'autre dans la base du premier joint
 ##### 3 Calcul des matrices de rotations relatives
-
+On calcule les matrices de rotations relatives entre un joint et le suivant
 ##### 4 Calcul des translations et orientations absolues
-
+On calcule les rotations entre le repère de base et chaque joint pour ensuite calculer la translation dans le repère de base de chaque joint
 ##### \*4 Alternative de calcul avec les transformations homogènes
+On applique directement les transformations homogènes entre le repère de base et chaque joint pour obtenir la transformation homogène entre le repère de base et le repère de l'effecteur.
+#### 3.8.5 Les paramètres *Denavit-Hartenb*
