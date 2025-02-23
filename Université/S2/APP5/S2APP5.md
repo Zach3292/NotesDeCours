@@ -6,3 +6,5 @@
 
 [Chapitre 3: Cinématique](Cinématique.md)
 
+[Chapitre4: Cinématique différentielle](Cinématique%20différentielle.md)
+

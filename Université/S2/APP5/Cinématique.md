@@ -247,3 +247,15 @@ s\theta&c\theta c\alpha&-c\theta s\alpha&rs\theta \\
 0&0&0&1
 \end{bmatrix}$$
 #### 3.8.6 Chaine cinématique fermée
+Lorsque les joints ne sont pas purement en série mais plutôt en parallèle. Il peut donc y avoir plusieurs solutions possible pour la même position de l'effecteur ou inversement plusieurs positions de l'effecteur pour la même position des joints.
+### 3.9 Cinématique inverse d'un manipulateur
+Il s'agit du calcul des coordonnées en espace joint pour donné un position précise en espace tâche. 
+#### 3.9.1 Chaine cinématique ouverte
+Il peut y avoir plusieurs ou aucune configurations $\underline{q}$ qui mènent à la même position de l'effecteur.
+
+Pour les bras manipulateurs à 6 DDL, le critère pour que la cinématique inverse puisse être résolue analytiquement est que l’axe de trois joints rotatifs séquentiels se croise en un point. La plupart des robots industriels ont leurs 3 derniers DDL configurés en un poignet.
+
+On applique souvent une métjode qui revient à faire une [[descente de gradient]] itérative comme la méthode de [[Newthon-Raphson]] mais en temps réel avec le vrai système.
+
+#### 3.9.2 Chaine cinématique fermée
+Contrairement aux chaines directes, la cinématique inverse d'une chaine fermée est plus facile à calculer que la cinématique ouvert.
