@@ -147,8 +147,12 @@ $$\begin{align}^aR^d(\phi,\theta\psi)&=R_3(\phi)R_1(\theta)R_3(\psi) \\
 L'ordre des rotations impact le résultat
 
 Il peut y avoir du [gimbal lock](https://en.wikipedia.org/wiki/Gimbal_lock)
+
+Présence de singularité
 ##### Avantage
 Simple à visualiser
+
+Représentation minimale
 #### 3.7.2 Représentation axe-angle
 Une orientation relative entre deux bases vectorielles peut être représenté par un axe de rotation décrit par un vecteur unitaire $\underline{a}$ et un angle de rotation $\theta$ autour de celui-ci.
 ![axeangle](Images/axeangle.png)
@@ -172,4 +176,26 @@ $$\underline{a}=\frac{1}{2\sin{\theta}}\begin{bmatrix}R_{32}-R_{23}\\ R_{13}-R_{
 Où
 $$R=\begin{bmatrix}R_{11}&R_{12}&R_{13}\\ R_{21}&R_{22}&R_{23} \\ R_{31}&R_{32}&R_{33}\end{bmatrix}$$
 Inversement, on peut calculer la matrice de rotation à partir de la représentation axe angle:
-$$
+$$R=I\cos{\theta}+(1-\cos{\theta})\underline{a}\underline{a}^T-\sin{(\theta)}\underline{a}^\times$$
+Où
+$$\underline{a}^\times=\begin{bmatrix}o&-a_3&a_2 \\ a_3 &0&-a_1\\ -a_2&a_1&0\end{bmatrix}$$
+#### 3.7.3 Quaternions
+Une façon moins intuitive mais beaucoup plus pratique mathématiquement. Il utilise aussi 4 composantes.
+
+Il s'agit d'une vecteur-colonne $\begin{bmatrix}\eta,&e_1&e_2&e_3\end{bmatrix}^T$. Les composantes respecte la relation suivante $\eta^2+e_1^2+e_2^2+e_3^2 = 1$.
+
+Il est très facile d'obtenir des quaternions à partir de la relation axe-angle:
+$$\eta=\cos{\left(\frac{\theta}{2}\right)}$$
+$$\begin{bmatrix}e_1\\ e_2\\ e_3 \end{bmatrix}=\sin{\left(\frac{\theta}{2}\right)}\begin{bmatrix}a_1\\ a_2\\ a_3 \end{bmatrix}$$
+##### Inconvénient
+Moins intuitif
+##### Avantage
+Aucune singularité
+
+Méthode numérique efficace pour calculer des changements de base et des rotations successives.
+
+### 3.8 Cinématique directe d'un manipulateur
+Il s'agit du calcul de la fonction de transformation permettant de passer de l'espace joints à l'espace tâche. 
+
+$$\underline{r}^a_{T_O/A_O}=f_{Trans}(\underline{q})$$
+$$^aR^t=f_{Orien}(\underl)
