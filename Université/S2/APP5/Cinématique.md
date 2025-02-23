@@ -109,4 +109,28 @@ Les produits de matrice de rotation ne sont pas commutatifs.
 
 ### 3.6 Coordonnées dans un repère et transformations homogènes
 Un repère consiste à une base associé à un point d'origine. On note un repère comme suit: $\{A_O, \hat{a}_1, \hat{a}_2, \hat{a}_3\}$. 
-### 3.7
+#### 3.6.1 Changement de repère
+Pour faire un changement de repère, il faut faire deux opérations, une rotation et une translation. Disons que l'on veut représenté un point $C$ dans un repère $B$  vers un repère $A$. On fait l'opération suivante:
+$$\vec{r}_{C/A_O}=\vec{r}_{C/B_O} + \vec{r}_{B_O/A_O}$$
+On doit ensuite tout exprimé par rapport à la base $a$:
+$$\underline{r}^a_{C/A_O}=\underline{r}^a_{C/B_O} + \underline{r}^a_{B_O/A_O}$$
+Pour pouvoir ensuite développer et arriver à l'équation finale:
+$$\underline{r}^a_{C/A_O}=^aR^b\underline{r}^b_{C/B_O} + \underline{r}^a_{B_O/A_O}$$
+On y voit l'opération de rotation et de translation qui sont traité de manière individuelle. Il est toujours possible de faire l'opération inverse:
+$$\underline{r}^a_{C/B_O}=^bR^a\underline{r}^a_{C/A_O} - ^bR^a\underline{r}^a_{B_O/A_O}$$
+#### 3.6.2 Coordonnées et transformations homogènes
+Il est aussi possible de faire les deux opérations de translation et rotation en même temps. Pour ce faire, il faut utilisé des *coordonnées homogènes*. On transforme les vecteur-colonnes 3x1 en vecteur-colonnes 4x1 et la composante ajouter vaut 1. Ensuite, le changement de repère peut se faire comme suit:
+$$\begin{bmatrix}\underline{r}^a_{C/A_O}\\1\end{bmatrix}=^aT^b\begin{bmatrix}\underline{r}^b_{C/B_O}\\1\end{bmatrix}$$
+Où $^aT^b$, la *matrice de transformation homogène* vaut:
+$$^aT^B=\begin{bmatrix} ^aR^b & \underline{r}^a_{B_O/A_O} \\ 0 \ 0\ 0 & 1\end{bmatrix}$$
+L'équation matricielle complète est alors:
+$$\begin{bmatrix}\underline{r}^a_{C/A_O}\\1\end{bmatrix}=\begin{bmatrix} ^aR^b & \underline{r}^a_{B_O/A_O} \\ 0 \ 0\ 0 & 1\end{bmatrix}\begin{bmatrix}\underline{r}^b_{C/B_O}\\1\end{bmatrix}$$
+L'opération inverse consisterait à utiliser l'inverse de la matrice de transformation homogène pour changer de repère.
+$$(^AT^B)^{-1}=^BT^A$$
+### 3.7 Représentation de la pose d'un corps rigide
+La matrice de transformation homogène peut aussi être utilisé pour représenter la pose relative d'un corps rigide par rapport à un repère quelconque.
+
+Dans un système 3D, il faut six variables pour complètement définir la pose d'un corps rigide. 
+
+Même si un matrice rotation comporte 9 composante, on a seulement besoin de trois variables pour encoder l'orientation d'un corps rigide, il y a donc de l'information redondante. Il existe plusieurs manières d'encoder l'orientation, chacune à ses avantages et inconvénient.
+#### 3.7.1 Angles d'Euler

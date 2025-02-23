@@ -38,6 +38,6 @@ $\{\hat{a}_1, \hat{a}_2, \hat{a}_3\}$: Base vectorielle $a$ définie par une ens
 
 $\{A_O, \hat{a}_1, \hat{a}_2, \hat{a}_3\}$: Repère $A$ défini par un point $A_O$ et la base vectorielle $a$.
 
-$^aR^B=\begin{bmatrix}\underline{b}^a_1 & \underline{b}^a_2 & \underline{b}^a_3\end{bmatrix}$: Matrice de rotation 3x3 qui représente l'orientation de la base vectorielle $b$ par rapport à la base $a$.
+$^aR^b=\begin{bmatrix}\underline{b}^a_1 & \underline{b}^a_2 & \underline{b}^a_3\end{bmatrix}$: Matrice de rotation 3x3 qui représente l'orientation de la base vectorielle $b$ par rapport à la base $a$.
 
-$^aT^B=\begin{bmatrix} ^aR^B & \underline{r}^a_{B_O/A_O} \\ 0 \ 0\ 0 & 1\end{bmatrix}$:Matrice de transformation homogène 4x4 du repère $B$ vers le repère $A$.
+$^aT^B=\begin{bmatrix} ^aR^b & \underline{r}^a_{B_O/A_O} \\ 0 \ 0\ 0 & 1\end{bmatrix}$:Matrice de transformation homogène 4x4 du repère $B$ vers le repère $A$.
