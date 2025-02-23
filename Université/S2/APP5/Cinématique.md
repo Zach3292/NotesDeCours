@@ -128,9 +128,48 @@ $$\begin{bmatrix}\underline{r}^a_{C/A_O}\\1\end{bmatrix}=\begin{bmatrix} ^aR^b &
 L'opération inverse consisterait à utiliser l'inverse de la matrice de transformation homogène pour changer de repère.
 $$(^AT^B)^{-1}=^BT^A$$
 ### 3.7 Représentation de la pose d'un corps rigide
-La matrice de transformation homogène peut aussi être utilisé pour représenter la pose relative d'un corps rigide par rapport à un repère quelconque.
+La matrice de transformation homogène peut aussi être utilisé pour représenter la pose relative d'un corps rigide par rapport à un repère quelconque. Cette matrice peut être paramétrée comme suit:
+$$^aT^B(x,y,z,\phi,\theta, \psi)=\begin{bmatrix} ^aR^b & \underline{r}^a_{B/A} \\ 0 \ 0\ 0 & 1\end{bmatrix}=\begin{bmatrix} \begin{bmatrix}R(\phi,\theta, \psi)\end{bmatrix} & \begin{bmatrix}x\\y\\z\end{bmatrix} \\ 0 \ 0\ 0 & 1\end{bmatrix}$$
 
 Dans un système 3D, il faut six variables pour complètement définir la pose d'un corps rigide. 
 
 Même si un matrice rotation comporte 9 composante, on a seulement besoin de trois variables pour encoder l'orientation d'un corps rigide, il y a donc de l'information redondante. Il existe plusieurs manières d'encoder l'orientation, chacune à ses avantages et inconvénient.
 #### 3.7.1 Angles d'Euler
+Utiliser les angles d'Euler consiste à faire trois rotations consécutives autour d'axe et de combiner ces rotations en une matrices. Il existe des conventions comme 3-2-1 qui veulent dire appliquer une rotation sur l'axe 3, suivit de 2 et de 1 à la fin.
+
+*En travaillant en angle d'Euler, il est primordial de respecter la convention choisit et de ne pas changer. L'ordre des rotations à un impactes sur le résultat*
+![euler](Images/euler.png)
+Un exemple de rotation 3-1-3:
+$$\begin{align}^aR^d(\phi,\theta\psi)&=R_3(\phi)R_1(\theta)R_3(\psi) \\
+&=\begin{bmatrix}c\phi&-s\phi&0\\s\phi&c\phi&0\\0&0&1\end{bmatrix}\begin{bmatrix}1&0&0\\0&c\theta&-s\theta\\0&s\theta&c\theta\end{bmatrix}\begin{bmatrix}c\psi&-s\psi&0\\s\psi&c\psi&0\\0&0&1\end{bmatrix}
+\end{align}$$
+##### Inconvénient
+L'ordre des rotations impact le résultat
+
+Il peut y avoir du [gimbal lock](https://en.wikipedia.org/wiki/Gimbal_lock)
+##### Avantage
+Simple à visualiser
+#### 3.7.2 Représentation axe-angle
+Une orientation relative entre deux bases vectorielles peut être représenté par un axe de rotation décrit par un vecteur unitaire $\underline{a}$ et un angle de rotation $\theta$ autour de celui-ci.
+![axeangle](Images/axeangle.png)
+Cette représentation à quatre paramètres, trois pour l'axe et un pour l'angle. 
+##### Inconvénient
+Présente des singularités à $\sin{\theta}=0$.
+
+Il faut ensuite convertir en matrice de rotation ou en quaternions pour effectuer des calculs de changement de base ou de rotations successives.
+##### Avantage
+Sens physique clair.
+
+##### Vecteur propre de la matrice de rotation
+Le vecteur $\underline{a}$ est directement lié à la matrice de rotation, de plus, il a les mêmes composantes dans les deux bases.
+
+Le vecteur-colonne qui représente l'axe de rotation est donc un *vecteur propre* ([Eigen vectors](../../../Connaissance%20autre/Eigenvalue%20and%20vectors.md)) de la matrice de rotation. Il est unitaire comme la rotation ne change pas la forme de l'objet. Il est donc possible de calculer l'axe de rotation associé à une matrice de rotation en calculant les valeurs et vecteurs propre de la matrice. ([Eigenvalue and vectors](../../../Connaissance%20autre/Eigenvalue%20and%20vectors.md)).
+
+##### Convertion
+La représentation axe-angle peut être calculé à partir de la matrice de rotation comme suit:
+$$\theta=\arccos{\left[\frac{R_{11}+R_{22}+R_{33}-1}{2}\right]}$$
+$$\underline{a}=\frac{1}{2\sin{\theta}}\begin{bmatrix}R_{32}-R_{23}\\ R_{13}-R_{31}\\ R_{21}-R_{12}\end{bmatrix}$$
+Où
+$$R=\begin{bmatrix}R_{11}&R_{12}&R_{13}\\ R_{21}&R_{22}&R_{23} \\ R_{31}&R_{32}&R_{33}\end{bmatrix}$$
+Inversement, on peut calculer la matrice de rotation à partir de la représentation axe angle:
+$$
