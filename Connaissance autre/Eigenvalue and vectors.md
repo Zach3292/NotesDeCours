@@ -7,7 +7,7 @@ Le vecteur propre d'une matrice de rotation est l'axe de rotation et la valeur p
 
 ### Calcul des vecteurs propres
 $$A\vec{v}=\lambda\vec{v}$$
-Où
+Où:
 $A$ est la matrice de transformation, $\vec{v}$ sont les vecteurs propres et $\lambda$ la valeur propre correspondante. On peut réduire l'équation précédente à celle-ci pour simplifier le calcul:
 $$(A-\lambda I)\vec{v}=\vec{0}$$
 Par contre, on veut un vecteur non nul comme réponse et la seule manière est que:

@@ -6,8 +6,6 @@ tags:
 ---
 
 Autres:
-- [ ] Notes sur le eigen vector et eigen value
-	- [ ] ![Référence](https://www.youtube.com/watch?v=PFDu9oVAE-g&ab_channel=3Blue1Brown)
 - [ ] Apprendre et noter sur le kalman filter
 - [ ] Retranscrire les notes des autres matières soit:
 	- [ ] [Calcul Intégral](Calcul%20Intégral)
