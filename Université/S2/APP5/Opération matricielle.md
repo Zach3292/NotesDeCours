@@ -63,3 +63,14 @@ On peut utilisé la méthode des moindres carrées pour faire une régression li
 ![reglin](Images/reglin.png)
 ### Matrice pseudo-inverse
 Lorsqu'un système est sous contraint, il est possible de calculer un matrice pseudo inverse pour obtenir une solution qui optimise une fonction coût quadratique. 
+
+$$\underline{x}^*=Q^{-1}A^T(AQ^{-1}A^T)^{-1}\underline{y}$$
+Où $Q$ est la matrice de poids, elle contient les choses qu'on cherche à minimiser. Dans un cas simplifié où $Q=I$:
+$$\underline{x}^*=A^\#\underline{y}$$
+L'inverse droit de Moore-Penrose est notée:
+$$A^\#=A^T(AA^T)^{-1}$$
+Aussi:
+$$AA^\#=I$$
+
+### Vecteurs et valeurs propres
+Voir [ici](../../../Connaissance%20autre/Eigenvalue%20and%20vectors.md) pour les détails.

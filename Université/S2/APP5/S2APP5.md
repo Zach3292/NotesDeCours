@@ -8,3 +8,4 @@
 
 [Chapitre4: Cinématique différentielle](Cinématique%20différentielle.md)
 
+[Chapitre 17 et 18: Opération matricielle](Opération%20matricielle.md)
