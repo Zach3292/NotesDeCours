@@ -37,4 +37,8 @@ Où $b$ est une base mobile, $a$ est une base fixe dans le référentiel inertie
 ##### Équation matricielle équivalente avec les composantes
 On peut réécrire les équations sous forme de matrices et de vecteur-colonnes:
 $$\underline{v}_B^a= \frac{d}{dt}\underline{r}_{B/A}^a=\frac{d}{dt} ( ^aR^b\underline{r}_{B/A}^b)$$
-On applique aussi la règle de dérivé comme avec la
+On applique aussi la règle de dérivé comme avec la relation en vectoriel:
+$$\underline{v}_{B/A}^a=\ ^aR^b\underline{\dot{r}}_{B/A}^b+^a\dot{R}^b\underline{r}_{B/A}^b$$
+Comme on voit, cette expression comporte la dérivée d'une matrice de rotation. On peut remplacer la dérivée de la matrice de rotation directement par la vitesse angulaire:
+$$\underline{v}_{B/A}^a=\ ^aR^b\left[\underline{\dot{r}}_{B/A}^b+(\underline{\omega}^b_{b/a})^\times\underline{r}_{B/A}^b\right]$$
+### 4.3 Vitesse angulaire et dérivée d'une matrice de rotation
