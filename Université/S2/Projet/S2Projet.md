@@ -14,3 +14,5 @@
 - [!] Faire les notes sur le séminaire de sécurité
 
 - [!] Note sur séminaire de vision
+
+- [!] Note sur séminaire d'intégration robotique

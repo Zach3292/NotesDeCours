@@ -32,5 +32,9 @@ $$\vec{r}_{B/A}=x\hat{b}_1+y\hat{b}_2+z\hat{b}_3$$
 Alors lorsqu'on dérive par rapport au temps, il faut prendre compte du mouvement du repère $B$ dans le temps aussi:
 $$\vec{v}_{B/A}=\frac{d}{dt}\vec{r}_{B/A}=\dot{x}\hat{b}_1+\dot{y}\hat{b}_2+\dot{z}\hat{b}_3+x\dot{\hat{b}}_1+y\dot{\hat{b}}_2+z\dot{\hat{b}}_3$$
 Il y a donc deux sources de contribution au vecteur vitesse, le taux de variation des composantes et le taux de variation de la direction des vecteurs unitaires. La dérivée temporelle des vecteur unitaire est directement relié à la vitesse angulaire de la base $b$. On peut calculer la contribution de ce mouvement avec un produit vectoriel:
-$$\vec{v}_{B/A}=\frac{d}{dt}\vec{r}_{B/A}+\vec{\omega}_{b/a}\times\vec{v}_{B/A}$$
-Où $b$ est une base mobiel et $a$ est une base fixe dans le référentiel interiel
+$$\vec{v}_{B/A}=\ ^b\frac{d}{dt}\vec{r}_{B/A}+\vec{\omega}_{b/a}\times\vec{v}_{B/A}$$
+Où $b$ est une base mobile, $a$ est une base fixe dans le référentiel inertiel, $^b\frac{d}{dt}$ représente le taux de variation des composantes perçu par un observateur dans le référentiel non-inertiel de la base $b$ et $\vec{\omega}_{b/a}$ est la vitesse angulaire de $b$ par rapport à $a$.
+##### Équation matricielle équivalente avec les composantes
+On peut réécrire les équations sous forme de matrices et de vecteur-colonnes:
+$$\underline{v}_B^a= \frac{d}{dt}\underline{r}_{B/A}^a=\frac{d}{dt} ( ^aR^b\underline{r}_{B/A}^b)$$
+On applique aussi la règle de dérivé comme avec la
