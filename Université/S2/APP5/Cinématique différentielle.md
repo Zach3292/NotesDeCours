@@ -42,3 +42,7 @@ $$\underline{v}_{B/A}^a=\ ^aR^b\underline{\dot{r}}_{B/A}^b+^a\dot{R}^b\underline
 Comme on voit, cette expression comporte la dérivée d'une matrice de rotation. On peut remplacer la dérivée de la matrice de rotation directement par la vitesse angulaire:
 $$\underline{v}_{B/A}^a=\ ^aR^b\left[\underline{\dot{r}}_{B/A}^b+(\underline{\omega}^b_{b/a})^\times\underline{r}_{B/A}^b\right]$$
 ### 4.3 Vitesse angulaire et dérivée d'une matrice de rotation
+On peut représenté un vitesse angulaire avec un vecteur de vitesse angulaire au lieu d'une matrice:
+$$\dot{R}=\frac{d}{dt}R=(\underline{\omega})^\times R$$
+Voir [ici](Opération%20matricielle.md#Produit%20vectoriel) pour la définition de $\underline{\omega}^\times$.
+
