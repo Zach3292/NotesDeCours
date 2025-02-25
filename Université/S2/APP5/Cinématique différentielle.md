@@ -46,3 +46,17 @@ On peut représenté un vitesse angulaire avec un vecteur de vitesse angulaire a
 $$\dot{R}=\frac{d}{dt}R=(\underline{\omega})^\times R$$
 Voir [ici](Opération%20matricielle.md#Produit%20vectoriel) pour la définition de $\underline{\omega}^\times$.
 
+#### 4.3.1 Propriétés
+Une vitesse angulaire est la taux de variation d'une orientation d'une base relative à une autre. Il faut donc ajouter les bases à la notation:
+$$\vec{w}_{b/a}$$
+Deux expressions différentes permettent  de décrire la vitesse angulaire selon la base:
+$$^a\dot{R}^b=(\underline{\omega}^a_{b/a})^\times\ ^aR^b=\ ^aR^b(\underline{\omega}^a_{b/a})^\times$$
+La vitesse angulaire de chaque vecteur unitaire peut être calculé comme-ci:
+$$^a\frac{d}{dt}\hat{b}_i=\vec{w}_{b/a}\times \hat{b}_i$$
+##### Addition
+On peut additionner plusieurs vitesses angulaires relatives pour obtenir un autre vitesse angulaire. 
+$$\vec{w}_{d/a}=\vec{w}_{d/c}+\vec{w}_{c/b}+\vec{w}_{b/a}$$
+##### Commutativité
+Contrairement au matrice de rotation, la combinaison des vecteurs de vitesse angulaire est commutative.
+### 4.4 Accélération et dérivée seconde d'un vecteur position
+$$\underline{a}â_B=\ ^aR^b\left[\underlin\right]$$
