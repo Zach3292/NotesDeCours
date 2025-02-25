@@ -91,7 +91,7 @@ $$^aR^b_3(\theta)= \begin{bmatrix}c\theta&-s\theta&0\\s\theta&c\theta&0\\0&0&1\e
 ##### Rotation par rapport à l'axe 2
 $$^aR^b_2(\theta)= \begin{bmatrix}c\theta&0&s\theta\\0&1&0\\-s\theta&0&c\theta\end{bmatrix}$$
 ##### Rotation par rapport à l'axe 1
-$$^aR^b_3(\theta)= \begin{bmatrix}1&0&0\\0&c\theta&-s\theta\\0&s\theta&c\theta\end{bmatrix}$$
+$$^aR^b_1(\theta)= \begin{bmatrix}1&0&0\\0&c\theta&-s\theta\\0&s\theta&c\theta\end{bmatrix}$$
 #### 3.5.4 Propriétés des matrices de rotation
 ##### Normes des colonnes et rangés
 Elle vaut toujours 1
