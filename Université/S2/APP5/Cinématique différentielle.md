@@ -59,4 +59,9 @@ $$\vec{w}_{d/a}=\vec{w}_{d/c}+\vec{w}_{c/b}+\vec{w}_{b/a}$$
 ##### Commutativité
 Contrairement au matrice de rotation, la combinaison des vecteurs de vitesse angulaire est commutative.
 ### 4.4 Accélération et dérivée seconde d'un vecteur position
-$$\underline{a}â_B=\ ^aR^b\left[\underlin\right]$$
+$$\underline{a}^a_B=\ ^aR^b\left[\underline{\ddot{r}}^b_{B/A}+(\underline{\dot{w}}^b_{b/a})^\times \underline{r}^b_{B/A}+2(\underline{w}^b_{b/a})^\times\underline{\dot{r}}^b_{B/A}+(\underline{w}^b_{b/a})^\times(\underline{w}^b_{b/a})^\times\underline{r}^b_{B/A}\right]$$
+Où
+$$2(\underline{w}^b_{b/a})^\times\underline{\dot{r}}^b_{B/A}$$ est l'accélération lié à la force de [[Coriolis]] et
+$$(\underline{w}^b_{b/a})^\times(\underline{w}^b_{b/a})^\times\underline{r}^b_{B/A}$$
+est l'accélération lié à la force [[centrifuge]].
+### 4.5 Cinématique différentielle des robots manipulateurs
