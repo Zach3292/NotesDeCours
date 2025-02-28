@@ -71,6 +71,6 @@ L'inverse droit de Moore-Penrose est notée:
 $$A^\#=A^T(AA^T)^{-1}$$
 Aussi:
 $$AA^\#=I$$
-
+![pseudoinverse](Images/pseudoinverse.png)
 ### Vecteurs et valeurs propres
 Voir [ici](../../../Connaissance%20autre/Eigenvalue%20and%20vectors.md) pour les détails.
