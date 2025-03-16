@@ -51,7 +51,13 @@
 
 **Chloroplastes**: végétaux seulement, fait la photosynthèse, spécial comme la mitochondrie., fabrique du glucose
 
-**Lysosomes**: animaux seulement, dégrade les déchets en molécules intutiles, enzyme ++, recyclage$\rightarrow$phagocyte.
+**Lysosomes**: animaux seulement, dégrade les déchets en molécules inutiles, enzyme ++, recyclage$\rightarrow$phagocyte.
 
 **Vacuole centrale**: végétaux seulement, la réserve de la cellule, force la cellule à s'agrandir, force la turgescence
 
+**Vésicule**: circule dans le cytosol, stocke, transporte, digère des produits et des déchets
+
+#### Réseau intracellulaire des membranes
+Structure et organite qui se prolongent ou s'échanges des membranes
+
+Synthèse des protéines, transports des protéines, métabolisme et mouvement des lipides
