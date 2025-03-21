@@ -16,3 +16,4 @@
 - [!] Note sur séminaire de vision
 
 - [!] Note sur séminaire d'intégration robotique
+- [!] Note sur séminaire de réduction des risques
