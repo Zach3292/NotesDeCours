@@ -1,0 +1,2 @@
+### 3.1 Position d'un point
+Un vecteur de position défini la position d'un point par rapport à un autre. Pour écrire le point $Q$ en fonction de $P$, on écrit $\vec{r}^{Q/P}$. Ce vecteur est le vecteur position de $Q$ de $P$. La norme de ce vecteur est la distance entre $P$ et $Q$. Les vecteurs de position sont très utile en géométrie.
