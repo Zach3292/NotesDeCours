@@ -65,3 +65,17 @@ $$2(\underline{w}^b_{b/a})^\times\underline{\dot{r}}^b_{B/A}$$ est l'accélérat
 $$(\underline{w}^b_{b/a})^\times(\underline{w}^b_{b/a})^\times\underline{r}^b_{B/A}$$
 est l'accélération lié à la force [[centrifuge]].
 ### 4.5 Cinématique différentielle des robots manipulateurs
+Pour passer d'une vitesse des joints à une vitesse de l'effecteur, il faut utiliser une [[matrice jacobienne]]. L'équation reliant ces deux vitesses est la suivante:
+$$\underline{\dot{r}}=J(\underline{q})\underline{\dot{q}}$$
+### 4.6 Cinématique différentielle inverse
+Pour ce qui est de la cinématique inverse, il faut tout simplement inverser la jacobienne:
+$$\underline{\dot{q}}=J(\underline{q})^{-1}\underline{\dot{r}}$$
+Toutefois, il se peut que l'inversion soit plus complexe.
+#### 4.6.1 Les singularités
+Certaines configurations d'un robot sont singulières, c'est à dire qu'il est impossible d'inverser la matrice jacobienne pour faire le calcul.
+#### 4.6.2 Robot redondant
+Un robot peut être sous-contraint, la matrice jacobienne sera donc un rectangle avec plus de colonne que de ligne. Un méthode pour résoudre ce genre de problème est la  [matrice pseudo-inverse](Opération%20matricielle.md#Matrice%20pseudo-inverse):
+$$\underline{\dot{q}}=J^\#\underline{\dot{r}}+[I-J^\#J]\psi$$
+Le terme de droite n'affecte pas l'objectif principal et le mouvement de l'effecteur mais il influencera le mouvement des joints du robot en tant que tel.
+#### 4.6.3 Robot sur-contraint
+Il faut utiliser la [méthode des moindres carrés](Opération%20matricielle.md#Méthode%20des%20moindres%20carrés).
