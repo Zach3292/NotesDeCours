@@ -17,4 +17,9 @@ Alors $$\vec{M}^{S/O} = \vec{M}^{S/O}_{\mathrm{external}}$$
 En statique: $$\vec{M}^{S/O}=\vec{0}$$
 ### 10.4 Définition d'un équilibre statique
 Quand la force résultante et le moment résultant sont nul, il s'agit d'un équilibre statique:
-$$\begin{align}\vec{F}^S&=\vec{0}\\\vec{M}^{S/O}&=\vec{0}
+$$\begin{align}\vec{F}^S&=\vec{0}\\\vec{M}^{S/O}&=\vec{0}\end{align}$$
+Il faut aussi pouvoir établir un référentiel Newtonien dans lequel tous les points ont une accélération nulle. De plus. si $S$ est sans masse alors $S$ est en équilibre statique.
+$$\begin{align}^N\vec{a}^{S_i}&=\vec{0}\\m^S&=0\end{align}$$
+### 10.5 Couple d'un ensemble de vecteur
+Le couple est le moment d'un ensemble de vecteur avec une résultante nulle. 
+$$\vec{T}^S\triangleq\vec{M}^{S/O} \textrm{ quand } \vec{F}^S=\vec{0} \textrm{ et que }O \textrm{ est n'importe quel point}$$
