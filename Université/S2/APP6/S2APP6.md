@@ -8,3 +8,5 @@
 
 [Chapitre 11: Remplacement de force et vecteurs de contour](Remplacement%20de%20force%20et%20vecteurs%20de%20contour.md)
 
+[Chapitre 12: Encyclopédie des forces et des couples](Encyclopédie%20des%20forces%20et%20des%20couples.md)
+
