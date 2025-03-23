@@ -2,6 +2,8 @@
 
 [Chapitre 3: Vecteur de position](Vecteur%20de%20position.md)
 
+[Chapitre 8: Masse, centre de masse et centroïde](Masse,%20centre%20de%20masse%20et%20centroïde.md)
+
 [Chapitre 9: Force et résultante](Force%20et%20résultante.md)
 
 [Chapitre 10: Moments et couples](Moments%20et%20couples.md)
