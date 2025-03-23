@@ -16,5 +16,7 @@ $$\vec{F}_f=-\mu_k|\vec{F}_N|\frac{\vec{v}^{B_A/A_B}_{\textrm{tangent}}}{|\vec{v
 Où $\epsilon_v$ est un nombre positif beaucoup plus petit que la norme de la vitesse.
 
 ### 12.7 Ressort en translation
-Si le ressort à une constante d'élasticité qui demeure constante peu importe l'étirement du ressort alors la force exercé par le ressort est [la suivante](../../../Collégial/1ere%20session/Physique/Les%20forces.md#Force%20élastique).
+Si le ressort à une constante d'élasticité qui demeure constante peu importe l'étirement du ressort alors la force exercé par le ressort est [la suivante](../../../Collégial/1ere%20session/Physique/Les%20forces.md#Force%20élastique). Dans notre notation c'est plutôt:
+$$\vec{F}^{Q/P}=-k*\Delta l*\hat{u}^{Q/P}$$
+
 
