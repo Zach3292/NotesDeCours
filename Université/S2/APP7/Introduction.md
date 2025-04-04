@@ -1,0 +1,1 @@
+La mécanique des fluides vise à comprendre les comportements dynamiques d'un fluide. Le cours vise surtout les concepts de force, de pression et de débit. 
