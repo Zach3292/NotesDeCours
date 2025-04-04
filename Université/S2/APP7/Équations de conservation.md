@@ -31,5 +31,30 @@ On peut diviser par le débit massique et obtenir $$\left[\frac{P_1}{\rho} +\fra
 Toutefois, il est courant d'exprimer les pertes comme s'il s'agissait de colonnes d'eau hydrostatiques. Il faut donc diviser l'équation précédente par $g$: $$\left[\frac{P_1}{\rho g} +\frac{1}{2g}V_1^2+z_1\right]=\left[\frac{P_2}{\rho g} +\frac{1}{2g}V_2^2+z_2\right]+\dot{h}_f +\dot{h}_g$$
 Il ne reste donc plus qu'à exprimer les pertes par friction et garniture $h_f$ et $h_g$ selon les paramètres de l'écoulement.
 
-##### Perte par friction (ou linéaires)
+##### Pertes par friction (ou linéaires)
+On peut exprimé les pertes par friction avec l'équation suivante: $$h_f=\frac{V^2}{2g}f\frac{L}{d}$$
+Où
+- $V$ est la vitesse moyenne d'écoulement
+- $L$ la longueur du conduit
+- $d$ le diamètre du conduit
+- $f$ le coefficient de perte de charge
+Ce coefficient dépend de deux nombres sans dimensions dont le *nombre de Reynolds (Re)* mais il est plus souvent obtenu avec un charte de Moddy: ![moddy](Images/moddy.png)
 
+**Le nombre de Reynolds** pour sa part est un indice du niveau de turbulence dans l'écoulement. On considère qu'au dessus de 2300, il s'agit d'un écoulement turbulent et en dessus d'un écoulement laminaire.
+$$\textrm{Re}=\frac{\rho Vd}{\mu}$$
+##### Pertes par garniture (pertes mineures)
+
+On représente ces pertes en fonction d'un facteur $K$ qui dépend de la composante: $$h_g=\frac{V^2}{2g}K$$
+Encore une fois, c'est proportionnelle à la vitesse moyenne au carré dans la composante.
+
+
+Si on remplace les deux pertes dans l'équation originale, on obtient: $$\left[\frac{P_1}{\rho g} +\frac{1}{2g}V_1^2+z_1\right]=\left[\frac{P_2}{\rho g} +\frac{1}{2g}V_2^2+z_2\right]+\frac{V^2}{2g}\left[ \sum{f\frac{L}{D}}+\sum{K}\right]$$
+### Conservation de la quantité de mouvement (bonus)
+
+La loi de la conservation de la quantité de mouvement s'applique aussi aux fluides.
+$$\sum{\vec{F}_{ext}}=\dot{m}\vec{V}_{out}-\dot{m}\vec{V}_{in}$$
+
+### Annexes
+
+![k1](Images/k1.png)
+![k2](Images/k2.png)
