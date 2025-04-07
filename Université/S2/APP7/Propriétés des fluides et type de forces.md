@@ -48,7 +48,7 @@ En ingénierie, une grande partie des fluides ont une viscosité qui ne dépend 
 La pression se définit comme la force par unité de surface qu'exerce un fluide sur une surface. Il est fréquent d'exprimer la pression en fonction de la pression atmosphérique. 
 
 ##### Pression manométrique
-Aussi appelée pression effective ou pression gage. Il s'Agit de la différence avec la pression atmosphérique. C'est la pression qu'on voit avec des capteurs analogiques (pompe à vélo, compresseur etc.).
+Aussi appelée pression effective ou pression gage. Il s'agit de la différence avec la pression atmosphérique. C'est la pression qu'on voit avec des capteurs analogiques (pompe à vélo, compresseur etc.).
 ##### Pression de vacuum
 Elle est l'espace entre la pression absolue et la pression atmosphérique
 
