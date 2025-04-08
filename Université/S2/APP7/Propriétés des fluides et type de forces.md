@@ -61,7 +61,7 @@ Il s'agit de la pression par rapport à un vacuum parfait, soit une pression de 
 
 #### Densité
 La densité est un élément central dans l'analyse des fluides. Elle se définit comme le ration de masse par volume soit $$\rho=\frac{m}{V}$$
-Pour un liquide, cette densité est constante. Pour un gaze, il faut se fier à la loi des gaze parfait soit $$PV=nR_uT$$
+Pour un liquide, cette densité est constante. Pour un gaz, il faut se fier à la loi des gaz parfait soit $$PV=nR_uT$$
 $$\begin{align} P&=\frac{nR_u}{V}T\\
 &=\frac{nM}{V}RT\\ &=\frac{m}{V}RT\\ P&=\rho RT\end{align}$$
 Où
