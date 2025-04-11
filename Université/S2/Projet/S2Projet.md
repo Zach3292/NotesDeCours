@@ -1,6 +1,7 @@
 #matière
 # Robotique industrielle et sécurité des machines
-- [!] [Machine à état](Machine%20à%20état.md)
+
+[Machine à état](Machine%20à%20état.md)
 
 [Technologies industrielles](../APP1/Technologies%20industrielles.md)
 
@@ -10,12 +11,15 @@
 
 [Robot collaboratif](Robot%20collaboratif.md)
 
-- [!] Faire les notes sur le séminaire la programmation robotique
+[Programmation robotique](Programmation%20robotique.md)
 
 - [!] Faire les notes sur le séminaire de sécurité
 
-- [!] Note sur séminaire de vision
+[Vision numérique](Vision%20numérique.md)
 
-- [!] Note sur séminaire d'intégration robotique
+[Intégration robotique](Intégration%20robotique.md)
 
 - [!] Note sur séminaire de réduction des risques
+
+- [!] Séminaire cadenassage
+

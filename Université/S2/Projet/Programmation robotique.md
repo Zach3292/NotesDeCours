@@ -9,3 +9,7 @@ Utiliser des noms de programmes clairs, des noms de variables clairs ainsi que d
 Utilisation de différents [Repère](../APP2/Repère.md).
 
 Faire des sauvegardes et des copies à un intervalle constant
+
+Utilisé des routines d'initialisations
+
+Il est recommandé d'utiliser des [Machine à état](Machine%20à%20état.md) lors de la programmation de robot
