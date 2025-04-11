@@ -13,7 +13,7 @@
 
 [Programmation robotique](Programmation%20robotique.md)
 
-- [!] Faire les notes sur le séminaire de sécurité
+[Analyse de risque](Analyse%20de%20risque.md)
 
 [Vision numérique](Vision%20numérique.md)
 
