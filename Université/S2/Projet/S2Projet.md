@@ -6,9 +6,9 @@
 
 [Communication réseau](../APP1/Communication%20réseau.md)
 
-- [!] [Interface humaine-machine](Interface%20humain-machine.md)
+[Interface humaine-machine](Interface%20humain-machine.md)
 
-- [!] Faire les notes sur le séminaire sur robot collaboratif
+[Robot collaboratif](Robot%20collaboratif.md)
 
 - [!] Faire les notes sur le séminaire la programmation robotique
 
@@ -17,4 +17,5 @@
 - [!] Note sur séminaire de vision
 
 - [!] Note sur séminaire d'intégration robotique
+
 - [!] Note sur séminaire de réduction des risques
