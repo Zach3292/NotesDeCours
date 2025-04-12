@@ -19,7 +19,7 @@
 
 [Intégration robotique](Intégration%20robotique.md)
 
-- [!] Note sur séminaire de réduction des risques
+[Réduction des risques](Réduction%20des%20risques.md)
 
-- [!] Séminaire cadenassage
+[Cadenassage](Cadenassage.md)
 
