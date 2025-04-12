@@ -92,6 +92,8 @@ Avec $P_k$, on peut calculer K:
 $$K_k=\frac{P_kH^T}{HP_kH^T+R}$$
 On voit que si R est grand, on va ignorer les mesures et que inversement si l'erreur sur l'estimation est grand on va ignorer l'estimation.
 
+La matrice H est seulement une matrice de transformation puisque P et K ne sont pas des mêmes dimensions.
+
 ##### Obtention d'une matrice de covariance
 La [covariance](https://fr.wikipedia.org/wiki/Covariance) est un concept statistique dérivé de la [variance](../../Collégial/4e%20session/Statistiques/Statistiques%20descriptives%20et%20échantillonnage.md#Mesures%20de%20dispersion) qui évalue la corrélation de la distribution entre deux variables. On note la variance de $X$ $\sigma_x^2$ et la covariance entre $X$ et $Y$ $\sigma_{xy}$.
 $$\begin{align}
