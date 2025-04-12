@@ -93,4 +93,18 @@ $$K_k=\frac{P_kH^T}{HP_kH^T+R}$$
 On voit que si R est grand, on va ignorer les mesures et que inversement si l'erreur sur l'estimation est grand on va ignorer l'estimation.
 
 ##### Obtention d'une matrice de covariance
+La [covariance](https://fr.wikipedia.org/wiki/Covariance) est un concept statistique dérivé de la [variance](../../Collégial/4e%20session/Statistiques/Statistiques%20descriptives%20et%20échantillonnage.md#Mesures%20de%20dispersion) qui évalue la corrélation de la distribution entre deux variables. On note la variance de $X$ $\sigma_x^2$ et la covariance entre $X$ et $Y$ $\sigma_{xy}$.
+$$\begin{align}
+\sigma_x^2&=\frac{\sum^n_{k=1}{(x_k-\overline{x})^2}}{n} \\
+\sigma_{xy}&=\frac{\sum^n_{k=1}{((x_k-\overline{x})(y_k-\overline{y}))}}{n}
+\end{align}$$
+On peut aussi noter la covariance $\mathrm{cov}(X,Y)$. Une propriété intéressante est que $\mathrm{cov}(X,Y)=\mathrm{cov}(Y,X)$.
+
+Avec cette notation, on défini une matrice de covariance pour trois variables comme suit:
+$$\begin{bmatrix} 
+\sigma_{x}^2 & \sigma_{xy} & \sigma_{xz} \\
+\sigma_{yx} & \sigma_{y}^2 & \sigma_{yz} \\
+\sigma_{zx} & \sigma_{zy} & \sigma_{z}^2
+\end{bmatrix}$$
+En résumé, les variances des variables sur la diagonale et les covariances (ligne-colonne) ailleurs.
 ### Filtre Kalman étendu
