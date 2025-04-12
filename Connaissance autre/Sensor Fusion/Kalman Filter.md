@@ -60,7 +60,7 @@ Avec cette équation, une forme standard de la matrice $A$ existe: $$A=
 1 & \Delta t \\
 0 & 1 \\
 \end{bmatrix}$$
-Si on suit le principe de la [multiplication matricielle](../../Collégial/3e%20session/Algèbre%20linéaire/Opérations%20sur%20les%20matrices.md#Multiplication%20de%20matrice), on obtient: $$AX_{k-1}=
+*A est la matrice qui permet de calculer l'effet de l'état précédent sur l'état actuel*. Si on suit le principe de la [multiplication matricielle](../../Collégial/3e%20session/Algèbre%20linéaire/Opérations%20sur%20les%20matrices.md#Multiplication%20de%20matrice), on obtient: $$AX_{k-1}=
 \begin{bmatrix}
 x+\dot{x}\Delta t \\
 \dot{x} \\
@@ -72,10 +72,14 @@ Dans le cas de cette exemple, la matrice de variable de contrôle $u_k=[a]$ soit
 \frac{1}{2}\Delta t^2 \\
 \Delta t \\
 \end{bmatrix}$$
-On a donc que $$Bu_k=
+*B est la matrice qui permet de calculer l'effet de la matrice de contrôle sur notre état.* On a donc que $$Bu_k=
 \begin{bmatrix}
 a\frac{1}{2}\Delta t^2 \\
 a\Delta t \\
 \end{bmatrix}$$Si on résout l'équation de prédiction, on a que: $$X_k=\begin{bmatrix}x\\\dot{x}\end{bmatrix}=\begin{bmatrix}x+\dot{x}\Delta t +\frac{1}{2}a\Delta t^2\\\dot{x}+\ddot{x}\Delta t\end{bmatrix}$$
 Cela nous donne la nouvelle position et vitesse de l'objet selon la prédiction.
+
+#### La matrice de covariance d'état
+En d'autres mots, il s'agit de la matrice qui gère l'erreur dans notre système. Ici, il s'agit de P. Q est la matrice de covariance du bruit dans le procédé. R est la
+
 ### Filtre Kalman étendu
