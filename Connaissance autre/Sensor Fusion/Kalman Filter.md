@@ -34,6 +34,8 @@ L'erreur sur l'estimation peut être calculé de la manière suivante: $$\Delta\
 Dans un filtre Kalman, il faut connaitre ou assumer toutes les variables initiales.
 
 ### FIltre Kalman multidimensionnelle
+
+**Goated video**: https://youtu.be/CaCcOwJPytQ?si=3uGK8-5EqaUreWEU 
 #### La matrice d'état
 Elle représente l'état actuelle du système, souvent en coordonnées et en vitesse. Elle est souvent représenté comme suit: $$X = 
 \begin{bmatrix} 
@@ -77,7 +79,9 @@ Dans le cas de cette exemple, la matrice de variable de contrôle $u_k=[a]$ soit
 a\frac{1}{2}\Delta t^2 \\
 a\Delta t \\
 \end{bmatrix}$$Si on résout l'équation de prédiction, on a que: $$X_k=\begin{bmatrix}x\\\dot{x}\end{bmatrix}=\begin{bmatrix}x+\dot{x}\Delta t +\frac{1}{2}a\Delta t^2\\\dot{x}+\ddot{x}\Delta t\end{bmatrix}$$
-Cela nous donne la nouvelle position et vitesse de l'objet selon la prédiction.
+Cela nous donne la nouvelle position et vitesse de l'objet selon la prédiction. Il faut aussi se fier à l'observation qui est donné par:
+$$y_k=Cy_{k_m} + z_k$$
+Où $y_{k_m}$ est la mesure du capteur et $C$ permet de transformer cette information dans le même format que notre matrice d'état. $z_k$ est l'erreur dans notre observation (bruit)
 
 #### La matrice de covariance d'état
 En d'autres mots, il s'agit de la matrice qui gère l'erreur de notre estimé
@@ -94,6 +98,9 @@ On voit que si R est grand, on va ignorer les mesures et que inversement si l'er
 
 La matrice H est seulement une matrice de transformation puisque P et K ne sont pas des mêmes dimensions.
 
+$$R = E(z_kz_k^T)$$
+$$Q=E(w_kw_k^T)$$
+Où $E$ est []
 ##### Obtention d'une matrice de covariance
 La [covariance](https://fr.wikipedia.org/wiki/Covariance) est un concept statistique dérivé de la [variance](../../Collégial/4e%20session/Statistiques/Statistiques%20descriptives%20et%20échantillonnage.md#Mesures%20de%20dispersion) qui évalue la corrélation de la distribution entre deux variables. On note la variance de $X$ $\sigma_x^2$ et la covariance entre $X$ et $Y$ $\sigma_{xy}$.
 $$\begin{align}
