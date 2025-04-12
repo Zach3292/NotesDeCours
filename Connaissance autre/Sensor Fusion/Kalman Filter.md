@@ -109,7 +109,7 @@ $$C =\begin{bmatrix}
 En résumé, les variances des variables sur la diagonale et les covariances (ligne-colonne) ailleurs.
 
 Pour un ordinateur, il est plus simple de faire des opérations matricielles, il y a donc une méthode plus simple pour obtenir la matrice de covariance. On utilise une matrice de déviation $a$:
-$$a=X-[1]A\cdot\frac{1}{N}$$
-$$C = a^Ta$$
-Où $A$ contient les types de données en colonne et les $N$ données associées à ce type en ligne. Aussi $[1]$ est une matrice $N\times N$ remplie de 1.
+$$a=X-[1]X\cdot\frac{1}{N}$$
+$$C = a^Ta\cdot\frac{1}{N}$$
+Où $X$ contient les types de données en colonne et les $N$ données associées à ce type en ligne. Aussi $[1]$ est une matrice $N\times N$ remplie de 1.
 ### Filtre Kalman étendu
