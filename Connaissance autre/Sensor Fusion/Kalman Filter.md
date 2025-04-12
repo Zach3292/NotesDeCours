@@ -80,6 +80,17 @@ a\Delta t \\
 Cela nous donne la nouvelle position et vitesse de l'objet selon la prédiction.
 
 #### La matrice de covariance d'état
-En d'autres mots, il s'agit de la matrice qui gère l'erreur dans notre système. Ici, il s'agit de P. Q est la matrice de covariance du bruit dans le procédé. R est la
+En d'autres mots, il s'agit de la matrice qui gère l'erreur de notre estimé
+- P est la matrice de covariance de notre estimé 
+- Q est la matrice de covariance du bruit dans le procédé d'estimation. 
+- R est la matrice de covariance de nos mesures
+- K est le Kalman gain (comparaison entre l'erreur d'estimation et l'erreur de mesure)
 
+On peut calculer P ainsi:
+$$P_k=AP_{k-1}A^T+Q$$
+Avec $P_k$, on peut calculer K:
+$$K_k=\frac{P_kH^T}{HP_kH^T+R}$$
+On voit que si R est grand, on va ignorer les mesures et que inversement si l'erreur sur l'estimation est grand on va ignorer l'estimation.
+
+##### Obtention d'une matrice de covariance
 ### Filtre Kalman étendu
