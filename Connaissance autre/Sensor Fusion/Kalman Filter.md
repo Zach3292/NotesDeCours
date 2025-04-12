@@ -77,4 +77,5 @@ On a donc que $$Bu_k=
 a\frac{1}{2}\Delta t^2 \\
 a\Delta t \\
 \end{bmatrix}$$Si on résout l'équation de prédiction, on a que: $$X_k=\begin{bmatrix}x\\\dot{x}\end{bmatrix}=\begin{bmatrix}x+\dot{x}\Delta t +\frac{1}{2}a\Delta t^2\\\dot{x}+\ddot{x}\Delta t\end{bmatrix}$$
+Cela nous donne la nouvelle position et vitesse de l'objet selon la prédiction.
 ### Filtre Kalman étendu
