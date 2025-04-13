@@ -4,6 +4,8 @@
 
 [Kalman Filter](Sensor%20Fusion/Kalman%20Filter.md)
 
+[Particle filter](Sensor%20Fusion/Particle%20filter.md)
+
 [Sensor fusion](Sensor%20Fusion/Sensor%20fusion.md)
 
 [Eigenvalue and vectors](Eigenvalue%20and%20vectors.md)
