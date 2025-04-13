@@ -9,30 +9,12 @@ Encore une fois, la plupart des phénomènes naturels peuvent être représenté
 #### Variable aléatoire
 L'état caché du système est une *variable aléatoire*, celle-ci est décrit par un fonction de densité de probabilité.
 #### Estimation, précision et exactitude
-Une *estimation* essaye d'évalue l'état caché du système. La *précision* est lorsque nos estimés n'ont pas un grande incertitude. L'*exactitude* est lorsque nos estimés sont proches de la valeur réelle. Un système avec une basse exactitude est dit *biaisé*.
+Une *estimation* essaye d'évaluer l'état caché du système. La *précision* est lorsque nos estimés n'ont pas un grande incertitude. L'*exactitude* est lorsque nos estimés sont proches de la valeur réelle. Un système avec une basse exactitude est dit *biaisé*.
 ### Filtre $\alpha- \beta - \gamma$ à une dimension
-#### Première équation du filtre Kalman
-Estimation de l'état présent = La valeur prédit de l'état + un facteur fois (la mesure - la prédiction de l'état)
 
-Le facteur est représenté par $K_n$ et s'appelle le gain Kalman.
-
-On arrive à cette fonction appelé la fonction de changement d'état:$$\hat{\phi}_{n,n}=\hat{\phi}_{n, n-1} + \alpha\cdot \left[z_n+\hat{\phi}_{n, n-1}\right]$$
 La différence entre la mesure et l'état prédit s'appelle *l'innovation*.
 
 Le processus d'estimation avec ce filtre peut être représenté par [ce canvas](Procédé%20d'estimation.canvas).
-#### Deuxième équation du filtre de Kalman
-
-Lorsque le système n'est pas dans un état statique, il faut pouvoir représenter les lois dynamiques qui le régissent. Avec ces équations, il est possible de prédire le prochaine état du système s'il n'y aurait pas de changement à son comportement. Ce système d'équation représente les deuxièmes équations du filtre Kalman et s'appelle *les équations d'extrapolation de l'état* ou *équations de transition* ou encore *équations de prédiction*.
-
-Les équations de transition dépendent du système et change dépendant du problème. Il existe une forme matricielle générale **qui sera vu plus tard**
-
-#### Calcul du gain de Kalman
-Le gain de Kalman est un calcul conceptuellement simple: $$K_n=\frac{\Delta\hat{\phi}_{n,n}}{\Delta\hat{\phi}_{n,n}+\Delta z_n}$$
-Où $\Delta$ représente l'incertitude ou l'erreur sur la mesure.
-
-L'erreur sur l'estimation peut être calculé de la manière suivante: $$\Delta\hat{\phi}_{n,n}=(1-K_n)\Delta\hat{\phi}_{n,n-1}$$ 
-Dans un filtre Kalman, il faut connaitre ou assumer toutes les variables initiales.
-
 ### FIltre Kalman multidimensionnelle
 
 **Goated video**: https://youtu.be/CaCcOwJPytQ?si=3uGK8-5EqaUreWEU 
