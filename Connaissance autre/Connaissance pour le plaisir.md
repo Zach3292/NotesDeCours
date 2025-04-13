@@ -2,6 +2,8 @@
 
 [Formule d'Euler](Formule%20d'Euler.md)
 
+[Bayes Filter](Sensor%20Fusion/Bayes%20Filter.md)
+
 [Kalman Filter](Sensor%20Fusion/Kalman%20Filter.md)
 
 [Particle filter](Sensor%20Fusion/Particle%20filter.md)
