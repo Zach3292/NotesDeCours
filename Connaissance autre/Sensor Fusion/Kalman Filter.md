@@ -91,7 +91,7 @@ $$\begin{align}
 On peut aussi noter la covariance $\mathrm{cov}(X,Y)$. Une propriété intéressante est que $\mathrm{cov}(X,Y)=\mathrm{cov}(Y,X)$.
 
 Avec cette notation, on défini une matrice de covariance pour trois variables comme suit:
-$$C =\begin{bmatrix} 
+$$Cov =\begin{bmatrix} 
 \sigma_{x}^2 & \sigma_{xy} & \sigma_{xz} \\
 \sigma_{yx} & \sigma_{y}^2 & \sigma_{yz} \\
 \sigma_{zx} & \sigma_{zy} & \sigma_{z}^2
@@ -100,9 +100,9 @@ En résumé, les variances des variables sur la diagonale et les covariances (li
 
 Pour un ordinateur, il est plus simple de faire des opérations matricielles, il y a donc une méthode plus simple pour obtenir la matrice de covariance. On utilise une matrice de déviation $a$:
 $$a=X-[1]X\cdot\frac{1}{N}$$
-$$C = a^Ta\cdot\frac{1}{N}$$
+$$Cov = a^Ta\cdot\frac{1}{N}$$
 Où $X$ contient les types de données en colonne et les $N$ données associées à ce type en ligne. Aussi $[1]$ est une matrice $N\times N$ remplie de 1.
 ### Filtre Kalman étendu
-
+Il fonctionne selon le même principe que le filtre de Kalman standard mais n'a pas besoin d'un système linéaire. On remplace les matrices A, B et H par une [[matrice jacobienne]].
 ### Unscented Kalman Filter
 
