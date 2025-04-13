@@ -42,7 +42,7 @@ ggplot(data, aes(x = nbDiabete, y = probDiabete)) +
 ```
 ### Nombres
 #### Tendance centrale
-1. Moyenne (µ pour population, x avec une barre au dessus pour un échantillon)
+1. Moyenne (µ pour population, x avec une barre au dessus pour un échantillon) *aussi appelé espérance*
 2. Médiane: valeur du milieu
 3. Mode: valeur qui revient le plus souvent
 

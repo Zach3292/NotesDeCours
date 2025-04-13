@@ -97,10 +97,9 @@ $$K_k=\frac{P_kH^T}{HP_kH^T+R}$$
 On voit que si R est grand, on va ignorer les mesures et que inversement si l'erreur sur l'estimation est grand on va ignorer l'estimation.
 
 La matrice H est seulement une matrice de transformation puisque P et K ne sont pas des mêmes dimensions.
-
 $$R = E(z_kz_k^T)$$
 $$Q=E(w_kw_k^T)$$
-Où $E$ est []
+Où $E$ est [l'espérance](../../Collégial/4e%20session/Statistiques/Statistiques%20descriptives%20et%20échantillonnage.md#Tendance%20centrale)
 ##### Obtention d'une matrice de covariance
 La [covariance](https://fr.wikipedia.org/wiki/Covariance) est un concept statistique dérivé de la [variance](../../Collégial/4e%20session/Statistiques/Statistiques%20descriptives%20et%20échantillonnage.md#Mesures%20de%20dispersion) qui évalue la corrélation de la distribution entre deux variables. On note la variance de $X$ $\sigma_x^2$ et la covariance entre $X$ et $Y$ $\sigma_{xy}$.
 $$\begin{align}
@@ -122,3 +121,6 @@ $$a=X-[1]X\cdot\frac{1}{N}$$
 $$C = a^Ta\cdot\frac{1}{N}$$
 Où $X$ contient les types de données en colonne et les $N$ données associées à ce type en ligne. Aussi $[1]$ est une matrice $N\times N$ remplie de 1.
 ### Filtre Kalman étendu
+
+### Unscented Kalman Filter
+
