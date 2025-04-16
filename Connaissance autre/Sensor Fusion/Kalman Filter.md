@@ -102,6 +102,10 @@ Pour un ordinateur, il est plus simple de faire des opérations matricielles, il
 $$a=X-[1]X\cdot\frac{1}{N}$$
 $$Cov = a^Ta\cdot\frac{1}{N}$$
 Où $X$ contient les types de données en colonne et les $N$ données associées à ce type en ligne. Aussi $[1]$ est une matrice $N\times N$ remplie de 1.
+#### Mise à jour de l'état
+Il faut ensuite remettre à jour l'état et l'incertitude sur l'état:
+$$X=X_k+K_k(y_k-HX_k)$$
+$$P=(I-HK_k)P_k$$
 ### Filtre Kalman étendu
 Il fonctionne selon le même principe que le filtre de Kalman standard mais n'a pas besoin d'un système linéaire. On remplace les matrices A, B et H par une [[matrice jacobienne]].
 ### Unscented Kalman Filter
