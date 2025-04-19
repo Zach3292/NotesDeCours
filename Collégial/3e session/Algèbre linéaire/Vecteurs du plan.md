@@ -7,7 +7,7 @@ Addition de vecteur: on les raboute
 Lois des cosinus: $c^2+a^2+b^2 -2ab\cos{\gamma}$ 
 Lois des sinus: $\frac{\sin{\alpha}}{a}=\frac{\sin{\beta}}{b}=\frac{\sin{\gamma}}{c}$
 
-#### Relation de Chaste
+#### Relation de Chasles
 $\vec{AB} + \vec{BC} = \vec{AC}$
 
 Deux vecteurs sont parallèles si et seulement si $\vec{v}=k\vec{u}$ et $\vec{u}=k\vec{v}$ 
