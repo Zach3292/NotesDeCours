@@ -13,7 +13,7 @@ La sécurité n’est pas l’absence du risque, il s’agit plutôt de l’éta
 ### Limites de la machine
 L’identification des limites de la machine a pour but de comprendre le contexte d’utilisation d’une machine.
 ![](Images/Pasted%20image%2020250411112718.png)
-#### SItuation normal
+#### Situation normal
 Un robot industriel classique est utilisé pour des tâches de soudure dans une entreprise qui fait beaucoup d’usinage de pièces sur-mesure.
 
 #### Personnes présentes

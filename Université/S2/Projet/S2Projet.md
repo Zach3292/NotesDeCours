@@ -13,11 +13,11 @@
 
 [Programmation robotique](Programmation%20robotique.md)
 
-[Analyse de risque](Analyse%20de%20risque.md)
-
-[Vision numérique](Vision%20numérique.md)
+[Vision numérique](Vision%19numérique.md)
 
 [Intégration robotique](Intégration%20robotique.md)
+
+[Analyse de risque](Analyse%20de%20risque.md)
 
 [Réduction des risques](Réduction%20des%20risques.md)
 
