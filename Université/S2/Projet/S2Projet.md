@@ -19,6 +19,8 @@
 
 [Intégration robotique](Intégration%20robotique.md)
 
+[Santé et sécurité](Santé%20et%20sécurité.md)
+
 [Analyse de risque](Analyse%20de%20risque.md)
 
 [Réduction des risques](Réduction%20des%20risques.md)
