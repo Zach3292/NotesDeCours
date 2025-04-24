@@ -1,5 +1,5 @@
 ### Principe de la SST
-![sst](Pasted%20image%2020250424103743.png)
+![sst](Images/Pasted%20image%2020250424103743.png)
 
 - Informer les travailleurs des risques de leur travail
 - Empêcher l'accès aux zones dangereuses
