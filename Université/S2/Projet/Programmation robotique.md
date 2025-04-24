@@ -6,10 +6,10 @@ Utiliser des plus petites routines pouvant être réutilisée. Facile à valider
 #### Compréhension
 Utiliser des noms de programmes clairs, des noms de variables clairs ainsi que des nom de fonctions clairs
 
-Utilisation de différents [Repère](../APP2/Repère.md).
+Utilisation de différents [Repères](../APP2/Repère.md).
 
 Faire des sauvegardes et des copies à un intervalle constant
 
-Utilisé des routines d'initialisations
+Utiliser des routines d'initialisation
 
-Il est recommandé d'utiliser des [Machine à état](Machine%20à%20état.md) lors de la programmation de robot
+Il est recommandé d'utiliser des [machines à état](Machine%20à%20état.md) lors de la programmation de robots

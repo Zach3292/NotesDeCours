@@ -1,4 +1,4 @@
-### Caractéristique d'un robot collaboratif
+### Caractéristiques d'un robot collaboratif
 Un robot est *collaboratif* parce qu’il travaille en interaction étroite avec des personnes de façon sécuritaire. Il comporte des technologies comme:
 1. Arrêt de sécurité automatique
 	1. Détection de la présence humaine par un équipement de sécurité
@@ -11,10 +11,10 @@ Un robot est *collaboratif* parce qu’il travaille en interaction étroite avec
 	1. Programmation à la main du robot et enregistrement des points
 	2. Capteurs de force sur le poignet
 
-Un robot collaboratif à une vitesse et puissance limité, aucun arrête vive et des formes arrondies
-### Différence avec collaboratif, coopératif et cohabitation
+Un robot collaboratif a une vitesse et puissance limité, aucune arrête vive et des formes arrondies
+### Différence entre collaboration, coopération et cohabitation
 #### Cohabitation
-Le robot et l’ouvrier travaillent à proximité, mais dans des espaces séparés. Leurs tâches peuvent être similaires ou différentes. L’interaction a lieu lorsque le robot est à l’arrêt et qu’il est reprogrammé par l’ouvrier
+Le robot et l’ouvrier travaillent à proximité, mais dans des espaces séparés. Leurs tâches peuvent être similaires ou différentes. L’interaction a lieu lorsque le robot est à l’arrêt et/ou qu’il est reprogrammé par l’ouvrier.
 #### Coopération
 Le robot et l’ouvrier travaillent à des étapes différentes d’une même tâche. Le travail de l’un influence donc celui de l’autre. Chacun a son espace de travail séparé, mais bien souvent ceux-ci sont situés près l’un de l’autre.
 #### Collaboration
@@ -23,7 +23,7 @@ Le robot et l’ouvrier travaillent à la même tâche en étroite proximité. I
 
 *L’objectif du robot n’est pas de remplacer l’humain, mais de l’appuyer pour valoriser ses compétences et son savoir-faire.*
 
-### Critère de sélection d'un robot collaboratif
+### Critères de sélection d'un robot collaboratif
 - Charge utile: combien il peut supporter
 - Portée du bras
 - Justesse et répétabilité
