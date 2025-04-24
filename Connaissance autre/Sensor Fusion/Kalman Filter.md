@@ -62,8 +62,8 @@ a\frac{1}{2}\Delta t^2 \\
 a\Delta t \\
 \end{bmatrix}$$Si on résout l'équation de prédiction, on a que: $$X_k=\begin{bmatrix}x\\\dot{x}\end{bmatrix}=\begin{bmatrix}x+\dot{x}\Delta t +\frac{1}{2}a\Delta t^2\\\dot{x}+\ddot{x}\Delta t\end{bmatrix}$$
 Cela nous donne la nouvelle position et vitesse de l'objet selon la prédiction. Il faut aussi se fier à l'observation qui est donné par:
-$$y_k=Cy_{k_m} + z_k$$
-Où $y_{k_m}$ est la mesure du capteur et $C$ permet de transformer cette information dans le même format que notre matrice d'état. $z_k$ est l'erreur dans notre observation (bruit)
+$$y_k=Hy_{k_m} + z_k$$
+Où $y_{k_m}$ est la mesure du capteur et $H$ permet de transformer cette information dans le même format que notre matrice d'état. $z_k$ est l'erreur dans notre observation (bruit)
 
 #### La matrice de covariance d'état
 En d'autres mots, il s'agit de la matrice qui gère l'erreur de notre estimé

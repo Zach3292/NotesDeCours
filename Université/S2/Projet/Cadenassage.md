@@ -12,6 +12,7 @@ Il faut suivre trois étapes:
 	5. Thermique
 	6. Chimique
 	7. Radioactive
+
 Le cadenassage est utilisé une fois que la source d’énergie est séparée de la machine, pour empêcher une autre personne de les relier à nouveau.
 #### Principes importants
 - Le cadenas empêche le redémarrage de la machine

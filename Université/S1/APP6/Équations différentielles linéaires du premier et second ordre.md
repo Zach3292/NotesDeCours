@@ -52,7 +52,7 @@ $$\frac{dy_c}{dt} = \frac{-1}{\tau}y_c$$
 3. On substitue l'équation trouver dans l'équation originale et on résout
 ##### Approche analytique
 On résout pour $y_c$ en faisant isolant tous les termes contenant $y_c$ et en calculant l'intégral.
-[calcul intégral](calcul%20intégral)
+[Calcul Intégral](Calcul%20Intégral)
 
 #### Recherche d'une solution particulière
 Il existe deux méthodes

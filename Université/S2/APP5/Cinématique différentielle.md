@@ -61,9 +61,9 @@ Contrairement au matrice de rotation, la combinaison des vecteurs de vitesse ang
 ### 4.4 Accélération et dérivée seconde d'un vecteur position
 $$\underline{a}^a_B=\ ^aR^b\left[\underline{\ddot{r}}^b_{B/A}+(\underline{\dot{w}}^b_{b/a})^\times \underline{r}^b_{B/A}+2(\underline{w}^b_{b/a})^\times\underline{\dot{r}}^b_{B/A}+(\underline{w}^b_{b/a})^\times(\underline{w}^b_{b/a})^\times\underline{r}^b_{B/A}\right]$$
 Où
-$$2(\underline{w}^b_{b/a})^\times\underline{\dot{r}}^b_{B/A}$$ est l'accélération lié à la force de [[Coriolis]] et
+$$2(\underline{w}^b_{b/a})^\times\underline{\dot{r}}^b_{B/A}$$ est l'accélération lié à la force de [Coriolis](../../../Collégial/1ere%20session/Physique/Les%20forces.md#Force%20de%20Coriolis) et
 $$(\underline{w}^b_{b/a})^\times(\underline{w}^b_{b/a})^\times\underline{r}^b_{B/A}$$
-est l'accélération lié à la force [[centrifuge]].
+est l'accélération lié à la force [centrifuge](../../../Collégial/1ere%20session/Physique/Les%20forces.md#Force%20centrifuge).
 ### 4.5 Cinématique différentielle des robots manipulateurs
 Pour passer d'une vitesse des joints à une vitesse de l'effecteur, il faut utiliser une [[matrice jacobienne]]. L'équation reliant ces deux vitesses est la suivante:
 $$\underline{\dot{r}}=J(\underline{q})\underline{\dot{q}}$$

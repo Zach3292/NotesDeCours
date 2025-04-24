@@ -6,7 +6,6 @@ tags:
 ---
 
 Autres:
-- [ ] Apprendre et noter sur le kalman filter
 - [ ] Retranscrire les notes des autres matières soit:
 	- [ ] [Calcul Intégral](Calcul%20Intégral)
 	- [ ] [Ondes et physique moderne](Ondes%20et%20physique%20moderne)

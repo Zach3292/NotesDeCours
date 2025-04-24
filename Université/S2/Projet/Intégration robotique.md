@@ -1,4 +1,4 @@
-Méthodologie *Lean*
+Méthodologie [LEAN](Démarche%20LEAN%20en%20robotique.md)
 ![lean](Images/lean.png)
 
 ### Gabarit mécanique
@@ -30,7 +30,8 @@ Un protocole établit les règles de communication afin que les systèmes qui tr
 
 Une pile de protocoles est constituée de différents protocoles qui gèrent chaque étape de la communication.
 
-Le modèle TCP/IP est plus utilisé que le modèle OSI. Il comprend les mêmes couches à l’exception des couches session et présentation en moins. ![protocole](Images/protocole.png)
+Le modèle TCP/IP est plus utilisé que le modèle OSI. Il comprend les mêmes couches à l’exception des couches session et présentation en moins.
+![protocole|300](Images/protocole.png)
 
 Ethernet/IP est un protocole industriel qui définit les couches de la pile de protocoles. C’est la couche application qui le distingue d’autres protocoles industriels dont Modbus TCP.
 

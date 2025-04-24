@@ -11,7 +11,7 @@ $$\lVert\vec{r}\rVert=\sqrt{\underline{r}^T\underline{r}}$$
 $$d=\vec{r}\cdot\hat{n}=\underline{r}^T\underline{n}$$
 $$\cos{\angle(\hat{n}_1\hat{n}_2)}=\hat{n}_1\cdot\hat{n}=\hat{\underline{n}}_1^T\hat{\underline{n}}_2$$
 ### Produit vectoriel
-$$\vec{u}=\vec{v}\times\vec{w}\rightarrow\underline{u}=\underline{v}^\times\underline{w}\rightarrow\begin{bmatrix}u_1\\ u_2 \\ u_3\end{bmatrix}=\begin{bmatrix}o&-v_3&v_2 \\ v_3 &0&-v_1\\ -v_2&v_1&0\end{bmatrix}\begin{bmatrix}w_1\\ w_2 \\ w_3\end{bmatrix}$$
+$$\vec{u}=\vec{v}\times\vec{w}\rightarrow\underline{u}=\underline{v}^\times\underline{w}\rightarrow\begin{bmatrix}u_1\\ u_2 \\ u_3\end{bmatrix}=\begin{bmatrix}0&-v_3&v_2 \\ v_3 &0&-v_1\\ -v_2&v_1&0\end{bmatrix}\begin{bmatrix}w_1\\ w_2 \\ w_3\end{bmatrix}$$
 L'ordre des multiplication est importante
 ### Produit tensoriel / produit extérieur
 $$\vec{v}\vec{w}\rightarrow T=\underline{u}\underline{w}^T=\begin{bmatrix}v_1\\ v_2 \\ v_3\end{bmatrix}\begin{bmatrix}w_1& w_2 & w_3\end{bmatrix}=\begin{bmatrix}v_1w_1&v_1w_2&v_1w_3\\ v_2w_1&v_2w_2&v_2w_3 \\ v_3w_1&v_3w_2&v_3w_3\end{bmatrix}$$

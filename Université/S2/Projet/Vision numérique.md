@@ -31,7 +31,7 @@ Principe de base: *shit in, shit out*
 
 ##### Bonnes pratiques
 - ‘Ancrage’ sur image 
-- Prise images avec caméra puis configuration offline (vous pouvez commencer dès maintenant!) 
+- Prise images avec caméra puis configuration offline
 - Acquisition: faire attention à l’environnement (ex : variation d’éclairage)
 
 ##### Utilisation des données
