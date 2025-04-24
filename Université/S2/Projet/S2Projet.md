@@ -1,6 +1,8 @@
 #matière
 # Robotique industrielle et sécurité des machines
 
+[Démarche LEAN en robotique](Démarche%20LEAN%20en%20robotique.md)
+
 [Machine à état](Machine%20à%20état.md)
 
 [Technologies industrielles](../APP1/Technologies%20industrielles.md)
