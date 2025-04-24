@@ -53,3 +53,10 @@ Action-réaction, pour chaque force sur un corps, il y a une autre force de réa
 $$\vec{F}_{B \leftarrow A}=-\vec{F}_{A\leftarrow B}$$
 
 
+
+### Force Fictive
+Ce ne sont pas des vrais forces mais plutôt des effets d'autres forces.
+#### Force de Coriolis
+Il s'agit d'un effet inertiel du mouvement du référentiel. Comme celui-ci est non inertiel, c'est l'observateur qui change de position par l'action de l'[accélération centripète](Cinématique.md#MCU) du référentiel et qui interprète tout changement de direction de ce qui l'entoure comme une force inverse.
+#### Force centrifuge
+L'effet ressenti, modélisé par cette "force", est dû à l'inertie des corps face aux mouvements de rotation de ces référentiels et se traduit par une tendance à éloigner les corps de leur centre de rotation. Un exemple en est la sensation d'éjection que ressent un voyageur dans un véhicule qui effectue un virage. Il s'agit simplement d'un effet des mouvements des référentiels.
