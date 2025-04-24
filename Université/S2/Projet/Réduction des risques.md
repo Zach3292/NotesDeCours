@@ -2,8 +2,10 @@
 ![|300](Images/Pasted%20image%2020250412102004.png)
 Une fois les mesures correctives mises en place, il faut refaire l’analyse des risques pour s’assurer que de nouveaux risques n’ont pas été introduits sans le vouloir.
 ![|300](Images/Pasted%20image%2020250412102038.png)
+#### Élimination des risques
 **Éliminer le risque**, cela signifie opter pour un autre procédé ou une autre machine qui ne représente pas un risque pour la sécurité ou qui représente un risque différent et plus facile à atténuer ensuite par d’autres méthodes
 
+#### Conception de machine sûre
 Pour concevoir une **machine sûre**, il faut par exemple: 
 - écarter les pièces mobiles 
 	- distances de sécurité minimales à respecter afin de s’assurer qu’une personne ou qu’un membre ne soit coincé entre la pièce mobile et une autre pièce.
