@@ -6,7 +6,7 @@
 #### Positionnement
 - Ajouter un ‘sens’ (vision) à un robot pour du pick and place
 #### Tirer, compter
-Faire le trie automatique des pièces
+- Faire le trie automatique des pièces
 
 ### Avantages et défis
 #### Avantages
@@ -26,6 +26,7 @@ Le type d'éclairage impacte beaucoup:
 - Position de l’éclairage (caméra VS objet VS éclairage) 
 - Réflectivité matériau 
 - Ombrage
+Il est important de s'assurer d'avoir un éclairant constant.
 #### Traitement
 Principe de base: *shit in, shit out*
 
