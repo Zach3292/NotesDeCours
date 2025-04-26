@@ -923,7 +923,7 @@ ski.show()
     
 
 
-# Cours 8
+# Cours 8 et 9
 Intégration numérique
 
 Pour pouvoir utiliser le théorème fondamental de l'intégration, il faut pouvoir trouver des primitives de fonctions malgré le fait que pluseirus fonctions n'ont pas de primitive
@@ -988,7 +988,6 @@ plt.show()
     
 
 
-# Cours 9
 Intégration numérique (suite)
 
 Avec une fonction discrète, on ne peut pas évaluer le rectangle du centre puisqu'il n'y a pas de valeur associé au centre. Il est possible de regrouper les sous-intervalles en groupe de deux pour créer un *point-milieu* artificiel. Par contre, on a la moitié des sous-intervalles précédentes.

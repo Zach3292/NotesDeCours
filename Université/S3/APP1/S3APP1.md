@@ -5,3 +5,5 @@
 
 [Chapitre 2: Calcul vectoriel intégral](Calcul%20vectoriel%20intégral.md)
 
+[Chapitre 3: Différentiation et intégration numérique](Différentiation%20et%20intégration%20numérique.md)
+
