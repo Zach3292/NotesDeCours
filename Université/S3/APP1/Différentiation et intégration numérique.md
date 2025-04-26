@@ -28,5 +28,25 @@ Il existe trois manières principale de calculer une intégrale numérique:
 - Méthodes des trapèzes
 - Méthodes de Simpson
 
-Les formules des trois méthodes sont expliquées dans la section[[../../../Collégial/4e session/Calcul 3/Note de cours.md#|Note de cours]]
+Les formules des trois méthodes sont expliquées dans la section [suivante](../../../Collégial/4e%20session/Calcul%203/Note%20de%20cours.md#Cours%208%20et%209). 
 
+#### Méthode des rectangles
+La méthode la plus simple mais aussi la moins précise. il s'Agit simplement de calculer la somme de Riemann pour la fonction avec les valeurs discrètes. Son erreur se calcule comme suit: $$|\epsilon_R|\leq h\frac{b-a}{2}M_R$$
+Où $M_R$ est la valeur maximale de la dérivée seconde de la fonction entre les points $a$ et $b$.
+
+#### Méthode des trapèzes
+Pour la mise en application, la méthode des trapèzes a l'avantage d'être très simple puisqu'il s'agit seulement d'addition et de multiplication. Par contre, il faut faire attention à son erreur associé. Il est possible d'obtenir l'erreur maximale de la méthode des trapèzes à l'aide de la formule suivante: $$|\epsilon_T|\leq h^2\frac{b-a}{12}M_T$$
+Où $M_T$ est la valeur maximale de la dérivée seconde de la fonction entre $a$ et $b$. 
+
+#### Méthode de Simpson
+La méthode de Simpson consiste à approximer des fonctions quadratiques entre chaque point et en calculer l'intégrale. Elle demande plus de calcule que la méthode des trapèzes mais elle est beaucoup plus précise.
+
+Sur un intervalle $\Delta x$, où le point évaluée est le point $m$, le point précédent $a$ et le suivant $b$, la formule de Simpson est la suivante:
+$$S_n(f) = \frac{\Delta x}{6}\left(f(a) + 4 f(m) + f(b)\right)$$
+À partir de cette définition pour un seul sous intervalle, il est possible d'obtenir la formule suivante pour une somme de sous-intervalle de pas $h$.
+$$S_n(f) = \frac{h}{3}\sum^{n/2}_{k=1}{\left(f(x_{2k-2}) + 4 f(x_{2k-1}) + f(x_{2k})\right)}$$
+
+Cependant, pour que la méthode fonctionne, il faut que le nombre de point soit pair puisqu'on réduit notre précision en deux en disant qu'un point sur deux est un point milieu.
+##### Erreur avec la méthode de Simpson
+L'erreur avec la méthode de Simpson es beaucoup plus petite. Elle est donnée par la formule suivante: $$|\epsilon_S|\leq h^4\frac{b-a}{180}M_S$$
+Où $M_S$ est la valeur maximale de la dérivée quatrième de la fonction entre le point $a$ et $b$.
