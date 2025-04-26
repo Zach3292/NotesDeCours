@@ -7,3 +7,5 @@
 
 [Chapitre 3: Différentiation et intégration numérique](Différentiation%20et%20intégration%20numérique.md)
 
+[Chapitre 4: Méthodes numériques pour la résolution d'équations différentielles](Méthodes%20numériques%20pour%20la%20résolution%20d'équations%20différentielles.md)
+
