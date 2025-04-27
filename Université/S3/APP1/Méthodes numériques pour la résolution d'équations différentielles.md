@@ -43,3 +43,44 @@ pour $k=0$: $y_0=y(x_0)$
 Pour tout $k > 0$: $k_1=hF(y(x_k),x_k)$ et $y_{k+1}=y_k+k_1$.
 #### Méthode de Heun (Runge-Kutta d'ordre 2)
 La convergence de la méthode d'Euler est généralement trop lente en pratique. On peut donc utiliser la méthode des trapèzes pour réduire l'erreur pour un même nombre d'intervalle.
+Pour tout $k>0$: 
+$$k_1=hF(y(x_k),x_k)$$
+$$k_2=hF(y_k+k_1,x_{k+1})$$
+$$y_{k+1}=y_k+\frac{k_1+k_2}{2}$$
+Chaque pas d'intégration nécessite deux évaluations de la fonction $F$ alors elle est deux fois plus lente que la méthode d'Euler. 
+
+L'erreur d'approximation de la méthode de Heun est proportionnelle à $h^2$ donc elle est d'ordre 2.
+#### Méthode de Runge-Kutta d'ordre 4
+Même chose mais avec la méthode de Simpson
+
+Pour tout $k>0$:
+$$k_1=hF(y(x_k),x_k)$$
+$$k_2=hF(y_k+\frac{k_1}{2},x_{k+1/2})$$
+$$k_3=hF(y_k+\frac{k_2}{2},x_{k+1/2})$$
+$$k_4=hF(y_k+k_3,x_{k+1})$$
+$$y_{k+1}=y_k+\frac{k_1+2k_2+2k_3+k_4}{6}$$
+La méthode demande d'évaluer la fonction $F$ quatre fois, elle est donc quatre fois plus lente que la méthode d'Euler.
+
+L'erreur de cette méthode est proportionnelle à $h^4$. Ainsi, la méthode est d'ordre 4.
+
+Pour chacune des trois méthodes, il y a deux type d'erreur: l*'erreur d'approximation absolue de $y_n$* qui correspond aux erreurs mentionnées plus haut et *l'erreur de troncature local* qui correspond à l'erreur de l'approximation de $y_{k+1}$ avec $y_k$. Cette erreur est proportionnelle à:
+- $h^2$ pour Euler
+- $h^3$ pour Heun
+- $h^5$ pour Runge-Kutta
+
+### Application aux systèmes d'équations différentielles d'ordre supérieur
+La résolution d'un problème aux valeurs initiales d'ordre $n$ se ramène à la résolution d'un système de $n$ équations différentielles d'ordre 1.
+On défini simplement des variable ainsi:
+$$y_1(x)=y(x)$$
+$$y_2=\frac{dy}{dx}(x)$$
+$$y_n(x)=\frac{d^{n-1}y}{dx^{n-1}}(x)$$
+### Implantation de la méthode de Runge-Kutta sous MATBLAB
+MATLAB ne sait que résoudre des problèmes du premier ordre. Il faut donc convertir nos situations et l'écrire de manière vectorielle.
+
+Pour l'équation suivante:
+$$\frac{d^2y}{dx^2}+a\frac{dy}{dx}+by=e^{-x}$$
+Aux conditions initiales $y(0)=0$ et $y'(0)=1$, on définit 
+$$y_1(x)=y(x)$$
+$$y_2(x)=\frac{dy}{dx}=\frac{dy_1}{dx}$$
+L'équation peut ainsi se réduire à:
+$$\frac{dy_2}{dx}=\frac{d^2y}{dx^2}=e^{-x}-a\frac{dy}{dx}-by$$
