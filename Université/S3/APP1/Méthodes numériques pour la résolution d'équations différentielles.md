@@ -76,6 +76,7 @@ $$y_2=\frac{dy}{dx}(x)$$
 $$y_n(x)=\frac{d^{n-1}y}{dx^{n-1}}(x)$$
 ### Implantation de la méthode de Runge-Kutta sous MATBLAB
 MATLAB ne sait que résoudre des problèmes du premier ordre. Il faut donc convertir nos situations et l'écrire de manière vectorielle.
+#### Mise en équations vectorielles
 
 Pour l'équation suivante:
 $$\frac{d^2y}{dx^2}+a\frac{dy}{dx}+by=e^{-x}$$
@@ -84,3 +85,64 @@ $$y_1(x)=y(x)$$
 $$y_2(x)=\frac{dy}{dx}=\frac{dy_1}{dx}$$
 L'équation peut ainsi se réduire à:
 $$\frac{dy_2}{dx}=\frac{d^2y}{dx^2}=e^{-x}-a\frac{dy}{dx}-by$$
+On introduit le vecteur de variable:
+$$Y=\begin{bmatrix}y_1(x)\\y_2(x)\end{bmatrix}$$
+Il faut ensuite exprimer $\frac{dY}{dx}$ à l'aide des variables $y_n(x)$:
+$$\frac{dY}{dx}=\begin{bmatrix}y_2(x)\\e^{-x}-ay_2(x)-by_1(x)\end{bmatrix}=F(x,Y)$$
+#### Écriture sous MATLAB
+Il faut créer la fonction décrivant le système différentiel *dans un fichier distinct*:
+```octave
+function dY=edofct(x,Y,P)
+```
+Où *edofct* est le nom choisi de la fonction codant la fonction $F(x,Y)$. Le résultat *dY* obtenu est un vecteur colonne contenant les composantes de $F$. Le paramètre *P* est optionnel et permet de passer des paramètres de l'utilisateur.
+
+Dans notre cas, avec $a=1$ et $b=2$, il faut faire 
+```octave
+function dY=ode1(x,Y)
+a = 1; b = 2;
+dY(1,:) = Y(2);
+dY(2,:) = exp(-x) - a*Y(2) - b*Y(1);
+end
+```
+
+#### Résolution numérique sous Matlab
+Il faut choisir le bon solveur Matlab pour résoudre notre problème. *ode23* est d'ordre 2 et *ode45* est d'ordre 4. Ce sont des solveurs *multi-pas*, c'Est à dire que le logiciel choisi automatique le pas pour garantir la stabilité.
+
+Nous allons aussi voir des solveurs pour des problèmes dit *stiff* ou raides en procédural.
+
+La syntaxe des solveurs est la suivante:
+```octave
+[t,Y] = odeXX(edofct, TSPAN, Y0);
+```
+Où *edofct* désigne le nom de la fonction Matlab (.m) associée au système différentiel, *TSPAN* désigne les instants initiaux et finaux pour l'intégration et *Y0* désigne le vecteur de conditions initiales.
+
+Le vecteur *t* de sortie représente les instants de *TSPAN* où la valeur *Y* a été calculée par le solveur.
+
+On peut définir *TSPAN* de deux manière selon si on veut choisir le nombre d'intervalle ou laisser le logiciel choisir:
+```octave
+TSPAN = [0, 10];
+TSPAN = linspace(0, 10, 30);
+```
+
+Dans notre cas, le solveur peut s'écrire comme suit:
+```octave
+Y0 = [0 , 1];
+TSPAN = [0, 10];
+[t, Y] = ode45(ode1, TSPAN, Y0);
+subplot(211);
+plot(t,Y(:,1),'o-');
+
+TSPAN = linspace(0, 10, 30);
+[t, Y] = ode45(ode1, TSPAN, Y0);
+subplot(212);
+plot(t,Y(:,1),'ro-');
+```
+
+Les résultats sont identiques et ne dépendent pas du pas d'intégration et du vecteur *TSPAN* choisi.
+#### Paramètres avancés
+On peut ajouter des options supplémentaires pour le solveur:
+```octave
+options = optimset('RelTol', 1e-6, 'AbsTol', 1e-4)
+[t, Y] = ode45(edofct, TSPAN, Y0, options)
+```
+Dans ce cas-ci, nos options sont la tolérance relative et la tolérance absolue.
