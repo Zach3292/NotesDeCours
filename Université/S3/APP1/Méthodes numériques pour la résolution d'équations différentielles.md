@@ -98,8 +98,7 @@ Où *edofct* est le nom choisi de la fonction codant la fonction $F(x,Y)$. Le r�
 
 Dans notre cas, avec $a=1$ et $b=2$, il faut faire 
 ```octave
-function dY=ode1(x,Y)
-a = 1; b = 2;
+function dY = ode1(x, Y,a , b)
 dY(1,:) = Y(2);
 dY(2,:) = exp(-x) - a*Y(2) - b*Y(1);
 end
@@ -120,20 +119,24 @@ Le vecteur *t* de sortie représente les instants de *TSPAN* où la valeur *Y* a
 
 On peut définir *TSPAN* de deux manière selon si on veut choisir le nombre d'intervalle ou laisser le logiciel choisir:
 ```octave
-TSPAN = [0, 10];
+TSPAN = [0 10];
 TSPAN = linspace(0, 10, 30);
 ```
 
 Dans notre cas, le solveur peut s'écrire comme suit:
 ```octave
-Y0 = [0 , 1];
-TSPAN = [0, 10];
-[t, Y] = ode45(ode1, TSPAN, Y0);
+a = 1;
+b = 2;
+ode2 = @(x,Y) ode1(x, Y, a, b);
+
+Y0 = [0 ; 1];
+TSPAN = [0 10];
+[t, Y] = ode45(ode2, TSPAN, Y0);
 subplot(211);
 plot(t,Y(:,1),'o-');
 
 TSPAN = linspace(0, 10, 30);
-[t, Y] = ode45(ode1, TSPAN, Y0);
+[t, Y] = ode45(ode2, TSPAN, Y0);
 subplot(212);
 plot(t,Y(:,1),'ro-');
 ```
