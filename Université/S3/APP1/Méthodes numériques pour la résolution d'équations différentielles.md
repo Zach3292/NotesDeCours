@@ -145,7 +145,7 @@ Les résultats sont identiques et ne dépendent pas du pas d'intégration et du 
 #### Paramètres avancés
 On peut ajouter des options supplémentaires pour le solveur:
 ```octave
-options = optimset('RelTol', 1e-6, 'AbsTol', 1e-4)
+options = odeset('RelTol', 1e-6, 'AbsTol', 1e-4)
 [t, Y] = ode45(edofct, TSPAN, Y0, options)
 ```
 Dans ce cas-ci, nos options sont la tolérance relative et la tolérance absolue.
