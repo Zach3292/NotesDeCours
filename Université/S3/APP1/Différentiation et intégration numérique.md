@@ -47,6 +47,9 @@ $$S_n(f) = \frac{\Delta x}{6}\left(f(a) + 4 f(m) + f(b)\right)$$
 $$S_n(f) = \frac{h}{3}\sum^{n/2}_{k=1}{\left(f(x_{2k-2}) + 4 f(x_{2k-1}) + f(x_{2k})\right)}$$
 
 Cependant, pour que la méthode fonctionne, il faut que le nombre de point soit pair puisqu'on réduit notre précision en deux en disant qu'un point sur deux est un point milieu.
+
+*Pour programmer Simpson:*
+$$\int_a^b{f(x)dx}\approx\frac{h}{3}\left(f(a)+4f(x_1)+2f(x_2)+4f(x_3)+2f(x_4)+...+f(b)\right)$$
 ##### Erreur avec la méthode de Simpson
 L'erreur avec la méthode de Simpson es beaucoup plus petite. Elle est donnée par la formule suivante: $$|\epsilon_S|\leq h^4\frac{b-a}{180}M_S$$
 Où $M_S$ est la valeur maximale de la dérivée quatrième de la fonction entre le point $a$ et $b$.
