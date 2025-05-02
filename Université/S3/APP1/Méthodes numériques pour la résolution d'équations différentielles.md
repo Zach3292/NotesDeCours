@@ -63,7 +63,7 @@ La méthode demande d'évaluer la fonction $F$ quatre fois, elle est donc quatre
 
 L'erreur de cette méthode est proportionnelle à $h^4$. Ainsi, la méthode est d'ordre 4.
 
-Pour chacune des trois méthodes, il y a deux type d'erreur: l*'erreur d'approximation absolue de $y_n$* qui correspond aux erreurs mentionnées plus haut et *l'erreur de troncature local* qui correspond à l'erreur de l'approximation de $y_{k+1}$ avec $y_k$. Cette erreur est proportionnelle à:
+Pour chacune des trois méthodes, il y a deux type d'erreur: *l'erreur d'approximation absolue de $y_n$* qui correspond aux erreurs mentionnées plus haut et *l'erreur de troncature local* qui correspond à l'erreur de l'approximation de $y_{k+1}$ avec $y_k$. Cette erreur est proportionnelle à:
 - $h^2$ pour Euler
 - $h^3$ pour Heun
 - $h^5$ pour Runge-Kutta
