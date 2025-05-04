@@ -19,5 +19,9 @@ Si on a deux référentiels qui sont aligner sur l'axe z $A$ et $B$ qui sont dé
 
 #### En fonction de $B$
 $$\begin{align}
+\vec{r}&=x\hat{b_x} \\
+\frac{^Bd\vec{r}}{dt}&= \dot{x}\hat{b_x}
+\end{align}
+$$
 
 #### En fonction de $A$
