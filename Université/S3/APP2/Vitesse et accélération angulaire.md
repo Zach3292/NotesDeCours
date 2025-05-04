@@ -7,7 +7,7 @@ Si le référentiel $B$ tourne autour d'un axe $\vec{\lambda}$ à une vitesse $\
 $$\begin{align}
 ^A\vec{\omega}^B&=\pm\dot{\theta}\vec{\lambda} \\
 ^A\vec{\omega}^B&= - ^B\vec{\omega}^A \\
-^A\vec{\omega}^D&=^A\vec{\omega}^B+^B\vec{\omega}^C+^C\vec{\omega}^D \\
+^A\vec{\omega}^D&={}^A\vec{\omega}^B+{}^B\vec{\omega}^C+{}^C\vec{\omega}^D \\
 ^A\vec{\alpha}^B&\triangleq \frac{^Ad (^A\vec{\omega}^B)}{dt}=\frac{^Bd (^A\vec{\omega}^B)}{dt}
 \end{align}$$
 
