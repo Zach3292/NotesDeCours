@@ -13,7 +13,7 @@ $$\begin{align}
 \frac{^Ad(\vec{u}+\vec{v}+\vec{w})}{dt} & = \frac{^Ad(\vec{u})}{dt} +\frac{^Ad(\vec{v})}{dt} + \frac{^Ad(\vec{w})}{dt}
 \end{align}$$
 
-### La règle d'or
+### L'effet du référentiel
 
 Si on a deux référentiels qui sont aligner sur l'axe z $A$ et $B$ qui sont décaler d'un angle $\theta$ respectant la règle de la main droite. On a aussi un vecteur $\vec{r}=x(t)\hat{b_x}$. On peut dériver le vecteur selon les deux référentiels.
 
@@ -25,3 +25,11 @@ $$\begin{align}
 $$
 
 #### En fonction de $A$
+$$\begin{align}
+\vec{r}&=x\left[\cos{(\theta)}\hat{a_x}+\sin{(\theta)}\hat{a_y}\right] \\
+\frac{^Ad\vec{r}}{dt}&= \dot{x}\left[\cos{(\theta)}\hat{a_x}+\sin{(\theta)}\hat{a_y}\right] + x\dot{\theta}\left[-\sin{(\theta)}\hat{a_x}+\cos{(\theta)}\hat{a_y}\right] \\
+&= \dot{x}\hat{b_x} + x\dot{\theta}\hat{b_y}
+\end{align}$$
+Comme $\frac{^Ad\vec{r}}{dt} \neq \frac{^Bd\vec{r}}{dt}$, il est clair que **le référentiel fait une différence** sur la dérivée.
+
+Le [prochain chapitre](Vitesse%20et%20accélération%20angulaire.md) montrera la règle d'or qui permet de changer de référentiel en calculant des dérivées et de rendre plus efficace la plupart des calculs de dérivée de vecteur.
