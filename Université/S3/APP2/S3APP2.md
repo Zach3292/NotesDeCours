@@ -9,3 +9,5 @@ La suite de [Statique](../../S2/APP6/S2APP6.md)
 
 [Chapitre 15: Vitesse et accélération linéaire](Vitesse%20et%20accélération%20linéaire.md)
 
+[Chapitre 16: Contraintes](Contraintes.md)
+
