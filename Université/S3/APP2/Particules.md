@@ -1,5 +1,7 @@
 ### Définition
 Une particule est comme un point, sauf qu'elle possède une masse. Ainsi, comme un point, *elle ne possède pas d'orientation, donc aucune vitesse et accélération angulaire sur elle même*. Elle n'a aussi aucune dimension. Cependant, une particule possède une masse donc elle a d'autre propriété importante.
+
+Lorsqu'on veut modéliser un système qui possède seulement des mouvements linéaires et aucun angulaire. On peut modéliser les corps avec des particules.
 ### Système de particules
 Il s'agit d'un ensemble de particule. Pour un système $S$ formé d particule $Qi$.
 $$\begin{align}
@@ -26,6 +28,17 @@ Il y a aussi un théorème pour changer le point de référence d'un momentum an
 $$^N\vec{H}^{S/P}={}^N\vec{H}^{S/O}+\vec{r}^{O/P}\times{}^N\vec{L}^S = {}^N\vec{H}^{S/O}+\vec{r}^{O/P}\times m^S{}^N\vec{v}^{S_{cm}}$$
 ### Énergie cinétique d'une particule
 Comme un particule possède une masse, elle possède de l'énergie. L'énerie cinétique d'une particule $Q$ est décrite par:
-$$^NK^Q\triangleq\frac{1}{2}m^Q\cdot {}^N\vec{V}^Q\cdot{}^N\vec{v}^Q$$
+$$^NK^Q\triangleq\frac{1}{2}m^Q\cdot {}^N\vec{v}^Q\cdot{}^N\vec{v}^Q$$
 Pour un système de particule $S$:
-$$^NK^S\triangleq\sum^n_{i=1}{^NK^{Q}}$$
+$$^NK^S\triangleq\sum^n_{i=1}{^NK^{Q_i}}=\frac{1}{2}\sum^n_{i=1}{m^{Q_i}\cdot {}^N\vec{v}^{Q_i}\cdot{}^N\vec{v}^{Q_i}}$$
+
+
+### Truc pour la modélisation d'un système en translation
+Il y a quelques étapes qui simplifient la résolution de tel système:
+1. Faire un schéma du système avec les référentiels, les variables importantes et les inconnus
+2. Calculer les accélérations, vitesses et positions pertinentes
+3. Faire un [DCL](../../S2/APP6/Diagramme%20de%20corps%20libre.md) et écrire les forces agissant sur le systèmes
+	1. Écrire l'équation de la force résultante selon les vecteurs de force et ensuite selon les axes des référentiels
+4. Écrire $\vec{F}=m\vec{a}$ et substituer les expressions de $\vec{F}$ et $\vec{a}$.
+	1. Faire le produit scalaire avec les vecteurs du [référentiel inertiel](Vitesse%20et%20accélération%20angulaire.md#Définition%20de%20$N$) approprié pour former des équations scalaires
+5. Résoudre les équations scalaires pour trouver les inconnus
