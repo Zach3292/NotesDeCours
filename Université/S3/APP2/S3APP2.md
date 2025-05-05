@@ -11,3 +11,5 @@ La suite de [Statique](../../S2/APP6/S2APP6.md)
 
 [Chapitre 16: Contraintes](Contraintes.md)
 
+[Chapitre 17: Particules](Particules.md)
+
