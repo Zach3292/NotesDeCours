@@ -51,4 +51,5 @@ $$\vec{r}^{B_A/A_B}\cdot\hat{t_i}=0 \ \ \ \textrm{ (i=y,z)}$$
 $$^F\vec{v}^{B_A}\triangleq{}^F\vec{v}^{A_B}$$
 ##### Glissement
 $$^F\vec{v}^{B_A}\neq{}^F\vec{v}^{A_B}$$
-
+#### Engrenage
+$$^F\vec{\omega}^Ar_A= \pm{}^F\vec{\omega}^Br_B$$
