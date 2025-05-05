@@ -20,3 +20,4 @@ Où
 - $^N\vec{\omega}^B\times\left({}^N\vec{\omega}^B\times\vec{r}^{B_Q/B_O}\right)$: L'accélération centripète de $Q$ sur $B$ dans $N$
 - $^B\vec{a}^Q$: L'accélération de $Q$ dans $B$
 - $2{}^N\vec{\omega}^B\times{}^B\vec{v}^Q$: L'accélération de Coriolis de $Q$ sur $B$ dans $N$.
+- $^N\vec{a}^{B_O}+{}^N\vec{\alpha}^B\times\vec{r}^{B_Q/B_O}+{}^N\vec{\omega}^B\times\left({}^N\vec{\omega}^B\times\vec{r}^{B_Q/B_O}\right)$: L'accélération du point $B_Q$ sur $B$ dans $N$.
