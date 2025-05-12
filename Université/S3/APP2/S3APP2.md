@@ -15,3 +15,5 @@ La suite de [Statique](../../S2/APP6/S2APP6.md)
 
 [Chapitre 18: Moment et produit d'inertie](Moment%20et%20produit%20d'inertie.md)
 
+[Chapitre 19: Dyadics](Dyadics.md)
+

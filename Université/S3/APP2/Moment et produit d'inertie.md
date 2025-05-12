@@ -12,3 +12,4 @@ Le produit d'inertie est associé à un point, un objet et deux vecteurs orthogo
 $$I_{\hat{u}\hat{v}}^{Q/O}=-m^Q\cdot d_u\cdot d_v$$
 Si on a une particule $Q$ dont la distance du point $O$ est $\vec{r}^{Q/O}=x\hat{b_x}+y\hat{b_y}+z\hat{b_z}$, son produit d'inertie est donc:
 $$\begin{align}I_{xy}=-mxy \ \ \ & I_{xz}=-mxz & I_{yz}=-myz \end{align}$$
+Le produit d'inertie mesure *l'absence de symétrie d'un objet*.
