@@ -19,5 +19,7 @@ La suite de [Statique](../../S2/APP6/S2APP6.md)
 
 [Chapitre 20: Dyadique d'inertie](Dyadique%20d'inertie.md)
 
+[Chapitre 21: Corps rigide](Corps%20rigide.md)
+
 
 
