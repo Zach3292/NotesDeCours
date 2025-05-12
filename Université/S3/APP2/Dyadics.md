@@ -24,4 +24,7 @@ On applique une *multiplication de vecteur* comme si c'était des scalaires norm
 ### Dyadique et matrice
 On peut représenter un dyadique sous une forme matricielle. 
 $$\hat{a_i}\cdot\vec{\vec{D}}\cdot\vec{a_j}=\begin{bmatrix}\vec{\vec{D}}\end{bmatrix}_{\hat{a}xyz}=\begin{bmatrix}D_{xx} &D_{xy} & D_{xz} \\ D_{yx} & D_{yy} & D_{yz} \\ D_{zx} & D_{zy} & D_{zz} \end{bmatrix}_{\hat{a}xyz}$$
-### Symétr
+### Symétrie de dyadique
+Un vrai dyadique est symétrique si une des équations suivantes est vrai:
+$$\vec{u}\cdot\vec{\vec{D}}\cdot\vec{v}=\vec{v}\cdot\vec{\vec{D}}\cdot\vec{u}$$
+$$\vec{\vec{D}}\cdot\vec{v}=\vec{v}\cdot\vec{\vec{D}}$$
