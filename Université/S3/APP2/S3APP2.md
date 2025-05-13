@@ -23,5 +23,5 @@ La suite de [Statique](../../S2/APP6/S2APP6.md)
 
 [Chapitre 22: Dynamique de Newton-Euler](Dynamique%20de%20Newton-Euler.md)
 
-
+[Chapitre 23: Dynamique avec la MG road-maps](Dynamique%20avec%20la%20MG%20road-maps.md)
 
