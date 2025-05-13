@@ -9,5 +9,7 @@ $$^N\vec{H}^{B/P}={}^N\vec{H}^{B/B_P}+\vec{r}^{B_P/P}\times {}^N\vec{L}^B$$
 ### Énergie cinétique d'un corps rigide
 Il y a trois manières de calculer l'énergie cinétique d'un corps rigide et il faut prendre celle qui nous avantage selon notre démarche:
 $$\begin{align}
-^NK^B&=\frac{1}{2}{}^N\vec{v}^{B_P}\cdot{}^N\vec{L}^B+\frac{1}{2}{}^N\vec{\omega}^B\cdot
+^NK^B&=\frac{1}{2}{}^N\vec{v}^{B_P}\cdot{}^N\vec{L}^B+\frac{1}{2}{}^N\vec{\omega}^B\cdot{}^N\vec{H}^{B/B_P}\\
+&=\frac{1}{2}{}^N\vec{v}^{B_P}\cdot{}^N\vec{v}^{B_P}+\frac{1}{2}{}^N\vec{\omega}^B\cdot\vec{\vec{I}}^{B/B_P}\cdot {}^N\vec{\omega}^B+m^B\ {}^N\vec{v}^{B_P}\cdot {}^N\vec{\omega}^B\times\vec{r}^{B_{cm}/B_P} \\
+&=\frac{1}{2}{}^N\vec{v}^{B_{cm}}\cdot{}^N\vec{v}^{B_{cm}}+\frac{1}{2}{}^N\vec{\omega}^B\cdot\vec{\vec{I}}^{B/B_{cm}}\cdot {}^N\vec{\omega}^B
 \end{align}$$
