@@ -21,5 +21,7 @@ La suite de [Statique](../../S2/APP6/S2APP6.md)
 
 [Chapitre 21: Corps rigide](Corps%20rigide.md)
 
+[Chapitre 22: Dynamique de Newton-Euler](Dynamique%20de%20Newton-Euler.md)
+
 
 
