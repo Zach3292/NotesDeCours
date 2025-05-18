@@ -7,7 +7,7 @@ $$\vec{F}^S=\frac{^Nd{ }^N\vec{L}^S}{dt}$$
 ### Principe de momentum angulaire
 $$\vec{M}^{S/O}=\frac{^Nd{ }^N\vec{H}^{S/O}}{dt}+{}^N\vec{v}^O\times{}^N\vec{L}^S$$
 ### Équation d'Euler pour un corps rigide
-$$\vec{M}^{B/B_P}=\vec{\vec{I}}^{B/B_P}\cdot{}^N\vec{\alpha}^B+{}^N\vec{\omega}^N\times(\vec{\vec{I}}^{B/B_P}\cdot{}^N\vec{\omega}^B)+m^B*\vec{r}^{B_{cm}/B_P}\times{}^N\vec{\alpha}^{B_P}$$
+$$\vec{M}^{B/B_P}=\vec{\vec{I}}^{B/B_P}\cdot{}^N\vec{\alpha}^B+{}^N\vec{\omega}^B\times(\vec{\vec{I}}^{B/B_P}\cdot{}^N\vec{\omega}^B)+m^B*\vec{r}^{B_{cm}/B_P}\times{}^N\vec{\alpha}^{B_P}$$
 ### Équation de Lagrange de deuxième type
 Si on a un système avec des coordonnées standards $q_1,q_2,...,q_n$:
 $$\frac{-\partial U}{\partial q_r}=\frac{d}{dt}\frac{\partial K}{\partial\dot{q_r}}-\frac{\partial K}{\partial q_r}$$
