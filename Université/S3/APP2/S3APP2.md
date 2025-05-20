@@ -25,3 +25,7 @@ La suite de [Statique](../../S2/APP6/S2APP6.md)
 
 [Chapitre 23: Dynamique avec la MG road-maps](Dynamique%20avec%20la%20MG%20road-maps.md)
 
+[Chapitre 24: Travail et puissance](Travail%20et%20puissance.md)
+
+[Chapitre 25: Énergie potentielle](Énergie%20potentielle.md)
+
