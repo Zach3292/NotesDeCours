@@ -7,9 +7,11 @@ Il s'agit d'un cas spécial de travail qui dépend seulement de la configuration
 Si le travail est *seulement* en fonction de la configuration:
 $$^NU^S\triangleq -^NW^S$$
 #### Exemple d'énergie potentielle
-##### Gravité
+##### Gravité terrestre
 $$U=mgh$$
 ##### Ressort linéaire
 $$U=\frac{1}{2}ks^2$$
 ##### Ressort angulaire
 $$U=\frac{1}{2}k\theta_s^2$$
+##### Gravitation universelle
+$$U=\frac{-Gm^Pm^Q}{r}$$
