@@ -5,3 +5,4 @@
 
 [Chapitre 2: Rappel d'électronique](Rappel%20d'électronique.md)
 
+[Chapitre 4: Moteur électrique](Moteur%20électrique.md)
