@@ -32,7 +32,7 @@ En fait, les constantes de moteur mesurent toutes la même chose *mais dans des 
 
 $$P=vi-Ri^2$$
 $$i_{p_{max}}=0.5*i_{max}$$
-$$\eta=1-\frac{}{}
+$$\eta=1-\frac{Ri}{v}=1-\frac{R}{vK_t}\tau$$
 ### Moteur sans balais
 Un moteur avec balai s'use avec le temps. De plus, le rotor a une grande inertie ce qui limite ses performances. Le moteur sans balais vient régler ces problèmes. Les bobines sont installées sur le stator et l'aimant permanent et lui sur le rotor ce qui réduit grandement l'inertie du rotor. Pour contrôler le moteur, il faut faire commuter le courant dans les diférrentes bobines selon un ordre logique.
 ![](Images/Pasted%20image%2020250603074046.png)
