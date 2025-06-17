@@ -33,6 +33,9 @@ En fait, les constantes de moteur mesurent toutes la même chose *mais dans des 
 $$P=vi-Ri^2$$
 $$i_{p_{max}}=0.5*i_{max}$$
 $$\eta=1-\frac{Ri}{v}=1-\frac{R}{vK_t}\tau$$
+
+Il est possible de faire un bilan de puissance du moteur:
+![](Images/supernote-mirror-Rappel%20d'électronique-2025-06-15-09-42-49.png)
 ### Moteur sans balais
 Un moteur avec balai s'use avec le temps. De plus, le rotor a une grande inertie ce qui limite ses performances. Le moteur sans balais vient régler ces problèmes. Les bobines sont installées sur le stator et l'aimant permanent et lui sur le rotor ce qui réduit grandement l'inertie du rotor. Pour contrôler le moteur, il faut faire commuter le courant dans les diférrentes bobines selon un ordre logique.
 ![](Images/Pasted%20image%2020250603074046.png)
@@ -51,3 +54,13 @@ En variant quels électroaimants sont actif ainsi que leur direction, on peut fa
 Le premier problème est la perte de pas, si on essaye de faire tournée le moteur trop vite, il n'a pas le temps d'atteindre son pas avant de se faire appeler au prochain, il va ainsi *sauter* des pas.
 
 Le deuxième problème du moteur est sa [[fréquence de résonance]] généralement faible et il est possible de l'exciter dans le fonctionnement normal du moteur. Celui-ci va donc se mettre à tourner et vibrer de manière erratique.
+
+
+#### Vocabulaire
+Phase: nombre de bobine sur le stator
+
+Paire de pôle: nombre d'aimant permanent sur le rotor
+
+Commutation symétrique: pas entier
+
+Commutation asymétrique: demi-pas

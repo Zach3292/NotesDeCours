@@ -12,3 +12,7 @@ Très similaire à des engrenages mais on utilise un courroi et des roues denté
 ### Vis sans fin
 Permet de transmettre un mouvement de rotation en translation très facilement.
 ![](Images/Pasted%20image%2020250603080522.png)
+
+
+Lorsqu'on a un réducteur:
+$$\frac{T_r}{T_m}=\frac{\omega_m}{\omega_r}=k_g$$
