@@ -54,4 +54,10 @@ Le taux de décharge est exprimé en C (pas des Coulomb). Plus il est élevé, p
 #### Estimation de la tension minimale d'opération
 $$V_{sae}=n_s(V_{cell,min}-R_{cell}I_{cell,max})$$
 #### Estimation de la puissance minimale disponible
-$$P_{min}=V_{sae,min}\left(\right)$$
+$$P_{min}=V_{sae,min}\left(\frac{V_{cell,min}-\left(\frac{V_{sae,min}}{n_s}\right)}{R_{cell}}\right)$$
+#### Température
+#### Prédiction de la durée de vie
+On considère la durée de vie le nombre de temps ou de cycle jusqu'à ce que la capacité maximale tombe en dessous de 80% de la capacité initiale maximale.
+
+
+**On peut seulement faire le choix d'une SAE de manière éclairée en considérant tous les critères ci-dessus.**
