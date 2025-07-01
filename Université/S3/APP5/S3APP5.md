@@ -5,3 +5,5 @@
 
 [Source de tension non-idéale](Source%20de%20tension%20non-idéale.md)
 
+[Dimensionnement multi-objectif](Dimensionnement%20multi-objectif.md)
+
