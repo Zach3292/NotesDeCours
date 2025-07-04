@@ -52,7 +52,7 @@ $$I_{cell,spec}=Q_{cell}\cdot C_{rate}$$
 Le taux de décharge est exprimé en C (pas des Coulomb). Plus il est élevé, plus le courant maximale de la batterie sera grand.
 
 #### Estimation de la tension minimale d'opération
-$$V_{sae}=n_s(V_{cell,min}-R_{cell}I_{cell,max})$$
+$$V_{sae,min}=n_s(V_{cell,min}-R_{cell}I_{cell,max})$$
 #### Estimation de la puissance minimale disponible
 $$P_{min}=V_{sae,min}\left(\frac{V_{cell,min}-\left(\frac{V_{sae,min}}{n_s}\right)}{R_{cell}}\right)$$
 #### Température
