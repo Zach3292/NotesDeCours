@@ -1,4 +1,4 @@
-![](Images/bevelexplanation.pdf)
+![](bevelexplanation.pdf)
 
 
 ## Factors
