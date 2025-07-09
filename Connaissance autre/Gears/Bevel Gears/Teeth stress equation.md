@@ -1,0 +1,1 @@
+![](Images/bevelexplanation.pdf)
