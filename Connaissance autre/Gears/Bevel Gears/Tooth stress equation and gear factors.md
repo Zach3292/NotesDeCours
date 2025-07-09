@@ -91,6 +91,22 @@ Any Axial misalignment or axial deviation in the tooth form will cause the ta
 This factor considers any kind of fluctuating load coming on the tooth. For example- if a gearbox is driving to a stone crusher then shock loads will come on the gear tooth due to crushing loads. For smooth applications where there is no fluctuating load, this factor can be taken as 1.
 #### Rule of thumb values:
 
-| Driving machine |     | Driven machine |     |
-| --------------- | --- | -------------- | --- |
-|                 |     |                |     |
+| Driving machine                          |         | Driven machine |             |
+| ---------------------------------------- | ------- | -------------- | ----------- |
+|                                          | Uniform | Moderate Shock | Heavy Shock |
+| Uniform <br>(Electric Motor, Turbine)    | 1.00    | 1.25           | 1.75 +      |
+| Light Shock<br>(Multicylinder Engine)    | 1.25    | 1.50           | 2.00 +      |
+| Medium Shock<br>(Single-cylinder Engine) | 1.50    | 1.75           | 2.25 +      |
+
+### $K_s$ : Size Factor
+The size factor considers the fact that test samples used to establish the fatigue strength data by experiment to testing may be smaller in size than the actual part. $K_s$ allows the modification of tooth stress to account for such a situation. AGMA has not specified any value or formula for this. So, choosing this factor depends on the designer’s experience.  Generally, this factor is taken care by limiting the maximum allowed stress limit so $K_s$ can be taken as 1. For a conservative approach, $K_s$ 1.25 to 1.5 can be taken.
+
+This factor can be used to compensate for other factor's estimations being too small or too large.
+
+### $K_b$ : Rim Thinness Factor
+This factor accounts for the situation of very large gears that are made on rims and spokes rather than on solid disk and have think rim compared to tooth depth. AGMA defines backup ratio $m_B$ as follows. Backup ration less than 0.5 is not recommended, gears on a solid disk will have $K_b=1$.
+![](Images/Kb_illustration.png)
+
+### $K_i$ : Idler Factor
+In a gear train, the idler is subjected to more cycles of stress per unit time than the other gears. To account for this $K_i$ is set to 1.45 for idler and 1 for non-idler. This factor can be added along with the other stress increasing factors ($K_a$, $K_s$ & $K_m$).
+For more information about idler gears, see: https://punchlistzero.com/idler-gear/
