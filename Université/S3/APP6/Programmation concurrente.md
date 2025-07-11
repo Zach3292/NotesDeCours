@@ -22,3 +22,7 @@ my_other_thread.join();
 Il faut absolument rejoindre ou se détacher d'un fil avant que celui-ci soit détruit.
 
 ### Partage de ressources
+Lorsque plusieurs fils essayent de faire autre chose que seulement lire une même information dans la mémoire partagée, il y a un problème.
+
+#### Concurrence critique (race condition)
+Quand le résultat d'une opération dépend de la vitesse relative d'un fil par rapport à un autre. En d'autre mots, quand le résultat dépend de l'ordre d'exécution des opérations dans plusieurs fils.
