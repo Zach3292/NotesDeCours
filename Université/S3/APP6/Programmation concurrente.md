@@ -66,3 +66,85 @@ std::lock_guard<std::mutex> lock2(mutex2, std::adopt_lock);
 ```
 
 ### Synchronisation des opérations parallèles
+Pour pouvoir synchroniser plusieurs fils ensemble, on peut utiliser des variables de condition. Un fil attend un notification et l'autre fil l'envoie. Pendant ce temps, le fil qui attend est au repos et ne prend pas de performance pour vérifier un drapeau. Une variable de condition doit être associée à un mutex pour bien fonctionner. Il est important de le créer avec un *unique_lock* au lieu d'un *lock_guard* pour pouvoir les déverrouiller au besoin.
+```cpp
+#include <cstdio>
+#include <thread>
+#include <mutex>
+#include <queue>
+#include <cstdlib>      // rand
+#include <condition_variable>
+
+namespace {
+    std::queue<int> queue_;
+    std::mutex      mutex_;
+    std::condition_variable notifier;
+}
+
+void add_to_queue(int v)
+{
+    // Fournit un accès synchronisé à queue_ pour l'ajout de valeurs.
+    
+    std::lock_guard<std::mutex> lock(mutex_);
+    queue_.push(v);
+    notifier.notify_one();
+}
+
+void prod()
+{
+    for (int i = 0; i < 100; ++i)
+    {
+        int r = rand() % 1001 + 1000;
+        add_to_queue(r);
+
+        // Bloque le fil pour 50 ms:
+        std::this_thread::sleep_for(std::chrono::milliseconds(50));
+    }
+
+    add_to_queue(0);
+}
+
+void cons()
+{
+    while (true)
+    {
+        std::unique_lock<std::mutex> lock(mutex_);
+        notifier.wait(lock, []{return !queue_empty();});
+        // On doit toujours vérifier si un objet std::queue n'est pas vide
+        // avant de retirer un élément.
+        if (!queue_.empty()) {
+            int v = queue_.front(); // Copie le premier élément de la queue.
+            queue_.pop();           // Retire le premier élément.
+			lock.unlock();
+            printf("Reçu: %d\n", v);
+        }
+    }
+
+}
+
+int main()
+{
+    std::thread t_prod(prod);
+    std::thread t_cons(cons);
+
+    t_prod.join();
+    t_cons.join();
+
+    return 0;
+}
+```
+#### Retour de valeur de tache en arrière plan
+Il est possible de retourner une valeur pour une fonction qui s'exécute en arrière plan. D'autres actions sont possible en parallèle et on peut ensuite attendre d'obtenir le résultat initial.
+```cpp
+#include <future>
+int fonction_a_retour(int argument);
+void autre_chose();
+int main()
+{
+	std::future<int> reponse=std::async(fonction_a_retour, argument);
+	autre_chose();
+	reponse.get(); // Attend le retour ici
+}
+```
+### Opérations atomiques
+Une opération atomique est une opération indivisible, qui doit toujours s'exécuter au complet avant de pouvoir passer à autre chose. Il s'agit d'une caractéristique importante lors de la parallélisation de code. Si on doit faire une opération sur une variable et qu l'on ne veut pas que cette opération soit diviser par un *context switch*.
