@@ -64,3 +64,5 @@ std::lock(mutex1, mutex2);
 std::lock_guard<std::mutex> lock1(mutex1, std::adopt_lock);
 std::lock_guard<std::mutex> lock2(mutex2, std::adopt_lock);
 ```
+
+### Synchronisation des opérations parallèles
