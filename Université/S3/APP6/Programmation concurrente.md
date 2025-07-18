@@ -147,4 +147,15 @@ int main()
 }
 ```
 ### Opérations atomiques
-Une opération atomique est une opération indivisible, qui doit toujours s'exécuter au complet avant de pouvoir passer à autre chose. Il s'agit d'une caractéristique importante lors de la parallélisation de code. Si on doit faire une opération sur une variable et qu l'on ne veut pas que cette opération soit diviser par un *context switch*.
+Une opération atomique est une opération indivisible, qui doit toujours s'exécuter au complet avant de pouvoir passer à autre chose. Il s'agit d'une caractéristique importante lors de la parallélisation de code. Si on doit faire une opération sur une variable et que l'on ne veut pas que cette opération soit diviser par un *context switch*.
+
+### Multi-fil vs multi-processus
+
+| Fil                                                                    | Processus                                                          |
+| ---------------------------------------------------------------------- | ------------------------------------------------------------------ |
+| Accès à la mémoire du processus                                        | Pas accès à la mémoire du processus                                |
+| Très rapide écrire dans la mémoire                                     | Doit utiliser un autre procédé pour écrire dans la mémoire partagé |
+| Section critique de mémoire (deux fils accèdent à la même information) | Nécessité de copier la mémoire (en c++), plus lent                 |
+| Doit ajouter des mécanismes de synchronicité                           |                                                                    |
+| Mutex, variable de condition, atomique, future                         | Sémaphore (gérer par l'OS)                                         |
+|                                                                        |                                                                    |
