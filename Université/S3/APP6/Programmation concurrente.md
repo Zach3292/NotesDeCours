@@ -151,11 +151,11 @@ Une opération atomique est une opération indivisible, qui doit toujours s'exé
 
 ### Multi-fil vs multi-processus
 
-| Fil                                                                    | Processus                                                          |
-| ---------------------------------------------------------------------- | ------------------------------------------------------------------ |
-| Accès à la mémoire du processus                                        | Pas accès à la mémoire du processus                                |
-| Très rapide écrire dans la mémoire                                     | Doit utiliser un autre procédé pour écrire dans la mémoire partagé |
-| Section critique de mémoire (deux fils accèdent à la même information) | Nécessité de copier la mémoire (en c++), plus lent                 |
-| Doit ajouter des mécanismes de synchronicité                           |                                                                    |
-| Mutex, variable de condition, atomique, future                         | Sémaphore (gérer par l'OS)                                         |
-|                                                                        |                                                                    |
+| Fil                                                                    | Processus                                                                                      |
+| ---------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
+| Accès à la mémoire du processus                                        | Pas accès à la mémoire du processus                                                            |
+| Très rapide écrire dans la mémoire                                     | Doit utiliser un autre procédé pour écrire dans la mémoire partagé (tuyau, fichier temporaire) |
+| Section critique de mémoire (deux fils accèdent à la même information) | Nécessité de copier la mémoire (en c++), plus lent                                             |
+| Doit ajouter des mécanismes de synchronicité                           |                                                                                                |
+| Mutex, variable de condition, atomique, future                         | Sémaphore (gérer par l'OS)                                                                     |
+|                                                                        |                                                                                                |
