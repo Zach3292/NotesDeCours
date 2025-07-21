@@ -1,5 +1,6 @@
 ### Définition
-Il s'agit d'une programmation où deux ou plus actions s'exécutent en parallèle. Cela permet des opérations plus efficaces et rapides: ![](Pasted%20image%2020250711075808.png)
+Il s'agit d'une programmation où deux ou plus actions s'exécutent en parallèle. Cela permet des opérations plus efficaces et rapides:
+![parallele](parallele.png)
 
 On peut rouler un programme par fil *thread* en même temps avant de devoir alterner les tâches comme sur un seul fil. Ainsi, plus un ordinateur à de *thread*, plus il peut exécuter d'applications en parallèle.
 
