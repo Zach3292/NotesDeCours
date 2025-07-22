@@ -71,6 +71,11 @@ colorbar('vert')
 Comme les fonctions varient maintenant selon plusieurs variables, il est important de définir un opération de dérivée. On va évaluer le changement par rapport à une seule variable en considérant les autres comme des constantes. On appelle ça faire de la dérivation partielle:
 $$\frac{\partial f}{\partial x_1}(x_1^0,x_2^0,...,x_n^0)$$
 On dit ici qu'on évalue la dérivée partielle de $f$ en fonction de $x_i$ au point $(x_1^0,x_2^0,...,x_n^0)$.
+
+Dans MATLAB:
+```octave
+[dz_dx, dz_dy] = gradient(Z, x, y);
+```
 #### Recherche des extremums d'une fonction
 Pour calculer les extremums de fonction multi-variables, il faut trouver les **points critiques**. Il s'agit des points où:
 $$\frac{\partial}{\partial x_i}(x_1,x_2,...,x_n)=0 \ \forall i= 1...n$$ 

@@ -50,6 +50,10 @@ Voici une liste des approximations à deux paramètres possibles:
 - $\frac{\alpha}{\beta+x}$
 - $\frac{\alpha x}{\beta +x}$
 
+Exemple avec une exponentielle: $$g(x)=\alpha e^{\beta x}$$
+En appliquant un logarithme de chaque côté, on obtient: $$\ln{g(x)}=\ln{\alpha}+\beta x$$
+On dit donc que $G(x)=\ln{g(x)}$, $X=x$, $a_0=\ln{\alpha}$, $a_1=\beta$. On peut ainsi appliquer la démarche [suivante](#Approximation%20polynomiale). Ensuite, on peut retrouver les coefficients originaux: $\alpha = e^{a_0}$ et $\beta=a_1$.
+
 En MATLAB la fonction suivante permet de trouver les coefficients de n'importe quelle distribution:
 ``` octave
 x = [1,2,3,4,5];
@@ -59,3 +63,13 @@ coeff = polyfit(x, y, 2); % Fit a polynomial of degree 2
 x_fit = linspace(min(x), max(x), 100);
 y_fit = polyval(coeff, x_fit);
 ```
+
+### Qualité de l'approximation
+Pour obtenir une bonne représentation de la qualité de l'approximation, on utilise **l'erreur RMS**:
+$$E_{RMS}=\sqrt{\frac{E}{N}}$$
+Dans MATLAB:
+```octave
+err_rms = rms(g-y)
+```
+Une autre façon de juger sur la qualité d'une approximation est avec le facteur [R²](../../../Collégial/4e%20session/Statistiques/Régression.md#Coefficient%20de%20détermination%20$R%202$):
+$$R^2=\frac{\sum^N_{k=1}{(g(x_k)-\overline{y})^2}}{\sum^N_{k=1}(y-\overline{y})^2}$$
