@@ -16,3 +16,7 @@
 
 [Laplace](Laplace.pdf)
 
+[Bevel Gears](Gears/Bevel%20Gears/Bevel%20Gears.md)
+
+
+

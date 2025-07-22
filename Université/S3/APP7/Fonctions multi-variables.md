@@ -82,10 +82,15 @@ Alors minimum local. SI: $$\frac{\partial^2 f}{\partial x^2}(a,b)\frac{\partial^
 Alors point de selle. Si: $$\frac{\partial^2 f}{\partial x^2}(a,b)\frac{\partial^2 f}{\partial y^2}-\left[\frac{\partial^2 f}{\partial x\partial y}(a,b)\right]^2=0$$
 Alors on ne peut pas conclure.
 #### Dérivée partielle d'ordre supérieur
-Lorsqu'elle existe, on définit les dérivées partielles d'ordre supérieur comme suit:$$\frac{\partial}{\partial x_i}\left(\frac{\partial f}{\partial x_j}\right)=\frac{\partial f}{\partial x_i\partial x_j}(x_1,x_2,...,x_n)$$
+Lorsqu'elle existe, on définit les dérivées partielles d'ordre supérieur comme suit:$$\frac{\partial}{\partial x_i}\left(\frac{\partial f}{\partial x_j}\right)=\frac{\partial^2 f}{\partial x_i\partial x_j}(x_1,x_2,...,x_n)$$
+Aussi:
+$$\frac{\partial^2 f}{\partial x\partial y}(x^0,y^0)=\frac{\partial^2 f}{\partial y\partial x}(x^0, y^0)$$
 
 ### Différentiation totale
 #### Linéarisation d'une fonction multi-variables
 Si un point est suffisamment près d'un autre point, alors:$$f(x_1,...,x_n)\approx L(x_i,...,x_n)= f(x_1^0,...,x_n^0)+\sum^{n}_{i=1}{\frac{\partial f}{\partial x_i}(x_i^0,...,x_n^0)(x_i-x_i^0)}$$
 Où $L(x_i,...,x_n)$ est la linéarisation de la fonction $f$ autour du point $(x_i^0,...,x_n^0)$.
+#### Différentielle totale
+On définit la différentielle totale $df$ comme: $$df=\sum^{n}_{i=1}{\frac{\partial f}{\partial x_i}(x_i^0,...,x_n^0)dx_i}$$ Il s'agit de la variation de la fonction $f$ lorsque toutes les variables $x_i$ varient de $dx_i$ autour du point $(x_i^0,...,x_n^0)$.
+
 

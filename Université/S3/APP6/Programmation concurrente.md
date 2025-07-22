@@ -28,7 +28,7 @@ Lorsque plusieurs fils essayent de faire autre chose que seulement lire une mêm
 #### Concurrence critique (race condition)
 Quand le résultat d'une opération dépend de la vitesse relative d'un fil par rapport à un autre. En d'autre mots, quand le résultat dépend de l'ordre d'exécution des opérations dans plusieurs fils.
 #### Mutex
-La manière la plus simple de protéger notre code contre les concurrences critiques est d'utiliser des *mutex*. Il s'agit de drapeau forçant [[l'atomicité|#l'atomicité]] d'un code. Ça permet de mettre un verrou sur une séquence ou une variable. Ainsi, un code essayant de prendre possession du verrou si celui-ci est déjà barré ne pourra pas et devra attendre. 
+La manière la plus simple de protéger notre code contre les concurrences critiques est d'utiliser des *mutex*. Il s'agit de drapeau forçant [l'atomicité](#Opérations%20atomiques) d'un code. Ça permet de mettre un verrou sur une séquence ou une variable. Ainsi, un code essayant de prendre possession du verrou si celui-ci est déjà barré ne pourra pas et devra attendre. 
 
 Avant d'accéder à de l'information partagée, on verrouille le mutex associé et lorsqu'on a fini avec l'information, on déverrouille le mutex. Il faut cependant faire attention puisque parfois, l'accès a un pointeur vers de l'information pourrait contourner le mutex et la protection. Voici comment faire un mutex de base en C++:
 ```cpp
