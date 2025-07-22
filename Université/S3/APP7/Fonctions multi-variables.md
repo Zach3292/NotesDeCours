@@ -68,3 +68,24 @@ colorbar('vert')
 ```
 
 ### Dérivées partielles
+Comme les fonctions varient maintenant selon plusieurs variables, il est important de définir un opération de dérivée. On va évaluer le changement par rapport à une seule variable en considérant les autres comme des constantes. On appelle ça faire de la dérivation partielle:
+$$\frac{\partial f}{\partial x_1}(x_1^0,x_2^0,...,x_n^0)$$
+On dit ici qu'on évalue la dérivée partielle de $f$ en fonction de $x_i$ au point $(x_1^0,x_2^0,...,x_n^0)$.
+#### Recherche des extremums d'une fonction
+Pour calculer les extremums de fonction multi-variables, il faut trouver les **points critiques**. Il s'agit des points où:
+$$\frac{\partial}{\partial x_i}(x_1,x_2,...,x_n)=0 \ \forall i= 1...n$$ 
+Pour savoir quel type de point critique il s'agit, on dispose du théorème suivant pour les fonctions à deux variables:
+
+Si: $$\frac{\partial^2 f}{\partial x^2}(a,b)<0 \textrm{ et } \frac{\partial^2 f}{\partial x^2}(a,b)\frac{\partial^2 f}{\partial y^2}-\left[\frac{\partial^2 f}{\partial x\partial y}(a,b)\right]^2>0$$
+Alors maximum local. Si: $$\frac{\partial^2 f}{\partial x^2}(a,b)>0 \textrm{ et } \frac{\partial^2 f}{\partial x^2}(a,b)\frac{\partial^2 f}{\partial y^2}-\left[\frac{\partial^2 f}{\partial x\partial y}(a,b)\right]^2>0$$
+Alors minimum local. SI: $$\frac{\partial^2 f}{\partial x^2}(a,b)\frac{\partial^2 f}{\partial y^2}-\left[\frac{\partial^2 f}{\partial x\partial y}(a,b)\right]^2<0$$
+Alors point de selle. Si: $$\frac{\partial^2 f}{\partial x^2}(a,b)\frac{\partial^2 f}{\partial y^2}-\left[\frac{\partial^2 f}{\partial x\partial y}(a,b)\right]^2=0$$
+Alors on ne peut pas conclure.
+#### Dérivée partielle d'ordre supérieur
+Lorsqu'elle existe, on définit les dérivées partielles d'ordre supérieur comme suit:$$\frac{\partial}{\partial x_i}\left(\frac{\partial f}{\partial x_j}\right)=\frac{\partial f}{\partial x_i\partial x_j}(x_1,x_2,...,x_n)$$
+
+### Différentiation totale
+#### Linéarisation d'une fonction multi-variables
+Si un point est suffisamment près d'un autre point, alors:$$f(x_1,...,x_n)\approx L(x_i,...,x_n)= f(x_1^0,...,x_n^0)+\sum^{n}_{i=1}{\frac{\partial f}{\partial x_i}(x_i^0,...,x_n^0)(x_i-x_i^0)}$$
+Où $L(x_i,...,x_n)$ est la linéarisation de la fonction $f$ autour du point $(x_i^0,...,x_n^0)$.
+
