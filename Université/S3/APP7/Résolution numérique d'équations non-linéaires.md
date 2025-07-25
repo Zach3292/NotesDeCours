@@ -16,8 +16,7 @@ $$a_{n+1}=c$$
 $$b_{n+1}=b_n$$
 
 Sinon
-$$a_{n+1}=a_n$$
-$$b_{n+1}=c$$
+$$a_{n+1}=a_n$$$$b_{n+1}=c$$
 ### Méthode Newton-Raphson
 Il s'agit d'une approximation à l'aide de la série de Taylor de deuxième degré. On doit donc itérer pour converger vers la vraie valeur de la racine puisqu'on omet les termes d'ordres supérieurs. On a donc la formule suivante: $$f(x_0)+f'(x_0)(x_r-x_0)=0$$
 En reformulant: $$x_r=x_0-\frac{f(x_0)}{f'(x_0)}$$
