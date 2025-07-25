@@ -20,14 +20,14 @@ Même si les deux outils portent un nom similaire, ils n'ont pas la même utilit
 #### Ajouter des fichiers au projet
 #### Sauvegarder une version du projet
 #### Créer une branche
+#### Voir la liste de branche
 #### Changer de branche
 #### Observer la différence entre des versions
-
-
 
 ## Synchronisation avec Github
 ### Importer un projet Git sur Github
 #### Synchroniser vos changements vers Github
 
 ### Cloner un projet de Github sur votre ordinateur
-
+### Synchroniser des changements de Github sur votre ordinateur
+#### Gérer des erreurs de synchronisation (merge-conflict)
