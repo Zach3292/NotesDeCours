@@ -25,4 +25,8 @@ La prochaine itération est donc: $$x_{n+1}=x_n-\frac{f(x_n)}{f'(x_n)}$$
 Dans certain cas, on ne connait pas la dérivée. On peut donc estimer la valeur de la dérivée dans la formule de Newton-Raphson à l'aide de la dérivation arrière. La formule devient donc: $$x_{n+1}=x_n-\frac{x_n-x_{n-1}}{f(x_n)-f(x_{n-1})}f(x_n)$$
 ### Résolution de système d'équations non-linéaires
 Il s'agit de la même démarche qu'avant sauf qu'on introduit une forme matricielle du problème. $$X_{n+1}=X_n-J_F^{-1}(X_n)F(X_N)$$
-Où $J_F^{-1}$ est l'inverse de la [matrice jacobienne](matrice%20jacobienne) du système. Dans la vraie vie, il est parfois impossible d'obtenir les dérivées partielles composant la jacobienne. Il faut donc utilisé la méthode de la sécante pour la composer: $$\frac{\partial f_i}{\partial x_j}(X_n)\approx\frac{f_i(X_n)-f_i(X_{n-1})}{x_j^n-x_j^{n-1}}$$
+Où $J_F^{-1}$ est l'inverse de la [matrice jacobienne](matrice%20jacobienne) du système. 
+
+Si on veut trouver un point critique, la formule de base est la même mais comme on cherche un zéro d'une dérivée. Il faudra plutôt utiliser une [[matrice Hessienne]] au lieu de la Jacobienne.
+
+Dans la vraie vie, il est parfois impossible d'obtenir les dérivées partielles composant la jacobienne. Il faut donc utilisé la méthode de la sécante pour la composer: $$\frac{\partial f_i}{\partial x_j}(X_n)\approx\frac{f_i(X_n)-f_i(X_{n-1})}{x_j^n-x_j^{n-1}}$$
