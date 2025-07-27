@@ -21,6 +21,7 @@ Sur un ordinateur Linux, le logiciel Git est déjà installé et est accessible 
 git --version
 ```
 #### Windows
+**À venir**
 ### Créer un projet Git
 
 ### Principales options de Git
@@ -39,6 +40,7 @@ git --version
 ### Cloner un projet de Github sur votre ordinateur
 ### Synchroniser des changements de Github sur votre ordinateur
 #### Gérer des erreurs de synchronisation (merge-conflict)
+### Ajouter des collaborateurs sur un projet Github
 
 
 ## Utilisation de Git et Github dans Visual Studio Code
