@@ -23,9 +23,25 @@ git --version
 #### Windows
 **À venir**
 ### Créer un projet Git
+Tout d'abord, il faut naviguer dans le dossier qui va contenir ou qui contient déjà votre projet. Ensuite, il faut exécuter la commande:
+```bash
+git init
+```
 
+Celle-ci va initialiser un répertoire Git dans votre dossier. Vous pouvez ensuite [ajouter des fichiers au projet](Tutoriel%20Github-Git.md#Ajouter%20des%20fichiers%20au%20projet) et [sauvegarder une version du projet](Tutoriel%20Github-Git.md#Sauvegarder%20une%20version%20du%20projet).
 ### Principales options de Git
 #### Ajouter des fichiers au projet
+Pour ajouter des fichiers présents dans le dossier au projet Git, il faut utiliser la commande suivante:
+```bash
+git add fichier.txt
+```
+Où fichier.txt est le nom du fichier. Pour ajouter tous les fichiers, exécuter la commande suivante:
+```bash
+git add .
+```
+
+Les changements dans les fichiers ajoutés seront ensuite suivis par Git.
+#### Retirer des fichiers du projet
 #### Sauvegarder une version du projet
 #### Créer une branche
 #### Voir la liste de branche
