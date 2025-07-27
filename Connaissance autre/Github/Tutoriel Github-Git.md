@@ -14,6 +14,10 @@ Github est une plateforme de développement qui permet d'héberger, de modifier,
 Même si les deux outils portent un nom similaire, ils n'ont pas la même utilité. Git permet de maintenir un historique de version et de gérer des branches en parallèle tandis que Github permet d'héberger les projets Git et de collaborer sur ceux-ci. Il est possible de collaborer sur des projets Git avec d'autres plateformes que Github tel que GitLab et Bitbucket mais Github demeure largement la plus populaire.
 
 ## Utilisation de Git
+### Accéder à Git sur son ordinateur
+#### Linux
+Sur un ordinateur Linux, le logiciel Git est déjà installé et est accessible pour le biais du terminal. Pour vérifier l'installation de Git, exécuter
+#### Windows
 ### Créer un projet Git
 
 ### Principales options de Git
@@ -25,9 +29,13 @@ Même si les deux outils portent un nom similaire, ils n'ont pas la même utilit
 #### Observer la différence entre des versions
 
 ## Synchronisation avec Github
+### Ajout d'un clé SSH à son compte Github
 ### Importer un projet Git sur Github
 #### Synchroniser vos changements vers Github
 
 ### Cloner un projet de Github sur votre ordinateur
 ### Synchroniser des changements de Github sur votre ordinateur
 #### Gérer des erreurs de synchronisation (merge-conflict)
+
+
+## Utilisation de Git et Github dans Visual Studio Code
