@@ -42,11 +42,51 @@ git add .
 
 Les changements dans les fichiers ajoutés seront ensuite suivis par Git.
 #### Retirer des fichiers du projet
+Pour arrêter de suivre les changements dans des fichiers particuliers, il faut utiliser la commande suivante avec les mêmes arguments que pour ajouter des fichiers:
+```bash
+git rm fichier.txt
+```
 #### Sauvegarder une version du projet
+Pour sauvegarder une version du projet, il faut utiliser la commande suivante:
+```bash
+git commit -a -m "Message"
+```
+Dans cette commande, l'état de tous les fichiers qui avaient été ajoutés, modifiés ou retirer depuis la dernière sauvegarde va être enregistré avec le message passé en argument.
 #### Créer une branche
+Un des outils les plus puissant de Git est l'habileté de créer des branches. Pour créer une nouvelle branche à partir de la branche actuelle, il faut exécuter la commande suivante:
+```bash
+git branch maBranche
+```
+Où maBranche est le nom de la nouvelle branche qui sera créée. **Attention, la branche est seulement créer, vous êtes encore sur la branche originale.**
 #### Voir la liste de branche
+Pour voir la liste de branche existante:
+```bash
+git branch -l
+```
 #### Changer de branche
+Pour changer de branche de travail:
+```bash
+git switch maBranche
+```
+Pour créer une branche en même temps que changer de branche:
+```bash
+git switch -c maBranche
+```
+#### Supprimer une branche
+Pour supprimer une branche qui n'est plus utilisée ou nécessaire:
+```git branch -d maBranche
+```
+Où maBranche est le nom de la branche à supprimer
+#### Renommer une branche
+Pour renommer une branche avec un nouveau nom:
+```bash
+git branch -m maBranche maBrancheRenommer
+```
 #### Observer la différence entre des versions
+#### Pour retourner voir une vieille version
+#### Pour revenir sur la version à jour
+#### Restaurer une ancienne version d'un fichier
+#### Restaurer un fichier d'une autre branche
 
 ## Synchronisation avec Github
 ### Ajout d'un clé SSH à son compte Github
