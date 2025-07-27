@@ -16,7 +16,10 @@ Même si les deux outils portent un nom similaire, ils n'ont pas la même utilit
 ## Utilisation de Git
 ### Accéder à Git sur son ordinateur
 #### Linux
-Sur un ordinateur Linux, le logiciel Git est déjà installé et est accessible pour le biais du terminal. Pour vérifier l'installation de Git, exécuter
+Sur un ordinateur Linux, le logiciel Git est déjà installé et est accessible pour le biais du terminal. Pour vérifier l'installation de Git, exécuter la commande suivante:
+```bash
+git --version
+```
 #### Windows
 ### Créer un projet Git
 
