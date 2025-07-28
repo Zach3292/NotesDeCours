@@ -83,7 +83,16 @@ Pour renommer une branche avec un nouveau nom:
 ```bash
 git branch -m maBranche maBrancheRenommer
 ```
+#### Obtenir l'historique et les codes des versions
+Pour obtenir l'historique et les codes des versions, il faut faire la commande suivante:
+```bash
+git log --stat
+```
 #### Observer la différence entre des versions
+Pour observer une différence entre deux versions, il faut avoir les deux codes de version que l'on veut comparer et faire la commande suivante:
+```bash
+git diff codeV1 codeV2
+```
 #### Pour retourner voir une vieille version
 #### Pour revenir sur la version à jour
 #### Restaurer une ancienne version d'un fichier
