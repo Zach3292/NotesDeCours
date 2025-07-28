@@ -117,10 +117,22 @@ git checkout branchPrincipale
 ```
 Souvent la branche principale est main
 #### Restaurer une ancienne version d'un fichier
+```bash
+git restore -s codeV1 fichier.txt
+```
 #### Restaurer un fichier d'une autre branche
-
+```bash
+git restore -s maBranche fichier.txt
+```
 ## Synchronisation avec Github
+### Identification dans Git
+Pour s'identifier sur Git, il faut faire les commandes suivantes:
+```bash
+git config --global user.name "GithubUserName"
+git config --global user.email "GithubUserEmail"
+```
 ### Ajout d'un clé SSH à son compte Github
+Pour pouvoir s'authentifier à Github, il faut utiliser une clé SSH. Il s'agit d'une iden
 ### Importer un projet Git sur Github
 #### Synchroniser vos changements vers Github
 
@@ -134,3 +146,35 @@ Souvent la branche principale est main
 ### Faire une pull request sur un projet
 
 ## Utilisation de Git et Github dans Visual Studio Code
+
+
+## Exemples d'utilisation de Git et Github
+Voici un exemple d'utilisation de Git et Github si vous avez déjà un répertoire Github sur votre ordinateur.
+### Avant de commencer
+Il faut commencer par vérifier si d'autres personnes ont fait des changements avant:
+```bash
+git status
+```
+S'il y a des changements, on peut les voir en faisant:
+```bash
+git fetch
+git diff
+```
+Et les accepter avec:
+```bash
+git pull
+```
+### Pendant le travail
+À chaque fois que vous avez une version fonctionnelle ou importante à sauvegarder, il faut faire la commande suivante avant de continuer si vous avez créer ou supprimer des nouveaux fichiers:
+```bash
+git add .
+```
+SI vous n'avez pas de nouveaux fichiers, vous pouvez directement faire la commande suivante pour enregistrer votre version:
+```bash
+git commit -a -m "Message"
+```
+### Après le travail
+Lorsque vous avez fini de travailler, il faut envoyer vos changements sur le Github avec la commande suivante:
+```bash
+git push
+```
