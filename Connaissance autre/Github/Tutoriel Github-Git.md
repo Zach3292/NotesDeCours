@@ -214,7 +214,7 @@ git pull
 ```bash
 git add .
 ```
-SI vous n'avez pas de nouveaux fichiers, vous pouvez directement faire la commande suivante pour enregistrer votre version:
+Si vous n'avez pas de nouveaux fichiers, vous pouvez directement faire la commande suivante pour enregistrer votre version:
 ```bash
 git commit -a -m "Message"
 ```
