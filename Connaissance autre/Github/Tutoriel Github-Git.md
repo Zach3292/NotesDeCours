@@ -132,11 +132,25 @@ git config --global user.name "GithubUserName"
 git config --global user.email "GithubUserEmail"
 ```
 ### Ajout d'un clé SSH à son compte Github
-Pour pouvoir s'authentifier à Github, il faut utiliser une clé SSH. Il s'agit d'une iden
-### Importer un projet Git sur Github
+Pour pouvoir s'authentifier à Github, il faut utiliser une clé SSH. Il s'agit d'une identification qui donne accès au Github sur votre ordinateur. Pour se faire, il faut exécuter les commandes suivantes:
+```bash
+ssh-keygen
+```
+Ensuite, appuyer sur entrée, il est possible d'ajouter un mot de passe sur la clé au besoin. Ensuite, il faut exécuter la commande suivante et copier le résultat.
+```bash
+cat ~/.ssh/id_rsa.pub
+```
+Il faut aller sur Github, cliquer sur son profil en haut à droite, aller dans les paramètres dans la section SSH and GPG keys. Il faut ensuite ajouter une nouvelle clé SSH, lui donner un nom et coller le résultat de la commande dans la boite de texte et enregistrer.
+### Exporter un projet Git vers Github
 #### Synchroniser vos changements vers Github
 
 ### Cloner un projet de Github sur votre ordinateur
+Pour cloner un projet sur Github vers votre ordinateur, il suffit d'aller sur la page du projet, cliquer sur le bouton vert *Code* et copier le lien dans la section SSH:
+![clone](clone.png)
+Par la suite, il faut aller dans le dossier où vous voulez cloner le projet sur votre ordinateur et exécuter la commande suivante:
+```bash
+git clone git@github.com:Zach3292/NotedeCours.git
+```
 ### Synchroniser des changements de Github sur votre ordinateur
 #### Télécharger les changements sans les appliquer
 #### Télécharger et appliquer les changements
