@@ -94,7 +94,28 @@ Pour observer une différence entre deux versions, il faut avoir les deux codes 
 git diff codeV1 codeV2
 ```
 #### Pour retourner voir une vieille version
+Pour seulement voir la vieille version:
+```bash
+git checkout codeV1
+```
+Pour créer une nouvelle branche à partir d'une version précise:
+```bash
+git checkout -b nouvelleBranche codeV1
+```
+#### Pour revenir un arrière dans les versions
+Pour annuler une ou plusieurs versions:
+```bash
+git revert code3 code2 code1
+```
+Il est important de mettre les code en ordre chronologique inverse, c-à-d de commencer avec les plus récents.
 #### Pour revenir sur la version à jour
+Pour revenir à la version principale à jour:
+```bash
+git add .
+git stash
+git checkout branchPrincipale
+```
+Souvent la branche principale est main
 #### Restaurer une ancienne version d'un fichier
 #### Restaurer un fichier d'une autre branche
 
