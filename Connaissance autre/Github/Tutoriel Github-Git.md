@@ -74,7 +74,8 @@ git switch -c maBranche
 ```
 #### Supprimer une branche
 Pour supprimer une branche qui n'est plus utilisée ou nécessaire:
-```git branch -d maBranche
+```bash
+git branch -d maBranche
 ```
 Où maBranche est le nom de la branche à supprimer
 #### Renommer une branche
@@ -95,8 +96,11 @@ git branch -m maBranche maBrancheRenommer
 
 ### Cloner un projet de Github sur votre ordinateur
 ### Synchroniser des changements de Github sur votre ordinateur
+#### Télécharger les changements sans les appliquer
+#### Télécharger et appliquer les changements
 #### Gérer des erreurs de synchronisation (merge-conflict)
 ### Ajouter des collaborateurs sur un projet Github
-
+### Faire une fourche d'un projet public
+### Faire une pull request sur un projet
 
 ## Utilisation de Git et Github dans Visual Studio Code
