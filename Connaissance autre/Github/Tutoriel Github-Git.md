@@ -142,8 +142,16 @@ cat ~/.ssh/id_rsa.pub
 ```
 Il faut aller sur Github, cliquer sur son profil en haut à droite, aller dans les paramètres dans la section SSH and GPG keys. Il faut ensuite ajouter une nouvelle clé SSH, lui donner un nom et coller le résultat de la commande dans la boite de texte et enregistrer.
 ### Exporter un projet Git vers Github
+#### Créer un répertoire Github
+Il faut aller sur Github, cliquer en haut à droite dans votre profil et ensuite dans vos répertoire. Ensuite, cliquer sur le bouton vert pour créer un nouveau répertoire. Entrer un nom, une description et choisissez si vous voulez qu'il soit public ou privé. Sur votre ordinateur, naviguez dans votre projet Git et exécuter la commande suivante:
+```bash
+git remote add origin lienDuRepertoire
+```
+Il faut ensuite synchroniser votre répertoire
 #### Synchroniser vos changements vers Github
-
+```bash
+git push -u origin main
+```
 ### Cloner un projet de Github sur votre ordinateur
 Pour cloner un projet sur Github vers votre ordinateur, il suffit d'aller sur la page du projet, cliquer sur le bouton vert *Code* et copier le lien dans la section SSH:
 ![clone](clone.png)
@@ -152,9 +160,28 @@ Par la suite, il faut aller dans le dossier où vous voulez cloner le projet sur
 git clone git@github.com:Zach3292/NotedeCours.git
 ```
 ### Synchroniser des changements de Github sur votre ordinateur
+#### Afficher s'il y a des changements
+```bash
+git status
+```
 #### Télécharger les changements sans les appliquer
-#### Télécharger et appliquer les changements
+```bash
+git fetch
+```
+Comparer:
+```bash
+git diff
+```
+Accepter:
+```bash
+git merge
+```
+#### Télécharger et appliquer les changements directement
+```bash
+git pull
+```
 #### Gérer des erreurs de synchronisation (merge-conflict)
+**Faire une prière**
 ### Ajouter des collaborateurs sur un projet Github
 ### Faire une fourche d'un projet public
 ### Faire une pull request sur un projet
@@ -175,6 +202,10 @@ git fetch
 git diff
 ```
 Et les accepter avec:
+```bash
+git merge
+```
+Pour directement accepter des changements:
 ```bash
 git pull
 ```
