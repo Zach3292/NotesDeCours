@@ -1,4 +1,4 @@
-Une *dyade* est une quantité avec une magnitude associé è deux directions. Un dyadique est une somme de dyade. Il peut y avoir des dyadiques, des triadiques et des polyadiques. On appelle ces quantités des [[tenseurs]]. 
+Une *dyade* est une quantité avec une magnitude associé à deux directions. Un dyadique est une somme de dyade. Il peut y avoir des dyadiques, des triadiques et des polyadiques. On appelle ces quantités des [[tenseurs]]. 
 
 ##### Quantité
 - Scalaire: quantité sans direction
