@@ -54,7 +54,7 @@ L'erreur d'approximation de la méthode de Heun est proportionnelle à $h^2$ don
 Même chose mais avec la méthode de Simpson
 
 Pour tout $k>0$:
-$$k_1=hF(y(x_k),x_k)$$
+$$k_1=hF(y_k,x_k)$$
 $$k_2=hF(y_k+\frac{k_1}{2},x_{k+1/2})$$
 $$k_3=hF(y_k+\frac{k_2}{2},x_{k+1/2})$$
 $$k_4=hF(y_k+k_3,x_{k+1})$$
