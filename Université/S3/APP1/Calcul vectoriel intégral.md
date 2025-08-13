@@ -1,5 +1,5 @@
 ### Fonction vectorielle
-Elle est défini comme un vecteur de l'Espace dont les composantes dépendent de la variable $t$.
+Elle est défini comme un vecteur de l'espace dont les composantes dépendent de la variable $t$.
 #### Dérivation
 Les mêmes [règles](../../../Collégial/1ere%20session/Math/Base%20de%20la%20dérivée.md#Définition) que pour une fonction réelle s'applique aux fonctions vectorielles.
 
