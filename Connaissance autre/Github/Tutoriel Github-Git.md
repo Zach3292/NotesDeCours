@@ -153,7 +153,7 @@ Il faut ensuite synchroniser votre répertoire
 git push -u origin main
 ```
 ### Cloner un projet de Github sur votre ordinateur
-Pour cloner un projet sur Github vers votre ordinateur, il suffit d'aller sur la page du projet, cliquer sur le bouton vert *Code* et copier le lien dans la section SSH:
+Pour cloner un projet sur Github vers votre ordinateur, il suffit d'aller sur la page du projet, cliquer sur le bouton vert *Code* et copier le lien dans la section SSH: 
 ![clone](clone.png)
 
 Par la suite, il faut aller dans le dossier où vous voulez cloner le projet sur votre ordinateur et exécuter la commande suivante:
