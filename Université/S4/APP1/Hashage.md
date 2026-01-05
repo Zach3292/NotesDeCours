@@ -24,4 +24,4 @@ Cette méthode consiste à élever au carré notre item, prendre les deux caract
 Il existe plusieurs méthodes différentes, l'important est que la méthode demeure efficace car sinon, on perd le but de la table de hash qui est d'être rapide.
 
 ### Résolution des collisions
-Il existe plusieurs solutions différentes pour régler le problème des collisions, mais elles ont toute un point en comment, elles augmentent la complexité de la structure de donnée.
+Il existe plusieurs solutions différentes pour régler le problème des collisions, mais elles ont toute un point en comment, elles augmentent la complexité de la structure de donnée. 
