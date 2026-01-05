@@ -4,4 +4,6 @@
 
 [Listes](Listes.md)
 
+[Hashage](Hashage.md)
+
 
