@@ -7,3 +7,6 @@
 [Hashage](Hashage.md)
 
 [Tri](Tri.md)
+
+[Arbres](Arbres.md)
+

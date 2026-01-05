@@ -14,4 +14,4 @@ L'algorithme de merge sort divise récursivement une liste en deux jusqu'à ce q
 Cet algorithme utilise un pivot pour séparer un liste et la re-trier de manière récursive un peu comme merge sort. Lorsque le pivot est choisi, on déplace un marqueur à droit et à gauche. Dès qu'on item plus grand que le pivot à gauche est trouvé ainsi qu'un item plus petit que le pivot à droite, on les inverse et on répète jusqu'à ce que les deux marqueurs se croise. On sépare donc la liste à cet endroit et on rapplique quick sort sur les deux listes restantes. Cette algorithme dépend du choix de pivot. De manière optimale, il est $O(n\log{n})$. 
 
 Pour bien choisir un pivot, il existe un technique, on prend le premier, le dernier ainsi que l'item du milieu et on choisi le médian de ces trois items en tant que pivot.
-![quicksort](quicksort.png)
+![quicksort](Images/quicksort.png)
