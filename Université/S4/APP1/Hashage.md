@@ -25,3 +25,9 @@ Il existe plusieurs méthodes différentes, l'important est que la méthode deme
 
 ### Résolution des collisions
 Il existe plusieurs solutions différentes pour régler le problème des collisions, mais elles ont toute un point en comment, elles augmentent la complexité de la structure de donnée. 
+
+#### Addressage libre
+Il s'agit de décaler de $n$ case l'item. Cependant, ça peut causer des problèmes de *clustering* dans la table de hash.
+#### Chaînage
+Il s'agit d'introduire une autre structure de donnée dans les cases où il y a collision. Ainsi, il peut y avoir plusieurs items dans la même case.
+

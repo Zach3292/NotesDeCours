@@ -6,4 +6,4 @@
 
 [Hashage](Hashage.md)
 
-
+[Tri](Tri.md)
