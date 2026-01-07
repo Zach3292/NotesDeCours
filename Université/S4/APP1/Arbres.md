@@ -15,5 +15,7 @@ Si un arbre binaire est mal balancé, il aura de mauvaise performance.
 C'est pour ça qu'il est important de balancer les arbres binaires.
 
 #### Arbre AVL
-Il existe un type d'arbre qui se balance automatiquement, l'arbre AVL. Pour se faire, il faut créer un variable qui s'appelle le *facteur de balancement*. $$\textrm{balance\_factor}=\textrm{height(left\_subtree)}-\textrm{height(right\_subtree)}$$
-Un arbre AVL est $O(\log{n})$ pour la recherche d'élément.
+Il existe un type d'arbre qui se balance automatiquement, l'arbre AVL. Pour se faire, il faut créer un variable qui s'appelle le *facteur de balancement*. $$\textrm{balance\_factor}=h\textrm{(left\_subtree)}-h\textrm{(right\_subtree)}$$
+Où $h(\textrm{noeud})=\max(h\textrm{(noeud\_gauche)},h\textrm{(noeud\_droit)})+1$ en partant des feuilles
+
+L'arbre AVL est $O(\log{n})$ pour la recherche d'élément.
