@@ -1,0 +1,1 @@
+Un graphe est une structure de donnée qui comporte des nœuds et des liens. Il n'y a pas de structure précise pour les nœuds et les liens.
