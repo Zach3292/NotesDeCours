@@ -19,3 +19,10 @@ On divise les tâches en quatre catégories:
 Il s'agit d'une tâche qui s'exécute un nombre fini de fois, souvent une seule. 
 
 #### Périodique
+Une tâche périodique est une tâche qui doit être exécuter selon un temps de cycle fixe, par exemple, à toutes les secondes. Il est important de prendre en compte le temps que prend une tâche périodique à s'exécuter pour ne pas qu'elle occupe tout le temps de processeur.
+
+#### Apériodique
+Une tâche apériodique est une tâche qui s'exécute à un interval irrégulier. Il n'y a pas de minimum entre deux exécutions. Généralement c'est tâches ne peuvent pas être [*hard real-time* ou *firm real-time*](Introduction%20au%20système%20temps%20réel.md#Classement%20des%20systèmes).
+
+#### Sporadique
+Une tâche sporadique est comme une tâche apériodique

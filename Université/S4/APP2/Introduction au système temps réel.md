@@ -18,6 +18,7 @@ Il existe deux types de requis différents:
 1. **Requis absolus** (absolute requirement): quand la réponse doit arriver à un moment définit
 2. **Requis relatif** (relative requirement): quand la réponse doit arriver dans un interval de temps après un événement
 
+### Classement des systèmes
 Les conséquences de ne pas respecté les limites peuvent permettre de classifié encore plus les systèmes temps réel:
 1. *Hard real-time*: Quand le fait de ne pas respecter le temps limite pour une réponse occasionne un échec du système et toute réponse par la suite n'a plus de valeur
 2. *Firm real-time*: Quand le fait de ne pas respecter le temps limite pou une réponse n'occasionne pas d'échec mais toute réponse suivante n'a plus de valeur. Ça va causé une dégradation de la qualité du service.
