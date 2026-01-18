@@ -7,3 +7,5 @@
 
 [Algorithme d'ordonnance non-prédictif](Algorithme%20d'ordonnance%20non-prédictif.md)
 
+[Algorithme d'ordonnance prédictif](Algorithme%20d'ordonnance%20prédictif.md)
+
