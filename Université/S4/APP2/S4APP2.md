@@ -5,3 +5,5 @@
 
 [Introduction à l'ordonnance](Introduction%20à%20l'ordonnance.md)
 
+[Algorithme d'ordonnance non-préventif](Algorithme%20d'ordonnance%20non-préventif.md)
+
