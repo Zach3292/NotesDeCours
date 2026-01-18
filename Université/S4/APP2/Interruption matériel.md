@@ -7,3 +7,16 @@ Lorsque le processeur reçoit une demande d'interruption, il fait les étapes su
 4. Retour à l'exécution normal des tâches sur le fil
 
 Il existe plusieurs manières d'interrompre le processeur. Il peut y avoir une source pour toutes les appareils ou une source par appareil. Le premier coûte moins cher en matériel mais il est plus dur de déterminer qui à interrompu le processeur.
+
+### Caractéristiques des routines d'interruption (ISR)
+Voici quelques caractéristiques important pour une *ISR*:
+- Permet au système de rapidement retourner au exécution normal
+- Minimise la possibilité que d'autre interruption arrive en même temps
+- Réduit la probabilité d'un bug de programmation pendant son exécution
+
+### Ignorer des interruptions et interruptions imbriqués
+Dans un système en temps réel, rien n'empêche une interruption d'arriver pendant un autre interruption. Parfois cette deuxième interruption est plus importante que la première. Il existe deux types d'interruptions:
+1. Requête d'interruption
+2. Interruption non-masquable
+
+La deuxième ne peut jamais être ignorée, elles nécessitent une réponse immédiate et ne peuvent pas être désactivée non plus.
