@@ -25,4 +25,7 @@ Une tâche périodique est une tâche qui doit être exécuter selon un temps de
 Une tâche apériodique est une tâche qui s'exécute à un interval irrégulier. Il n'y a pas de minimum entre deux exécutions. Généralement c'est tâches ne peuvent pas être [*hard real-time* ou *firm real-time*](Introduction%20au%20système%20temps%20réel.md#Classement%20des%20systèmes).
 
 #### Sporadique
-Une tâche sporadique est comme une tâche apériodique
+Une tâche sporadique est comme une tâche apériodique mais qui requière habituellement un *hard ou firm real-time*. Les tâches sporadiques par leur nature peuvent occuper tout le temps de processeur pendant un moment. Il faut alors décider de la priorité des tâches. Lorsque ces tâches sont prêtes à rouler, elles sont traités comme des tâches périodiques. Pour pouvoir exécuter les tâches sporadiques, il est nécessaire qu'il y ait un interval minimal entre celle-ci pour laisser le tempos au processeur de les gérer.
+
+### Estimation du pire temps d'exécution (WCET)
+Avant de pouvoir savoir si un algorithme d'ordonnance pourra permettre à toutes les tâches de satisfaire leur limite de temps, il faut savoir le temps d'exécution de chaque tâche. Comme le temps d'exécution peut varier, il faut estimer le pire temps d'exécution possible pour chaque tâche *(worst-case execution time WCET)*. En utilisant ce pire temps, on peut ensuite analyser si chaque tâche pourra être exécuter selon sa limite de temps.
