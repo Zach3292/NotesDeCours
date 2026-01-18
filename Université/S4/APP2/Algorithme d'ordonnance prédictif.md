@@ -7,3 +7,9 @@ Imaginons qu'on a réussi à créer un ordre d'exécution fonctionnelle pour nos
 
 Un autre problème est que l'horaire doit être recalculer au complet dès qu'une nouvelle tâche arrivent.
 
+### Classement de priorité
+Une alternative pour ordonnée les tâches est d'assigné à chaque tâche une priorité. En général cette priorité se situe entre 0 et 255 où le plus petit nombre est le plus prioritaire. Les priorités peuvent être fixe ou dynamique. Les tâches les plus prioritaires vont être exécutées en premier dans la liste d'attente.
+
+#### Variabilité (Jitter)
+
+Lorsqu'une tâche de basse priorité à une longue période, il y a un risque qu'elle ne puisse pas être exécuter comme elle devrait puisqu'elle se fait toujours interrompre. Ainsi, plus la priorité est basse, plus la variabilité de la tâche est haute. 
