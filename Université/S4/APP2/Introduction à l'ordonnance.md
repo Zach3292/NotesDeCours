@@ -29,3 +29,12 @@ Une tâche sporadique est comme une tâche apériodique mais qui requière habit
 
 ### Estimation du pire temps d'exécution (WCET)
 Avant de pouvoir savoir si un algorithme d'ordonnance pourra permettre à toutes les tâches de satisfaire leur limite de temps, il faut savoir le temps d'exécution de chaque tâche. Comme le temps d'exécution peut varier, il faut estimer le pire temps d'exécution possible pour chaque tâche *(worst-case execution time WCET)*. En utilisant ce pire temps, on peut ensuite analyser si chaque tâche pourra être exécuter selon sa limite de temps.
+
+Il existe deux manières d'estimer le WCET:
+1. L'analyse du code source
+2. L'estimation à partir des données empiriques
+
+L'analyse du source code a tendance à surestimé le pire cas puisque les compilateurs font souvent de l'optimisation en arrière plan.
+
+### Le fil en attente (idle)
+Lorsqu'il n'y a aucune tâche à exécuter, le fil doit être mis en attente. Un fil en attente peut faire plusieurs choses différentes. La solution la plus simple serait de mettre le processeur en veille pendant ce temps. Une autre solution serait d'effectuer des calculs qui ne dépendent pas de ressources précises. Ainsi, on utilise du temps de processeur qui serait autrement gaspillé. L'important est que cette tâche du fil en attente soit seulement exécuter lorsqu'il n'y a aucune autre tâche nécessaire. Il s'Agit de la tâche avec la plus basse priorité.
