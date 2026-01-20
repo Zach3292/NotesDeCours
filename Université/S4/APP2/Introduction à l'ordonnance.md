@@ -33,8 +33,9 @@ Avant de pouvoir savoir si un algorithme d'ordonnance pourra permettre à toutes
 Il existe deux manières d'estimer le WCET:
 1. L'analyse du code source
 	1. Tendance à surestimer à cause des optimisations du compilateur
-	2. 
+	2. Si notre analyse est concluante, on est sur que ça fonctionne car elle est pessimiste
 2. L'estimation à partir des données empiriques
+	1. Très simple à faire
 
 ### Le fil en attente (idle)
 Lorsqu'il n'y a aucune tâche à exécuter, le fil doit être mis en attente. Un fil en attente peut faire plusieurs choses différentes. La solution la plus simple serait de mettre le processeur en veille pendant ce temps. Une autre solution serait d'effectuer des calculs qui ne dépendent pas de ressources précises. Ainsi, on utilise du temps de processeur qui serait autrement gaspillé. L'important est que cette tâche du fil en attente soit seulement exécuter lorsqu'il n'y a aucune autre tâche nécessaire. Il s'agit de la tâche avec la plus basse priorité.
