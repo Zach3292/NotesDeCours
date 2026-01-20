@@ -13,3 +13,4 @@ Une alternative pour ordonnée les tâches est d'assigné à chaque tâche une p
 #### Variabilité (Jitter)
 
 Lorsqu'une tâche de basse priorité à une longue période, il y a un risque qu'elle ne puisse pas être exécuter comme elle devrait puisqu'elle se fait toujours interrompre. Ainsi, plus la priorité est basse, plus la variabilité de la tâche est haute. 
+
