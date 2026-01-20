@@ -22,7 +22,7 @@ Il s'agit d'une tâche qui s'exécute un nombre fini de fois, souvent une seule.
 Une tâche périodique est une tâche qui doit être exécuter selon un temps de cycle fixe, par exemple, à toutes les secondes. Il est important de prendre en compte le temps que prend une tâche périodique à s'exécuter pour ne pas qu'elle occupe tout le temps de processeur.
 
 #### Apériodique
-Une tâche apériodique est une tâche qui s'exécute à un interval irrégulier. Il n'y a pas de minimum entre deux exécutions. Généralement c'est tâches ne peuvent pas être [*hard real-time* ou *firm real-time*](Introduction%20au%20système%20temps%20réel.md#Classement%20des%20systèmes).
+Une tâche apériodique est une tâche qui s'exécute à un interval irrégulier. Il n'y a pas de minimum entre deux exécutions. Généralement c'est tâches ne peuvent pas être [*hard real-time* ou *firm real-time*](Introduction%20au%20système%20temps%20réel.md#Classement%20des%20systèmes). Elles sont **parfaitement imprévisible**.
 
 #### Sporadique
 Une tâche sporadique est comme une tâche apériodique mais qui requière habituellement un *hard ou firm real-time*. Les tâches sporadiques par leur nature peuvent occuper tout le temps de processeur pendant un moment. Il faut alors décider de la priorité des tâches. Lorsque ces tâches sont prêtes à rouler, elles sont traités comme des tâches périodiques. Pour pouvoir exécuter les tâches sporadiques, il est nécessaire qu'il y ait un interval minimal entre celle-ci pour laisser le tempos au processeur de les gérer.
@@ -32,9 +32,9 @@ Avant de pouvoir savoir si un algorithme d'ordonnance pourra permettre à toutes
 
 Il existe deux manières d'estimer le WCET:
 1. L'analyse du code source
+	1. Tendance à surestimer à cause des optimisations du compilateur
+	2. 
 2. L'estimation à partir des données empiriques
-
-L'analyse du source code a tendance à surestimé le pire cas puisque les compilateurs font souvent de l'optimisation en arrière plan.
 
 ### Le fil en attente (idle)
 Lorsqu'il n'y a aucune tâche à exécuter, le fil doit être mis en attente. Un fil en attente peut faire plusieurs choses différentes. La solution la plus simple serait de mettre le processeur en veille pendant ce temps. Une autre solution serait d'effectuer des calculs qui ne dépendent pas de ressources précises. Ainsi, on utilise du temps de processeur qui serait autrement gaspillé. L'important est que cette tâche du fil en attente soit seulement exécuter lorsqu'il n'y a aucune autre tâche nécessaire. Il s'agit de la tâche avec la plus basse priorité.

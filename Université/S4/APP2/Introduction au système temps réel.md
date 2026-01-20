@@ -6,12 +6,12 @@ Un système temps réel est défini en deux critères:
 Ce qui décrit comment un système réagit à l'état courant et au changement d'état sont appelés les *requis fonctionnels* (functional requirement). Tous les autres requis sont dit des *requis non-fonctionnels* (non-functional requirement).
 
 Voici une liste de requis non-fonctionnels:
-- Sécurité
-- Performance
-- Tolérance au faute
-- Robustesse
-- Évolutivité
-- Sûreté
+- Sécurité: réponses du système qui le protège des dommages
+- Performance: timing ou vitesse nécessaire pour empêcher le système de subir des dommages
+- Tolérance au faute: L'habileté de protéger le système des fautes de design
+- Robustesse: L'habileté de protéger le système des fautes externes
+- Évolutivité: L'habileté de performer correctement dan un environnement avec plus de charge
+- Sûreté: L'habileté du système à résister à des opérations qui sont voulues pour causé des dommages
 
 ### Composantes d'un système temps réel
 Il existe deux types de requis différents:
