@@ -39,3 +39,7 @@ Il existe deux manières d'estimer le WCET:
 
 ### Le fil en attente (idle)
 Lorsqu'il n'y a aucune tâche à exécuter, le fil doit être mis en attente. Un fil en attente peut faire plusieurs choses différentes. La solution la plus simple serait de mettre le processeur en veille pendant ce temps. Une autre solution serait d'effectuer des calculs qui ne dépendent pas de ressources précises. Ainsi, on utilise du temps de processeur qui serait autrement gaspillé. L'important est que cette tâche du fil en attente soit seulement exécuter lorsqu'il n'y a aucune autre tâche nécessaire. Il s'agit de la tâche avec la plus basse priorité.
+
+### Ordonnance préemptive vs non-préemptive
+- Un [ordonnateur préemptif](Algorithme%20d'ordonnance%20préemptive.md) **est appelé à une période fixe** pour s'exécuter.
+- Un [ordonnateur non-préemptive](Algorithme%20d'ordonnance%20non-préemptive.md) doit **être appelé par la tâche** elle même pour s'exécuter.

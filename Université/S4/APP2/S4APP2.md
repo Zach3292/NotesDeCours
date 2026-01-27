@@ -5,9 +5,9 @@
 
 [Introduction à l'ordonnance](Introduction%20à%20l'ordonnance.md)
 
-[Algorithme d'ordonnance non-prédictif](Algorithme%20d'ordonnance%20non-prédictif.md)
+[Algorithme d'ordonnance non-préemptive](Algorithme%20d'ordonnance%20non-préemptive.md)
 
-[Algorithme d'ordonnance prédictif](Algorithme%20d'ordonnance%20prédictif.md)
+[Algorithme d'ordonnance préemptive](Algorithme%20d'ordonnance%20préemptive.md)
 
 [Interruption matériel](Interruption%20matériel.md)
 
