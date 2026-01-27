@@ -20,6 +20,6 @@ Il existe deux types de requis différents:
 
 ### Classement des systèmes
 Les conséquences de ne pas respecté les limites peuvent permettre de classifié encore plus les systèmes temps réel:
-1. *Hard real-time*: Quand le fait de ne pas respecter le temps limite pour une réponse occasionne un échec du système et toute réponse par la suite n'a plus de valeur
-2. *Firm real-time*: Quand le fait de ne pas respecter le temps limite pou une réponse n'occasionne pas d'échec mais toute réponse suivante n'a plus de valeur. Ça va causé une dégradation de la qualité du service.
-3. *Soft real-time*: Quand la valeur d'une réponse diminue passé le temps limite mais qu'elle n'est pas inutile.
+1. *Hard real-time*: Quand le fait de ne pas respecter le temps limite pour une réponse occasionne **un échec du système** et toute réponse par la suite n'a plus de valeur.
+2. *Firm real-time*: Quand le fait de ne pas respecter le temps limite pour une réponse n'occasionne pas d'échec mais **toute réponse suivante n'a plus de valeur**. Ça va causé une dégradation de la qualité du service. *Exemple: prévision météo qui arrive le lendemain de la date.*
+3. *Soft real-time*: Quand **la valeur d'une réponse diminue** passé le temps limite mais qu'elle **n'est pas inutile**. Dépassé le temps limite n'apporte aucune autre implication.
