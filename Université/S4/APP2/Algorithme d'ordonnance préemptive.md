@@ -17,3 +17,8 @@ Si toutes les tâches ont la même priorité, l'ordonnateur va changer de tâche
 
 Lorsqu'une tâche de basse priorité à une longue période, il y a un risque qu'elle ne puisse pas être exécuter comme elle devrait puisqu'elle se fait toujours interrompre. Ainsi, plus la priorité est basse, plus la variabilité de la tâche est haute. 
 
+Variabilité sur le temps de fin d'une tâche périodique.
+
+### Inversion et héritage de priorité
+
+Problème: inversion de priorité avec un mutex -> Solution: héritage de priorité.
