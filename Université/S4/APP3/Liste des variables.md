@@ -1,0 +1,15 @@
+Liste:
+- $G$: Coefficient de cisaillement *shear modulus*
+- $E$: Module de Young
+- $K$: Raideur
+- $A$: Aire de la section
+- $M$: Moment
+- $T$: Torque
+- $I$: Moment quadratique, inertie de flexion, *second moment of inertia* (Résistance d'une poutre à la flexion sur son axe principale)
+- $J$ Moment quadratique polaire, inertie polaire (Résistance d'une poutre à la torsion autour de son axe principale)
+- $d$: Diamètre
+- $\epsilon$: Déformation
+- $\sigma$: Contrainte normal
+- $\tau$: Contrainte de cisaillement
+- $\delta$: Déplacement linéaire
+- $\theta$: Déplacement angulaire
