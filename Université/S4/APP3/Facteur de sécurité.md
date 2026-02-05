@@ -25,7 +25,7 @@ Voici des exemples de valeur associés à des circonstances:
 #### Exemple de valeur numérique
 - 1.25-1.5: Des matériaux très fiables utilisés dans des environnement contrôlés et qui sont sujets à des charges et stress qui peuvent être déterminé avec certitude. Utilisé souvent quand un poids minimal est nécessaire. 
 - 1.5-2: Des matériaux biens connus dans un environnement relativement constant sujet à des charges et stress qui peuvent être bien déterminé d'avance.
-- 2-2.5: Pour des matériaux moyens qui opèrent dans des conditions ordinaires et qui sont sujets à des charges et stress qui peuvent être déterminé.
+- 2-2.5: Pour des matériaux moyens qui opèrent dans des conditions standards et qui sont sujets à des charges et stress qui peuvent être déterminé.
 - 2.5-3: Pour des matériaux peu tester ou fragile dans des conditions moyennes d'environnement, de charges et de stress.
 - 3-4: Pour des matériaux non-testés dans des conditions moyennes d'environnement, de charges et de stress.
 - 3-4: Aussi pour des matériaux mieux connu mais dans des environnements de charges et stress incertains.
@@ -36,4 +36,5 @@ S'il y a des charges répétées, le facteur doit être appliqué à la limite d
 
 Force brute: Il devrait y avoir un facteur de plus en s'il les matériaux sont soumis à des impacts
 
-**Quand la résistance ultime d'un matériau fragile est utilisé comme maximum  théorique, le facteur devrait être doublé.**
+**Quand la résistance ultime d'un matériau fragile est utilisé comme maximum théorique, le facteur devrait être doublé.**
+
