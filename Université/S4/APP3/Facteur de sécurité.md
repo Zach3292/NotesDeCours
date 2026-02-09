@@ -1,7 +1,7 @@
 Il existe plusieurs méthodes pour déterminer le facteur de sécurité à choisir. Parfois, il faut aussi des facteurs différents pour différentes parties du même système. Voici une méthode avec 5 critères pour bien choisir le facteur de sécurité.
 
 ### Les critères
-#### Incertitude au changement
+#### Incertitude au chargement
 Plus on est incertain sur la charge que sera appliqué sur notre système, plus il faudra être conservateur avec notre facteur de sécurité. Si la charge varie beaucoup en fonction de plusieurs critères ou si elle est toujours exactement la même.
 
 #### Incertitude sur les matériaux
