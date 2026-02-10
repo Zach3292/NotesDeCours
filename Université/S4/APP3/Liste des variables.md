@@ -1,5 +1,5 @@
 Liste:
-- $G$: Coefficient de cisaillement *shear modulus*
+- $G$: Module de cisaillement *shear modulus*
 - $E$: Module de Young
 - $K$: Raideur
 - $A$: Aire de la section
