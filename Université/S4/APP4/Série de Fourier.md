@@ -27,4 +27,6 @@ Les spectres ont des propriétés sur leur parité:
 ### Définition
 Lorsqu'un signal est périodique, on dit qu'il peut s'exprimer comme une somme d'harmoniques de fonctions sinusoïdes pures. On l'exprime mathématiquement comme suit:
 $$x(t) = C_0+\sum_{k=1}^\infty{C_k\cos{(k\omega_0t+\phi_k)}}$$
-Où 
+Où $C_0$ est la composante continue (DC), $C_k$ et $\phi_k$ sont respectivement l'amplitude et la phase de l'harmonique $k$, et $\omega_0$ est la fréquence fondamentale du signal $x(t)$. On peut aussi le réécrire avec la forme exponentielle plutôt que polaire:
+$$x(t)=\sum_{k=1}^\infty{X_ke^{jk\omega t}}$$
+Dans cette forme, $X_k$ sont des nombres complexes qui contiennent à la fois la phase et l'amplitude des harmoniques $k$.
