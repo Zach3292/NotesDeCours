@@ -255,7 +255,7 @@ Il peut y avoir plusieurs ou aucune configurations $\underline{q}$ qui mènent �
 
 Pour les bras manipulateurs à 6 DDL, le critère pour que la cinématique inverse puisse être résolue analytiquement est que l’axe de trois joints rotatifs séquentiels se croise en un point. La plupart des robots industriels ont leurs 3 derniers DDL configurés en un poignet.
 
-On applique souvent une métjode qui revient à faire une [[descente de gradient]] itérative comme la méthode de [[Newthon-Raphson]] mais en temps réel avec le vrai système.
+On applique souvent une méthode qui revient à faire une [[descente de gradient]] itérative comme la méthode de [Newton-Raphson](../../S3/APP7/Résolution%20numérique%20d'équations%20non-linéaires.md#Méthode%20Newton-Raphson) mais en temps réel avec le vrai système.
 
 #### 3.9.2 Chaine cinématique fermée
 Contrairement aux chaines directes, la cinématique inverse d'une chaine fermée est plus facile à calculer que la cinématique ouvert.
