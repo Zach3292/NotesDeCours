@@ -25,3 +25,6 @@ Les spectres ont des propriétés sur leur parité:
 - Le spectre d'amplitude est impair
 ## Calcul des coefficients de Fourier
 ### Définition
+Lorsqu'un signal est périodique, on dit qu'il peut s'exprimer comme une somme d'harmoniques de fonctions sinusoïdes pures. On l'exprime mathématiquement comme suit:
+$$x(t) = C_0+\sum_{k=1}^\infty{C_k\cos{(k\omega_0t+\phi_k)}}$$
+Où 
