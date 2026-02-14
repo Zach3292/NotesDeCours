@@ -37,9 +37,9 @@ Un signal périodique est un signal qui possède une période fondamentale, qui 
 ##### Représentation fréquentielle
 ![frequentielle](Images/Pasted%20image%2020260214140813.png)
 
-### Énergie et puissance
+## Énergie et puissance
 Une information importante d'une signal est son énergie et sa puissance. Une des caractéristiques d'un signal LTI est que sa réponse impulsionnelle est d'énergie finie (Elle ne diverge pas). L'énergie se calcule comme suit:
-$$E=\int^{t_2_0{|x(t)|^2dt}$$
+$$E=\int^{t_2}_{t_1}{|x(t)|^2dt}$$
 La puissance se calcul comme suit:
-$$P=\frac{1}{T}\int^T_0{|x(t)|^2dt}$$
+$$P=\frac{1}{t_2-t_1}\int^{t_2}_{t_1}{|x(t)|^2dt}$$
 
