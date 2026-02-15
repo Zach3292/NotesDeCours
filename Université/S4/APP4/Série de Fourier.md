@@ -29,4 +29,75 @@ Lorsqu'un signal est périodique, on dit qu'il peut s'exprimer comme une somme d
 $$x(t) = C_0+\sum_{k=1}^\infty{C_k\cos{(k\omega_0t+\phi_k)}}$$
 Où $C_0$ est la composante continue (DC), $C_k$ et $\phi_k$ sont respectivement l'amplitude et la phase de l'harmonique $k$, et $\omega_0$ est la fréquence fondamentale du signal $x(t)$. On peut aussi le réécrire avec la forme exponentielle plutôt que polaire:
 $$x(t)=\sum_{k=1}^\infty{X_ke^{jk\omega t}}$$
-Dans cette forme, $X_k$ sont des nombres complexes qui contiennent à la fois la phase et l'amplitude des harmoniques $k$.
+Dans cette forme, $X_k$ sont des nombres complexes qui contiennent à la fois la phase et l'amplitude des harmoniques $k$. On peut obtenir les coefficients complexes grâce à la formule suivante:
+$$X_k=\frac{1}{T}\int_0^T{x(t)e^{-jk\omega_0 t}dt}$$
+$$\omega_o=\frac{2\pi}{T}$$
+## Calcul des coefficients de Fourier ave Matlab
+Voici comment trouver les coefficients de manière numérique avec Matlab (approximation dù à l'intégration numérique).
+```octave
+%% Définition de la base de temps
+Fe = 1024;
+dt = 1/Fe;
+t = [0:dt:1-dt];
+
+%% Définition du signal
+x = zeros(1,1024);
+for ix=1:floor(length(x)/4)
+	x(ix) = 1;
+end
+
+% Méthode alternative
+x = [ones(1,256), zeros(1,768)];
+
+%% Définition des fonctions exp
+w0 = 2*pi;
+for k=1:20
+	u(k,:) = exp(-j*k*w0*t);
+end
+
+%% Calcul des coefficients de Fourier
+T = 2*pi/w0;
+X0 = 1/T*trapz(t,x);
+for k=1:20
+	X(k) = trapz(t, x.*u(k,:));
+end
+
+%% Affichage
+AMP = abs(X);
+PHASE = angle(X);
+
+figure(1)
+subplot(2,1,1)
+stem(0:20,[abs(X0) AMP])
+subplot(2,1,2)
+stem(0:20,[angle(X0) PHASE])
+
+%% Calcul du signal reconstruit
+y = X0;
+for k=1:20
+y = y+2*AMP(k)*cos(k*w0*t + PHASE(k)));
+end
+
+figure(2)
+plot(t,y)
+```
+## Propriétés des séries de Fourier
+### Linéarité
+Le calcul des coefficients est une opération linéaire.
+
+| **Domaine temporel** | **Domaine fréquentiel** |
+| -------------------- | ----------------------- |
+| $x(t)$               | $X(k)$                  |
+| $y(t)$               | $Y(k)$                  |
+| $x(t)+y(t)$          | $X(k)+Y(k)$             |
+Notez qu'il s'agit d'une somme de nombre complexe, pas de faire la somme de l'amplitude et la phase.
+### Inversion dans le temps
+On peut obtenir les coefficients de Fourier du signal $x(-t)$ en prenant le [conjugué](../../S1/APP6/Nombre%20complexe.md#Notions%20de%20basse%20sur%20les%20nombres%20complexes) de$X(k)$.
+
+| **Domaine temporel** | **Domaine fréquentiel** |
+| -------------------- | ----------------------- |
+| $x(t)$               | $X(k)$                  |
+| $y(t)$               | $Y(k)$                  |
+| $x(-t)$              | $X^*(k)$                |
+### Multiplication par une sinusoïde
+Lorsqu'on multiplie un signal périodique par une sinusoïde pur qui est une harmonique du signal original
