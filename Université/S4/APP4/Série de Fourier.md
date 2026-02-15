@@ -100,4 +100,13 @@ On peut obtenir les coefficients de Fourier du signal $x(-t)$ en prenant le [con
 | $y(t)$               | $Y(k)$                  |
 | $x(-t)$              | $X^*(k)$                |
 ### Multiplication par une sinusoïde
-Lorsqu'on multiplie un signal périodique par une sinusoïde pur qui est une harmonique du signal original
+Lorsqu'on multiplie un signal périodique par une sinusoïde pure qui est aussi une harmonique du signal original, cela équivaut à décaler l'information du signal autour de la fréquence de la sinusoïde (dit fréquence porteuse). Ainsi, un signal périodique entre 0 et 20 Hz qui est multiplié par une sinusoïde de 100 Hz sera identique mais centré autour de 100 Hz donc il contiendra des fréquences de 90 à 110Hz
+
+**Signal original**
+![](Images/Pasted%20image%2020260214192249.png)
+**Fréquence porteuse**
+![](Images/Pasted%20image%2020260214192312.png)
+**Résultat**
+![](Images/Pasted%20image%2020260214192327.png)
+
+Il s'agit de la manière donc la modulation AM fonctionne pour les radios.
