@@ -37,3 +37,15 @@ Dans un système résonant, l'écart entre les deux fréquences de coupures est 
 $$Q=\frac{\omega_r}{BW}$$
 ### Vérification de la validité
 Il est important de validé noter approximation faite lors de la linéarisation du système.
+## Extension au cas général
+Voici un schéma récapitulatif des différentes étapes de résolution pour trouver la fonction de transfert harmonique:
+![](Images/Pasted%20image%2020260215210013.png)
+Voici les huit étapes:
+1. Écrire l'équation du système complexe (non-linéaire) en décrivant bien les entrées $x(t)$ et les sorties $y(t)$
+2. Linéariser l'équation du système
+3. Écrire les variables d'entrée $x(t)=e^{j\omega t}$ et de sortie $y(t)=He^{j\omega t}$ en régime forcée harmonique
+4. Simplifier le problème en supprimant tous les termes en $e^{j\omega t}$
+5. Déterminer la fonction de transfert harmonique $H(j\omega)$
+6. Calculer et représenter le module $A(\omega)$ et la phase associé $\phi(\omega)$
+7. En déduire la réponse $y(t)=A(\omega)\cos{(\omega t +\phi(\omega))}$
+8. Vérifier la validité de la réponse en fonction des critères de linéarisation
