@@ -1,0 +1,4 @@
+Tel que vu [ici](Introduction%20signaux%20et%20systèmes.md)], un système peut être représenter comme une boite mathématique qui prend une entrée et retourne une sortie. On va maintenant s'intéresser au cas où l'entrée est dite **forcée** (imposé à une sinusoïde pure). Les concepts suivants seront valide en **régime permanent** (steady state). Par exemple, si le régime permanent est atteint après 20 secondes, la technique de la fonction de transfert harmonique est valide pour $t>20s$. 
+## Le pendule amorti en régime forcé
+On va prendre en compte un pendule de masse $m$ et de longueur $l$ et soumis à un couple $\Gamma(t)$ à son point de pivot. L'équation qui régis ce système est la suivante:
+$$ml^2\frac{d^2\theta}{dt^2}+cl^2\frac{d\theta}{dt}+mgl\sin{\theta(t)}=\Gamma(t)$$
