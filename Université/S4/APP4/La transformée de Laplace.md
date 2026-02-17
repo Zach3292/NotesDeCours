@@ -101,3 +101,13 @@ Où $u(t)$ représente la fonction échelon et $\delta(t)$ est [l'impulsion de D
 Dans Matlab, la fonction *roots* nous permet d'obtenir les racines d'un polynôme.
 ## Lien entre les transformées de Laplace et de Fourier
 ### Définition
+Si on restreint que $x(t)$ doit être causal (que pour $t<0$, $x(t)=0$), la transformée de Fourier s'obtient simplement en posant que $s=j\omega$.
+### Évaluation de $H(j\omega)$ en fonction des pôles et des zéros
+Comme vu plus tôt, on peut exprimer $H(s)$ comme suit:
+$$H(s)=K\frac{(s-z_1)(s-z_2)...(s-z_{m-1})(s-z_m)}{(s-p_1)(s-p_2)...(s-p_{n-1})(s-p_n)}$$
+On peut donc aussi exprimer la fonction de transfert harmonique:
+$$H(j\omega)=K\frac{(j\omega-z_1)(j\omega-z_2)...(j\omega-z_{m-1})(j\omega-z_m)}{(j\omega-p_1)(j\omega-p_2)...(j\omega-p_{n-1})(j\omega-p_n)}$$
+On peut aussi calculer le module et la phase de la fonction de transfert harmonique:
+$$|H(j\omega)|=|K|\frac{|j\omega-z_1||j\omega-z_2|...|j\omega-z_{m-1}||j\omega-z_m|}{|j\omega-p_1||j\omega-p_2|...|j\omega-p_{n-1}||j\omega-p_n|}$$
+$$\angle H(j\omega)=\angle K +(\angle(j\omega-z_1)+...+\angle(j\omega-z_m))-(\angle(j\omega-p_1)+...+\angle(j\omega-p_n))$$
+## Réponse impulsionnelle d'un système LTI
