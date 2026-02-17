@@ -19,3 +19,13 @@ La fonction de transfert pour un système LTI est de forme de fraction de polyn�
 - **Les pôles sont les racines du dénominateur de $H(s)$**, les valeurs de $s$ pour lesquelles $H(s)\rightarrow\infty$
 - **Les zéros sont les racines du numérateur de $H(s)$**, les valeurs de $s$ pour lesquelles $H(s)\rightarrow 0$
 Une fonction caractéristique d'une fonction de transfert donc la réponse d'un système est réelle est que **les pôles et les zéros complexes doivent apparaître en paires conjuguées**. Seul les pôles ou zéro réels n'ont pas à obéir à cette contrainte.
+
+On représente souvent les pôles et les zéros selon ce graphique en ignorant ceux à l'infini:
+![](Images/Pasted%20image%2020260217134445.png)
+En général, **un "x" représente un pôle et un "o" représente un zéro**. Le diagramme de pôles-zéros permet, entre autres, de dire si un système est stable ou non et de donner une approximation de la forme de $H(j\omega)$.
+### Factorisation
+La forme générale d'une fonction de transfert est la suivante:
+$$H(s)=\frac{\left(a_ms^m+a_{m-1}s^{m-1}+...+a_1s+a_0\right)}{\left(b_ns^n+b_{n-1}s^{n-1}+...+b_1s+b_0\right)}$$
+Cette fonction est d'ordre $m$ au numérateur et $n$ au dénominateur. On définit le **gain $K$** comme le rapport entre le coefficient du terme de plus grand ordre au numérateur $a_m$ et du dénominateur $b_m$:
+$$K=\frac{a_m}{b_m}$$
+On peut factoriser la fonction de transfert comme suit:
