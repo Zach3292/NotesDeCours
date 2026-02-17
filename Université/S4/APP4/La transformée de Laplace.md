@@ -69,4 +69,35 @@ s&=p_1\\
 1+j&=-jc_1+c_2
 \end{align}$$
 On répète mais avec $(s-p_2)$:
-$$H(s)(s-p_2)=(s-1)(s-p_2)+\frac{c_1s+c_2}{(s-p_1)}+(s-p_2)\frac{c_3}{s-p_3}
+$$H(s)(s-p_2)=(s-1)(s-p_2)+\frac{c_1s+c_2}{(s-p_1)}+(s-p_2)\frac{c_3}{s-p_3}$$
+Puis on évalue avec $s=p_2=j$:
+$$\begin{align}
+H(s)(s-p_2)&=0+\frac{c_1p_2+c_2}{p_2-p_1}+0 \\
+(s-1)(s-p_2)+\frac{(s+1)(s-p_2)}{s(s+j)(s-j)}&=\frac{c_1p_2+c_2}{p_2-p_1}\\
+0+\frac{s+1}{s(s+j)}&=\frac{c_1p_2+c_2}{p_2-p_1}\\
+s&=p_2\\
+\frac{p_2+1}{p_2(p_2+j)}&=\frac{c_1p_2+c_2}{p_2-p_1}\\
+1-j&=-jc_1+c_2
+\end{align}$$
+On trouve alors que $c_1=-1$ et $c_2=1$
+
+Pour obtenir $c_3$ on fait le même développement
+$$H(s)(s-p_3)=(s-1)(s-p_3)+(s-p_3)\frac{c_1s+c_2}{(s-p_1)(s-p_2)}+c_3$$
+$$\begin{align}
+H(s)(s-p_3)&=(s-1)(s-p_3)+(s-p_3)\frac{c_1p_2+c_2}{p_2-p_1}+c_3 \\
+(s-1)(s-p_3)+\frac{(s+1)(s-p_3)}{s(s+j)(s-j)}&=(s-1)(s-p_3)+(s-p_3)\frac{c_1p_2+c_2}{p_2-p_1}+c_3\\
+(s-1)(s-p_3)+\frac{(s+1)}{(s+j)(s-j)}&=(s-1)(s-p_3)+(s-p_3)\frac{c_1p_2+c_2}{p_2-p_1}+c_3\\
+\frac{(s+1)}{(s+j)(s-j)}&=(s-p_3)\frac{c_1p_2+c_2}{p_2-p_1}+c_3\\
+s&=p_3\\
+\frac{1}{1}&=c_3\\
+1&=c_3
+\end{align}$$
+On peut donc remplacer les pôles et les coefficients dans la formule originale pour obtenir:
+$$H(s)=(s-1)+\frac{-s+1}{(s+j)(s-j)}+\frac{1}{s}$$
+À l'aide des tables de transformée de Laplace inverse, on peut trouver la [réponse impulsionnelle](Introduction%20signaux%20et%20systèmes.md#Fonction%20de%20transfert%20et%20réponse%20impulsionnelle) du système:
+$$h(t)=\mathcal{L}^{-1}(H(s))=\delta'(t)-\delta(t)-\cos{t}+\sin{t}+u(t)$$
+Où $u(t)$ représente la fonction échelon et $\delta(t)$ est [l'impulsion de Dirac](La%20transformée%20de%20Fourier.md#L'impulsion%20de%20Dirac).
+### Pôles et zéros avec Matlab
+Dans Matlab, la fonction *roots* nous permet d'obtenir les racines d'un polynôme.
+## Lien entre les transformées de Laplace et de Fourier
+### Définition
