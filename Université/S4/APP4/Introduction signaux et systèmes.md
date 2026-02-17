@@ -6,7 +6,7 @@ Il s'agit d'un système qui est linéaire (formé d'équations linéaires) et qu
 #### Méthode de résolution de système LTI
 - Résoudre directement [l'équation différentielle du système](../../S3/APP1/Méthodes%20numériques%20pour%20la%20résolution%20d'équations%20différentielles.md)
 - Utiliser l'approche par [transformé](La%20transformée%20de%20Laplace.md)
-- Appliquer l'opération de [[convolution]]
+- Appliquer l'opération de [convolution](Convolution.md)
 
 ### Fonction de transfert et réponse impulsionnelle
 On peut décrire un système LTI d'une manière très compact qu'on appelle sa **fonction de transfert H(s)**. Celle-ci donne une **information fréquentielle** sur le comportement du système. Elle indique le **gain** et le **déphasage** que va subir toute sinusoïde pure si elle est appliqué à l'entrée du système. La sinusoïde est la **fonction propre** d'un LTI puisque la forme de la fonction demeure inchangé par le système.

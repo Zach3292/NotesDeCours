@@ -111,3 +111,31 @@ On peut aussi calculer le module et la phase de la fonction de transfert harmoni
 $$|H(j\omega)|=|K|\frac{|j\omega-z_1||j\omega-z_2|...|j\omega-z_{m-1}||j\omega-z_m|}{|j\omega-p_1||j\omega-p_2|...|j\omega-p_{n-1}||j\omega-p_n|}$$
 $$\angle H(j\omega)=\angle K +(\angle(j\omega-z_1)+...+\angle(j\omega-z_m))-(\angle(j\omega-p_1)+...+\angle(j\omega-p_n))$$
 ## Réponse impulsionnelle d'un système LTI
+### Définition
+La réponse impulsionnelle $h(t)$ est par définition la réponse du système lorsque l'entrée est l'impulsion de Dirac. Par définition, la sortie dans le domaine de Laplace est relié à l'entrée par la fonction de transfert $H(s)$. Si l'entrée est une impulsion de Dirac, sa transformée de Laplace est 1 (selon les tables) et donc dans le domaine de Laplace, la transformée de la réponse impulsionnelle est $Y(s)=H(s)$. Mathématiquement, on peut donc exprimer la réponse impulsionnelle d'un système comme la transformée de Laplace inverse de la fonction de transfert $H(s)$:
+$$h(t)=\mathcal{L}^{-1}(H(s))$$
+### Stabilité d'un système
+Le lieu des pôles et des zéros permet aussi de déterminer la stabilité d'un système LTI.
+
+Un système est stable si sa réponse impulsionnelle tend vers 0 lorsque $t$ tend vers l'infini.
+
+De façon général, la réponse impulsionnelle sera à énergie finie si et seulement si tous les pôles $p_i$ de la fonction de transfert sont dans le demi plan gauche tel que:
+$$Re(p_i)<0$$
+S'il existe un pôle sur l'axe des imaginaires pur ($Re(p_i)=0$), on dit que le système est marginalement stable.
+### Évaluation de réponse impulsionnelle en fonction des pôles et des zéros
+Avec la position des pôles et des zéros dans le plan complexe, on peut également deviner rapidement la forme de la réponse impulsionnelle.
+- Plus un pôle s'approche de l'axe imaginaire, plus le système est résonnant à cette fréquence. Ceci se traduit par un pic étroit dans le domaine fréquentiel et un longue réponse dans le domaine temporel.
+- La position verticale des pôles à un impact direct sur la fréquence de résonance du système. Plus les pôles sont éloignés de l'axe horizontal, plus la fréquence de résonance sera grande.
+## Propriétés de la transformée de Laplace
+### Opération générale
+Les propriétés de la transformée de Laplace sont très similaire au [propriétés de la transformée de Fourier](La%20transformée%20de%20Fourier.md#Propriétés%20de%20la%20transformée%20de%20Fourier), sauf qu'on remplace $j\omega$ par $s$. Voici un cours résumé:
+- Ces transformées (Laplace et Fourier) sont linéaires; 
+	- La transformée d’une dérivée est égale à la transformée du signal avant dérivation, multipliée par l’élément fréquentiel $s$ (pour Laplace) ou $j\omega$ (pour Fourier); 
+	- La transformée d’une intégrale est égale à la transformée du signal avant intégration, divisée par l’élément fréquentiel $s$ (pour Laplace) ou $j\omega$ (pour Fourier);
+	- Un décalage temporel de $\tau$ introduit le facteur $e^{-s\tau}$ (pour Laplace) et $e^{lj\omega\tau}$ (pour Fourier); 
+	- Multiplier par une sinusoïde a l’effet de décaler le spectre d’origine, et de le centrer à la fréquence de la sinusoïde (la porteuse), à la fois dans les fréquences positives et négatives.
+### Cas avec des conditions initiales
+Dans le cas général, la transformée de Laplace de la dérivée d'une fonction est donnée par:
+$$\mathcal{L}(x'(t))=s\mathcal{L}(x(t))-x(0)$$
+De même que:
+$$\mathcal{L}(x''(t))=s^2\mathcal{L}(x(t))-sx(0)-x'(0)$$
