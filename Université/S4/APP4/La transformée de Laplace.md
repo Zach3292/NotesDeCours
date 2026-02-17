@@ -29,3 +29,31 @@ $$H(s)=\frac{\left(a_ms^m+a_{m-1}s^{m-1}+...+a_1s+a_0\right)}{\left(b_ns^n+b_{n-
 Cette fonction est d'ordre $m$ au numérateur et $n$ au dénominateur. On définit le **gain $K$** comme le rapport entre le coefficient du terme de plus grand ordre au numérateur $a_m$ et du dénominateur $b_m$:
 $$K=\frac{a_m}{b_m}$$
 On peut factoriser la fonction de transfert comme suit:
+$$H(s)=K\frac{(s-z_1)(s-z_2)...(s-z_{m-1})(s-z_m)}{(s-p_1)(s-p_2)...(s-p_{n-1})(s-p_n)}$$
+$$H(s)=K\frac{\prod^m_{k-1}{(s-z_k)}}{\prod^n_{k-1}{(s-p_k)}}$$
+Où $z_k$ sont les zéros et $p_k$ les pôles.
+
+### Développement en fractions partielles
+Afin de pouvoir repasser dans le domaine temporel, il est souvent nécessaire d'exprimer la fonction de transfert sous forme de termes simples. Si on a la forme suivante:
+$$H(s)=K\frac{(s-z_1)(s-z_2)...(s-z_{m-1})(s-z_m)}{(s-p_1)(s-p_2)...(s-p_{n-1})(s-p_n)}$$
+#### Cas 1: $m\geq n$ 
+Il faut d'abord décomposer $H(s)$ comme la somme d'un polynôme en $s$ et d'une fraction de polynômes tel que $m<n$. En pratique, on effectue cette opération en factorisant le dénominateur au numérateur.
+#### Cas 2: pôles réels uniques
+Dans la cas où la fonction ne possède pas de pôles complexes conjugués, on peut exprimer la fonction sous la forme:
+$$H(s)=\frac{c_1}{s-p_1}+\frac{c_2}{s-p_2}+...+\frac{c_{n-1}}{s-p_{n-1}}+\frac{c_n}{s-p_n}$$
+#### Cas 3: pôles complexes conjugués
+Dans le cas où la fonction de transfert $H(s)$ possède des pôles complexes conjugués (par exemple $p_1$ et $p_2=p_1^*$), on peut exprimer la fonction de transfert sous la forme:
+$$H(s)=\frac{c_1s+c_2}{(s-p_1)(s-p_2)}+...+\frac{c_{n-1}}{s-p_{n-1}}+\frac{c_n}{s-p_n}$$
+Dans le cas d’un système physique, la réponse à une impulsion est toujours un signal réel. Dans ce cas, la fonction de transfert possède des pôles complexes conjugués et on se retrouve dans le cas #3. Ensuite, afin de connaître les coefficients $c_i$, il suffit de multiplier les termes de droite et de gauche par $(s-p_i)$ puis d’identifier le terme $c_i$ en regardant la valeur en $s=p_i$.
+
+#### Exemple
+On considère la fonction de transfert suivante:
+$$H(s)=\frac{s^4-s^3+s^2+1}{s^3+s}$$
+On voit que $m\geq n$ donc on est au cas #1, il faut factoriser le dénominateur au numérateur
+$$H(s)=\frac{(s^3+s)(s-1)+s+1}{s^3+s}=(s-1)+\frac{s+1}{s(s+j)(s-j)}$$
+La deuxième partie de la fonction peut aussi être définie par ses pôles, ses zéros et son gain:
+- Pôles: $p_1=-j$, $p_2=p_1^*=j$, $p_3=0$
+- Zéros: $z_1=-1$, $z_2=\infty$s^4-s^3+s^2+1
+- Gain: $K=1$
+Les deux premiers pôles sont des complexes conjugués, on se retrouve au cas #3 et on peut réécrire la fonction sous une autre forme de fractions partielles:
+$$H(s)
