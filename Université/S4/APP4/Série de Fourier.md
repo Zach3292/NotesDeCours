@@ -28,11 +28,11 @@ Les spectres ont des propriétés sur leur parité:
 Lorsqu'un signal est périodique, on dit qu'il peut s'exprimer comme une somme d'harmoniques de fonctions sinusoïdes pures. On l'exprime mathématiquement comme suit:
 $$x(t) = C_0+\sum_{k=1}^\infty{C_k\cos{(k\omega_0t+\phi_k)}}$$
 Où $C_0$ est la composante continue (DC), $C_k$ et $\phi_k$ sont respectivement l'amplitude et la phase de l'harmonique $k$, et $\omega_0$ est la fréquence fondamentale du signal $x(t)$. On peut aussi le réécrire avec la forme exponentielle plutôt que polaire:
-$$x(t)=\sum_{k=1}^\infty{X_ke^{jk\omega t}}$$
+$$x(t)=\sum_{k=1}^\infty{X_ke^{jk\omega_0 t}}$$
 Dans cette forme, $X_k$ sont des nombres complexes qui contiennent à la fois la phase et l'amplitude des harmoniques $k$. On peut obtenir les coefficients complexes grâce à la formule suivante:
 $$X_k=\frac{1}{T}\int_0^T{x(t)e^{-jk\omega_0 t}dt}$$
 $$\omega_o=\frac{2\pi}{T}$$
-## Calcul des coefficients de Fourier ave Matlab
+## Calcul des coefficients de Fourier avec Matlab
 Voici comment trouver les coefficients de manière numérique avec Matlab (approximation dù à l'intégration numérique).
 ```octave
 %% Définition de la base de temps
