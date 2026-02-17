@@ -53,7 +53,20 @@ On voit que $m\geq n$ donc on est au cas #1, il faut factoriser le dénominateur
 $$H(s)=\frac{(s^3+s)(s-1)+s+1}{s^3+s}=(s-1)+\frac{s+1}{s(s+j)(s-j)}$$
 La deuxième partie de la fonction peut aussi être définie par ses pôles, ses zéros et son gain:
 - Pôles: $p_1=-j$, $p_2=p_1^*=j$, $p_3=0$
-- Zéros: $z_1=-1$, $z_2=\infty$s^4-s^3+s^2+1
+- Zéros: $z_1=-1$, $z_2=\infty$
 - Gain: $K=1$
 Les deux premiers pôles sont des complexes conjugués, on se retrouve au cas #3 et on peut réécrire la fonction sous une autre forme de fractions partielles:
-$$H(s)
+$$H(s)=(s-1)+\frac{c_1s+c_2}{(s-p_1)(s-p_2)}+\frac{c_3}{s-p_3}$$
+Pour trouver les valeurs de $c_i$, on multiplie par $(s-p_i)$ les termes de gauche et de droite
+$$H(s)(s-p_1)=(s-1)(s-p_1)+\frac{c_1s+c_2}{(s-p_2)}+(s-p_1)\frac{c_3}{s-p_3}$$
+Puis on évalue en $s=p_1=-j$ en prenant que $H(s)$ égal la version factoriser plus haut
+$$\begin{align}
+H(s)(s-p_1)&=0+\frac{c_1p_1+c_2}{p_1-p_2}+0 \\
+(s-1)(s-p_1)+\frac{(s+1)(s-p_1)}{s(s+j)(s-j)}&=\frac{c_1p_1+c_2}{p_1-p_2}\\
+0+\frac{s+1}{s(s-j)}&=\frac{c_1p_1+c_2}{p_1-p_2}\\
+s&=p_1\\
+\frac{p_1+1}{p_1(p_1-j)}&=\frac{c_1p_1+c_2}{p_1-p_2}\\
+1+j&=-jc_1+c_2
+\end{align}$$
+On répète mais avec $(s-p_2)$:
+$$H(s)(s-p_2)=(s-1)(s-p_2)+\frac{c_1s+c_2}{(s-p_1)}+(s-p_2)\frac{c_3}{s-p_3}
