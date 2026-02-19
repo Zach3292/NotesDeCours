@@ -59,7 +59,7 @@ end
 T = 2*pi/w0;
 X0 = 1/T*trapz(t,x);
 for k=1:20
-	X(k) = trapz(t, x.*u(k,:));
+	X(k) = 1/T*trapz(t, x.*u(k,:));
 end
 
 %% Affichage
