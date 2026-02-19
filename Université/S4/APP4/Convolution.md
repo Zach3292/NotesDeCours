@@ -32,3 +32,32 @@ On peut résumer cette propriété: **Une multiplication dans un domaine revient
 | $x_1(t)*x_2(t)$      | $X_1(s)X_2(s)$          |
 | $x_1(t)x_2(t)$       | $X_1(s)*X_2(s)$         |
 ## La convolution pour les signaux à temps discret
+### Convolution discrète
+
+Vu [ici](../../../Collégial/4e%20session/Calcul%203/Note%20de%20cours.md#Convolution) avec des exemples graphiques. 
+
+Dans le domaine temporel discret, l'impulsion de Dirac change un peu. Comme elle n'a pas de largeur, son amplitude vaut 1 à $t=0$ et est nulle partout ailleurs.
+
+Si on a un problème avec une entrée $x[n]$ où $n$ correspond à un temps $t=nT$, on peut dire que la sortie sera $y[n]$. Dans notre exemple, voici l'allure de l'entrée:
+![](Images/Pasted%20image%2020260219081657.png)
+Ainsi, il s'agit de la somme de trois réponses impulsionnelles. On peut dire que la sortie sera la somme de la sortie de chaque réponse individuelle avec le principe de superposition donc:
+$$y[n]=y_0[n]+y_1[n]+y_2[n]$$
+![](Images/Pasted%20image%2020260219081842.png)
+On va donc obtenir que $y[n]$ vaut:
+![](Images/Pasted%20image%2020260219081912.png)
+L'équation d'un convolution discrète ressemble beaucoup à l'intégrale de convolution mais peut être plus simple à comprendre.
+$$y[n]=\sum^{+\infty}_{k=-\infty}{x[k]h[n-k]}$$
+### Implémentation sous Matlab
+Dans Matlab, la fonction *conv* permet d'appliquer une convolution entre deux fonctions. Il y a aussi la fonction *deconv* qui permet de retrouver l'entrée d'une convolution si on connait la sortie et la réponse impulsionnelle.
+
+### Bonne exemple visuel
+On veut faire la convolution de la fonction:
+![](Images/Pasted%20image%2020260219082624.png)
+avec la réponse impulsionnelle suivante:
+![](Images/Pasted%20image%2020260219082615.png)
+
+On remarque que pour faire la convolution, on ["retourne"](Convolution.md#Interprétation%20de%20la%20convolution) la réponse temporelle et la "passe" sur la plage de valeur en calculant la somme de chaque multiplication pour chaque instant $\tau$:
+![](Images/Pasted%20image%2020260219082751.png)
+
+On obtient donc la réponse du système suivante:
+![](Images/Pasted%20image%2020260219082810.png)
