@@ -75,7 +75,7 @@ stem(0:20,[angle(X0) PHASE])
 %% Calcul du signal reconstruit
 y = X0;
 for k=1:20
-y = y+2*AMP(k)*cos(k*w0*t + PHASE(k)));
+	y = y+2*AMP(k)*cos(k*w0*t + PHASE(k));
 end
 
 figure(2)
