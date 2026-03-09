@@ -25,3 +25,19 @@ Voici des formats de tête conçus pour ne pas être dévisser:
 La plupart des vis sont fait en acier mais dans certain cas, il y en a en aluminium, en bronze, en cuivre, en nickel, en titane etc. Tout dépend du contexte d'utilisation de la vis.
 
 ## Tension dans un boulon
+Pour la plupart des applications, le vis et boulons devraient être serré pour qu'il y a ait une tension initiale $F_i$ quasiment égale la *charge complète* qui est défini comme le maximum de force de tension une déformation permanente ([limite d'élasticité](../../S1/APP4/Chapitre%201.md#1.2%20Caractérisation%20des%20propriétés%20mécaniques)).
+
+On peut utiliser cette équation pour la déterminer:
+$$F_i=K_iA_iS_p$$
+Où: $A_i$ est la *stress area* des filets, $S_p$ est la limite d'élasticité et $K_i$ est une constante, souvent autour de 0.9 pour une application statique. La logique derrière cette tension initiale est que pour un chargement en tension, le boulon ne peut pas vraiment s'étirer sans que les membres se sépare et plus la tension initiale est grand, plus ce sera dur. Et pour les chargements en cisaillement, plus la tension initiale est grande, plus la force de friction résistant au cisaillement est grande. 
+
+Il ne faut pas oublié que le boulon subit aussi une contrainte en torsion lorsqu'elle est serrée et elle va souvent se "lousser" un peu au début de son utilisation. La contrainte en torsion dépend aussi de la firction entre les filets et l'écrou.
+![](Images/Pasted%20image%2020260309082246.png)
+
+La méthode la plus utilisé pour serrer une vis à la bonne tension est d'utilisé une clé dynamométrique. Cependant, la précision de cette méthode est souvent seulement autour de 30% en raison des différentes frictions présentes.
+
+En remarquant que la tension initiale ressemble à la charge sur [le jack](Vis%20de%20puissance%20et%20filets.md#Vis%20de%20puissance), on peut déduire l'équation suivante qui relie le couple et la tension initiale en assumant un coefficient de friction autour de 0.15 et des filets standards:
+$$T=0.2F_id$$
+Où $d$ est le diamètre nominal majeur du filet. Il faut toutefois se rappeler qu'il s'agit d'une relation approximative.
+
+## Relâchement des filets et verrou de filet
