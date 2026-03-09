@@ -8,3 +8,14 @@ Il existe aussi de *snap ring* pour retenir une pièce sur un arbre:
 ![](Images/Pasted%20image%2020260309160524.png)
 Pour transmettre un maximum de charge, on peut utiliser un arbre et un hub en *spline*:
 ![](Images/Pasted%20image%2020260309160603.png)
+## Principe de choix d'arbre
+1. Garder l'arbre le plus court possible avec des roulement le plus proche de la charge
+2. Quand le poids est important, utiliser des arbres vides
+
+### Clé
+Selon les standards, un clé devrait être environ 1/4 du diamètre de l'arbre.
+![](Images/Pasted%20image%2020260309163156.png)
+![](Images/Pasted%20image%2020260309163334.png)
+
+## Coupleur
+Deux arbres colinéaires peuvent être attaché ensemble par un coupleur. Il faut cependant que la tolérance entre les deux axes des arbres soit très petite pour qu'un coupleur rigide fonctionne. Sinon, il faut utiliser un couleur flexible.

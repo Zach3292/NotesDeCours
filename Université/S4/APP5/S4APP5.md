@@ -10,5 +10,9 @@
 
 [Arbres](Arbres.md)
 
+[Engrenages](Engrenages.md)
+
+[Chaines et courroies](Chaines%20et%20courroies.md)
+
 [Tableaux de données](Tableaux%20de%20données.md)
 
