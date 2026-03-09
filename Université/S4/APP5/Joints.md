@@ -53,4 +53,5 @@ Pour contrer ce problème, il existe plusieurs solutions comme les *lock-nuts* e
 ![](Images/Pasted%20image%2020260309085639.png)
 On peut aussi utiliser deux écrous standards pour essayer de produire un effet de verrou.
 
-## Tension dans un boulon avec joint externe
+## Sélection de vis pour charge statique
+
