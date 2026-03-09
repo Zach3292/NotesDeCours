@@ -52,3 +52,5 @@ Un avantage des joints filetés est que dans la plupart des applications ils peu
 Pour contrer ce problème, il existe plusieurs solutions comme les *lock-nuts* et des rondelles *(washers)* hélicoïdales.
 ![](Images/Pasted%20image%2020260309085639.png)
 On peut aussi utiliser deux écrous standards pour essayer de produire un effet de verrou.
+
+## Tension dans un boulon avec joint externe
