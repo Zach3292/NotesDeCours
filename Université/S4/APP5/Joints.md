@@ -56,8 +56,17 @@ On peut aussi utiliser deux écrous standards pour essayer de produire un effet 
 ## Rivets
 Les rivets sont des joints permanent qui coute beaucoup moins cher que des vis et sont plus rapide à installer.
 ![](Images/Pasted%20image%2020260309140811.png)
-![](Pasted%20image%2020260309140909.png)
-![](Pasted%20image%2020260309140930.png)
-## Soudure
+![](Images/Pasted%20image%2020260309140909.png)
+![](Images/Pasted%20image%2020260309140930.png)
+## Soudage
 Parfois, la soudure est aussi une option à considérer pour lier deux pièces. Il en existe plusieurs types:
-- *Stick welding*: On fait fondre une tige
+- *Stick welding*: On fait fondre une tige de métal traité sur du métal. La tige est consommée.
+- *MIG welding*: On utilise un embout qui fournie un gaz comme de l'argon pour de l'aluminium et la tige n'est pas traité. La tige est consommée.
+- *TIG welding*: Utilise une tige en tungstène qui n'est pas consommé et un autre fil à part, on utilise de l'hélium ou de l'argon pour protéger et ça permet de souder des métaux non ferreux.
+- *Flux core arc welding*: Comme du stick weld sauf que le flux est à l'intérieur de l'électrode au lieu d'être autour. L'électrode est poussé par un moteur.
+![](Images/Pasted%20image%2020260309142554.png)
+
+## Brasage et soudure
+Comme du soudage sauf que la température en sous la température de fusion des pièces qu'on veut lier. Au dessus de 450C, il s'agit de brasage et en dessous il s'agit de soudure. L'avantage est qu'on peut lieu des pièces de différents types de matériaux ensemble avec ces techniques.
+## Adhésif
+Les avantages des adhésifs sont qu'ils n'y a pas de trou qui affaiblit la pièce, pas de haute température nécessaire et les contraintes sont souvent réparti sur de plus grande surface. Cependant, les adhésifs sont plus sensibles à la chaleur que les autres types de joints. Il faut aussi que la surface qu'on veut coller soin propre. Les adhésifs sont généralement peu couteux.
