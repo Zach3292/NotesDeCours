@@ -41,3 +41,14 @@ $$T=0.2F_id$$
 Où $d$ est le diamètre nominal majeur du filet. Il faut toutefois se rappeler qu'il s'agit d'une relation approximative.
 
 ## Relâchement des filets et verrou de filet
+Un avantage des joints filetés est que dans la plupart des applications ils peuvent être facilement désassemblés. Un des désavantages est que parfois, il se desserre est se désassemble sans qu'on le veuille.
+
+### Facteurs qui affecte le relâchement
+- Plus l'angle de l'hélice est grand, plus le relâchement est grand
+- Plus la tension initiale est grand, moins le relâchement est grand
+- Une surface rugueuse ou molle réduit la tension initiale et donc augmente le relâchement
+- Un traitement de surface à tendance à augmenter la friction et donc réduire le relâchement
+
+Pour contrer ce problème, il existe plusieurs solutions comme les *lock-nuts* et des rondelles *(washers)* hélicoïdales.
+![](Images/Pasted%20image%2020260309085639.png)
+On peut aussi utiliser deux écrous standards pour essayer de produire un effet de verrou.
