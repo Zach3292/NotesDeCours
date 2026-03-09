@@ -53,5 +53,11 @@ Pour contrer ce problème, il existe plusieurs solutions comme les *lock-nuts* e
 ![](Images/Pasted%20image%2020260309085639.png)
 On peut aussi utiliser deux écrous standards pour essayer de produire un effet de verrou.
 
-## Sélection de vis pour charge statique
-
+## Rivets
+Les rivets sont des joints permanent qui coute beaucoup moins cher que des vis et sont plus rapide à installer.
+![](Images/Pasted%20image%2020260309140811.png)
+![](Pasted%20image%2020260309140909.png)
+![](Pasted%20image%2020260309140930.png)
+## Soudure
+Parfois, la soudure est aussi une option à considérer pour lier deux pièces. Il en existe plusieurs types:
+- *Stick welding*: On fait fondre une tige
