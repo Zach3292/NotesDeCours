@@ -1,5 +1,5 @@
-![](Pasted%20image%2020260310160329.png)
-![](Pasted%20image%2020260310160741.png)
+![](Images/Pasted%20image%2020260310160329.png)
+![](Images/Pasted%20image%2020260310160741.png)
 
 ### Terminologie
 
@@ -10,7 +10,7 @@ Il est important de se rappeler que le diamètre d'un engrenage refers toujours 
 
 Si on a le *pitch $p$*, et le nombre de dent $N$ on peut trouver le diamètre:
 $$p=\frac{\pi d}{N}$$
-![](Pasted%20image%2020260310161058.png)
+![](Images/Pasted%20image%2020260310161058.png)
 
 Plus utilisé est le *diametrical pitch* (utilisé seulement avec les unités anglaises) et le *module* (utilisé seulement avec le SI).
 $$P=\frac{N}{d}$$
@@ -21,9 +21,9 @@ $m$ en mm/dents
 Le standard pour l'*addendum* est de $m$ et pour le *dedendum* $1.25m$. L'angle de pression le plus commun est $20\degree$.
 
 Lorsqu'on a un engrenage interne, le diamètre est négatif par convention.
-![](Pasted%20image%2020260310161714.png)
+![](Images/Pasted%20image%2020260310161714.png)
 ### Interférence
-![](Pasted%20image%2020260310162406.png)
+![](Images/Pasted%20image%2020260310162406.png)
 
 Pour calculer l'interférence, il faut calculer le rayon de l'addendum:
 $$r_a=r+a$$
@@ -38,4 +38,33 @@ $$p_b=\frac{\pi d_b}{N}$$
 Où $N$ est le nombre de dent et $d_b$ est le diamètre du cercle de base:
 $$d_b=d\cos{\phi}$$
 $$r_b=r\cos{\phi}$$
-$$p_b=
+$$p_b=p\cos{\phi}$$
+En général, plus le ratio de contact est grand, plus les engrenages tournent de manière fluide et silencieuse.
+### Analyse de force
+Pour analyser les forces sur les engrenages, on utilise $V$:
+$$V=\pi dn/12$$
+En unité impérial
+et $$V=\pi dn/60000$$ en unité métrique (d:mm et V m/s).
+
+Le travail transmis est le suivant:
+$$\dot{W}=F_tV/33000$$
+En hp où $F_t$ est en livre et la vitesse en pied par minutes
+$$\dot{W}=F_tV$$
+En watts avec $F_t$ en newtons
+![](Images/Pasted%20image%2020260310164945.png)
+### Force des dents d'engrenage (Lewis)
+Pour utiliser la technique de Lewis, il faut faire les hypothèses suivantes:
+- La charge complète est appliquée au bout d'une seule dent
+- La composante radial $F_r$ est négligeable
+- La charge est distribuée de manière uniforme sur la largeur de la face au complet
+- Les forces associés à la friction des dents qui glissent sont négligeables
+- La concentration de stress dans le filet de la dent est négligeable.
+
+
+![](Pasted%20image%2020260310165958.png)
+L'équation de Lewis est la suivante:
+$$\sigma=\frac{F_tP}{bY}$$
+En impérial et
+$$\sigma=\frac{F_t}{mbY}$$ en métrique.
+
+Pour trouver 
