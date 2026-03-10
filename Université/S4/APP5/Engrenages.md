@@ -61,10 +61,17 @@ Pour utiliser la technique de Lewis, il faut faire les hypothèses suivantes:
 - La concentration de stress dans le filet de la dent est négligeable.
 
 
-![](Pasted%20image%2020260310165958.png)
+![](Images/Pasted%20image%2020260310165958.png)
 L'équation de Lewis est la suivante:
 $$\sigma=\frac{F_tP}{bY}$$
 En impérial et
 $$\sigma=\frac{F_t}{mbY}$$ en métrique.
 
-Pour trouver 
+Pour trouver $Y$, on utilise le graphique suivant:
+![](Images/Pasted%20image%2020260310170230.png)
+
+![](Images/Pasted%20image%2020260310171123.png)
+
+On peut calculer le ratio d'engrenage planétaire de plusieurs manières en assumant que R, S et P sont le diamètre ou le nombre de dents:
+1. Analyse de force avec DCL: $$\frac{\omega_i}{\omega_o}=1+\frac{S}{R}$$
+![](Images/Pasted%20image%2020260310171706.png)
