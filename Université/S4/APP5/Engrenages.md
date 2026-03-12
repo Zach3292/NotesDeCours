@@ -108,5 +108,20 @@ $$N'_g=\frac{2\pi r_{bg}}{p}$$
 Où $N'$ se nomme le nombre virtuel de dent. On appelle la pratique d'estimer les caractéristiques d'engrenages coniques avec des engrenages droits s'appelle *l'approximation de Tredgold*.
 ![](Images/Pasted%20image%2020260312080913.png)
 ![](Images/Pasted%20image%2020260312080815.png)
-Le ratio des engrenage peut être déterminer de plusieurs 
+Le ratio des engrenages peut être déterminer de plusieurs façon:
+$$\textrm{Gear ratio}=\frac{\omega_p}{\omega_g}=\frac{N_g}{N_p}=\frac{d_g}{d_p}=\tan{\gamma_g}=\cot{\gamma_p}$$
+Où $\gamma$ est l'angle de cône
 ### Analyse de force
+On peut voir sur l'image suivante le force tangentielle $F_t$ (torque), la force radiale $F_r$ (séparation) et la force axiale $F_a$ appliquées sur un engrenage conique:
+![](Images/Pasted%20image%2020260312081610.png)
+
+$$d_{av}=d-b\sin{\gamma}$$
+$$V_{av}=\pi d_{av}n$$
+$$F_t=33000\dot{W}/V_{av}$$
+$$F=F_t/\cos{\phi}$$
+$$F_n=F\sin{\phi}=F_t\tan{\phi}$$
+$$F_a=F_n\sin{\gamma}=F_t\tan{\phi}\sin{\gamma}$$
+$$F_r=F_n\cos{\gamma}=F_t\tan{\phi}\cos{\gamma}$$
+Où $F_n$ est normal au cône. Pour les engrenages coniques en spirale:
+$$F_a=\frac{F_t}{\cos{\psi}}(\tan{\phi_n}\sin{\gamma}\mp\sin{\psi}\cos{\gamma})$$
+$$F_r=\frac{F_t}{\cos{\psi}}(\tan{\phi_n}\cos{\gamma}\pm\sin{\psi}\sin{\gamma})$$
