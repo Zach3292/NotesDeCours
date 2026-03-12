@@ -75,3 +75,5 @@ Pour trouver $Y$, on utilise le graphique suivant:
 On peut calculer le ratio d'engrenage planétaire de plusieurs manières en assumant que R, S et P sont le diamètre ou le nombre de dents:
 1. Analyse de force avec DCL: $$\frac{\omega_i}{\omega_o}=1+\frac{S}{R}$$
 ![](Images/Pasted%20image%2020260310171706.png)
+
+## 
