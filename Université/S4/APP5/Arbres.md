@@ -16,6 +16,7 @@ Pour transmettre un maximum de charge, on peut utiliser un arbre et un hub en *s
 Selon les standards, un clé devrait être environ 1/4 du diamètre de l'arbre.
 ![697](Images/Pasted%20image%2020260309163156.png)
 ### Couple maximal de l'arbre
+$T$ en livres-pouce $(in\cdot lb)$ 
 $$T=\frac{\pi d^3}{16}(0.58S_y)$$
 ### Couple maximum pour clavette en compression
 $$T=S_y\frac{Ld}{8}\frac{d}{2}=\frac{S_yLd^2}{16}$$
