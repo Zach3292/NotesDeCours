@@ -12,9 +12,16 @@ Pour transmettre un maximum de charge, on peut utiliser un arbre et un hub en *s
 1. Garder l'arbre le plus court possible avec des roulement le plus proche de la charge
 2. Quand le poids est important, utiliser des arbres vides
 
-### Clé
+### Clavette
 Selon les standards, un clé devrait être environ 1/4 du diamètre de l'arbre.
-![](Images/Pasted%20image%2020260309163156.png)
+![697](Images/Pasted%20image%2020260309163156.png)
+### Couple maximal de l'arbre
+$$T=\frac{\pi d^3}{16}(0.58S_y)$$
+### Couple maximum pour clavette en compression
+$$T=S_y\frac{Ld}{8}\frac{d}{2}=\frac{S_yLd^2}{16}$$
+### Couple maximum pour clavette en cisaillement
+$$T=\frac{0.58S_yLd^2}{8}$$
+
 ![](Images/Pasted%20image%2020260309163334.png)
 
 ## Coupleur
