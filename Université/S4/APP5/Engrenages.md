@@ -76,4 +76,37 @@ On peut calculer le ratio d'engrenage planétaire de plusieurs manières en assu
 1. Analyse de force avec DCL: $$\frac{\omega_i}{\omega_o}=1+\frac{S}{R}$$
 ![](Images/Pasted%20image%2020260310171706.png)
 
-## 
+## Engrenage hélicoïdale
+![](Images/Pasted%20image%2020260312074103.png)
+
+Un engrenage droit est un engrenage hélicoïdale mais avec un *angle d'hélice* ($\psi$) nul. Les valeurs d'angles d'hélice ne sont pas standard mais se situe souvent entre 15 et 30 degrés. Pour utiliser deux engrenages hélicoïdales ensemble en parallèle, il faut que les deux aient le même angle d'hélice mais de sens opposé.
+
+Comme pour des engrenages droits, le *pitch circulaire* et l'angle de pression sont calculé dans le plan de la rotation. Cependant, on inclut des nouvelles quantité avec des engrenages hélicoïdales. On mesure ces quantités dans le plan normal aux dents.
+$$p_n=p\cos{\psi}$$
+$$\tan{\phi_n}=\tan{\phi}\cos{\psi}$$
+Le pitch peut aussi être calculé:
+$$P_n=P/\cos{\psi}$$
+Ainsi que le diamètre de pitch
+$$d=N/P=N/(P_n\cos{\psi})$$
+Le pitch axial aussi existe:
+$$p_a=p/\tan{\psi}$$
+Pour calculer le stress sur des engrenages hélicoïdales, il faut trouver le nombres de dents équivalent $N_e$ et utiliser le facteur de Lewis selon ce nombre de dents comme pour des engrenages droits.
+$$N_e=N/\cos^3{\psi}$$
+### Analyse de force
+![](Images/Pasted%20image%2020260312075330.png)
+
+Les calculs pour $F_t$ et $F_r$ sont les mêmes que pour des dents droites, cependant, il faut ajouter $F_a$ et $F_b$:
+$$F_a=F_t\tan{\psi}$$
+$$F_b=F_t/\cos{\psi}$$
+$$F=F_b/\cos{\phi_n}=F_t/\cos{\psi}\cos{\phi_n}$$
+## Engrenage conique
+### Géométrie des engrenages coniques
+![](Images/Pasted%20image%2020260312074436.png)
+Pour calculer des engrenages coniques, on utilise le concept du nombre de dent d'un engrenage droit imaginaire. On dit que ces engrenages ont un rayon de pitch égal au développement d'un cône:
+$$N'_p=\frac{2\pi r_{bp}}{p}$$
+$$N'_g=\frac{2\pi r_{bg}}{p}$$
+Où $N'$ se nomme le nombre virtuel de dent. On appelle la pratique d'estimer les caractéristiques d'engrenages coniques avec des engrenages droits s'appelle *l'approximation de Tredgold*.
+![](Images/Pasted%20image%2020260312080913.png)
+![](Images/Pasted%20image%2020260312080815.png)
+Le ratio des engrenage peut être déterminer de plusieurs 
+### Analyse de force
