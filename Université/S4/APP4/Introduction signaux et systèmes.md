@@ -20,7 +20,7 @@ Pour savoir qu'elle représentation choisir, il faut se fier sur l'application d
 ### Autre propriété des systèmes LTI
 - **Mémoire**: quand la sortie dépend de la valeur passé du signal d'entrée ou de sortie
 - **Inversibilité**: si une entrée donnée correspond à une sortie unique
-- **Causalité**: SI la sortie ne dépend pas du futur de l'entrée
+- **Causalité**: Si la sortie ne dépend pas du futur de l'entrée
 - **Stabilité**: Un système est stable si un signal petit et faible en entrée ne produit pas un signal divergent et de durée infinie en sortie.
 ### Interconnexion des systèmes
 On décompose souvent des systèmes en sous-systèmes pour en faciliter l'analyse. Ces sous-sytèmes peuvent être reliés de trois principales mode d'interconnexion:
