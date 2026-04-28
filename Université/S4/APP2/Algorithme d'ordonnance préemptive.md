@@ -23,3 +23,5 @@ Variabilité sur le temps de fin d'une tâche périodique.
 ### Inversion et héritage de priorité
 
 Problème: inversion de priorité avec un mutex -> Solution: héritage de priorité.
+
+Si une tâche qui a une haute priorité partage un mutex avec une tâche de basse priorité, il peut arriver que la tâche de haute priorité interrompe la tâche de basse priorité avant que le mutex soit libéré. Afin d'éviter de bloquer le système en entier, la tâche de basse priorité est temporairement promue jusqu'au niveau de priorité de la tâche en attente jusqu'à ce qu'elle libère le mutex. Sa priorité est ensuite retournée à sa priorité originale et la tâche de haute priorité peut s'exécuter.
