@@ -1,3 +1,4 @@
+
 [Analyse vectorielle](Analyse%20vectorielle/Analyse%20vectorielle.md)
 
 [Formule d'Euler](Formule%20d'Euler.md)
@@ -12,6 +13,7 @@
 
 [Eigenvalue and vectors](Eigenvalue%20and%20vectors.md)
 
-[[Note Laplace]]
-[Laplace](Laplace.pdf)
+[Bevel Gears](Gears/Bevel%20Gears/Bevel%20Gears.md)
+
+
 

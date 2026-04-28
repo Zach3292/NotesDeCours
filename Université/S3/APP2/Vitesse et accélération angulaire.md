@@ -1,7 +1,7 @@
 ### Définition
 Le vitesse angulaire entre du référentiel $B$  dans le référentiel $A$ est représenté comme $^A\vec{\omega}^B$. 
 
-*La vitesse s'applique à un référentiel seulement, un poitn n'en a pas.*
+*La vitesse s'applique à un référentiel seulement, un point n'en a pas.*
 
 Si le référentiel $B$ tourne autour d'un axe $\vec{\lambda}$ à une vitesse $\dot{\theta}$, alors on peut écrire les équations suivantes:
 $$\begin{align}

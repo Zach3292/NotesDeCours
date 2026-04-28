@@ -13,7 +13,7 @@ $$\begin{align}
 \frac{^Ad(\vec{u}+\vec{v}+\vec{w})}{dt} & = \frac{^Ad(\vec{u})}{dt} +\frac{^Ad(\vec{v})}{dt} + \frac{^Ad(\vec{w})}{dt}
 \end{align}$$
 #### Good product rule
-$$\frac{d(\vec{u}\cdot\vec{v}\cdot\vec{w})}{dt} = \frac{^Ad\vec{u}}{dt}\cdot\vec{v}\cdot\vec{w} + \vec{u}\cdot\frac{^Ad\vec{v}}{dt}+\vec{u}\cdot\vec{v}\cdot\frac{^Ad\vec{w}}{dt}$$
+$$\frac{d(\vec{u}\cdot\vec{v}\cdot\vec{w})}{dt} = \frac{^Ad\vec{u}}{dt}\cdot\vec{v}\cdot\vec{w} + \vec{u}\cdot\frac{^Ad\vec{v}}{dt}\cdot\vec{w}+\vec{u}\cdot\vec{v}\cdot\frac{^Ad\vec{w}}{dt}$$
 ### L'effet du référentiel
 
 Si on a deux référentiels qui sont aligner sur l'axe z $A$ et $B$ qui sont décaler d'un angle $\theta$ respectant la règle de la main droite. On a aussi un vecteur $\vec{r}=x(t)\hat{b_x}$. On peut dériver le vecteur selon les deux référentiels.

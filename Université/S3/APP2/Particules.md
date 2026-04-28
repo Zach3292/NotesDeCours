@@ -3,7 +3,7 @@ Une particule est comme un point, sauf qu'elle possède une masse. Ainsi, comme 
 
 Lorsqu'on veut modéliser un système qui possède seulement des mouvements linéaires et aucun angulaire. On peut modéliser les corps avec des particules.
 ### Système de particules
-Il s'agit d'un ensemble de particule. Pour un système $S$ formé d particule $Qi$.
+Il s'agit d'un ensemble de particule. Pour un système $S$ formé de particule $Qi$.
 $$\begin{align}
 m^S&\triangleq\sum^n_{i=1}{m^{Q_i}} \\
 ^N\vec{L}^S&\triangleq\sum^n_{i=1}{^N\vec{L}^{Q_i}}\\

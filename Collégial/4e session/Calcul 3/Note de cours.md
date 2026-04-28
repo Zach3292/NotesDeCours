@@ -2077,7 +2077,7 @@ Python permet la création d'un spectrogramme avec la library
 import scipy.signal as scpsig
 scpsig.spectrogram()
 ```
-### Transfomrée de Fourier discrète à deux dimensions
+### Transformée de Fourier discrète à deux dimensions
 #### Définition et calcul
 Si on a un tableau $n \times m$, on calcule la transformée de Fourier sur chaque ligne et ensuite on évalue la transformée de Fourier sur chaque colonne du résultat de l'opération précédente.
 
