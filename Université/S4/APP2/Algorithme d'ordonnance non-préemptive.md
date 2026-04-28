@@ -4,7 +4,7 @@ Il existe plusieurs manières d'ordonner des tâches de manière non-prédictive
 Pour $n$ tâches, il existe $n!$ manières différentes de les ordonner. Le *Timeline scheduling* consiste à avoir un humain trier les tâches et décider l'ordre d'exécution. Il est facile de comprendre pourquoi cette méthode n'est pas réalisable dans un vrai scénario.
 
 ### Premier arrivé, premier servi
-Le fonctionnement de cette méthode est très bein résumé dans son nom. Les tâches sont exécutées dans l'ordre qu'elles arrivent dans la liste d'attente. Il s'agit d'un algorithme dit *juste*. Dans un système en temps réel, la première tâche n'est pas nécessairement celle qui doit s'exécuter en priorité, c'est pourquoi cette méthode ne fonctionne pas en temps réel.
+Le fonctionnement de cette méthode est très bien résumé dans son nom. Les tâches sont exécutées dans l'ordre qu'elles arrivent dans la liste d'attente. Il s'agit d'un algorithme dit *juste*. Dans un système en temps réel, la première tâche n'est pas nécessairement celle qui doit s'exécuter en priorité, c'est pourquoi cette méthode ne fonctionne pas en temps réel.
 ### Tâche la plus court en premier (shortest job next)
 Cette méthode aussi est assez simple à comprendre. En exécutant toujours la tâche la plus courte, on minimise le temps d'attente moyen de chaque tâche. Il s'agit aussi d'un algorithme dit *juste*, puisqu'il bénéficie toutes les tâches de la liste. Cette méthode peut être bonne pour un système standard mais, en temps réel, elle n'empêche pas certaines tâches de dépasser leur limite de temps. Cette méthode est donc inapplicable en temps réel.
 

@@ -22,4 +22,4 @@ Dans un système en temps réel, rien n'empêche à une interruption d'arriver p
 La deuxième ne peut jamais être ignorée, elles nécessitent une réponse immédiate et ne peuvent pas être désactivées non plus.
 
 ### Fonctions ré-entrantes
-Une fonction qui, pour un ensemble de paramètres donnés, vas toujours retourner le même résultat et ça, peu importe quand elle est exécuté et si elle est interrompu. Une fonction d'interruption devrait toujours être ré-entrante *(bonne pratique)*.
+Une fonction qui, pour un ensemble de paramètres donnés, va toujours retourner le même résultat et ça, peu importe quand elle est exécuté et si elle est interrompu. Une fonction d'interruption devrait toujours être ré-entrante *(bonne pratique)*.
