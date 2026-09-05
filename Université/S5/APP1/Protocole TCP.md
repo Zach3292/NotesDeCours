@@ -13,3 +13,9 @@ Les appareils échangent des données sous forme de segments TCP. C'est segments
 Au début, il y a le port de la source et le port de la destination. Ensuite il y a les numéro de séquence et de réception. Le numéro de réception indique le prochain octet dans l'ordre attendu et non le dernier reçu.
 
 La longueur de l'en-tête aussi appelé offset indique combine de mots de 32 bits sont contenu dans l'en-tête TCP. Il indique donc le point de départ des données. Il y a ensuite 4 bits réservés.
+
+Il y a ensuite 8 drapeaux: ECE sert à signaler la congestion réseaux. CWR sert à signaler une réduction de la congestion. URG est pour signaler un pointeur d'urgence. ACK est l'accusé de réception. PSH est le drapeau de données poussées. RST sert à réinitialisé la communication TCP. SYN sert à établir la connection TCP et est indirectement relié au ACK. FIN signale la fin d'une communication.
+
+La taille de la fenêtre indique combien d'octets on peut transmettre après le dernier octet acquitté. Le champs somme de contrôle permet de valider la fiabilité de la réception du message.
+
+Le champ option permet d'ajouter des données supplé
