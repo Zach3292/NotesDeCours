@@ -13,4 +13,5 @@ Autres:
 	- [ ] [Chimie organique](Chimie%20organique)
 	- [ ] [Évolution et diversité du vivant](Évolution%20et%20diversité%20du%20vivant)
 	- [ ] [Philosophie et rationnalité](Philosophie%20et%20rationnalité)
+	- [ ] [S4APP6](Université/S4/APP6/S4APP6.md)
 

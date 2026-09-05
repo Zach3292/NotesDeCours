@@ -1,5 +1,5 @@
 #session
-[Communication](Communication.md)
+[Communication](Français/Communication.md)
 
 [Éthique et politique](Éthique%20et%20politique.md)
 

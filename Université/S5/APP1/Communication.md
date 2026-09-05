@@ -1,0 +1,1 @@
+Dans un système distribué, la communication joue un role clé. C'est grâce à elle que les différentes parties du système peuvent fonctionner
