@@ -24,7 +24,7 @@ Il comporte sept couches:
 - Réseau
 - Liaison de données
 - Physique
-
+![](Images/Pasted%20image%2020260905182636.png)
 Pour choisir ces couches les principes suivants ont été choisis:
 1. Une couche doit être créée lorsqu'un nouveau niveau d'abstraction est nécessaire
 2. Chaque couche doit assurer une fonction bien définie
@@ -33,9 +33,13 @@ Pour choisir ces couches les principes suivants ont été choisis:
 5. Le nombre de couche doit être, d'une part, assez grand pour que des fonctions très distinctes ne soient pas regroupées dans une même couche et, d'autre part, suffisamment faible pour que l'architecture ne devienne pas trop complexe
 ### Modèle de référence TCP/IP
 Il s'agit d'un modèle en couche utilisé grandement par l'internet.
+![](Images/Pasted%20image%2020260905182710.png)
+![](Images/Pasted%20image%2020260905182723.png)
 #### La couche liaison
 La plus basse du modèle, elle décrit ce que les liens comme les lignes séries et les connexions Ethernet classiques doivent faire
 #### La couche internet 
 Elle est l'axe centrale qui correspond majoritairement à la couche réseau du modèle OSI. Le rôle de la couche est d'Acheminer les paquets IP à leur destination.
 #### La couche transport
-Directement supérieur à la couche internet, son rôle est de permettre à des entités paires de mener une conversation. Deux protocoles ont été définis **TCP et UDP**. TCP est un protocole fiable avec connexion qui garantie la livraison sans erreur des messages. UDP est un protocole non fiable sans connexion qui permet au applicaiton d
+Directement supérieur à la couche internet, son rôle est de permettre à des entités paires de mener une conversation. Deux protocoles ont été définis **TCP et UDP**. TCP est un protocole fiable avec connexion qui garantie la livraison sans erreur des messages. UDP est un protocole non fiable sans connexion qui permet aux applications d'assurer elles-mêmes le séquençage et le contrôle de flux. Elle est plus rapide que TCP.
+#### La couche application
+Elle contient tous les protocoles hauts niveaux utilisés par les applications comme HHTP, DNS, FTP etc.
