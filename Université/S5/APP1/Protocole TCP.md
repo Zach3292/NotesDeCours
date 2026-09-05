@@ -18,4 +18,12 @@ Il y a ensuite 8 drapeaux: ECE sert à signaler la congestion réseaux. CWR sert
 
 La taille de la fenêtre indique combien d'octets on peut transmettre après le dernier octet acquitté. Le champs somme de contrôle permet de valider la fiabilité de la réception du message.
 
-Le champ option permet d'ajouter des données supplé
+Le champ option permet d'ajouter des données supplémentaire non considérées par l'en-tête.
+
+### Établissement d'une connexion TCP
+Un serveur commence en étant en attente d'une requête. Un client envoie une primitive connect qui indique l'adresse IP, le port auquel il veut se connecter, la taille maximale de segment et des données utilisateurs. La primitive connect envoie un segment TCP avec SYN à 1 et ACK à 0. Le serveur valide si le port voulu existe sinon il envoie un segment avec RST à 1. Si le port existe, il envoie un accusé de réception et la communication commence.
+### Libération de la connexion TCP
+La communication est terminé de manière indépendante pour l'enmvoyeur et le receveur. Le receveur peut envoyer un FIN à 1 pour dire qu'il n'a plus de données à transmettre. L'envoyeur peut quand même continuer de transmettre des données tant qu'il n'a pas lui même envoyé sont FIN à 1.
+### Gestion de la communication TCP
+![](Images/Pasted%20image%2020260905122229.png)
+On peut représenter la communication TCP par cette machine à état.
