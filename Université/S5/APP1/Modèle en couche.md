@@ -1,0 +1,1 @@
+Pour réduire la complexité, la plupart des réseaux sont organisés en couches ou en niveaux. Les couches respectent une hiérarchie et chaque couche parle directement à la couche qui la précède et à la suivante. On trouve une interface entre une paire de couches adjacentes.
