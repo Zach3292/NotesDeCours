@@ -18,4 +18,8 @@ Quand un procédé en appelle un autre par RPC, celui-ci se bloque temporairemen
 9. L'OS du client transmet le résultat au client stub
 10. Le client stub déconstruit le résultat et le transmet au procédé client qui le reçoit comme un résultat local (puisqu'à ses yeux s'en est un).
 
-Un des défis du RPC est l'utilisation de pointeur et de référence puisque le serveur n'a pas accès à la mémoire du client. Il faut alors trouver un moyen de transmettre l'information pour qu'elle puisse être lu par n'importe quel autre acrhitecture. On règle souvent ces problèmes en utilkisant des manières d'encoder spécifique à des langages de programmation plus qu'
+Un des défis du RPC est l'utilisation de pointeur et de référence puisque le serveur n'a pas accès à la mémoire du client. Il faut alors trouver un moyen de transmettre l'information pour qu'elle puisse être lu par n'importe quel autre architecture. On règle souvent ces problèmes en utilisant des manières d'encoder spécifique à des langages de programmation plus qu'à des architectures. 
+
+### Communication orienté par message
+Un RPC fonctionne bien pour certaine situation mais pas pour toutes. Parfois il faut de la communication asynchrone et non bloquante. Une communication par message utilise les sockets du [protocole TCP](Protocole%20TCP.md) pour gérer la communication entre un client et un serveur.
+![](Pasted%20image%2020260905163732.png)

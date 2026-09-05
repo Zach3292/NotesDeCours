@@ -27,3 +27,13 @@ La communication est terminé de manière indépendante pour l'enmvoyeur et le r
 ### Gestion de la communication TCP
 ![](Images/Pasted%20image%2020260905122229.png)
 On peut représenter la communication TCP par cette machine à état.
+
+### Socket TCP
+- bind: attache une nouvelle adresse à un socket
+- listen: dit à l'OS le nombre maximal de requête à la communication
+- accept: bloque le caller jusqu'à ce qu'une requête arrive
+- connect: essaye d'établir une connection
+- send: envoie un message à travers la connexion TCP
+- receive: reçoit un message à travers la connexion TCP
+- close: ferme la connexion TCP
+![](Images/Pasted%20image%2020260905163732.png)
