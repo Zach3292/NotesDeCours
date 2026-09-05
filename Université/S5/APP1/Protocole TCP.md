@@ -1,0 +1,15 @@
+Transmission control protocol
+
+### Modèle de service TCP
+Pour communiquer en TCP il faut créer un *socket* du côté expéditeur et un autre du côté receveur.
+
+Chaque socket possède un numéro constitué de l'adresse IP et d'un nombre de 16 bits appelé **port**. Les ports inférieur à 1024 sont appelé des ports réservés. Une connection TCP est bidirectionnelle et de point à point. TCP ne permet pas le broadcasting ou le multicasting. Les paquets TCP peuvent avoir un drapeau *PUSH* pour forcer leur envoie immédiat si le délai de temporisation des paquets est nuisible.
+
+### Protocole TCP
+Les appareils échangent des données sous forme de segments TCP. C'est segments sont formés d'un en-tête de 20 octets (plus une partie optionnelle) suivi de 0 ou plusieurs octet de données. La première limite de longueur d'un segment est qu'il doit tenir dans la taille de 65535 octets de la charge utile IP. La seconde est que chaque liaison possède une **unité de transfert d'information maximale (MTU ou maximum transfer unit)**. En pratique le MTU fait généralement 1500 octets (la taille de la charge utile Ethernet). Quand un récepteur reçoit un segment, il envoie un accusé de réception à l'expéditeur. Celui renvoie le segment s'il ne reçoit pas l'accusé dans un certain délai. Les segments TCP peuvent être transmis ou reçus dans le désordre alors TCP doit pouvoir gérer ces cas limites.
+
+### En-tête de segment TCP
+![](Images/enteteTCP.png)
+Au début, il y a le port de la source et le port de la destination. Ensuite il y a les numéro de séquence et de réception. Le numéro de réception indique le prochain octet dans l'ordre attendu et non le dernier reçu.
+
+La longueur de l'en-tête aussi appelé offset indique combine de mots de 32 bits sont contenu dans l'en-tête TCP. Il indique donc le point de départ des données. Il y a ensuite 4 bits réservés.
