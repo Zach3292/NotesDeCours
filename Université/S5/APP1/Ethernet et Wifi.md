@@ -17,5 +17,5 @@ Les réseaux Wifi fonctionnent selon deux modes. Le premier est le mode infrastr
 
 L'autre mode appelé *ad hoc* permet à plusieurs appareils de se parler directement. Il s'agit d'un marginal par rapport au mode infrastructure.
 
-![](Pasted%20image%2020260906092330.png)
+![](Images/Pasted%20image%2020260906092330.png)
 

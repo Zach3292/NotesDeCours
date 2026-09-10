@@ -3,7 +3,7 @@ Pour réduire la complexité, la plupart des réseaux sont organisés en couches
 ### Service avec connexion
 Un service avec connexion suit le modèle téléphonique. On contact quelqu'un, il décroche et répond et ensuite on raccroche. On doit donc commencer par établir une connexion. Ensuite on discute et finalement on ferme la connexion. 
 ### Service sans connexion
-Il s'agit d'un service qui envopie de l'ionformation sans avoir de communication avec un autre. Il envoie et si quelqu'un écoute à ce moment, il va recevoir. Chaque type de service à ses avantages et ses inconvénients.
+Il s'agit d'un service qui envoie de l'information sans avoir de communication avec un autre. Il envoie et si quelqu'un écoute à ce moment, il va recevoir. Chaque type de service à ses avantages et ses inconvénients.
 ### Différence entre service et protocole
 Un service est un ensemble de primitives (opérations) qu'une couche fourni à la couche supérieur. Il définit des opérations que la couche est prête à exécuter. Il se rapporte par une interface, la couche inférieure étant le fournisseur de service et la couche supérieure est l'utilisateur du service.
 
